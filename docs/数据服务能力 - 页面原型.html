@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>接口测试数据服务能力 - 原型设计</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 24px;
+      border-radius: 12px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    }
+
+    .header h1 {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+
+    .header p {
+      opacity: 0.9;
+      font-size: 14px;
+    }
+
+    /* Main Grid */
+    .main-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 2px solid #f0f0f0;
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: #1a1a1a;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card-title .icon {
+      width: 24px;
+      height: 24px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 14px;
+    }
+
+    /* Form Elements */
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 500;
+      color: #444;
+      font-size: 14px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: all 0.3s;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #667eea;
+      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+
+    .form-group textarea {
+      font-family: 'Monaco', 'Menlo', monospace;
+      font-size: 13px;
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    /* Buttons */
+    .btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-secondary {
+      background: #f0f0f0;
+      color: #333;
+    }
+
+    .btn-secondary:hover {
+      background: #e0e0e0;
+    }
+
+    .btn-success {
+      background: #10b981;
+      color: white;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    /* Data Mapping */
+    .mapping-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+    }
+
+    .mapping-table th,
+    .mapping-table td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .mapping-table th {
+      background: #f9fafb;
+      font-weight: 600;
+      color: #555;
+      font-size: 13px;
+    }
+
+    .mapping-table tr:hover {
+      background: #f9fafb;
+    }
+
+    .mapping-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    .status-matched {
+      background: #d1fae5;
+      color: #065f46;
+    }
+
+    .status-mismatch {
+      background: #fee2e2;
+      color: #991b1b;
+    }
+
+    .status-pending {
+      background: #fef3c7;
+      color: #92400e;
+    }
+
+    /* Validation Result */
+    .validation-result {
+      background: #f9fafb;
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 16px;
+    }
+
+    .validation-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .validation-item:last-child {
+      border-bottom: none;
+    }
+
+    .validation-label {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .validation-value {
+      font-family: 'Monaco', 'Menlo', monospace;
+      font-size: 13px;
+      background: white;
+      padding: 4px 8px;
+      border-radius: 4px;
+      border: 1px solid #e0e0e0;
+    }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 20px;
+      background: #f0f0f0;
+      padding: 4px;
+      border-radius: 10px;
+      width: fit-content;
+    }
+
+    .tab {
+      padding: 8px 16px;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #666;
+      transition: all 0.3s;
+    }
+
+    .tab.active {
+      background: white;
+      color: #667eea;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .tab:hover:not(.active) {
+      background: rgba(255, 255, 255, 0.5);
+    }
+
+    /* Data Source List */
+    .datasource-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .datasource-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px;
+      background: #f9fafb;
+      border-radius: 8px;
+      border: 2px solid transparent;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .datasource-item:hover {
+      background: white;
+      border-color: #667eea;
+      box-shadow: 0 2px 8px rgba(102, 126, 234, 0.2);
+    }
+
+    .datasource-item.selected {
+      background: white;
+      border-color: #667eea;
+      box-shadow: 0 2px 8px rgba(102, 126, 234, 0.2);
+    }
+
+    .datasource-info h4 {
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+
+    .datasource-info p {
+      font-size: 13px;
+      color: #666;
+    }
+
+    /* Alert */
+    .alert {
+      padding: 14px 16px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: start;
+      gap: 12px;
+    }
+
+    .alert-warning {
+      background: #fef3c7;
+      border-left: 4px solid #f59e0b;
+      color: #92400e;
+    }
+
+    .alert-success {
+      background: #d1fae5;
+      border-left: 4px solid #10b981;
+      color: #065f46;
+    }
+
+    .alert-icon {
+      font-size: 18px;
+    }
+
+    /* Code Block */
+    .code-block {
+      background: #1e1e1e;
+      color: #d4d4d4;
+      padding: 16px;
+      border-radius: 8px;
+      font-family: 'Monaco', 'Menlo', monospace;
+      font-size: 13px;
+      overflow-x: auto;
+      margin-top: 12px;
+    }
+
+    .code-block .keyword {
+      color: #569cd6;
+    }
+
+    .code-block .string {
+      color: #ce9178;
+    }
+
+    .code-block .number {
+      color: #b5cea8;
+    }
+
+    /* Footer Actions */
+    .footer-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 20px;
+      border-top: 2px solid #f0f0f0;
+      margin-top: 20px;
+    }
+
+    /* Full Width */
+    .full-width {
+      grid-column: 1 / -1;
+    }
+
+    /* Badge */
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 500;
+      background: #667eea;
+      color: white;
+    }
+
+    .badge-blue {
+      background: #3b82f6;
+    }
+
+    .badge-green {
+      background: #10b981;
+    }
+
+    .badge-purple {
+      background: #8b5cf6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>🔗 接口测试数据服务能力</h1>
+      <p>确保测试报文与数据库数据一致性 | 数据准备 · 数据校验 · 数据清理</p>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active">数据源管理</button>
+      <button class="tab">报文构造</button>
+      <button class="tab">数据校验</button>
+      <button class="tab">测试数据准备</button>
+    </div>
+
+    <!-- Main Grid -->
+    <div class="main-grid">
+      <!-- Left: Data Source List -->
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">
+            <span class="icon">📊</span>
+            数据源列表
+          </h3>
+          <button class="btn btn-secondary">+ 新增数据源</button>
+        </div>
+
+        <div class="datasource-list">
+          <div class="datasource-item selected">
+            <div class="datasource-info">
+              <h4>📦 用户数据库 (prod_users)</h4>
+              <p>MySQL · 192.168.1.100:3306 · 最后同步：5 分钟前</p>
+            </div>
+            <span class="badge badge-green">已连接</span>
+          </div>
+
+          <div class="datasource-item">
+            <div class="datasource-info">
+              <h4>📦 订单数据库 (prod_orders)</h4>
+              <p>MySQL · 192.168.1.101:3306 · 最后同步：12 分钟前</p>
+            </div>
+            <span class="badge badge-green">已连接</span>
+          </div>
+
+          <div class="datasource-item">
+            <div class="datasource-info">
+              <h4>📦 商品数据库 (prod_products)</h4>
+              <p>PostgreSQL · 192.168.1.102:5432 · 最后同步：1 小时前</p>
+            </div>
+            <span class="badge badge-blue">只读</span>
+          </div>
+        </div>
+
+        <div class="alert alert-warning" style="margin-top: 16px;">
+          <span class="alert-icon">⚠️</span>
+          <div>
+            <strong>注意：</strong>生产环境数据源仅支持查询操作，写操作请使用测试环境数据源
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Data Query & Preview -->
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">
+            <span class="icon">🔍</span>
+            数据查询与预览
+          </h3>
+          <button class="btn btn-primary">执行查询</button>
+        </div>
+
+        <div class="form-group">
+          <label>选择表</label>
+          <select>
+            <option>users (用户表)</option>
+            <option>orders (订单表)</option>
+            <option>products (商品表)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>查询条件 (SQL)</label>
+          <textarea placeholder="SELECT * FROM users WHERE status = 'active' LIMIT 10;">SELECT id, username, email, status FROM users WHERE status = 'active' LIMIT 10;</textarea>
+        </div>
+
+        <table class="mapping-table">
+          <thead>
+            <tr>
+              <th>id</th>
+              <th>username</th>
+              <th>email</th>
+              <th>status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1001</td>
+              <td>zhangsan</td>
+              <td>zhangsan@example.com</td>
+              <td><span class="mapping-status status-matched">✓ active</span></td>
+            </tr>
+            <tr>
+              <td>1002</td>
+              <td>lisi</td>
+              <td>lisi@example.com</td>
+              <td><span class="mapping-status status-matched">✓ active</span></td>
+            </tr>
+            <tr>
+              <td>1003</td>
+              <td>wangwu</td>
+              <td>wangwu@example.com</td>
+              <td><span class="mapping-status status-pending">⏸ inactive</span></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="footer-actions">
+          <div style="color: #666; font-size: 14px;">
+            共找到 <strong>3</strong> 条记录
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-secondary">导出 CSV</button>
+            <button class="btn btn-primary">引用到报文</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Full Width: Request Payload Construction -->
+      <div class="card full-width">
+        <div class="card-header">
+          <h3 class="card-title">
+            <span class="icon">📝</span>
+            请求报文构造
+          </h3>
+          <span class="badge badge-purple">数据驱动</span>
+        </div>
+
+        <div class="alert alert-success">
+          <span class="alert-icon">✅</span>
+          <div>
+            <strong>数据一致性校验通过</strong> — 报文中的所有用户 ID 都能在数据库中找到对应记录
+          </div>
+        </div>
+
+        <div class="main-grid" style="margin-bottom: 0;">
+          <div>
+            <div class="form-group">
+              <label>接口 URL</label>
+              <input type="text" value="POST /api/v1/orders/create" />
+            </div>
+
+            <div class="form-group">
+              <label>请求头 (Headers)</label>
+              <textarea style="min-height: 80px;">Content-Type: application/json
+Authorization: Bearer {{token}}
+X-Request-ID: {{request_id}}</textarea>
+            </div>
+          </div>
+
+          <div>
+            <div class="form-group">
+              <label>请求体 (Body) - 支持变量引用</label>
+              <textarea style="min-height: 160px; font-family: 'Monaco', 'Menlo', monospace;">{
+  "user_id": {{users.1001.id}},  <span style="color: #10b981;">← 引用数据库用户 ID</span>
+  "username": "{{users.1001.username}}",  <span style="color: #10b981;">← 自动填充</span>
+  "items": [
+    {
+      "product_id": 5001,
+      "quantity": 2
+    }
+  ],
+  "total_amount": 199.00
+}</textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary">💾 保存模板</button>
+          <button class="btn btn-secondary">📋 复制报文</button>
+          <button class="btn btn-primary">🔗 校验数据一致性</button>
+          <button class="btn btn-success">▶️ 执行测试</button>
+        </div>
+      </div>
+
+      <!-- Full Width: Data Mapping & Validation -->
+      <div class="card full-width">
+        <div class="card-header">
+          <h3 class="card-title">
+            <span class="icon">✅</span>
+            数据映射与校验结果
+          </h3>
+          <span class="badge badge-green">校验通过</span>
+        </div>
+
+        <table class="mapping-table">
+          <thead>
+            <tr>
+              <th>报文字段</th>
+              <th>引用值</th>
+              <th>数据库来源</th>
+              <th>实际值</th>
+              <th>状态</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>user_id</code></td>
+              <td><code>1001</code></td>
+              <td><code>users.id</code></td>
+              <td><code>1001</code></td>
+              <td><span class="mapping-status status-matched">✓ 一致</span></td>
+            </tr>
+            <tr>
+              <td><code>username</code></td>
+              <td><code>zhangsan</code></td>
+              <td><code>users.username</code></td>
+              <td><code>zhangsan</code></td>
+              <td><span class="mapping-status status-matched">✓ 一致</span></td>
+            </tr>
+            <tr>
+              <td><code>product_id</code></td>
+              <td><code>5001</code></td>
+              <td><code>products.id</code></td>
+              <td><code>5001</code></td>
+              <td><span class="mapping-status status-matched">✓ 一致</span></td>
+            </tr>
+            <tr>
+              <td><code>total_amount</code></td>
+              <td><code>199.00</code></td>
+              <td><code>products.price * quantity</code></td>
+              <td><code>199.00</code></td>
+              <td><span class="mapping-status status-matched">✓ 一致</span></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="validation-result">
+          <h4 style="margin-bottom: 12px; font-size: 15px;">📊 校验详情</h4>
+          <div class="validation-item">
+            <span class="validation-label">数据源</span>
+            <span class="validation-value">prod_users (MySQL)</span>
+          </div>
+          <div class="validation-item">
+            <span class="validation-label">查询时间</span>
+            <span class="validation-value">2026-03-02 19:15:32</span>
+          </div>
+          <div class="validation-item">
+            <span class="validation-label">数据时效性</span>
+            <span class="validation-value">5 分钟前 (新鲜)</span>
+          </div>
+          <div class="validation-item">
+            <span class="validation-label">匹配记录数</span>
+            <span class="validation-value">4 / 4 字段</span>
+          </div>
+        </div>
+
+        <div class="code-block">
+<span class="keyword">-- 校验查询语句 (可复用)</span>
+<span class="keyword">SELECT</span> 
+  u.id <span class="keyword">AS</span> user_id,
+  u.username,
+  p.id <span class="keyword">AS</span> product_id,
+  p.price * <span class="number">2</span> <span class="keyword">AS</span> expected_amount
+<span class="keyword">FROM</span> users u
+<span class="keyword">CROSS JOIN</span> products p
+<span class="keyword">WHERE</span> u.id = <span class="number">1001</span>
+  <span class="keyword">AND</span> p.id = <span class="number">5001</span>;</pre>
+        </div>
+
+        <div class="footer-actions">
+          <div style="color: #666; font-size: 14px;">
+            💡 <strong>提示：</strong>点击"引用到报文"可自动填充变量，点击"保存模板"可复用此数据配置
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-secondary">重新校验</button>
+            <button class="btn btn-primary">导出校验报告</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Tab switching
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+      });
+    });
+
+    // Data source selection
+    document.querySelectorAll('.datasource-item').forEach(item => {
+      item.addEventListener('click', () => {
+        document.querySelectorAll('.datasource-item').forEach(i => i.classList.remove('selected'));
+        item.classList.add('selected');
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>测试数据生成器 - 原型设计</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 24px;
+      border-radius: 12px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    }
+
+    .header h1 {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+
+    .header p {
+      opacity: 0.9;
+      font-size: 14px;
+    }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 20px;
+      background: #f0f0f0;
+      padding: 4px;
+      border-radius: 10px;
+      width: fit-content;
+    }
+
+    .tab {
+      padding: 10px 20px;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #666;
+      transition: all 0.3s;
+    }
+
+    .tab.active {
+      background: white;
+      color: #667eea;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .tab:hover:not(.active) {
+      background: rgba(255, 255, 255, 0.5);
+    }
+
+    /* Content */
+    .content {
+      display: none;
+    }
+
+    .content.active {
+      display: block;
+    }
+
+    /* Cards */
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      margin-bottom: 20px;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 2px solid #f0f0f0;
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: #1a1a1a;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card-title .icon {
+      width: 24px;
+      height: 24px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 14px;
+    }
+
+    /* Form Elements */
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 500;
+      color: #444;
+      font-size: 14px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: all 0.3s;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #667eea;
+      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+
+    /* Radio Group */
+    .radio-group {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .radio-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px;
+      background: #f9fafb;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .radio-item:hover {
+      background: white;
+      border: 2px solid #667eea;
+    }
+
+    .radio-item input[type="radio"] {
+      width: auto;
+    }
+
+    /* Buttons */
+    .btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-secondary {
+      background: #f0f0f0;
+      color: #333;
+    }
+
+    .btn-secondary:hover {
+      background: #e0e0e0;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    /* Scenario Cards */
+    .scenario-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .scenario-card {
+      background: white;
+      border: 2px solid #e0e0e0;
+      border-radius: 12px;
+      padding: 20px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .scenario-card:hover {
+      border-color: #667eea;
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+      transform: translateY(-2px);
+    }
+
+    .scenario-card.selected {
+      border-color: #667eea;
+      background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+    }
+
+    .scenario-icon {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    .scenario-name {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .scenario-desc {
+      font-size: 13px;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    /* Chat Interface */
+    .chat-container {
+      border: 2px solid #e0e0e0;
+      border-radius: 12px;
+      overflow: hidden;
+      background: white;
+    }
+
+    .chat-messages {
+      height: 400px;
+      overflow-y: auto;
+      padding: 20px;
+      background: #f9fafb;
+    }
+
+    .message {
+      margin-bottom: 16px;
+      display: flex;
+      gap: 12px;
+    }
+
+    .message.ai {
+      flex-direction: row;
+    }
+
+    .message.user {
+      flex-direction: row-reverse;
+    }
+
+    .message-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+
+    .message.ai .message-avatar {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+
+    .message.user .message-avatar {
+      background: #e0e0e0;
+    }
+
+    .message-content {
+      max-width: 70%;
+      padding: 12px 16px;
+      border-radius: 12px;
+      background: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .message.user .message-content {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+
+    .chat-input {
+      display: flex;
+      gap: 10px;
+      padding: 16px;
+      background: white;
+      border-top: 2px solid #e0e0e0;
+    }
+
+    .chat-input input {
+      flex: 1;
+      padding: 12px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    .chat-input input:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+
+    /* Badge */
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 500;
+      background: #667eea;
+      color: white;
+    }
+
+    .badge-blue {
+      background: #3b82f6;
+    }
+
+    .badge-green {
+      background: #10b981;
+    }
+
+    .badge-purple {
+      background: #8b5cf6;
+    }
+
+    /* Steps */
+    .steps {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .step {
+      flex: 1;
+      padding: 12px;
+      background: #f9fafb;
+      border-radius: 8px;
+      text-align: center;
+      position: relative;
+    }
+
+    .step.active {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+
+    .step-number {
+      display: block;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .step-label {
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>🧪 测试数据生成器 - 原型设计</h1>
+      <p>三套方案可视化原型 | 2026-03-02</p>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active" onclick="switchTab('scenarioA')">方案 A：接口文档驱动</button>
+      <button class="tab" onclick="switchTab('scenarioB')">方案 B：场景模板驱动</button>
+      <button class="tab" onclick="switchTab('scenarioC')">方案 C：AI 智能驱动</button>
+    </div>
+
+    <!-- Content: Scenario A -->
+    <div id="scenarioA" class="content active">
+      <div class="steps">
+        <div class="step active" data-step="1">
+          <span class="step-number">1</span>
+          <span class="step-label">提供接口文档</span>
+        </div>
+        <div class="step" data-step="2">
+          <span class="step-number">2</span>
+          <span class="step-label">分析接口</span>
+        </div>
+        <div class="step" data-step="3">
+          <span class="step-number">3</span>
+          <span class="step-label">配置生成</span>
+        </div>
+        <div class="step" data-step="4">
+          <span class="step-number">4</span>
+          <span class="step-label">生成数据</span>
+        </div>
+      </div>
+
+      <!-- Step 1: 提供接口文档 -->
+      <div class="card step-content" data-step="1">
+        <div class="card-header">
+          <h3 class="card-title">
+            <span class="icon">📄</span>
+            创建项目 - 提供接口文档
+          </h3>
+        </div>
+
+        <div class="form-group">
+          <label>项目名称</label>
+          <input type="text" value="电商订单测试" />
+        </div>
+
+        <div class="form-group">
+          <label>接口文档来源</label>
+          <div class="radio-group">
+            <label class="radio-item">
+              <input type="radio" name="source" checked />
+              <div>
+                <strong>Swagger URL</strong>
+                <div style="font-size: 12px; color: #666;">从 Swagger 文档自动分析</div>
+              </div>
+            </label>
+            <label class="radio-item">
+              <input type="radio" name="source" />
+              <div>
+                <strong>OpenAPI 文件</strong>
+                <div style="font-size: 12px; color: #666;">上传本地 JSON/YAML 文件</div>
+              </div>
+            </label>
+            <label class="radio-item">
+              <input type="radio" name="source" />
+              <div>
+                <strong>接口 URL</strong>
+                <div style="font-size: 12px; color: #666;">直接指定单个接口</div>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Swagger URL</label>
+          <input type="url" value="http://api.example.com/v2/api-docs" placeholder="请输入 Swagger 文档地址" />
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary">取消</button>
+          <button class="btn btn-primary" onclick="nextStep('scenarioA', 1)">下一步：分析接口</button>
+        </div>
+      </div>
+
+      <!-- Step 2: 分析接口 -->
+      <div class="card step-content" data-step="2" style="display: none;">
+        <div class="card-header">
+          <h3 class="card-title">
+            <span class="icon">🔍</span>
+            接口分析结果
+          </h3>
+          <span class="badge badge-green">分析完成</span>
+        </div>
+
+        <div class="alert alert-success" style="padding: 14px 16px; border-radius: 8px; margin-bottom: 16px; background: #d1fae5; border-left: 4px solid #10b981;">
+          <span style="font-size: 18px; margin-right: 8px;">✅</span>
+          <span><strong>成功解析 Swagger 文档</strong> — 共发现 24 个接口，其中 18 个支持 POST/PUT 操作</span>
+        </div>
+
+        <div class="form-group">
+          <label>选择要生成数据的接口</label>
+          <div class="radio-group">
+            <label class="radio-item">
+              <input type="checkbox" checked />
+              <div>
+                <strong>POST /api/v1/users/create</strong>
+                <div style="font-size: 12px; color: #666;">创建用户 | 参数：username, email, phone, role</div>
+              </div>
+            </label>
+            <label class="radio-item">
+              <input type="checkbox" checked />
+              <input type="checkbox" checked />
+              <div>
+                <strong>POST /api/v1/products/create</strong>
+                <div style="font-size: 12px; color: #666;">创建商品 | 参数：name, price, stock, category_id</div>
+              </div>
+            </label>
+            <label class="radio-item">
+              <input type="checkbox" checked />
+              <div>
+                <strong>POST /api/v1/orders/create</strong>
+                <div style="font-size: 12px; color: #666;">创建订单 | 参数：user_id, product_ids, total_amount</div>
+              </div>
+            </label>
+            <label class="radio-item">
+              <input type="checkbox" />
+              <div>
+                <strong>POST /api/v1/payments/create</strong>
+                <div style="font-size: 12px; color: #666;">创建支付 | 参数：order_id, amount, payment_method</div>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary" onclick="prevStep('scenarioA', 2)">上一步</button>
+          <button class="btn btn-primary" onclick="nextStep('scenarioA', 2)">下一步：配置生成</button>
+        </div>
+      </div>
+
+      <!-- Step 3: 配置生成 -->
+      <div class="card step-content" data-step="3" style="display: none;">
+        <div class="card-header">
+          <h3 class="card-title">
+            <span class="icon">⚙️</span>
+            生成配置
+          </h3>
+        </div>
+
+        <div class="main-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+          <div>
+            <div class="form-group">
+              <label>生成数量</label>
+              <input type="number" value="100" min="1" max="10000" />
+            </div>
+
+            <div class="form-group">
+              <label>数据分布</label>
+              <select>
+                <option>均匀分布</option>
+                <option>正态分布</option>
+                <option>自定义分布</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>数据语言</label>
+              <select>
+                <option>中文</option>
+                <option>英文</option>
+                <option>混合</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <div class="form-group">
+              <label>字段生成规则</label>
+              <textarea style="min-height: 150px;">{
+  "username": "user_{{random_number_6d}}",
+  "email": "{{username}}@test.com",
+  "phone": "138{{random_number_8d}}",
+  "role": ["user", "vip", "admin"] (随机选择),
+  "created_at": "{{now - random_days_30}}"
+}</textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="alert alert-info" style="padding: 14px 16px; border-radius: 8px; margin: 16px 0; background: #dbeafe; border-left: 4px solid #3b82f6;">
+          <span style="font-size: 18px; margin-right: 8px;">💡</span>
+          <span><strong>预计耗时：</strong>约 15 秒 | <strong>数据量：</strong>约 50KB | <strong>依赖检查：</strong>订单接口依赖用户和商品接口，将按顺序生成</span>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary" onclick="prevStep('scenarioA', 3)">上一步</button>
+          <button class="btn btn-secondary">保存配置</button>
+          <button class="btn btn-primary" onclick="nextStep('scenarioA', 3)">下一步：生成数据</button>
+        </div>
+      </div>
+
+      <!-- Step 4: 生成数据 -->
+      <div class="card step-content" data-step="4" style="display: none;">
+        <div class="card-header">
+          <h3 class="card-title">
+            <span class="icon">📊</span>
+            生成结果
+          </h3>
+          <span class="badge badge-green">生成完成</span>
+        </div>
+
+        <div class="alert alert-success" style="padding: 14px 16px; border-radius: 8px; margin-bottom: 16px; background: #d1fae5; border-left: 4px solid #10b981;">
+          <span style="font-size: 18px; margin-right: 8px;">🎉</span>
+          <span><strong>数据生成成功！</strong> — 共生成 100 条数据，耗时 12.3 秒</span>
+        </div>
+
+        <div class="main-grid" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 20px;">
+          <div style="background: #f9fafb; padding: 16px; border-radius: 8px; text-align: center;">
+            <div style="font-size: 32px; font-weight: bold; color: #667eea;">50</div>
+            <div style="font-size: 14px; color: #666;">用户数据</div>
+          </div>
+          <div style="background: #f9fafb; padding: 16px; border-radius: 8px; text-align: center;">
+            <div style="font-size: 32px; font-weight: bold; color: #764ba2;">30</div>
+            <div style="font-size: 14px; color: #666;">商品数据</div>
+          </div>
+          <div style="background: #f9fafb; padding: 16px; border-radius: 8px; text-align: center;">
+            <div style="font-size: 32px; font-weight: bold; color: #10b981;">20</div>
+            <div style="font-size: 14px; color: #666;">订单数据</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>执行日志</label>
+          <div style="background: #1e1e1e; color: #d4d4d4; padding: 16px; border-radius: 8px; font-family: 'Monaco', 'Menlo', monospace; font-size: 13px; max-height: 200px; overflow-y: auto;">
+            <div style="color: #3b82f6;">[10:25:01] 开始执行数据生成任务</div>
+            <div style="color: #3b82f6;">[10:25:01] 任务 ID: task_20260303_102501_001</div>
+            <div style="color: #6b7280;">[10:25:02] 生成第 1 批：用户数据 (50 条)...</div>
+            <div style="color: #10b981;">[10:25:05] ✓ 用户数据生成完成</div>
+            <div style="color: #6b7280;">[10:25:06] 生成第 2 批：商品数据 (30 条)...</div>
+            <div style="color: #10b981;">[10:25:09] ✓ 商品数据生成完成</div>
+            <div style="color: #6b7280;">[10:25:10] 生成第 3 批：订单数据 (20 条)...</div>
+            <div style="color: #10b981;">[10:25:13] ✓ 订单数据生成完成</div>
+            <div style="color: #10b981;">[10:25:13] 🎉 全部数据生成完成！</div>
+          </div>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary" onclick="prevStep('scenarioA', 4)">上一步</button>
+          <button class="btn btn-secondary">📋 复制日志</button>
+          <button class="btn btn-secondary">💾 导出数据</button>
+          <button class="btn btn-primary">✅ 完成</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content: Scenario B -->
+    <div id="scenarioB" class="content">
+      <div class="steps">
+        <div class="step active" data-step="1">
+          <span class="step-number">1</span>
+          <span class="step-label">选择场景</span>
+        </div>
+        <div class="step" data-step="2">
+          <span class="step-number">2</span>
+          <span class="step-label">选择数据类型</span>
+        </div>
+        <div class="step" data-step="3">
+          <span class="step-number">3</span>
+          <span class="step-label">配置生成</span>
+        </div>
+        <div class="step" data-step="4">
+          <span class="step-number">4</span>
+          <span class="step-label">生成数据</span>
+        </div>
+      </div>
+
+      <!-- Step 1: 选择场景 -->
+      <div class="card step-content" data-step="1">
+        <div class="card-header">
+          <h3 class="card-title">
+            <span class="icon">🎯</span>
+            选择业务场景
+          </h3>
+          <span class="badge badge-blue">推荐</span>
+        </div>
+
+        <div class="scenario-grid">
+          <div class="scenario-card selected">
+            <div class="scenario-icon">🛒</div>
+            <div class="scenario-name">电商</div>
+            <div class="scenario-desc">在线购物、订单管理、商品管理</div>
+            <div style="margin-top: 12px;">
+              <span class="badge">订单</span>
+              <span class="badge">用户</span>
+              <span class="badge">商品</span>
+            </div>
+          </div>
+
+          <div class="scenario-card">
+            <div class="scenario-icon">💰</div>
+            <div class="scenario-name">支付</div>
+            <div class="scenario-desc">交易、转账、结算、退款</div>
+            <div style="margin-top: 12px;">
+              <span class="badge">账户</span>
+              <span class="badge">交易</span>
+            </div>
+          </div>
+
+          <div class="scenario-card">
+            <div class="scenario-icon">💬</div>
+            <div class="scenario-name">社交</div>
+            <div class="scenario-desc">用户动态、评论、点赞、关注</div>
+            <div style="margin-top: 12px;">
+              <span class="badge">用户</span>
+              <span class="badge">动态</span>
+              <span class="badge">评论</span>
+            </div>
+          </div>
+
+          <div class="scenario-card">
+            <div class="scenario-icon">📝</div>
+            <div class="scenario-name">内容管理</div>
+            <div class="scenario-desc">文章、分类、标签、评论</div>
+            <div style="margin-top: 12px;">
+              <span class="badge">文章</span>
+              <span class="badge">分类</span>
+              <span class="badge">标签</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary">取消</button>
+          <button class="btn btn-primary" onclick="nextStep('scenarioB', 1)">下一步：选择数据类型</button>
+        </div>
+      </div>
+
+      <!-- Step 2: 选择数据类型 -->
+      <div class="card step-content" data-step="2" style="display: none;">
+        <div class="card-header">
+          <h3 class="card-title">
+            <span class="icon">📦</span>
+            选择数据类型 - 电商场景
+          </h3>
+        </div>
+
+        <div class="alert alert-info" style="padding: 14px 16px; border-radius: 8px; margin-bottom: 16px; background: #dbeafe; border-left: 4px solid #3b82f6;">
+          <span style="font-size: 18px; margin-right: 8px;">ℹ️</span>
+          <span>已选择 <strong>电商</strong> 场景，以下是该场景支持的数据类型</span>
+        </div>
+
+        <div class="form-group">
+          <label>勾选要生成的数据类型</label>
+          <div class="radio-group">
+            <label class="radio-item">
+              <input type="checkbox" checked />
+              <div>
+                <strong>👤 用户数据</strong>
+                <div style="font-size: 12px; color: #666;">包含：用户 ID、用户名、邮箱、手机号、角色、状态等</div>
+                <div style="margin-top: 8px;">
+                  <span class="badge badge-green">50 条</span>
+                  <span class="badge badge-gray">无依赖</span>
+                </div>
+              </div>
+            </label>
+            <label class="radio-item">
+              <input type="checkbox" checked />
+              <div>
+                <strong>🏪 商家数据</strong>
+                <div style="font-size: 12px; color: #666;">包含：商家 ID、商家名称、营业执照、联系方式等</div>
+                <div style="margin-top: 8px;">
+                  <span class="badge badge-green">10 条</span>
+                  <span class="badge badge-gray">无依赖</span>
+                </div>
+              </div>
+            </label>
+            <label class="radio-item">
+              <input type="checkbox" checked />
+              <div>
+                <strong>📦 商品数据</strong>
+                <div style="font-size: 12px; color: #666;">包含：商品 ID、名称、价格、库存、分类、图片等</div>
+                <div style="margin-top: 8px;">
+                  <span class="badge badge-green">100 条</span>
+                  <span class="badge badge-blue">依赖：商家</span>
+                </div>
+              </div>
+            </label>
+            <label class="radio-item">
+              <input type="checkbox" checked />
+              <div>
+                <strong>🛒 订单数据</strong>
+                <div style="font-size: 12px; color: #666;">包含：订单 ID、用户、商品列表、金额、状态等</div>
+                <div style="margin-top: 8px;">
+                  <span class="badge badge-green">30 条</span>
+                  <span class="badge badge-blue">依赖：用户 + 商品</span>
+                </div>
+              </div>
+            </label>
+            <label class="radio-item">
+              <input type="checkbox" />
+              <div>
+                <strong>💳 支付数据</strong>
+                <div style="font-size: 12px; color: #666;">包含：支付 ID、订单、金额、支付方式、状态等</div>
+                <div style="margin-top: 8px;">
+                  <span class="badge badge-gray">0 条</span>
+                  <span class="badge badge-blue">依赖：订单</span>
+                </div>
+              </div>
+            </label>
+            <label class="radio-item">
+              <input type="checkbox" />
+              <div>
+                <strong>📝 评价数据</strong>
+                <div style="font-size: 12px; color: #666;">包含：评价 ID、用户、订单、评分、内容等</div>
+                <div style="margin-top: 8px;">
+                  <span class="badge badge-gray">0 条</span>
+                  <span class="badge badge-blue">依赖：订单 + 用户</span>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary" onclick="prevStep('scenarioB', 2)">上一步</button>
+          <button class="btn btn-primary" onclick="nextStep('scenarioB', 2)">下一步：配置生成</button>
+        </div>
+      </div>
+
+      <!-- Step 3: 配置生成 -->
+      <div class="card step-content" data-step="3" style="display: none;">
+        <div class="card-header">
+          <h3 class="card-title">
+            <span class="icon">⚙️</span>
+            生成配置 - 电商场景
+          </h3>
+        </div>
+
+        <div class="form-group">
+          <label>数据模板</label>
+          <select>
+            <option>标准电商模板</option>
+            <option>跨境电商模板</option>
+            <option>生鲜电商模板</option>
+            <option>自定义模板</option>
+          </select>
+        </div>
+
+        <div class="main-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+          <div>
+            <div class="form-group">
+              <label>用户数据配置</label>
+              <div style="background: #f9fafb; padding: 12px; border-radius: 8px;">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                  <span>数量</span>
+                  <input type="number" value="50" min="1" max="1000" style="width: 80px; padding: 4px 8px;" />
+                </div>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                  <span>VIP 比例</span>
+                  <input type="text" value="20%" style="width: 80px; padding: 4px 8px;" />
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                  <span>手机号前缀</span>
+                  <input type="text" value="138" style="width: 80px; padding: 4px 8px;" />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>商品数据配置</label>
+              <div style="background: #f9fafb; padding: 12px; border-radius: 8px;">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                  <span>数量</span>
+                  <input type="number" value="100" min="1" max="1000" style="width: 80px; padding: 4px 8px;" />
+                </div>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                  <span>价格区间</span>
+                  <input type="text" value="10-500" style="width: 80px; padding: 4px 8px;" />
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                  <span>库存范围</span>
+                  <input type="text" value="50-500" style="width: 80px; padding: 4px 8px;" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="form-group">
+              <label>订单数据配置</label>
+              <div style="background: #f9fafb; padding: 12px; border-radius: 8px;">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                  <span>数量</span>
+                  <input type="number" value="30" min="1" max="1000" style="width: 80px; padding: 4px 8px;" />
+                </div>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                  <span>每单商品数</span>
+                  <input type="text" value="1-5" style="width: 80px; padding: 4px 8px;" />
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                  <span>订单状态</span>
+                  <select style="width: 80px; padding: 4px;"><option>混合</option><option>待支付</option><option>已完成</option></select>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>高级选项</label>
+              <div style="background: #f9fafb; padding: 12px; border-radius: 8px;">
+                <label style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+                  <input type="checkbox" checked />
+                  <span style="font-size: 13px;">自动生成关联关系</span>
+                </label>
+                <label style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+                  <input type="checkbox" checked />
+                  <span style="font-size: 13px;">数据去重校验</span>
+                </label>
+                <label style="display: flex; align-items: center; gap: 8px;">
+                  <input type="checkbox" />
+                  <span style="font-size: 13px;">生成后自动清理</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="alert alert-info" style="padding: 14px 16px; border-radius: 8px; margin: 16px 0; background: #dbeafe; border-left: 4px solid #3b82f6;">
+          <span style="font-size: 18px; margin-right: 8px;">💡</span>
+          <span><strong>预计生成：</strong>50 用户 + 10 商家 + 100 商品 + 30 订单 = 190 条数据 | <strong>预计耗时：</strong>约 20 秒</span>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary" onclick="prevStep('scenarioB', 3)">上一步</button>
+          <button class="btn btn-secondary">保存模板</button>
+          <button class="btn btn-primary" onclick="nextStep('scenarioB', 3)">下一步：生成数据</button>
+        </div>
+      </div>
+
+      <!-- Step 4: 生成数据 -->
+      <div class="card step-content" data-step="4" style="display: none;">
+        <div class="card-header">
+          <h3 class="card-title">
+            <span class="icon">📊</span>
+            生成结果 - 电商场景
+          </h3>
+          <span class="badge badge-green">生成完成</span>
+        </div>
+
+        <div class="alert alert-success" style="padding: 14px 16px; border-radius: 8px; margin-bottom: 16px; background: #d1fae5; border-left: 4px solid #10b981;">
+          <span style="font-size: 18px; margin-right: 8px;">🎉</span>
+          <span><strong>电商数据生成成功！</strong> — 共生成 190 条数据，耗时 18.7 秒</span>
+        </div>
+
+        <div class="main-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 20px;">
+          <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 16px; border-radius: 8px; text-align: center;">
+            <div style="font-size: 32px; font-weight: bold;">50</div>
+            <div style="font-size: 14px; opacity: 0.9;">👤 用户</div>
+          </div>
+          <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 16px; border-radius: 8px; text-align: center;">
+            <div style="font-size: 32px; font-weight: bold;">10</div>
+            <div style="font-size: 14px; opacity: 0.9;">🏪 商家</div>
+          </div>
+          <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 16px; border-radius: 8px; text-align: center;">
+            <div style="font-size: 32px; font-weight: bold;">100</div>
+            <div style="font-size: 14px; opacity: 0.9;">📦 商品</div>
+          </div>
+          <div style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: white; padding: 16px; border-radius: 8px; text-align: center;">
+            <div style="font-size: 32px; font-weight: bold;">30</div>
+            <div style="font-size: 14px; opacity: 0.9;">🛒 订单</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>数据预览 - 订单示例</label>
+          <div style="background: #1e1e1e; color: #d4d4d4; padding: 16px; border-radius: 8px; font-family: 'Monaco', 'Menlo', monospace; font-size: 13px; overflow-x: auto;">
+<pre>{
+  "order_id": "ORD20260303001",
+  "user_id": 10023,
+  "username": "test_user_837462",
+  "items": [
+    {"product_id": 5001, "name": "商品 A", "price": 128.00, "quantity": 2},
+    {"product_id": 5023, "name": "商品 B", "price": 89.00, "quantity": 1}
+  ],
+  "total_amount": 345.00,
+  "status": "pending_payment",
+  "created_at": "2026-03-03T10:25:13Z"
+}</pre>
+          </div>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary" onclick="prevStep('scenarioB', 4)">上一步</button>
+          <button class="btn btn-secondary">📋 导出数据</button>
+          <button class="btn btn-secondary">🔗 发送到测试环境</button>
+          <button class="btn btn-primary">✅ 完成</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content: Scenario C -->
+    <div id="scenarioC" class="content">
+      <div class="steps">
+        <div class="step active" data-step="1">
+          <span class="step-number">1</span>
+          <span class="step-label">描述需求</span>
+        </div>
+        <div class="step" data-step="2">
+          <span class="step-number">2</span>
+          <span class="step-label">AI 分析</span>
+        </div>
+        <div class="step" data-step="3">
+          <span class="step-number">3</span>
+          <span class="step-label">确认方案</span>
+        </div>
+        <div class="step" data-step="4">
+          <span class="step-number">4</span>
+          <span class="step-label">生成数据</span>
+        </div>
+      </div>
+
+      <!-- Step 1: 描述需求 -->
+      <div class="card step-content" data-step="1">
+        <div class="card-header">
+          <h3 class="card-title">
+            <span class="icon">🤖</span>
+            AI 测试数据助手
+          </h3>
+          <span class="badge badge-purple">智能推荐</span>
+        </div>
+
+        <div class="chat-container">
+          <div class="chat-messages">
+            <div class="message ai">
+              <div class="message-avatar">🤖</div>
+              <div class="message-content">
+                <strong>AI 助手</strong>
+                <p>你好！我是测试数据生成助手。</p>
+                <p>请告诉我你需要什么样的测试数据？</p>
+                <p style="color: #666; font-size: 13px; margin-top: 8px;">
+                  例如：<br>
+                  • "我要测试电商下单，需要 10 个订单"<br>
+                  • "生成支付交易数据，100 个账户，500 笔交易"<br>
+                  • "社交应用的点赞功能测试数据"
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="chat-input">
+            <input type="text" id="chat-input-1" placeholder="输入你的需求..." value="我要测试电商下单流程，需要 10 个订单" />
+            <button class="btn btn-primary" onclick="nextStep('scenarioC', 1)">发送</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2: AI 分析 -->
+      <div class="card step-content" data-step="2" style="display: none;">
+        <div class="card-header">
+          <h3 class="card-title">
+            <span class="icon">🧠</span>
+            AI 分析结果
+          </h3>
+          <span class="badge badge-purple">AI 推荐</span>
+        </div>
+
+        <div class="chat-container">
+          <div class="chat-messages">
+            <div class="message ai">
+              <div class="message-avatar">🤖</div>
+              <div class="message-content">
+                <strong>AI 助手</strong>
+                <p>你好！我是测试数据生成助手。</p>
+                <p>请告诉我你需要什么样的测试数据？</p>
+              </div>
+            </div>
+
+            <div class="message user">
+              <div class="message-avatar">👤</div>
+              <div class="message-content">
+                <strong>用户</strong>
+                <p>我要测试电商下单流程，需要 10 个订单</p>
+              </div>
+            </div>
+
+            <div class="message ai">
+              <div class="message-avatar">🤖</div>
+              <div class="message-content">
+                <strong>AI 助手</strong>
+                <p>好的！我已理解你的需求：</p>
+                <div style="background: #f9fafb; padding: 12px; border-radius: 8px; margin-top: 8px;">
+                  <p><strong>业务场景：</strong>🛒 电商</p>
+                  <p><strong>测试目标：</strong>订单流程测试</p>
+                  <p><strong>推荐生成：</strong></p>
+                  <ul style="margin-left: 20px; margin-top: 4px;">
+                    <li>用户数据：50 条（下单用户）</li>
+                    <li>商品数据：20 条（可购买的商品）</li>
+                    <li>订单数据：10 条（测试订单）</li>
+                    <li>订单项：25 条（每个订单 2-5 项）</li>
+                  </ul>
+                </div>
+                <p style="margin-top: 12px;">是否开始生成？</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="chat-input">
+            <input type="text" id="chat-input-2" placeholder="输入你的需求..." value="好的，开始生成" />
+            <button class="btn btn-primary" onclick="nextStep('scenarioC', 2)">发送</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 3: 确认方案 -->
+      <div class="card step-content" data-step="3" style="display: none;">
+        <div class="card-header">
+          <h3 class="card-title">
+            <span class="icon">✅</span>
+            确认生成方案
+          </h3>
+        </div>
+
+        <div class="alert alert-success" style="padding: 14px 16px; border-radius: 8px; margin-bottom: 16px; background: #d1fae5; border-left: 4px solid #10b981;">
+          <span style="font-size: 18px; margin-right: 8px;">✅</span>
+          <span><strong>AI 方案已生成</strong> — 共 105 条数据，预计耗时 15 秒</span>
+        </div>
+
+        <div class="form-group">
+          <label>生成计划</label>
+          <div style="background: #f9fafb; border-radius: 8px; overflow: hidden;">
+            <div style="display: flex; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid #e0e0e0;">
+              <span>👤 用户数据</span>
+              <span><strong>50 条</strong> <span style="color: #666; font-size: 12px;">(无依赖)</span></span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid #e0e0e0;">
+              <span>📦 商品数据</span>
+              <span><strong>20 条</strong> <span style="color: #666; font-size: 12px;">(无依赖)</span></span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid #e0e0e0;">
+              <span>🛒 订单数据</span>
+              <span><strong>10 条</strong> <span style="color: #666; font-size: 12px;">(依赖：用户 + 商品)</span></span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 12px 16px;">
+              <span>📝 订单项数据</span>
+              <span><strong>25 条</strong> <span style="color: #666; font-size: 12px;">(依赖：订单)</span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>数据规则 (AI 自动生成)</label>
+          <textarea style="min-height: 120px; font-family: 'Monaco', 'Menlo', monospace; font-size: 13px;">{
+  "user": {
+    "username": "user_{{random_6d}}",
+    "email": "user_{{random_6d}}@test.com",
+    "phone": "138{{random_8d}}",
+    "vip_ratio": "20%"
+  },
+  "product": {
+    "name": "{{random_product_name}}",
+    "price": "{{random_int_10_500}}",
+    "stock": "{{random_int_50_500}}"
+  },
+  "order": {
+    "items_per_order": "{{random_int_1_5}}",
+    "status": ["pending", "paid", "shipped"] (随机)
+  }
+}</textarea>
+        </div>
+
+        <div class="form-group">
+          <label>
+            <input type="checkbox" checked style="margin-right: 8px;" />
+            记住此方案，下次类似需求自动应用
+          </label>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary" onclick="prevStep('scenarioC', 3)">上一步</button>
+          <button class="btn btn-secondary">调整方案</button>
+          <button class="btn btn-primary" onclick="nextStep('scenarioC', 3)">确认生成</button>
+        </div>
+      </div>
+
+      <!-- Step 4: 生成数据 -->
+      <div class="card step-content" data-step="4" style="display: none;">
+        <div class="card-header">
+          <h3 class="card-title">
+            <span class="icon">📊</span>
+            生成结果
+          </h3>
+          <span class="badge badge-green">生成完成</span>
+        </div>
+
+        <div class="alert alert-success" style="padding: 14px 16px; border-radius: 8px; margin-bottom: 16px; background: #d1fae5; border-left: 4px solid #10b981;">
+          <span style="font-size: 18px; margin-right: 8px;">🎉</span>
+          <span><strong>AI 生成完成！</strong> — 共生成 105 条数据，耗时 13.2 秒</span>
+        </div>
+
+        <div class="main-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 20px;">
+          <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 16px; border-radius: 8px; text-align: center;">
+            <div style="font-size: 32px; font-weight: bold;">50</div>
+            <div style="font-size: 14px; opacity: 0.9;">👤 用户</div>
+          </div>
+          <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 16px; border-radius: 8px; text-align: center;">
+            <div style="font-size: 32px; font-weight: bold;">20</div>
+            <div style="font-size: 14px; opacity: 0.9;">📦 商品</div>
+          </div>
+          <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 16px; border-radius: 8px; text-align: center;">
+            <div style="font-size: 32px; font-weight: bold;">10</div>
+            <div style="font-size: 14px; opacity: 0.9;">🛒 订单</div>
+          </div>
+          <div style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); color: white; padding: 16px; border-radius: 8px; text-align: center;">
+            <div style="font-size: 32px; font-weight: bold;">25</div>
+            <div style="font-size: 14px; opacity: 0.9;">📝 订单项</div>
+          </div>
+        </div>
+
+        <div class="chat-container" style="margin-top: 20px;">
+          <div class="chat-messages" style="height: 200px;">
+            <div class="message ai">
+              <div class="message-avatar">🤖</div>
+              <div class="message-content">
+                <strong>AI 助手</strong>
+                <p>数据生成完成！</p>
+                <p style="color: #666; font-size: 13px; margin-top: 8px;">
+                  所有数据已保存到测试数据池，可以：<br>
+                  • 直接用于测试<br>
+                  • 导出为 CSV/JSON<br>
+                  • 发送到测试环境<br>
+                  • 一键清理
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary" onclick="prevStep('scenarioC', 4)">上一步</button>
+          <button class="btn btn-secondary">📋 导出数据</button>
+          <button class="btn btn-secondary">🔗 发送到测试环境</button>
+          <button class="btn btn-primary">✅ 完成</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Tab switching
+    function switchTab(scenarioId) {
+      // Hide all content
+      document.querySelectorAll('.content').forEach(content => {
+        content.classList.remove('active');
+      });
+
+      // Remove active from all tabs
+      document.querySelectorAll('.tab').forEach(tab => {
+        tab.classList.remove('active');
+      });
+
+      // Show selected content
+      document.getElementById(scenarioId).classList.add('active');
+
+      // Add active to clicked tab
+      event.target.classList.add('active');
+
+      // Reset to step 1
+      resetSteps(scenarioId);
+    }
+
+    // Reset steps to step 1
+    function resetSteps(scenarioId) {
+      const content = document.getElementById(scenarioId);
+      content.querySelectorAll('.step').forEach((step, index) => {
+        if (index === 0) {
+          step.classList.add('active');
+        } else {
+          step.classList.remove('active');
+        }
+      });
+
+      content.querySelectorAll('.step-content').forEach((card, index) => {
+        if (index === 0) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // Go to next step
+    function nextStep(scenarioId, currentStep) {
+      const content = document.getElementById(scenarioId);
+      const steps = content.querySelectorAll('.step');
+      const stepContents = content.querySelectorAll('.step-content');
+      const nextStep = currentStep; // The next step number (1-indexed, but we use it as index for content)
+
+      // Update step indicators
+      steps.forEach((step, index) => {
+        if (index < currentStep) {
+          step.classList.add('active');
+        } else {
+          step.classList.remove('active');
+        }
+      });
+
+      // Hide current step content, show next
+      stepContents[currentStep - 1].style.display = 'none';
+      stepContents[currentStep].style.display = 'block';
+    }
+
+    // Go to previous step
+    function prevStep(scenarioId, currentStep) {
+      const content = document.getElementById(scenarioId);
+      const steps = content.querySelectorAll('.step');
+      const stepContents = content.querySelectorAll('.step-content');
+      const prevStepNum = currentStep - 1;
+
+      // Update step indicators
+      steps.forEach((step, index) => {
+        if (index < prevStepNum) {
+          step.classList.add('active');
+        } else {
+          step.classList.remove('active');
+        }
+      });
+
+      // Hide current step content, show previous
+      stepContents[currentStep - 1].style.display = 'none';
+      stepContents[prevStepNum - 1].style.display = 'block';
+    }
+
+    // Scenario card selection
+    document.querySelectorAll('.scenario-card').forEach(card => {
+      card.addEventListener('click', function() {
+        document.querySelectorAll('.scenario-card').forEach(c => c.classList.remove('selected'));
+        this.classList.add('selected');
+      });
+    });
+
+    // Radio item selection
+    document.querySelectorAll('.radio-item').forEach(item => {
+      item.addEventListener('click', function(e) {
+        if (e.target.tagName !== 'INPUT' && e.target.tagName !== 'LABEL') {
+          const radio = this.querySelector('input[type="radio"]');
+          const checkbox = this.querySelector('input[type="checkbox"]');
+          if (radio) {
+            radio.checked = true;
+          }
+          if (checkbox) {
+            checkbox.checked = !checkbox.checked;
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
