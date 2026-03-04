@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "skills": {
+    "yt-dlp-downloader-skill": {
+      "version": "0.1.0",
+      "installedAt": 1772622365206
+    }
+  }
+}
