@@ -771,11 +771,91 @@ Code Interpreter: "帮我计算 1 到 100 的素数之和"
 
 ---
 
+### 附录 F: 各大厂官方文档（新增）
+
+## 主流大模型官方文档汇总
+
+### 🇺🇸 国际厂商
+
+#### OpenAI
+- **官网**: https://openai.com
+- **API 文档**: https://platform.openai.com/docs
+- **Prompt 工程指南**: https://platform.openai.com/docs/guides/prompt-engineering
+- **Cookbook**: https://cookbook.openai.com
+- **代表模型**: GPT-4o, o1, GPT-4 Turbo
+
+#### Anthropic (Claude)
+- **官网**: https://anthropic.com
+- **API 文档**: https://docs.anthropic.com
+- **Prompt 工程**: https://docs.anthropic.com/claude/docs/prompt-engineering
+- **代表模型**: Claude 3.5 Sonnet, Claude 3 Opus
+
+#### Google
+- **官网**: https://deepmind.google
+- **Gemini API**: https://ai.google.dev
+- **代表模型**: Gemini 2.0, Gemini Pro
+
+### 🇨🇳 国内厂商
+
+#### 阿里云 - 通义千问
+- **官网**: https://tongyi.aliyun.com
+- **百炼控制台**: https://bailian.console.aliyun.com
+- **API 文档**: https://help.aliyun.com/product/42154.html
+- **DashScope SDK**: https://help.aliyun.com/document_detail/2712195.html
+- **代表模型**: Qwen2.5, Qwen-Max, Qwen-Plus
+
+#### 智谱 AI - GLM
+- **官网**: https://www.zhipuai.cn
+- **API 文档**: https://open.bigmodel.cn/dev/api
+- **代表模型**: GLM-4, GLM-4V, GLM-3-Turbo
+
+#### 月之暗面 - Kimi
+- **官网**: https://kimi.moonshot.cn
+- **API 文档**: https://platform.moonshot.cn/docs
+- **代表模型**: Kimi Chat (支持 200 万 tokens 上下文)
+
+#### 字节跳动 - 豆包
+- **官网**: https://www.doubao.com
+- **API 文档**: https://www.volcengine.com/docs/82379
+- **代表模型**: 豆包 1.5 Pro
+
+#### 百度 - 文心一言
+- **官网**: https://yiyan.baidu.com
+- **API 文档**: https://cloud.baidu.com/doc/WENXINWORKSHOP/index.html
+- **代表模型**: 文心一言 4.0
+
+#### 腾讯 - 混元
+- **官网**: https://hunyuan.tencent.com
+- **API 文档**: https://cloud.tencent.com/document/product/1729
+- **代表模型**: 混元 Lite, 混元 Pro
+
+---
+
+### 附录 G: 实用工具推荐（新增）
+
+## 开发工具与平台
+
+### 低代码平台
+- **Dify**: https://dify.ai (开源 LLM 应用开发平台)
+- **Coze**: https://www.coze.cn (字节出品，Bot 开发平台)
+- **LangChain**: https://www.langchain.com (LLM 应用开发框架)
+
+### 本地部署
+- **Ollama**: https://ollama.ai (本地运行开源模型)
+- **LM Studio**: https://lmstudio.ai (本地模型管理工具)
+
+### 学习资源
+- **HuggingFace**: https://huggingface.co (开源模型库)
+- **Papers With Code**: https://paperswithcode.com (AI 论文 + 代码)
+- **机器之心**: https://www.jiqizhixin.com (AI 资讯)
+
+---
+
 *PPT 完*
 
 **备注**: 
-- 总页数：23 页正片 + 5 页附录
+- 总页数：23 页正片 + 7 页附录
 - 预计时长：30 分钟 (含 2 分钟 Q&A)
 - 建议每页停留 1-2 分钟
 - 可根据受众调整技术深度
-- **新增内容**: 提示词进阶框架、Skills 详解、多 Agent 协作、7 天学习路径、视频资源
+- **新增内容**: 提示词进阶框架、Skills 详解、多 Agent 协作、7 天学习路径、视频资源、**各大厂官方文档**、实用工具推荐
