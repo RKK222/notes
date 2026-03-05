@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "novel-write-ai-butler",
+      "agentId": "default",
+      "name": "novel-write-ai-butler",
+      "description": "每小时写 3 章节小说《AI 管家的逆袭》，保存到本地目录",
+      "enabled": true,
+      "createdAtMs": 1772702400000,
+      "updatedAtMs": 1772702400000,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 * * * *"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "继续写小说《AI 管家的逆袭》，写 3 个新章节（每章约 800-1000 字），保存到 /Users/kaka/.openclaw/workspace/novels/ai-butler/ 目录，更新 state.json 的章节数和字数统计"
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1772706000000,
+        "lastRunAtMs": null,
+        "lastRunStatus": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "lastDeliveryStatus": null,
+        "consecutiveErrors": 0,
+        "lastDelivered": false
+      }
+    }
+  ]
+}
