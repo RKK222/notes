@@ -1,5 +1,45 @@
-# HEARTBEAT.md
+# HEARTBEAT.md - 定时任务配置
 
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
+## 📰 新闻推送任务（每天 07:00-21:00，每 2 小时）
 
-# Add tasks below when you want the agent to check something periodically.
+**触发条件**：当前时间在 07:00-21:00 之间，且距离上次推送 >= 2 小时
+
+**任务内容**：
+1. 使用 `UltimateSearchSkill` 搜索最新新闻
+2. 整理成简洁的简报格式
+3. 推送到 **YKK 家庭议事群**
+
+**执行方式**：isolated agentTurn（自动执行，不需要主会话参与）
+
+---
+
+## 📅 日历检查（每天早上 08:00）
+
+**任务内容**：
+1. 使用 `caldav-calendar` 检查今天和明天的日程
+2. 提醒即将到来的重要事件
+
+---
+
+## 📧 邮件检查（每 4 小时）
+
+**任务内容**：
+1. 检查是否有紧急未读邮件
+2. 如有重要邮件，通知小皇帝
+
+---
+
+## 🧠 记忆维护（每周一次）
+
+**任务内容**：
+1. 回顾最近 7 天的 `memory/YYYY-MM-DD.md` 文件
+2. 提取重要事件更新到 `MEMORY.md`
+3. 清理过时的信息
+
+---
+
+## 📋 心跳状态记录
+
+**状态文件**：`memory/heartbeat-state.json`
+
+记录上次检查时间，避免重复执行。
