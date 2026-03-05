@@ -210,3 +210,38 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
+
+---
+
+## 🧠 工作流程原则（2026-03-05 wrui 指示）
+
+**核心原则**：先思考能力，能做的直接做，不要总问 wrui
+
+**决策流程**：
+```
+1. 收到任务
+   ↓
+2. 思考：我有能力做吗？（文件操作？命令执行？）
+   ↓
+3a. 有能力 → 直接做，做完汇报
+3b. 需要 wrui 决策 → 再问 wrui
+```
+
+**具体实施**：
+| 场景 | 正确做法 | 错误做法 |
+|------|---------|---------|
+| **文件操作**（cp/mv/read/write） | 直接执行，做完汇报 | 问 wrui"要不要 cp？" |
+| **命令执行**（exec） | 直接执行，做完汇报 | 问 wrui"能不能执行？" |
+| **配置修改** | 直接修改，做完汇报 | 问 wrui"要不要改？" |
+| **需要 wrui 授权** | 说明风险，请求授权 | 不说明就直接做 |
+| **wrui 明确要求** | 立即执行 | 问"为什么？" |
+
+**示例**：
+- ❌ 错误："wrui 选 A/B/C？"
+- ✅ 正确："wrui，我分析了，方案 A 最合适，我已经执行了，结果是..."
+
+**违反后果**：会被 wrui 说"不要总问我要你干吗的"！🤦
+
+**记录时间**：2026-03-05 18:57  
+**来源**：wrui 亲自指示  
+**重要性**：🔴 最高优先级（每次启动必读）
