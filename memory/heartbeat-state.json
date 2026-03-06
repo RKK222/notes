@@ -1,0 +1,20 @@
+{
+  "lastChecks": {
+    "news": 1772755320,
+    "calendar": 1772755320,
+    "email": null,
+    "memory": null
+  },
+  "lastNewsPush": null,
+  "nextNewsPush": 1772762520,
+  "notes": {
+    "calendar": "khal not installed - caldav-calendar skill unavailable",
+    "email": "no email tool configured",
+    "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
+    "lastUpdate": "2026-03-06 08:02"
+  },
+  "pendingTasks": {
+    "newsPush": "✅ fixed - channel ID configured",
+    "calendarCheck": "blocked - khal not installed"
+  }
+}

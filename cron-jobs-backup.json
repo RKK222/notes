@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "novel-write-ai-butler",
+      "agentId": "default",
+      "name": "novel-write-ai-butler",
+      "description": "每小时写 3 章节小说《AI 管家的逆袭》，保存到本地目录",
+      "enabled": true,
+      "createdAtMs": 1772702400000,
+      "updatedAtMs": 1772759100322,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 * * * *",
+        "staggerMs": 300000
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "继续写小说《AI 管家的逆袭》，写 3 个新章节（每章约 800-1000 字），保存到 /Users/kaka/.openclaw/workspace/novels/ai-butler/ 目录，更新 state.json 的章节数和字数统计"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "oc_1df73fc9673b4412982efa8601317d97",
+        "to": "oc_1df73fc9673b4412982efa8601317d97"
+      },
+      "state": {
+        "nextRunAtMs": 1772762609760,
+        "lastRunAtMs": 1772759009862,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 90460,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": true
+      }
+    },
+    {
+      "id": "4dd75718-754a-4304-bae6-96890ff4c0e3",
+      "name": "github-daily-explorer",
+      "description": "每天 11:00 和 19:00 推送 GitHub+ 学术探索报告，注重质量和新颖性",
+      "enabled": true,
+      "createdAtMs": 1772715259559,
+      "updatedAtMs": 1772715259559,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11,19 * * *"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "深度探索 GitHub 和学术论坛，寻找高质量项目和论文，学习后推送报告。搜索 GitHub trending、arXiv 论文、新兴项目，生成深度分析报告，推送到飞书。"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "oc_1df73fc9673b4412982efa8601317d97"
+      },
+      "state": {
+        "nextRunAtMs": 1772766000000
+      }
+    },
+    {
+      "id": "781b738f-ba79-412a-8667-424381445d44",
+      "name": "news-push",
+      "description": "📰 新闻推送 - 每天 07:00-21:00 每 2 小时一次",
+      "enabled": true,
+      "createdAtMs": 1772753498325,
+      "updatedAtMs": 1772758896409,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7,9,11,13,15,17,19,21 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "使用 UltimateSearchSkill 搜索最新新闻（当天日期），整理成安全版简报（国内≥40%、国际 20-30%、科技 20-30%、财经 10-20%），推送到 oc_1df73fc9673b4412982efa8601317d97 群聊"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "oc_1df73fc9673b4412982efa8601317d97"
+      },
+      "state": {
+        "nextRunAtMs": 1772766000000,
+        "lastRunAtMs": 1772758800014,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 96395,
+        "lastError": null,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0
+      }
+    },
+    {
+      "id": "735e18da-2e32-41b4-8b36-b152a6e38bb9",
+      "name": "calendar-check",
+      "description": "📅 日历检查 - 每天早上 08:00",
+      "enabled": true,
+      "createdAtMs": 1772753511638,
+      "updatedAtMs": 1772755356384,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "检查今天的日历日程，提醒小皇帝即将到来的事件"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "oc_1df73fc9673b4412982efa8601317d97"
+      },
+      "state": {
+        "nextRunAtMs": 1772841600000,
+        "lastRunAtMs": 1772755200011,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 156373,
+        "lastError": null,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0
+      }
+    },
+    {
+      "id": "b59f8acb-3298-44ca-8535-cb248415b059",
+      "name": "memory-maintenance",
+      "description": "🧠 记忆维护 - 每周日凌晨 02:00",
+      "enabled": true,
+      "createdAtMs": 1772753517365,
+      "updatedAtMs": 1772753517365,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 2 * * 0",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "回顾最近 7 天的 memory 文件，更新 MEMORY.md"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "oc_1df73fc9673b4412982efa8601317d97"
+      },
+      "state": {
+        "nextRunAtMs": 1772906400000
+      }
+    }
+  ]
+}
