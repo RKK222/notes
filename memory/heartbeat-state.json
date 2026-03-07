@@ -1,20 +1,23 @@
 {
   "lastChecks": {
-    "news": 1772755320,
+    "news": 1772805598,
     "calendar": 1772755320,
     "email": null,
     "memory": null
   },
   "lastNewsPush": null,
-  "nextNewsPush": 1772762520,
+  "nextNewsPush": 1772845200,
   "notes": {
     "calendar": "khal not installed - caldav-calendar skill unavailable",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-03-06 08:02"
+    "lastUpdate": "2026-03-06 21:59",
+    "newsBlocker": "BRAVE_API_KEY missing - web_search unavailable",
+    "missedPushes": "7 次 (08:00, 10:00, 12:00, 13:57, 15:57, 18:08, 20:31 均失败)",
+    "newsWindowClosed": "21:00 推送窗口已关闭，今日不再推送"
   },
   "pendingTasks": {
-    "newsPush": "✅ fixed - channel ID configured",
-    "calendarCheck": "blocked - khal not installed"
+    "newsPush": "❌ blocked - need Brave API key (next: 明日 07:00)",
+    "calendarCheck": "❌ blocked - khal not installed"
   }
 }

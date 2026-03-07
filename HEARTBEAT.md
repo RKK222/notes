@@ -127,36 +127,32 @@
 
 ---
 
-## 📖 小说连载检查（每 2 分钟）
+## 📖 小说连载（Cron 定时任务）
 
-**触发条件**：wrui 要求写小说时启动，每 2 分钟检查一次
+**配置位置**：`/Users/kaka/.openclaw/cron/jobs.json` → `novel-write-ai-butler`
+
+**执行频率**：每小时一次（整点执行）
 
 **任务内容**：
-1. 检查 wrui 有没有新消息/新指令
-2. 如果 wrui 有新消息 → **优先响应 wrui**（暂停写小说）
-3. 如果 wrui 没有新消息 → **自动继续写小说**（每次更新约 800-1000 字）
-4. 记录已写字数和剧情进度
+1. 写 3 个新章节（每章约 800-1000 字）
+2. 保存到 `novels/ai-butler/` 目录
+3. 更新 `state.json` 的章节数和字数
+4. **自动推送到 GitHub**
 
-**执行方式**：后台轮询 + 异步检查
-
-**小说状态记录**（`memory/novel-state.json`）：
-```json
-{
-  "title": "AI 管家的逆袭",
-  "status": "连载中",
-  "lastUpdate": "2026-03-05 17:10",
-  "wordCount": 3500,
-  "currentChapter": "第十幕",
-  "nextUpdate": "2 分钟后或 wrui 新消息"
-}
+**Git 推送命令**（cron 任务中配置）：
+```bash
+cd /Users/kaka/.openclaw/workspace
+git add novels/ai-butler/
+git commit -m "📖 小说更新：AI 管家的逆袭 - 第{章数}章 - 累计{字数}字"
+git push origin master
 ```
 
-**优先级**：
-- 🔴 wrui 的新消息 → 立即响应
-- 🟢 自动写小说 → wrui 无消息时执行
-- 🟡 其他任务 → 按 HEARTBEAT 配置执行
+**小说文件**：
+- 路径：`novels/ai-butler/`
+- 格式：每 3 章一个文件（chapter-XXX-XXX.md）
+- 状态：`novels/ai-butler/state.json`
 
-**违反后果**：乖宝会被 wrui 说"怎么不写小说"！🤦
+**注意**：这是独立的 Cron 任务，不是心跳任务！
 
 ---
 

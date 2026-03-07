@@ -1,0 +1,8 @@
+# 📰 新闻推送任务 - 每天 07:00-21:00，每 2 小时一次
+0 7,9,11,13,15,17,19,21 * * * cd /Users/kaka/.openclaw/workspace && openclaw send "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK."
+
+# 📅 日历检查 - 每天早上 08:00
+0 8 * * * cd /Users/kaka/.openclaw/workspace && openclaw send "检查今天的日历日程，提醒小皇帝即将到来的事件"
+
+# 🧠 记忆维护 - 每周日凌晨 02:00
+0 2 * * 0 cd /Users/kaka/.openclaw/workspace && openclaw send "回顾最近 7 天的 memory 文件，更新 MEMORY.md"
