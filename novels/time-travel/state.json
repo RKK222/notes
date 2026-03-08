@@ -1,0 +1,18 @@
+{
+  "title": "时空之门",
+  "status": "连载中",
+  "created": "2026-03-08T19:15:00+08:00",
+  "lastUpdate": "2026-03-08T19:15:00+08:00",
+  "currentChapter": 3,
+  "totalWords": 3127,
+  "nextScheduledWrite": "2026-03-08T20:00:00+08:00",
+  "writeFrequency": "每小时 3 章节",
+  "author": "乖宝 AI",
+  "owner": "wrui",
+  "cronJobId": "novel-write-time-travel",
+  "storagePath": "/Users/kaka/.openclaw/workspace/novels/time-travel/",
+  "cronConfigPath": "/Users/kaka/.openclaw/cron/jobs.json",
+  "genre": "穿越",
+  "tags": ["穿越", "冒险", "科幻", "历史"],
+  "premise": "普通人意外发现时空之门，穿梭于不同时代，改变历史，探索未来"
+}
