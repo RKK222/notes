@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "created": "2026-03-11T07:30:00+08:00",
+    "lastUpdated": "2026-03-11T07:30:00+08:00",
+    "version": "1.0",
+    "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)"
+  },
+  "deepDives": [
+    {
+      "title": "Agent Safehouse - macOS 原生 Agent 沙箱",
+      "url": "https://agent-safehouse.dev/",
+      "type": "project",
+      "topic": "Agent Security",
+      "firstSeen": "2026-03-09",
+      "lastDeepDive": "2026-03-10",
+      "deepDiveCount": 2,
+      "status": "active",
+      "notes": "本地 Agent 安全痛点解决方案"
+    },
+    {
+      "title": "ESAA-Security - AI 生成代码安全审计架构",
+      "url": "https://arxiv.org/abs/2603.06365",
+      "type": "paper",
+      "topic": "Software Testing",
+      "firstSeen": "2026-03-09",
+      "lastDeepDive": "2026-03-10",
+      "deepDiveCount": 2,
+      "status": "active",
+      "notes": "事件溯源安全审计架构"
+    },
+    {
+      "title": "SAHOO - 递归自改进中的对齐保护框架",
+      "url": "https://arxiv.org/abs/2603.06333",
+      "type": "paper",
+      "topic": "AI Safety & Alignment",
+      "firstSeen": "2026-03-10",
+      "lastDeepDive": "2026-03-10",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ICLR 2026 Workshop 接受"
+    },
+    {
+      "title": "Judge Reliability Harness - LLM 法官可靠性测试",
+      "url": "https://arxiv.org/abs/2603.05399",
+      "type": "paper",
+      "topic": "LLM Evaluation",
+      "firstSeen": "2026-03-08",
+      "lastDeepDive": "2026-03-09",
+      "deepDiveCount": 3,
+      "status": "active",
+      "notes": "ICLR 2026 Agents in the Wild 研讨会"
+    },
+    {
+      "title": "AegisUI - AI 代理 UI 协议行为异常检测",
+      "url": "https://arxiv.org/abs/2603.05031",
+      "type": "paper",
+      "topic": "Agent Security",
+      "firstSeen": "2026-03-08",
+      "lastDeepDive": "2026-03-09",
+      "deepDiveCount": 3,
+      "status": "active",
+      "notes": "首个 AI 代理 UI 安全分析框架"
+    },
+    {
+      "title": "Promptfoo - LLM 红队测试平台",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstSeen": "2026-03-07",
+      "lastDeepDive": "2026-03-10",
+      "deepDiveCount": 4,
+      "status": "active",
+      "notes": "11540+ 星，最流行的 LLM 测试工具"
+    },
+    {
+      "title": "LangGraph - 代理编排框架",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstSeen": "2026-03-07",
+      "lastDeepDive": "2026-03-10",
+      "deepDiveCount": 4,
+      "status": "active",
+      "notes": "25770+ 星，图结构代理编排"
+    },
+    {
+      "title": "Garak - LLM 漏洞扫描器",
+      "url": "https://github.com/NVIDIA/garak",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstSeen": "2026-03-07",
+      "lastDeepDive": "2026-03-10",
+      "deepDiveCount": 4,
+      "status": "active",
+      "notes": "NVIDIA 官方支持"
+    },
+    {
+      "title": "SWE-CI - 代码库维护代理能力评估",
+      "url": "https://arxiv.org/abs/2603.03823",
+      "type": "paper",
+      "topic": "Software Testing",
+      "firstSeen": "2026-03-10",
+      "lastDeepDive": "2026-03-10",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "基于 CI 的代理评估框架"
+    },
+    {
+      "title": "RDMA 分布式推理",
+      "url": "research",
+      "type": "research",
+      "topic": "分布式系统",
+      "firstSeen": "2026-03-10",
+      "lastDeepDive": "2026-03-10",
+      "deepDiveCount": 1,
+      "status": "monitoring",
+      "notes": "AI Infra 方向"
+    },
+    {
+      "title": "多模态医学诊断",
+      "url": "research",
+      "type": "research",
+      "topic": "多模态 AI",
+      "firstSeen": "2026-03-10",
+      "lastDeepDive": "2026-03-10",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "手术推理 VLM"
+    },
+    {
+      "title": "知识图谱推理",
+      "url": "research",
+      "type": "research",
+      "topic": "知识图谱",
+      "firstSeen": "2026-03-10",
+      "lastDeepDive": "2026-03-10",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "个人 AI 知识图谱"
+    },
+    {
+      "title": "强化学习安全对齐",
+      "url": "research",
+      "type": "research",
+      "topic": "强化学习",
+      "firstSeen": "2026-03-10",
+      "lastDeepDive": "2026-03-10",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "安全对齐方向"
+    },
+    {
+      "title": "向量数据库选型分析",
+      "url": "research",
+      "type": "research",
+      "topic": "数据库",
+      "firstSeen": "2026-03-07",
+      "lastDeepDive": "2026-03-07",
+      "deepDiveCount": 1,
+      "status": "monitoring",
+      "notes": "Pinecone/Weaviate/Milvus/Qdrant"
+    },
+    {
+      "title": "MLIR 编译器框架",
+      "url": "research",
+      "type": "research",
+      "topic": "编译器",
+      "firstSeen": "2026-03-07",
+      "lastDeepDive": "2026-03-07",
+      "deepDiveCount": 1,
+      "status": "monitoring",
+      "notes": "编译器基础设施"
+    },
+    {
+      "title": "具身 AI 任务幻觉研究",
+      "url": "research",
+      "type": "research",
+      "topic": "机器人学",
+      "firstSeen": "2026-03-07",
+      "lastDeepDive": "2026-03-07",
+      "deepDiveCount": 1,
+      "status": "monitoring",
+      "notes": "任务幻觉、指令跟随差"
+    },
+    {
+      "title": "量子机器学习",
+      "url": "research",
+      "type": "research",
+      "topic": "量子计算",
+      "firstSeen": "2026-03-07",
+      "lastDeepDive": "2026-03-07",
+      "deepDiveCount": 1,
+      "status": "monitoring",
+      "notes": "低频探索"
+    },
+    {
+      "title": "AI 芯片架构",
+      "url": "research",
+      "type": "research",
+      "topic": "AI 硬件",
+      "firstSeen": "2026-03-09",
+      "lastDeepDive": "2026-03-10",
+      "deepDiveCount": 2,
+      "status": "active",
+      "notes": "AI Infra 重要组成"
+    },
+    {
+      "title": "边缘 - 云协同推理",
+      "url": "research",
+      "type": "research",
+      "topic": "边缘 AI",
+      "firstSeen": "2026-03-08",
+      "lastDeepDive": "2026-03-09",
+      "deepDiveCount": 2,
+      "status": "monitoring",
+      "notes": "近 7 天 3 次，建议降权"
+    },
+    {
+      "title": "脉冲神经网络",
+      "url": "research",
+      "type": "research",
+      "topic": "神经形态计算",
+      "firstSeen": "2026-03-08",
+      "lastDeepDive": "2026-03-09",
+      "deepDiveCount": 2,
+      "status": "monitoring",
+      "notes": "低频探索"
+    },
+    {
+      "title": "联邦学习隐私保护",
+      "url": "research",
+      "type": "research",
+      "topic": "隐私计算",
+      "firstSeen": "2026-03-07",
+      "lastDeepDive": "2026-03-08",
+      "deepDiveCount": 2,
+      "status": "monitoring",
+      "notes": "低频探索"
+    },
+    {
+      "title": "计算生命研究",
+      "url": "research",
+      "type": "research",
+      "topic": "计算生物学",
+      "firstSeen": "2026-03-09",
+      "lastDeepDive": "2026-03-10",
+      "deepDiveCount": 2,
+      "status": "active",
+      "notes": "Bio AI 新兴方向"
+    }
+  ],
+  "summary": {
+    "totalDeepDives": 22,
+    "activeProjects": 4,
+    "activePapers": 5,
+    "activeResearch": 8,
+    "monitoringOnly": 5,
+    "byTopic": {
+      "AI Testing": 4,
+      "Software Testing": 2,
+      "Agent Security": 3,
+      "AI Safety & Alignment": 1,
+      "LLM Evaluation": 1,
+      "分布式系统": 1,
+      "多模态 AI": 1,
+      "知识图谱": 1,
+      "强化学习": 1,
+      "数据库": 1,
+      "编译器": 1,
+      "机器人学": 1,
+      "量子计算": 1,
+      "AI 硬件": 1,
+      "边缘 AI": 1,
+      "神经形态计算": 1,
+      "隐私计算": 1,
+      "计算生物学": 1
+    }
+  }
+}
