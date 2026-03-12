@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-12T11:00:00+08:00",
+    "lastUpdated": "2026-03-12T19:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-03-12T11:00:00+08:00"
+    "lastRun": "2026-03-12T19:00:00+08:00"
   },
   "topics": [
     {
@@ -328,18 +328,102 @@
       "representativeItem": "QuantumX track - 量子软件工程社区形成",
       "trend": "rising",
       "notes": "量子测试与治理原则适配"
+    },
+    {
+      "name": "形式化验证×AI",
+      "category": "exploration",
+      "lastSeen": "2026-03-12",
+      "lastDeepDive": "2026-03-12",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "FAME - 神经网络形式抽象最小解释",
+      "trend": "rising",
+      "notes": "形式化方法与深度学习交叉，STADA/PharmGraph-Auditor 呼应"
+    },
+    {
+      "name": "医疗 AI 验证",
+      "category": "exploration",
+      "lastSeen": "2026-03-12",
+      "lastDeepDive": "2026-03-12",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "PharmGraph-Auditor - 处方验证混合知识框架",
+      "trend": "rising",
+      "notes": "零容忍领域 LLM 应用典范，DxEvolve 临床诊断"
+    },
+    {
+      "name": "1-bit 量化",
+      "category": "exploration",
+      "lastSeen": "2026-03-12",
+      "lastDeepDive": "2026-03-12",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "BitNet - 微软 1-bit LLM 推理框架",
+      "trend": "rising",
+      "notes": "极端模型压缩，边缘 AI 实用化"
+    },
+    {
+      "name": "页面内 GUI 代理",
+      "category": "exploration",
+      "lastSeen": "2026-03-12",
+      "lastDeepDive": "2026-03-12",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Page-Agent - 阿里巴巴页面内 GUI 代理",
+      "trend": "rising",
+      "notes": "Web 自动化新范式，A2UI 呼应"
+    },
+    {
+      "name": "群体智能",
+      "category": "exploration",
+      "lastSeen": "2026-03-12",
+      "lastDeepDive": "2026-03-12",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "MiroFish - 群体智能预测引擎",
+      "trend": "rising",
+      "notes": "多代理协作预测，Testing 多样性新思路"
+    },
+    {
+      "name": "代理记忆",
+      "category": "exploration",
+      "lastSeen": "2026-03-12",
+      "lastDeepDive": "2026-03-12",
+      "repeatCount7d": 2,
+      "repeatCount30d": 2,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Hindsight - 会学习的代理记忆",
+      "trend": "rising",
+      "notes": "Trajectory-Informed Memory 论文 + Hindsight 项目呼应"
     }
   ],
   "summary": {
-    "totalTopics": 23,
+    "totalTopics": 29,
     "coreTopics": 5,
-    "explorationTopics": 18,
-    "highPriority": 7,
-    "mediumPriority": 9,
+    "explorationTopics": 24,
+    "highPriority": 10,
+    "mediumPriority": 13,
     "lowPriority": 6,
     "shouldDowngrade": 3,
     "trends": {
-      "rising": 8,
+      "rising": 14,
       "stable": 12,
       "declining": 3
     }

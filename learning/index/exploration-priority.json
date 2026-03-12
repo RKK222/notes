@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-11T07:30:00+08:00",
+    "lastUpdated": "2026-03-12T19:00:00+08:00",
     "version": "1.0",
-    "validFrom": "2026-03-11",
-    "nextReview": "2026-03-18"
+    "validFrom": "2026-03-12",
+    "nextReview": "2026-03-19"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -26,7 +26,10 @@
       "topics": [
         "多模态 AI",
         "计算生物学",
-        "AI 硬件"
+        "AI 硬件",
+        "形式化验证×AI",
+        "医疗 AI 验证",
+        "代理记忆"
       ],
       "allocationPercent": 25,
       "rationale": "新兴热点，有重大突破潜力"
@@ -50,8 +53,10 @@
         "量子计算",
         "神经形态计算",
         "隐私计算",
-        "形式化验证",
-        "eBPF 技术"
+        "eBPF 技术",
+        "1-bit 量化",
+        "页面内 GUI 代理",
+        "群体智能"
       ],
       "allocationPercent": 10,
       "rationale": "前沿方向，保持技术敏感度"
