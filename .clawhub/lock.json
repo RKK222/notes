@@ -24,6 +24,14 @@
     "joko-moltbook": {
       "version": "1.0.0",
       "installedAt": 1773150857977
+    },
+    "video-downloader-skill": {
+      "version": "1.0.1",
+      "installedAt": 1773285471798
+    },
+    "xiucheng-self-improving-agent": {
+      "version": "1.0.0",
+      "installedAt": 1773291358045
     }
   }
 }
