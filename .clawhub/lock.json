@@ -20,6 +20,10 @@
     "proactive-agent": {
       "version": "3.1.0",
       "installedAt": 1772639174083
+    },
+    "joko-moltbook": {
+      "version": "1.0.0",
+      "installedAt": 1773150857977
     }
   }
 }
