@@ -1,9 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-11T07:30:00+08:00",
+    "lastUpdated": "2026-03-12T11:00:00+08:00",
     "version": "1.0",
-    "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)"
+    "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
+    "lastRun": "2026-03-12T11:00:00+08:00"
   },
   "topics": [
     {
@@ -285,18 +286,60 @@
       "representativeItem": "知识图谱推理",
       "trend": "stable",
       "notes": "个人 AI 知识图谱"
+    },
+    {
+      "name": "操作系统×AI",
+      "category": "exploration",
+      "lastSeen": "2026-03-12",
+      "lastDeepDive": "2026-03-12",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Pichay - LLM 上下文窗口需求分页",
+      "trend": "rising",
+      "notes": "操作系统原理赋能 LLM 系统，93% 上下文减少"
+    },
+    {
+      "name": "网络系统×AI",
+      "category": "exploration",
+      "lastSeen": "2026-03-12",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "HR-GAT - 频谱需求估计图神经网络",
+      "trend": "rising",
+      "notes": "AI 赋能电信监管，21% RMSE 降低"
+    },
+    {
+      "name": "量子软件工程",
+      "category": "exploration",
+      "lastSeen": "2026-03-12",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "QuantumX track - 量子软件工程社区形成",
+      "trend": "rising",
+      "notes": "量子测试与治理原则适配"
     }
   ],
   "summary": {
-    "totalTopics": 20,
+    "totalTopics": 23,
     "coreTopics": 5,
-    "explorationTopics": 15,
-    "highPriority": 6,
-    "mediumPriority": 8,
+    "explorationTopics": 18,
+    "highPriority": 7,
+    "mediumPriority": 9,
     "lowPriority": 6,
     "shouldDowngrade": 3,
     "trends": {
-      "rising": 5,
+      "rising": 8,
       "stable": 12,
       "declining": 3
     }
