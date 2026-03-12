@@ -19,3 +19,9 @@ logs/
 
 # 节点模块
 node_modules/
+
+# 视频文件（yt-dlp 下载）
+videos/
+*.mp4
+*.mp3
+*.part
