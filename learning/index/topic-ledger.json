@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-12T19:00:00+08:00",
+    "lastUpdated": "2026-03-13T11:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-03-12T19:00:00+08:00"
+    "lastRun": "2026-03-13T11:00:00+08:00"
   },
   "topics": [
     {
@@ -402,28 +402,56 @@
     {
       "name": "代理记忆",
       "category": "exploration",
-      "lastSeen": "2026-03-12",
-      "lastDeepDive": "2026-03-12",
-      "repeatCount7d": 2,
-      "repeatCount30d": 2,
+      "lastSeen": "2026-03-13",
+      "lastDeepDive": "2026-03-13",
+      "repeatCount7d": 3,
+      "repeatCount30d": 3,
       "priority": "high",
       "isCore": false,
       "shouldDowngrade": false,
       "representativeItem": "Hindsight - 会学习的代理记忆",
       "trend": "rising",
-      "notes": "Trajectory-Informed Memory 论文 + Hindsight 项目呼应"
+      "notes": "Trajectory-Informed Memory 论文 + Hindsight 项目 + SSGM 框架呼应"
+    },
+    {
+      "name": "实验室安全",
+      "category": "exploration",
+      "lastSeen": "2026-03-13",
+      "lastDeepDive": "2026-03-13",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "LABSHIELD - 实验室安全多模态基准",
+      "trend": "rising",
+      "notes": "安全关键 AI 评估新方向，填补空白"
+    },
+    {
+      "name": "教育 AI",
+      "category": "exploration",
+      "lastSeen": "2026-03-13",
+      "lastDeepDive": "2026-03-13",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Scaling Laws for Educational AI Agents",
+      "trend": "rising",
+      "notes": "教育代理扩展律首研，理论基础"
     }
   ],
   "summary": {
-    "totalTopics": 29,
+    "totalTopics": 31,
     "coreTopics": 5,
-    "explorationTopics": 24,
-    "highPriority": 10,
-    "mediumPriority": 13,
+    "explorationTopics": 26,
+    "highPriority": 11,
+    "mediumPriority": 14,
     "lowPriority": 6,
     "shouldDowngrade": 3,
     "trends": {
-      "rising": 14,
+      "rising": 16,
       "stable": 12,
       "declining": 3
     }
