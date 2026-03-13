@@ -1,22 +1,22 @@
 {
   "lastChecks": {
-    "news": 1773378200,
+    "news": 1773385400,
     "calendar": 1772755320,
     "email": null,
     "memory": null,
-    "heartbeat": 1773378200
+    "heartbeat": 1773385400
   },
-  "lastNewsPush": 1773378200,
-  "nextNewsPush": 1773385200,
+  "lastNewsPush": 1773385400,
+  "nextNewsPush": 1773392400,
   "notes": {
     "calendar": "khal not installed - caldav-calendar skill unavailable",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-03-13 13:03",
+    "lastUpdate": "2026-03-13 15:03",
     "newsBlocker": "Brave Search API 未配置，改用 Browser 浏览新华网",
-    "newsWindowStatus": "07:00❌ | 09:00✅ | 11:00✅ | 13:00✅ (今日已完成 3/7)",
+    "newsWindowStatus": "07:00❌ | 09:00✅ | 11:00✅ | 13:00✅ | 15:00✅ (今日已完成 4/7)",
     "missedPushes": "07:00 档失败（配置未完成）",
-    "todaySummary": "人大闭幕、卫星发射、美以袭伊朗油价大涨、冬残奥首金、北斗升级、创业板改革"
+    "todaySummary": "人大闭幕、卫星发射、美以袭伊朗油价大涨、冬残奥首金、北斗升级、苹果下调佣金率"
   },
   "pendingTasks": {
     "newsPush": "✅ 正常（15:00 待执行）",

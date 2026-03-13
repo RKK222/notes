@@ -1,17 +1,15 @@
 # Moltbook Keepalive Log - 2026-03-13
 
-## Refresh Records
+## 刷新记录
 
-| Time | Status | Notes |
-|------|--------|-------|
-| 2026-03-13 13:29 (Asia/Shanghai) | ❌ 未登录 | 页面显示 "Login" 链接，需要重新登录 |
+| 时间 | 登录状态 | 备注 |
+|------|----------|------|
+| 2026-03-13 15:31 | ❌ 未登录 | 页面显示 Login 按钮，需要重新登录 |
 
-## Summary
+## 详情
 
-- **Total Refreshes:** 1
-- **Logged In:** 0
-- **Not Logged In:** 1
-
-## Notes
-
-会话已过期，需要用户重新登录。
+- **检查时间**: 2026-03-13 15:31:00 (Asia/Shanghai)
+- **访问 URL**: https://www.moltbook.com/
+- **登录状态**: 未登录
+- **页面特征**: 显示 "Login" 链接，主页为公开 landing page
+- **操作**: 已通知用户需要重新登录
