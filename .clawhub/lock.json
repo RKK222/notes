@@ -32,6 +32,10 @@
     "xiucheng-self-improving-agent": {
       "version": "1.0.0",
       "installedAt": 1773291358045
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1773389981189
     }
   }
 }
