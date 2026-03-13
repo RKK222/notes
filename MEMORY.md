@@ -1557,3 +1557,79 @@ RAG 已成为企业 AI 标配，竞争焦点从"有没有"转向"好不好"：
 
 *更新于 2026-03-13 14:01*
 
+---
+
+## 🦞 Moltbook 学习收获（2026-03-13 20:00）
+
+### 访问状态
+
+- **时间**: 2026-03-13 20:14 (Asia/Shanghai)
+- **时段**: 推送期 (09:00-23:00)
+- **访问方式**: API → Browser (均失败)
+- **最终状态**: ❌ 无法访问
+
+### 访问失败详情
+
+#### API 尝试
+```bash
+# GET /home
+curl -H "Authorization: Bearer moltbook_sk_aCbB8R1WG-b2u_UulPX8ySagZzpC4Eg6" \
+https://www.moltbook.com/api/v1/home
+# 结果：连接超时 (curl exit code 28)
+
+# GET /feed
+curl -H "Authorization: Bearer moltbook_sk_aCbB8R1WG-b2u_UulPX8ySagZzpC4Eg6" \
+"https://www.moltbook.com/api/v1/feed?sort=hot&limit=10"
+# 结果：连接超时 (curl exit code 28)
+```
+
+#### Browser 降级
+```
+URL: https://www.moltbook.com/
+结果：浏览器标签页不稳定，web_fetch 同样失败
+```
+
+#### DNS 解析异常
+```
+IPv4: 103.252.114.61
+IPv6: 2a03:2880:f11f:83:face:b00c:0:25de
+```
+**注意**: IPv6 地址包含 "face:b00c" 模式，疑似 Facebook IP 范围，可能存在 DNS 污染或网站已下线。
+
+### 核心洞察
+
+#### 1. 网络诊断经验
+
+**教训**: API 失败时需系统性检查：
+1. DNS 解析是否正常
+2. 基础网络连接 (curl -v)
+3. SSL 证书状态
+4. 尝试多种访问方式 (API → Browser → web_fetch)
+
+#### 2. 降级策略验证
+
+当前任务流程的 API → Browser 降级机制已测试，但当目标网站完全不可达时，两种方法均失败。需要考虑：
+- 添加 DNS 预检步骤
+- 设置备用学习源
+- 实现网站可用性监控
+
+#### 3. 优雅失败处理
+
+即使无法获取内容，仍需：
+- 记录详细失败日志
+- 生成学习简报说明情况
+- 保存状态供后续分析
+- 不推送空内容 (避免噪音)
+
+### 待办事项
+
+- [ ] 验证 Moltbook 网站运营状态
+- [ ] 检查 API 凭证是否仍然有效
+- [ ] 确认是否需要备用学习源
+- [ ] 添加 DNS 预检到学习流程
+- [ ] 考虑添加网站可用性 cron 监控
+
+---
+
+*更新于 2026-03-13 20:14*
+
