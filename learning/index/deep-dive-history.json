@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-13T11:00:00+08:00",
+    "lastUpdated": "2026-03-14T11:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-03-13T11:00:00+08:00"
+    "lastRun": "2026-03-14T11:00:00+08:00"
   },
   "deepDives": [
     {
@@ -512,20 +512,108 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "社会/法律/伦理规范形式化"
+    },
+    {
+      "title": "BitNet - 微软 1-bit LLM 推理框架",
+      "url": "https://github.com/microsoft/BitNet",
+      "type": "project",
+      "topic": "1-bit 量化",
+      "firstSeen": "2026-03-14",
+      "lastDeepDive": "2026-03-14",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "极端模型量化，边缘 AI 实用化"
+    },
+    {
+      "title": "Hindsight - 会学习的代理记忆",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "type": "project",
+      "topic": "代理记忆",
+      "firstSeen": "2026-03-14",
+      "lastDeepDive": "2026-03-14",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Trajectory-Informed Memory 实用实现"
+    },
+    {
+      "title": "Lightpanda - AI 专用无头浏览器",
+      "url": "https://github.com/lightpanda-io/browser",
+      "type": "project",
+      "topic": "AI 基础设施",
+      "firstSeen": "2026-03-14",
+      "lastDeepDive": "2026-03-14",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Zig 开发，高性能 AI 浏览器"
+    },
+    {
+      "title": "promptfoo - LLM 测试平台",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstSeen": "2026-03-14",
+      "lastDeepDive": "2026-03-14",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "红队测试/漏洞扫描/CI/CD 集成"
+    },
+    {
+      "title": "Examining Reasoning LLMs-as-Judges - 推理 LLM 评估研究",
+      "url": "https://arxiv.org/abs/2603.12246",
+      "type": "paper",
+      "topic": "LLM Evaluation",
+      "firstSeen": "2026-03-14",
+      "lastDeepDive": "2026-03-14",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "推理法官可能被对抗性输出欺骗"
+    },
+    {
+      "title": "LABSHIELD - 实验室安全多模态基准",
+      "url": "https://arxiv.org/abs/2603.11987",
+      "type": "paper",
+      "topic": "实验室安全",
+      "firstSeen": "2026-03-14",
+      "lastDeepDive": "2026-03-14",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "填补实验室安全 AI 评估空白"
+    },
+    {
+      "title": "SSGM - 代理记忆治理框架",
+      "url": "https://arxiv.org/abs/2603.11768",
+      "type": "paper",
+      "topic": "代理记忆",
+      "firstSeen": "2026-03-14",
+      "lastDeepDive": "2026-03-14",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "记忆污染/漂移/泄露/固化四类风险"
+    },
+    {
+      "title": "TopoBench - 拓扑推理基准",
+      "url": "https://arxiv.org/abs/2603.12133",
+      "type": "paper",
+      "topic": "拓扑推理",
+      "firstSeen": "2026-03-14",
+      "lastDeepDive": "2026-03-14",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ICLR 2026 Workshop，前沿模型<25% 解决率"
     }
   ],
   "summary": {
-    "totalDeepDives": 46,
-    "activeProjects": 16,
-    "activePapers": 17,
+    "totalDeepDives": 54,
+    "activeProjects": 20,
+    "activePapers": 21,
     "activeResearch": 8,
     "monitoringOnly": 5,
     "byTopic": {
-      "AI Testing": 8,
+      "AI Testing": 9,
       "Software Testing": 2,
       "Agent Security": 3,
       "AI Safety & Alignment": 3,
-      "LLM Evaluation": 2,
+      "LLM Evaluation": 3,
       "分布式系统": 1,
       "多模态 AI": 1,
       "知识图谱": 1,
@@ -543,11 +631,13 @@
       "操作系统×AI": 1,
       "1-bit 量化": 2,
       "页面内 GUI 代理": 2,
-      "代理记忆": 3,
+      "代理记忆": 5,
       "群体智能": 2,
-      "形式化验证×AI": 2,
+      "形式化验证×AI": 3,
       "医疗 AI 验证": 1,
-      "实验室安全": 1
+      "实验室安全": 2,
+      "AI 基础设施": 1,
+      "拓扑推理": 1
     }
   }
 }
