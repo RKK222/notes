@@ -1,10 +1,10 @@
 {
   "lastChecks": {
-    "news": 1773406700,
+    "news": 1773487200,
     "calendar": 1772755320,
     "email": null,
     "memory": null,
-    "heartbeat": 1773406700
+    "heartbeat": 1773487200
   },
   "lastNewsPush": 1773406700,
   "nextNewsPush": 1773448800,
@@ -12,11 +12,13 @@
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-03-13 21:18",
-    "newsBlocker": "Brave Search API 未配置，改用 Browser 浏览新华网",
-    "newsWindowStatus": "07:00❌ | 09:00❌ | 11:00❌(本地保存) | 13:00⏳ | 15:00⏳ | 17:00⏳ | 19:00⏳ | 21:00⏳",
-    "missedPushes": "07:00/09:00/11:00 档失败（Brave API + 飞书授权均未配置）",
-    "todaySummary": "人大闭幕、055 大驱 10 艘、美以袭伊朗油价大涨、OpenClaw 报道、春运 94 亿人次、社融 450 万亿"
+    "lastUpdate": "2026-03-14 21:11",
+    "newsBlocker": "Brave Search API 未配置 + 飞书授权未完成",
+    "newsWindowStatus": "07:00❌ | 09:00❌ | 11:00❌ | 13:00❌ | 15:00❌ | 17:00❌ | 19:00❌ | 21:00❌(今日 8/8 档全部本地保存)",
+    "missedPushes": "今日 8/8 档全部失败（07:00-21:00，Brave API + 飞书授权均未配置）",
+    "todaySummary": "人大闭幕、055 大驱 10 艘、美以袭伊朗油价大涨、OpenClaw 报道、春运 94 亿人次、社融 450 万亿",
+    "silentPeriodStart": "23:00 (约 2 小时后进入静默期)",
+    "summaryReport": "memory/news-summary-2026-03-14.md"
   },
   "pendingTasks": {
     "newsPush": "✅ 正常（15:00 待执行）",
