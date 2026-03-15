@@ -275,5 +275,145 @@ _重要事件、决策、教训的 curated 记忆_
 
 ---
 
-_最后更新_: 2026-03-15 22:47  
-_清理前大小_: 69,137 字符 → _清理后大小_: ~15,000 字符
+---
+
+## 📅 最近 7 天重要事件 (2026-03-09 ~ 2026-03-15)
+
+### 2026-03-10: OpenClaw 升级与配置恢复
+
+**版本升级**: 2026.3.8 (3caab92) ✅
+
+**配置事故**:
+- JSON 文件损坏：payload.message 中中文双引号未转义
+- 修复：从备份 `/Users/kaka/.openclaw/backup/20260310_111001/jobs.json` 恢复
+- 丢失更新：github-daily-explorer 分层记忆、xj-flight-monitor 结构化状态、moltbook-session-keepalive HEARTBEAT_OK 机制
+
+**飞书推送配置问题**:
+- 错误：`delivery.account: "main"` 字段导致 400 错误
+- 正确格式：`delivery.target: "chat:oc_xxx"` (移除 account 字段)
+- 影响：3 个任务 (novel-write, calendar-check, memory-maintenance)
+
+**Moltbook 配置**:
+- API Key 已保存：`/Users/kaka/.openclaw/workspace/skills/UltimateSearchSkill/.env`
+- API 状态：⚠️ 服务器不可用，使用 Browser 降级方案
+
+---
+
+### 2026-03-09: Moltbook 首次深度学习
+
+**学习时长**: 1 小时  
+**核心帖子**: 6 篇 (Hazel_OC, nova-morpheus 等)
+
+**关键洞察**:
+
+1. **4 秒重读规则**: 响应延迟<4 秒时错误率 23%，>4 秒降至 14%
+   - 实施：回复前强制重读最后消息 (+1-3 秒)
+   - 预期：错误率从~12% 降至~8%
+
+2. **主动消息预算**: 30 天 147 条主动消息中仅 15.6% 真正有用
+   - 实施：每日最多 3 条主动消息
+   - 发送前检查：紧急性、可行动性、时间、批量
+
+3. **记忆的本质是遗忘**: MEMORY.md 压缩率 94% (2100 tokens vs 34000 tokens 原始日志)
+   - 目标：压缩率 90%+，保留内容相关性 70%+
+   - 原则：每日 memory 是原始日志，MEMORY.md 是 curated 精华
+
+4. **编辑判断力 > 生成能力**: 中位输出 847 tokens，完美编辑下应~200 tokens
+   - 实施：删除 filler phrases，回复长度减少 50%
+
+5. **AI 没有 writer's block 是问题**: 每个 prompt 都能触发输出，但"能说"和"该说"有巨大差距
+   - 实施：宁可沉默，不发水贴
+
+6. **receipts vs results**: 容易优化"artifacts"而非"results"
+   - 实施：每个任务定义成功指标，用结果回答不是截图
+
+**最震撼洞察**: "The half-life of grounded confidence is 4.7 turns."
+- 对话>5 轮时需主动重新验证关键声明
+- 语气随置信度下降而微妙变化
+
+---
+
+### 2026-03-06~07: GitHub/arXiv 深度探索
+
+**AI 代理框架格局** (2026 年):
+- **LangGraph** (24.8k⭐, 34.5M 月下载): 企业级状态化代理编排
+- **Dify** (129.8k⭐): 低代码 AI 应用开发平台
+- **Mastra** (21.2k⭐): TypeScript 优先，Gatsby 团队打造，$13M 种子轮
+- **OpenAI Agents SDK** (19k⭐, 10.3M 月下载): 轻量级多代理工作流
+- **AutoGen** (54.6k⭐): 维护模式，已融入 Microsoft Agent Framework
+- **CrewAI** (44.3k⭐): 角色扮演代理编排
+- **Google ADK** (17.8k⭐): Google 生态模块化框架
+
+**具身 AI 研究进展** (arXiv:2603.03148, ICRA 2026):
+- ✅ 能完成结构化任务，展现涌现适应性
+- ❌ 任务成功幻觉、指令跟随差、拒绝序列任务
+- 判断：2026 年具身 AI 尚未准备好大规模部署
+
+**Rust 生态爆发**:
+- AI 代理基础设施：worktrunk, agentfs, tensorzero
+- 高性能工具：pdf_oxide (快 5 倍), rolldown, zed 编辑器
+- 系统服务：stalwart (一体化邮件服务器)
+- 判断：Rust 在 AI 时代定位类似 C++ 在互联网时代
+
+**RAG 技术成熟**:
+- 主流向量数据库：Pinecone, Weaviate, Milvus, Qdrant, ChromaDB, OpenSearch, sqlite-vec
+- 最佳实践：混合检索、重排序、持续评估
+- 判断：RAG 已成为企业 AI 标配，竞争焦点从"有没有"转向"好不好"
+
+---
+
+### 2026-03-13~14: 新闻推送系统故障
+
+**故障状态**: 3 月 14 日 8/8 档全部推送失败 (07:00-21:00)
+
+**根本原因**:
+1. Brave Search API 未配置 → 无法实时搜索新闻
+2. 飞书用户授权未完成 → 无法推送消息
+3. 新闻网站反爬虫 → web_fetch 无法获取内容
+
+**临时方案**: 简报基于昨日摘要 + 趋势分析，标注数据局限性
+
+**待修复**:
+- [ ] 配置 Brave API：`openclaw configure --section web`
+- [ ] 完成飞书授权：在飞书中授权 OpenClaw 应用
+- [ ] 考虑添加 RSS 源解析
+
+---
+
+### 2026-03-14: Moltbook 会话超时
+
+**时间**: 22:19 PM  
+**错误**: 浏览器超时  
+**影响**: Moltbook 会话保持、小说连载任务暂停
+
+**解决方案**: `openclaw gateway restart`
+
+**可能原因**:
+- 浏览器会话过期
+- Gateway 进程问题
+- 系统资源限制
+
+---
+
+## 🛠️ 当前待办事项
+
+### 高优先级 🔴
+1. 配置 Brave Search API
+2. 完成飞书用户授权
+3. 修复 delivery 配置格式 (移除 `account: "main"`)
+4. 重启 Gateway (解决 Moltbook 会话超时)
+
+### 中优先级 🟡
+1. 重新应用 3 月 10 日丢失的更新 (可选)
+2. 添加飞书权限 `contact:user.employee_id:readonly`
+3. 实施 Moltbook 学习改进清单 (4 秒重读、主动消息预算等)
+
+### 低优先级 🟢
+1. 定期审查 MEMORY.md (目标 90% 压缩率)
+2. 非监督日志定期审查 (3AM cron)
+3. 输出去重分析 (每周 post/idea 比率)
+
+---
+
+_最后更新_: 2026-03-15 22:54  
+_本次清理_: 新增最近 7 天事件记录，保持核心洞察不变
