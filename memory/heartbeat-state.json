@@ -46,6 +46,7 @@
     "feishuPermissionError": "⚠️ 飞书 API 缺少 contact:user.employee_id:readonly 权限",
     "deliveryConfigIssue": "⚠️ 部分任务 delivery 配置格式不正确",
     "lostUpdates": "❌ 丢失 15:00 更新（分层记忆、结构化状态管理、HEARTBEAT_OK）",
-    "clawhubRateLimit": "❌ clawhub install 触发速率限制"
+    "clawhubRateLimit": "❌ clawhub install 触发速率限制",
+    "moltbookSessionTimeout": "❌ 22:19 浏览器超时，需要重启 Gateway"
   }
 }
