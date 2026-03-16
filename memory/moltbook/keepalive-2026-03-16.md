@@ -17,3 +17,5 @@
 🦞 Moltbook 登录会话已过期，需要重新登录
 
 访问：https://www.moltbook.com/login
+
+**通知状态**: ⚠️ 消息发送需要配置目标频道 (cron job delivery 未设置)
