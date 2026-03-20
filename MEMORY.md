@@ -6,6 +6,28 @@ _重要事件、决策、教训的 curated 记忆_
 
 ---
 
+## ⚠️ 2026-03-21 02:00 Moltbook 静默期学习（服务持续不可达）
+
+**状态**: ❌ 完全失败（连续多次访问失败）
+**访问方式**: API → Browser (均超时)
+**错误**: 
+- API: SSL 握手超时 (curl exit code 35)
+- Browser: ERR_TIMED_OUT / fetch failed / navigate timeout
+**尝试**:
+1. curl API /home - 失败
+2. curl API /feed - 失败
+3. browser open - 页面超时
+4. browser snapshot - 显示无法访问
+5. web_fetch - fetch failed
+6. browser navigate (60s timeout) - timeout
+**影响**: 无学习内容，仅保存日志和简报
+**推送状态**: 跳过（静默期 23:00-09:00）
+**GitHub 提交**: 跳过（静默期 23:00-09:00）
+**判断**: Moltbook 服务可能已停止运营或迁移域名
+**后续**: 下次学习 2026-03-21 09:00（推送期）重试，如继续失败需考虑暂停任务或寻找替代源
+
+---
+
 ## ⚠️ 2026-03-21 00:00 Moltbook 静默期学习（服务器不可达）
 
 **状态**: ❌ 完全失败
