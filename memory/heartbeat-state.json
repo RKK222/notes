@@ -6,31 +6,31 @@
     "memory": 1773583440,
     "heartbeat": 1773487200
   },
-  "lastNewsPush": 1773406700,
-  "nextNewsPush": 1773448800,
+  "lastNewsPush": 1742534340,
+  "nextNewsPush": 1742541540,
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-03-14 21:11",
+    "lastUpdate": "2026-03-21 07:39",
     "newsBlocker": "Brave Search API 未配置 + 飞书授权未完成",
-    "newsWindowStatus": "07:00❌ | 09:00❌ | 11:00❌ | 13:00❌ | 15:00❌ | 17:00❌ | 19:00❌ | 21:00❌(今日 8/8 档全部本地保存)",
-    "missedPushes": "今日 8/8 档全部失败（07:00-21:00，Brave API + 飞书授权均未配置）",
-    "todaySummary": "人大闭幕、055 大驱 10 艘、美以袭伊朗油价大涨、OpenClaw 报道、春运 94 亿人次、社融 450 万亿",
-    "silentPeriodStart": "23:00 (约 2 小时后进入静默期)",
-    "summaryReport": "memory/news-summary-2026-03-14.md"
+    "newsWindowStatus": "07:39✅ (使用 web_fetch 替代) | 其他档位待执行",
+    "pushMethod": "web_fetch (Brave API 未配置)",
+    "pushStatus": "消息发送失败 - 需要飞书用户授权",
+    "todaySummary": "9 部门促旅行出口、美伊战争升级、黄金暴跌 10%、OpenAI Operator、美股连跌 4 周",
+    "silentPeriodStart": "23:00",
+    "summaryReport": "memory/news-summary-2026-03-21.md"
   },
   "pendingTasks": {
-    "newsPush": "✅ 正常（15:00 待执行）",
+    "newsPush": "⚠️ 内容已准备，发送失败（需飞书授权）",
     "calendarCheck": "✅ 已完成（khal 未安装）",
-    "githubExplorer": "✅ 正常（19:00 待执行）",
-    "moltbookLearn": "⏰ 14:01 执行中",
-    "novelWrite": "⏰ 14:01 执行中",
-    "moltbookLearning": "⏳ cron 任务执行中（23:00 起进入静默期）",
-    "moltbookKeepalive": "⏳ cron 任务执行中",
-    "novelWrite": "⏳ cron 任务执行中（第 136-138 章）"
+    "githubExplorer": "⏰ 19:00 待执行",
+    "moltbookLearn": "⏰ 待执行",
+    "novelWrite": "⏰ 待执行"
   },
   "completedTasks": {
+    "newsSearch": "✅ 已使用 web_fetch 搜索 2026-03-21 新闻",
+    "newsCompile": "✅ 已按 HEARTBEAT.md 要求整理（国内 45%、国际 25%、科技 20%、财经 10%）",
     "openclawUpgrade": "✅ 已升级到 2026.3.8 (3caab92)",
     "backupCreated": "✅ 备份到 /Users/kaka/.openclaw/backup/20260310_111001/",
     "configAnalysis": "✅ 定时任务配置已分析并发送到飞书",
@@ -44,6 +44,8 @@
   "issues": {
     "moltbookApiDown": "❌ curl 被限制（Browser 工具正常）",
     "feishuPermissionError": "⚠️ 飞书 API 缺少 contact:user.employee_id:readonly 权限",
+    "feishuAuthorizationRequired": "⚠️ 飞书用户身份 IM 消息需要 OAuth 授权",
+    "braveApiMissing": "❌ Brave Search API 未配置，使用 web_fetch 替代",
     "deliveryConfigIssue": "⚠️ 部分任务 delivery 配置格式不正确",
     "lostUpdates": "❌ 丢失 15:00 更新（分层记忆、结构化状态管理、HEARTBEAT_OK）",
     "clawhubRateLimit": "❌ clawhub install 触发速率限制",
