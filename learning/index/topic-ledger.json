@@ -1,18 +1,18 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-18T19:00:00+08:00",
+    "lastUpdated": "2026-03-20T19:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-03-18T19:00:00+08:00"
+    "lastRun": "2026-03-20T19:00:00+08:00"
   },
   "topics": [
     {
       "name": "AI Testing",
       "category": "core",
-      "lastSeen": "2026-03-10",
+      "lastSeen": "2026-03-20",
       "lastDeepDive": "2026-03-10",
-      "repeatCount7d": 12,
+      "repeatCount7d": 14,
       "repeatCount30d": 12,
       "priority": "high",
       "isCore": true,
@@ -24,9 +24,9 @@
     {
       "name": "Software Testing",
       "category": "core",
-      "lastSeen": "2026-03-10",
+      "lastSeen": "2026-03-20",
       "lastDeepDive": "2026-03-10",
-      "repeatCount7d": 12,
+      "repeatCount7d": 14,
       "repeatCount30d": 12,
       "priority": "high",
       "isCore": true,
@@ -440,13 +440,55 @@
       "representativeItem": "Scaling Laws for Educational AI Agents",
       "trend": "rising",
       "notes": "教育代理扩展律首研，理论基础"
+    },
+    {
+      "name": "LLM 代码审查安全",
+      "category": "exploration",
+      "lastSeen": "2026-03-20",
+      "lastDeepDive": "2026-03-20",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Confirmation Bias in LLM Code Review",
+      "trend": "rising",
+      "notes": "确认偏误攻击、供应链安全"
+    },
+    {
+      "name": "代理安全元审计",
+      "category": "exploration",
+      "lastSeen": "2026-03-20",
+      "lastDeepDive": "2026-03-20",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "SafeAudit Meta-Audit Framework",
+      "trend": "rising",
+      "notes": "基准测试完整性审计"
+    },
+    {
+      "name": "AI 工具链可观测性",
+      "category": "exploration",
+      "lastSeen": "2026-03-20",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Claude HUD 可视化插件",
+      "trend": "rising",
+      "notes": "上下文/工具/代理状态监控"
     }
   ],
   "summary": {
-    "totalTopics": 31,
+    "totalTopics": 34,
     "coreTopics": 5,
-    "explorationTopics": 26,
-    "highPriority": 11,
+    "explorationTopics": 29,
+    "highPriority": 13,
     "mediumPriority": 14,
     "lowPriority": 6,
     "shouldDowngrade": 3,

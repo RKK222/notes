@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-12T19:00:00+08:00",
+    "lastUpdated": "2026-03-20T19:00:00+08:00",
     "version": "1.0",
     "validFrom": "2026-03-12",
     "nextReview": "2026-03-19"
@@ -126,6 +126,16 @@
         "topic": "OSINT 仪表板",
         "reason": "开源情报与 AI 分析",
         "priority": "low"
+      },
+      {
+        "topic": "AI 安全对抗测试",
+        "reason": "确认偏误攻击、元审计、验证基准反映对抗测试新方向",
+        "priority": "high"
+      },
+      {
+        "topic": "AI 工具链可观测性",
+        "reason": "Claude HUD trending #1 显示可观测性是刚需",
+        "priority": "medium"
       }
     ]
   },

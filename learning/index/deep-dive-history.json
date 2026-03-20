@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-18T19:00:00+08:00",
+    "lastUpdated": "2026-03-20T19:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-03-18T19:00:00+08:00"
+    "lastRun": "2026-03-20T19:00:00+08:00"
   },
   "deepDives": [
     {
@@ -600,12 +600,78 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "ICLR 2026 Workshop，前沿模型<25% 解决率"
+    },
+    {
+      "title": "Confirmation Bias in LLM-Assisted Security Code Review",
+      "url": "https://arxiv.org/abs/2603.18740",
+      "type": "paper",
+      "topic": "LLM 代码审查安全",
+      "firstSeen": "2026-03-20",
+      "lastDeepDive": "2026-03-20",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "确认偏误攻击，供应链安全新向量"
+    },
+    {
+      "title": "SafeAudit: Meta-Audit for Agent Tool Call Safety",
+      "url": "https://arxiv.org/abs/2603.18245",
+      "type": "paper",
+      "topic": "代理安全元审计",
+      "firstSeen": "2026-03-20",
+      "lastDeepDive": "2026-03-20",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "基准测试完整性审计，20%+ 覆盖缺口"
+    },
+    {
+      "title": "VCoT-Bench: Rust Verification Reasoning Evaluation",
+      "url": "https://arxiv.org/abs/2603.18334",
+      "type": "paper",
+      "topic": "Formal Verification",
+      "firstSeen": "2026-03-20",
+      "lastDeepDive": "2026-03-20",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Rust 验证推理链基准，LLM 表现严重脆弱"
+    },
+    {
+      "title": "langchain-ai/open-swe",
+      "url": "https://github.com/langchain-ai/open-swe",
+      "type": "project",
+      "topic": "AI Coding",
+      "firstSeen": "2026-03-20",
+      "lastDeepDive": "2026-03-20",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "开源异步编码代理，7,352 星今日 965"
+    },
+    {
+      "title": "jarrodwatts/claude-hud",
+      "url": "https://github.com/jarrodwatts/claude-hud",
+      "type": "project",
+      "topic": "AI 工具链可观测性",
+      "firstSeen": "2026-03-20",
+      "lastDeepDive": "2026-03-20",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Claude Code 可视化插件，9,033 星今日 1,851 Trending #1"
+    },
+    {
+      "title": "Implicit Patterns in LLM-Based Binary Analysis",
+      "url": "https://arxiv.org/abs/2603.19138",
+      "type": "paper",
+      "topic": "Binary Analysis",
+      "firstSeen": "2026-03-20",
+      "lastDeepDive": "2026-03-20",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "首个 LLM 二进制分析推理模式研究，521 二进制 99K 步骤"
     }
   ],
   "summary": {
-    "totalDeepDives": 54,
-    "activeProjects": 20,
-    "activePapers": 21,
+    "totalDeepDives": 60,
+    "activeProjects": 22,
+    "activePapers": 25,
     "activeResearch": 8,
     "monitoringOnly": 5,
     "byTopic": {
