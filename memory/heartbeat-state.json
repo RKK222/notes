@@ -1,28 +1,28 @@
 {
   "lastChecks": {
-    "news": 1742587920,
+    "news": 1742601600,
     "calendar": 1772755320,
     "email": null,
     "memory": 1773583440,
     "heartbeat": 1773487200
   },
-  "lastNewsPush": 1742587920,
-  "nextNewsPush": 1742595000,
+  "lastNewsPush": 1742601600,
+  "nextNewsPush": 1742608800,
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-03-21 18:30",
+    "lastUpdate": "2026-03-21 20:30",
     "newsBlocker": "Brave Search API 未配置 + 飞书授权未完成",
-    "newsWindowStatus": "07:39✅ 10:31✅ 12:30✅ 14:30✅ 16:30✅ 18:30✅ (使用 web_fetch 替代) | 20:30 待执行",
+    "newsWindowStatus": "07:39✅ 10:31✅ 12:30✅ 14:30✅ 16:30✅ 18:30✅ 20:30✅ (使用 web_fetch 替代) | 今日最后一档",
     "pushMethod": "web_fetch (Brave API 未配置)",
-    "pushStatus": "消息发送失败 - 需要飞书用户 OAuth 授权（18:30 尝试）",
-    "todaySummary": "梅姨落网、浙江带薪休假、遗嘱年轻化、霍尔木兹封锁、OpenAI 北极星、黄金暴跌",
-    "silentPeriodStart": "23:00",
-    "summaryReport": "memory/news-brief-2026-03-21-1830.md"
+    "pushStatus": "消息发送失败 - 需要飞书用户 OAuth 授权（20:30 尝试）",
+    "todaySummary": "何立峰会见外企、遗嘱年轻化、清华就业创新高、黄金暴跌 43 年最大跌幅、AI 重塑就业",
+    "silentPeriodStart": "21:00",
+    "summaryReport": "memory/news-brief-2026-03-21-2030.md"
   },
   "pendingTasks": {
-    "newsPush": "✅ 18:30 已推送（发送失败，已保存简报）- 下次 20:30",
+    "newsPush": "✅ 20:30 已推送（发送失败，已保存简报）- 今日最后一档，明日 07:30 继续",
     "calendarCheck": "✅ 已完成（khal 未安装）",
     "githubExplorer": "⏰ 19:00 待执行",
     "moltbookLearn": "⏰ 待执行",
@@ -31,6 +31,7 @@
   "completedTasks": {
     "newsSearch": "✅ 已使用 web_fetch 搜索 2026-03-21 新闻",
     "newsCompile": "✅ 已按 HEARTBEAT.md 要求整理（国内 45%、国际 25%、科技 20%、财经 10%）",
+    "newsPush2030": "✅ 20:30 尝试推送失败，已保存简报到 memory/news-brief-2026-03-21-2030.md",
     "newsPush1031": "✅ 10:31 尝试推送失败，已保存简报到 memory/news-summary-2026-03-21.md",
     "newsPush1230": "✅ 12:30 尝试推送失败，已更新简报（补充 AI 出行新闻、个税汇算信息）",
     "newsPush1630": "✅ 16:30 尝试推送失败，已保存简报",
