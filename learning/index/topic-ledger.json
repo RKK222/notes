@@ -10,9 +10,9 @@
     {
       "name": "AI Testing",
       "category": "core",
-      "lastSeen": "2026-03-20",
+      "lastSeen": "2026-03-21",
       "lastDeepDive": "2026-03-10",
-      "repeatCount7d": 14,
+      "repeatCount7d": 15,
       "repeatCount30d": 12,
       "priority": "high",
       "isCore": true,
@@ -66,9 +66,9 @@
     {
       "name": "Agent Security",
       "category": "core",
-      "lastSeen": "2026-03-10",
+      "lastSeen": "2026-03-21",
       "lastDeepDive": "2026-03-09",
-      "repeatCount7d": 5,
+      "repeatCount7d": 6,
       "repeatCount30d": 5,
       "priority": "high",
       "isCore": true,
@@ -472,9 +472,9 @@
     {
       "name": "AI 工具链可观测性",
       "category": "exploration",
-      "lastSeen": "2026-03-20",
+      "lastSeen": "2026-03-21",
       "lastDeepDive": null,
-      "repeatCount7d": 1,
+      "repeatCount7d": 2,
       "repeatCount30d": 1,
       "priority": "medium",
       "isCore": false,
@@ -496,6 +496,7 @@
       "rising": 16,
       "stable": 12,
       "declining": 3
-    }
+    },
+    "lastUpdated": "2026-03-21"
   }
 }
