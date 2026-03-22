@@ -1,28 +1,28 @@
 {
   "lastChecks": {
-    "news": 1742637600,
+    "news": 1742652000,
     "calendar": 1772755320,
     "email": null,
     "memory": 1773583440,
-    "heartbeat": 1742637600
+    "heartbeat": 1742652000
   },
-  "lastNewsPush": 1742637600,
-  "nextNewsPush": 1742644800,
+  "lastNewsPush": 1742652000,
+  "nextNewsPush": 1742659200,
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-03-22 10:32",
+    "lastUpdate": "2026-03-22 14:32",
     "newsBlocker": "Brave Search API 未配置 + 飞书授权未完成",
-    "newsWindowStatus": "08:32✅ 10:32✅ (使用 web_fetch 替代) | 下一档 12:30",
+    "newsWindowStatus": "08:32✅ 10:32✅ 12:32✅ 14:32✅ (使用 web_fetch 替代) | 下一档 16:30",
     "pushMethod": "web_fetch (Brave API 未配置)",
-    "pushStatus": "消息发送失败 - 需要飞书用户 OAuth 授权（10:32 尝试）",
-    "todaySummary": "梅姨被捕、人口减少 771 万、AI 17 天 166 篇论文、油价破 110 美元、美股三杀",
+    "pushStatus": "消息发送失败 - 需要飞书用户 OAuth 授权（14:32 尝试）",
+    "todaySummary": "梅姨被捕、凯叔 AI 教育、斑马智行亏损 36 亿、油价破 110 美元、高坛开放信号",
     "silentPeriodStart": "21:00",
-    "summaryReport": "memory/news-brief-2026-03-22-1030.md"
+    "summaryReport": "memory/news-brief-2026-03-22-1430.md"
   },
   "pendingTasks": {
-    "newsPush": "✅ 10:32 已推送（发送失败，已保存简报）- 下一档 12:30",
+    "newsPush": "✅ 14:32 已推送（发送失败，已保存简报）- 下一档 16:30",
     "calendarCheck": "⚠️ 已完成（飞书 API 缺少权限）",
     "githubExplorer": "⏰ 19:00 待执行",
     "moltbookLearn": "⏰ 待执行",
