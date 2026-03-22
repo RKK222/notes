@@ -1,18 +1,18 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-21T11:00:00+08:00",
+    "lastUpdated": "2026-03-22T19:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-03-21T11:00:00+08:00"
+    "lastRun": "2026-03-22T19:00:00+08:00"
   },
   "topics": [
     {
       "name": "AI Testing",
       "category": "core",
-      "lastSeen": "2026-03-21",
+      "lastSeen": "2026-03-22",
       "lastDeepDive": "2026-03-10",
-      "repeatCount7d": 15,
+      "repeatCount7d": 17,
       "repeatCount30d": 12,
       "priority": "high",
       "isCore": true,
@@ -24,7 +24,7 @@
     {
       "name": "Software Testing",
       "category": "core",
-      "lastSeen": "2026-03-20",
+      "lastSeen": "2026-03-22",
       "lastDeepDive": "2026-03-10",
       "repeatCount7d": 14,
       "repeatCount30d": 12,
@@ -66,9 +66,9 @@
     {
       "name": "Agent Security",
       "category": "core",
-      "lastSeen": "2026-03-21",
+      "lastSeen": "2026-03-22",
       "lastDeepDive": "2026-03-09",
-      "repeatCount7d": 6,
+      "repeatCount7d": 8,
       "repeatCount30d": 5,
       "priority": "high",
       "isCore": true,
@@ -482,10 +482,52 @@
       "representativeItem": "Claude HUD 可视化插件",
       "trend": "rising",
       "notes": "上下文/工具/代理状态监控"
+    },
+    {
+      "name": "神经符号测试",
+      "category": "exploration",
+      "lastSeen": "2026-03-22",
+      "lastDeepDive": "2026-03-22",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "neurosymbolic-testing/framework",
+      "trend": "rising",
+      "notes": "神经符号 AI 在测试领域的落地实践"
+    },
+    {
+      "name": "工具调用安全",
+      "category": "core",
+      "lastSeen": "2026-03-22",
+      "lastDeepDive": "2026-03-22",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": true,
+      "shouldDowngrade": false,
+      "representativeItem": "Toolformer Under Attack 论文",
+      "trend": "rising",
+      "notes": "Agent 安全新方向，工具调用漏洞首研"
+    },
+    {
+      "name": "量子纠错×AI",
+      "category": "exploration",
+      "lastSeen": "2026-03-22",
+      "lastDeepDive": "2026-03-22",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Quantum Error Correction Neural Decoders",
+      "trend": "rising",
+      "notes": "量子计算与 AI 交叉突破"
     }
   ],
   "summary": {
-    "totalTopics": 34,
+    "totalTopics": 37,
     "coreTopics": 5,
     "explorationTopics": 29,
     "highPriority": 13,
@@ -497,6 +539,6 @@
       "stable": 12,
       "declining": 3
     },
-    "lastUpdated": "2026-03-21"
+    "lastUpdated": "2026-03-22"
   }
 }
