@@ -1,28 +1,29 @@
 {
   "lastChecks": {
-    "news": 1742666400,
+    "news": 1742673600,
     "calendar": 1772755320,
     "email": null,
     "memory": 1773583440,
-    "heartbeat": 1742666400
+    "heartbeat": 1742673600
   },
-  "lastNewsPush": 1742666400,
-  "nextNewsPush": 1742673600,
+  "lastNewsPush": 1742673600,
+  "nextNewsPush": 1742706600,
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-03-22 18:32",
+    "lastUpdate": "2026-03-22 20:32",
     "newsBlocker": "Brave Search API 未配置 + 飞书授权未完成",
-    "newsWindowStatus": "08:32✅ 10:32✅ 12:32✅ 14:32✅ 16:32✅ 18:32✅ (使用 web_fetch 替代) | 今日最后一档 20:30",
+    "newsWindowStatus": "08:32✅ 10:32✅ 12:32✅ 14:32✅ 16:32✅ 18:32✅ 20:32✅ (使用 web_fetch 替代) | 今日完成，21:00 进入静默期",
     "pushMethod": "web_fetch (Brave API 未配置)",
-    "pushStatus": "消息发送失败 - 需要飞书用户 OAuth 授权（18:32 尝试）",
-    "todaySummary": "梅姨被捕、凯叔 AI 教育、DLSS 5 争议、Cursor-Kimi 事件、微信龙虾插件、中东收购 Alpha Wave、油价破 110 美元、2500 亿以旧换新",
+    "pushStatus": "消息发送失败 - 需要飞书用户 OAuth 授权（20:32 尝试）",
+    "todaySummary": "梅姨被捕、凯叔 AI 教育、DLSS 5 争议、Cursor-Kimi 事件、微信龙虾插件、宇树科技 IPO、美伊战争战略平衡、胖东来商业哲学、油价破 110 美元、2500 亿以旧换新",
     "silentPeriodStart": "21:00",
-    "summaryReport": "memory/news-brief-2026-03-22-1830.md"
+    "silentPeriodEnd": "07:00",
+    "summaryReport": "memory/news-brief-2026-03-22-2030.md"
   },
   "pendingTasks": {
-    "newsPush": "✅ 18:32 已推送（发送失败，已保存简报）- 今日最后一档 20:30",
+    "newsPush": "✅ 今日全部完成（7 档，发送失败，已保存简报）- 明日 07:30 继续",
     "calendarCheck": "⚠️ 已完成（飞书 API 缺少权限）",
     "githubExplorer": "⏰ 19:00 待执行",
     "moltbookLearn": "⏰ 待执行",
