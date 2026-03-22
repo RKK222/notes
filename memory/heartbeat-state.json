@@ -1,29 +1,29 @@
 {
   "lastChecks": {
-    "news": 1742601600,
+    "news": 1742630400,
     "calendar": 1772755320,
     "email": null,
     "memory": 1773583440,
-    "heartbeat": 1773487200
+    "heartbeat": 1742630400
   },
-  "lastNewsPush": 1742601600,
-  "nextNewsPush": 1742608800,
+  "lastNewsPush": 1742630400,
+  "nextNewsPush": 1742637600,
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-03-21 20:30",
+    "lastUpdate": "2026-03-22 08:32",
     "newsBlocker": "Brave Search API 未配置 + 飞书授权未完成",
-    "newsWindowStatus": "07:39✅ 10:31✅ 12:30✅ 14:30✅ 16:30✅ 18:30✅ 20:30✅ (使用 web_fetch 替代) | 今日最后一档",
+    "newsWindowStatus": "08:32✅ (使用 web_fetch 替代) | 下一档 10:30",
     "pushMethod": "web_fetch (Brave API 未配置)",
-    "pushStatus": "消息发送失败 - 需要飞书用户 OAuth 授权（20:30 尝试）",
-    "todaySummary": "何立峰会见外企、遗嘱年轻化、清华就业创新高、黄金暴跌 43 年最大跌幅、AI 重塑就业",
+    "pushStatus": "消息发送失败 - 需要飞书用户 OAuth 授权（08:32 尝试）",
+    "todaySummary": "梅姨被捕、人口减少 771 万、Karpathy 访谈、美股三杀、霍尔木兹危机",
     "silentPeriodStart": "21:00",
-    "summaryReport": "memory/news-brief-2026-03-21-2030.md"
+    "summaryReport": "memory/news-brief-2026-03-22-0830.md"
   },
   "pendingTasks": {
-    "newsPush": "✅ 20:30 已推送（发送失败，已保存简报）- 今日最后一档，明日 07:30 继续",
-    "calendarCheck": "✅ 已完成（khal 未安装）",
+    "newsPush": "✅ 08:32 已推送（发送失败，已保存简报）- 下一档 10:30",
+    "calendarCheck": "⚠️ 已完成（飞书 API 缺少权限）",
     "githubExplorer": "⏰ 19:00 待执行",
     "moltbookLearn": "⏰ 待执行",
     "novelWrite": "⏰ 待执行"
