@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-20T19:00:00+08:00",
+    "lastUpdated": "2026-03-22T19:00:00+08:00",
     "version": "1.0",
     "validFrom": "2026-03-12",
     "nextReview": "2026-03-19"
@@ -15,7 +15,8 @@
         "Software Testing",
         "LLM Evaluation",
         "AI Safety & Alignment",
-        "Agent Security"
+        "Agent Security",
+        "工具调用安全"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域，与工作直接相关"
@@ -29,7 +30,9 @@
         "AI 硬件",
         "形式化验证×AI",
         "医疗 AI 验证",
-        "代理记忆"
+        "代理记忆",
+        "神经符号测试",
+        "量子纠错×AI"
       ],
       "allocationPercent": 25,
       "rationale": "新兴热点，有重大突破潜力"
@@ -135,6 +138,21 @@
       {
         "topic": "AI 工具链可观测性",
         "reason": "Claude HUD trending #1 显示可观测性是刚需",
+        "priority": "medium"
+      },
+      {
+        "topic": "神经符号测试",
+        "reason": "神经符号 AI 在测试领域的落地，安全关键系统新范式",
+        "priority": "high"
+      },
+      {
+        "topic": "工具调用安全",
+        "reason": "Agent 安全核心子方向，Toolformer 漏洞研究揭示严重风险",
+        "priority": "high"
+      },
+      {
+        "topic": "量子纠错×AI",
+        "reason": "量子计算与 AI 交叉突破，神经解码器提升纠错效率",
         "priority": "medium"
       }
     ]
