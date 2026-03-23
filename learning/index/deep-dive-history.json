@@ -754,16 +754,71 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "神经解码器提升量子纠错效率 35%"
+    },
+    {
+      "title": "SpecOps: GUI 环境全自动 AI 代理测试框架",
+      "url": "https://arxiv.org/abs/2603.10268",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-03-23",
+      "lastDeepDive": "2026-03-23",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ICSE 2026 接收，GUI 测试里程碑，87% 覆盖率"
+    },
+    {
+      "title": "Pitfalls in Evaluating Interpretability Agents",
+      "url": "https://arxiv.org/abs/2603.20101",
+      "type": "paper",
+      "topic": "解释性评估",
+      "firstSeen": "2026-03-23",
+      "lastDeepDive": "2026-03-23",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "揭示复制式评估陷阱，提出功能可互换性内在评估"
+    },
+    {
+      "title": "Learning Dynamic Belief Graphs for Theory-of-mind Reasoning",
+      "url": "https://arxiv.org/abs/2603.20170",
+      "type": "paper",
+      "topic": "Theory of Mind × AI",
+      "firstSeen": "2026-03-23",
+      "lastDeepDive": "2026-03-23",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "动态信念图模型，灾难响应/紧急医疗场景，+18% 准确率"
+    },
+    {
+      "title": "project-nomad: 自包含离线生存计算机",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "type": "project",
+      "topic": "生存计算",
+      "firstSeen": "2026-03-23",
+      "lastDeepDive": "2026-03-23",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "边缘 AI×生存主义，10GB→2GB 压缩，离线 AI 推理"
+    },
+    {
+      "title": "TDAD: Test-Driven Agentic Development",
+      "url": "https://arxiv.org/abs/2603.17973",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-03-23",
+      "lastDeepDive": "2026-03-23",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "测试驱动代理开发，图依赖影响分析，94% 准确率，-67% 开销"
     }
   ],
   "summary": {
-    "totalDeepDives": 68,
-    "activeProjects": 26,
-    "activePapers": 29,
+    "totalDeepDives": 73,
+    "activeProjects": 27,
+    "activePapers": 33,
     "activeResearch": 8,
     "monitoringOnly": 5,
     "byTopic": {
-      "AI Testing": 9,
+      "AI Testing": 11,
       "Software Testing": 2,
       "Agent Security": 3,
       "AI Safety & Alignment": 3,
@@ -791,7 +846,11 @@
       "医疗 AI 验证": 1,
       "实验室安全": 2,
       "AI 基础设施": 1,
-      "拓扑推理": 1
+      "拓扑推理": 1,
+      "解释性评估": 1,
+      "Theory of Mind × AI": 1,
+      "生存计算": 1,
+      "量子纠错×AI": 1
     }
   }
 }
