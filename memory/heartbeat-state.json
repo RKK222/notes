@@ -1,26 +1,26 @@
 {
   "lastChecks": {
-    "news": 1742700000,
+    "news": 1742788980,
     "calendar": 1772755320,
     "email": null,
     "memory": 1773583440,
-    "heartbeat": 1742700000
+    "heartbeat": 1742788980
   },
-  "lastNewsPush": 1742700000,
-  "nextNewsPush": 1742707200,
+  "lastNewsPush": 1742788980,
+  "nextNewsPush": 1742796180,
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-03-23 07:40",
+    "lastUpdate": "2026-03-24 07:03",
     "newsBlocker": "Brave Search API 未配置",
-    "newsWindowStatus": "07:40✅ 11:09✅ 13:03✅(无更新) 15:08✅ 16:38✅ 19:04✅ 20:45✅(春假小黄金周、活鱼麻醉立案) (使用 web_fetch 替代) | 今日全部完成 (7/8 档) 21:00 进入静默期",
+    "newsWindowStatus": "07:03✅(雄安考察、油价调控、中东局势) (使用 web_fetch 替代) | 今日第 1 档",
     "pushMethod": "web_fetch (Brave API 未配置)",
-    "pushStatus": "⏳ 待推送（需飞书 OAuth 授权）",
-    "todaySummary": "微信 OpenClaw 插件上线、OpenClaw 漏洞确认、中东局势升级、OpenAI 招聘 3500 人、油价上调",
+    "pushStatus": "❌ 推送失败（需飞书 OAuth 授权）",
+    "todaySummary": "雄安建设新时代创新高地、国家调控稳油市、中东局势升级、高校规范 AI 论文使用",
     "silentPeriodStart": "21:00",
     "silentPeriodEnd": "07:00",
-    "summaryReport": "memory/news-brief-2026-03-23-0730.md"
+    "summaryReport": "memory/news-brief-2026-03-24-0700.md"
   },
   "pendingTasks": {
     "newsPush": "✅ 今日全部完成（7 档，发送失败，已保存简报）- 明日 07:30 继续",
