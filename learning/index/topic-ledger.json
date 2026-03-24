@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-23T09:07:00+08:00",
+    "lastUpdated": "2026-03-24T19:03:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
     "lastRun": "2026-03-23T09:07:00+08:00"
@@ -524,21 +524,63 @@
       "representativeItem": "Quantum Error Correction Neural Decoders",
       "trend": "rising",
       "notes": "量子计算与 AI 交叉突破"
+    },
+    {
+      "name": "无线感知×AI",
+      "category": "exploration",
+      "lastSeen": "2026-03-24",
+      "lastDeepDive": "2026-03-24",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "RuView - WiFi 人体姿态估计",
+      "trend": "rising",
+      "notes": "无线感知与 AI 融合，隐私保护新方向"
+    },
+    {
+      "name": "心脏诊断多模态",
+      "category": "exploration",
+      "lastSeen": "2026-03-24",
+      "lastDeepDive": "2026-03-24",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "MARCUS - 心脏诊断多模态视觉语言代理",
+      "trend": "rising",
+      "notes": "多模态医学 AI 里程碑，域专用超越通用模型"
+    },
+    {
+      "name": "软件健康三重债务",
+      "category": "exploration",
+      "lastSeen": "2026-03-24",
+      "lastDeepDive": "2026-03-24",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "技术债务 + 认知债务 + 意图债务模型",
+      "trend": "rising",
+      "notes": "AI 时代软件工程理论创新"
     }
   ],
   "summary": {
-    "totalTopics": 37,
+    "totalTopics": 40,
     "coreTopics": 5,
-    "explorationTopics": 29,
-    "highPriority": 13,
-    "mediumPriority": 14,
+    "explorationTopics": 32,
+    "highPriority": 14,
+    "mediumPriority": 16,
     "lowPriority": 6,
     "shouldDowngrade": 3,
     "trends": {
-      "rising": 16,
+      "rising": 19,
       "stable": 12,
       "declining": 3
     },
-    "lastUpdated": "2026-03-22"
+    "lastUpdated": "2026-03-24"
   }
 }
