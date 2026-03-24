@@ -1,26 +1,26 @@
 {
   "lastChecks": {
-    "news": 1742803980,
+    "news": 1742811300,
     "calendar": 1742793780,
     "email": null,
     "memory": 1773583440,
-    "heartbeat": 1742803980
+    "heartbeat": 1742811300
   },
-  "lastNewsPush": 1742803980,
-  "nextNewsPush": 1742811180,
+  "lastNewsPush": 1742811300,
+  "nextNewsPush": 1742818500,
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-03-24 11:13",
+    "lastUpdate": "2026-03-24 13:05",
     "newsBlocker": "Brave Search API 未配置",
-    "newsWindowStatus": "07:03✅ 09:08✅ 11:13✅(雄安微纪录、养老补贴、绿电涨停、中东缓和) (使用 web_fetch 替代) | 今日第 3 档",
+    "newsWindowStatus": "07:03✅ 09:08✅ 11:13✅ 13:05✅(数据市场政策、深圳外资、PC 涨价、中东导弹) (使用 web_fetch 替代) | 今日第 4 档",
     "pushMethod": "web_fetch (Brave API 未配置)",
     "pushStatus": "❌ 推送失败（需飞书 OAuth 授权）",
-    "todaySummary": "雄安微纪录发布、养老补贴无户籍限制、AI 快速增长、美计划 4/9 结束对伊战争、A 股回升",
+    "todaySummary": "全国数据市场政策、深圳外资高增长、华硕预警 PC 涨价 30%、中东国家购韩国导弹、汤加 7.6 级地震",
     "silentPeriodStart": "21:00",
     "silentPeriodEnd": "07:00",
-    "summaryReport": "memory/news-brief-2026-03-24-1100.md"
+    "summaryReport": "memory/news-brief-2026-03-24-1300.md"
   },
   "pendingTasks": {
     "newsPush": "✅ 今日全部完成（7 档，发送失败，已保存简报）- 明日 07:30 继续",
