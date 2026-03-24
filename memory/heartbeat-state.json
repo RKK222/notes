@@ -1,29 +1,30 @@
 {
   "lastChecks": {
-    "news": 1742832840,
+    "news": 1742838240,
     "calendar": 1742793780,
     "email": null,
     "memory": 1773583440,
-    "heartbeat": 1742832840
+    "heartbeat": 1742838240
   },
-  "lastNewsPush": 1742832840,
-  "nextNewsPush": 1742840400,
+  "lastNewsPush": 1742838240,
+  "nextNewsPush": 1742878800,
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-03-24 19:14",
+    "lastUpdate": "2026-03-24 20:44",
     "newsBlocker": "Brave Search API 未配置",
-    "newsWindowStatus": "07:03✅ 09:08✅ 11:13✅ 13:05✅ 15:05✅ 17:06✅ 19:14✅(A 股 2 万亿、欧洲介入美伊、字节卖沐瞳) (使用 web_fetch 替代) | 今日第 7 档",
+    "newsWindowStatus": "07:03✅ 09:08✅ 11:13✅ 13:05✅ 15:05✅ 17:06✅ 19:14✅ 20:44✅(周亮案回应、张雪峰抢救、中日关系、OpenClaw 更新问题) (使用 web_fetch 替代) | 今日 8/8 档全部完成",
     "pushMethod": "web_fetch (Brave API 未配置)",
-    "pushStatus": "❌ 推送失败（需飞书 OAuth 授权）",
-    "todaySummary": "A 股深 V 成交 2 万亿、金融副局长被查、华为千元机麒麟芯片、字节 60 亿卖沐瞳、欧洲介入美伊",
+    "pushStatus": "❌ 推送失败（需飞书 OAuth 授权）- 进入静默期",
+    "todaySummary": "A 股 2 万亿、周亮被查、中日关系波折、华为千元机麒麟、黄仁勋赞中国 AI、字节卖沐瞳、OpenClaw 更新问题",
     "silentPeriodStart": "21:00",
     "silentPeriodEnd": "07:00",
-    "summaryReport": "memory/news-brief-2026-03-24-1900.md"
+    "silentPeriodActive": true,
+    "summaryReport": "memory/news-brief-2026-03-24-2100.md"
   },
   "pendingTasks": {
-    "newsPush": "✅ 今日全部完成（7 档，发送失败，已保存简报）- 明日 07:30 继续",
+    "newsPush": "✅ 今日 8/8 档全部完成（发送失败，已保存简报）- 静默期中 - 明日 07:00 继续",
     "calendarCheck": "⚠️ 已完成（飞书 API 缺少权限）",
     "githubExplorer": "⏰ 19:00 待执行",
     "moltbookLearn": "⏰ 待执行",
