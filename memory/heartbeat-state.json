@@ -1,26 +1,26 @@
 {
   "lastChecks": {
-    "news": 1742788980,
+    "news": 1742796480,
     "calendar": 1742793780,
     "email": null,
     "memory": 1773583440,
-    "heartbeat": 1742793780
+    "heartbeat": 1742796480
   },
-  "lastNewsPush": 1742788980,
-  "nextNewsPush": 1742796180,
+  "lastNewsPush": 1742796480,
+  "nextNewsPush": 1742803680,
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-03-24 07:03",
+    "lastUpdate": "2026-03-24 09:08",
     "newsBlocker": "Brave Search API 未配置",
-    "newsWindowStatus": "07:03✅(雄安考察、油价调控、中东局势) (使用 web_fetch 替代) | 今日第 1 档",
+    "newsWindowStatus": "07:03✅ 09:08✅(雄安、宁德时代、中东局势、碳酸锂大涨) (使用 web_fetch 替代) | 今日第 2 档",
     "pushMethod": "web_fetch (Brave API 未配置)",
     "pushStatus": "❌ 推送失败（需飞书 OAuth 授权）",
-    "todaySummary": "雄安建设新时代创新高地、国家调控稳油市、中东局势升级、高校规范 AI 论文使用",
+    "todaySummary": "雄安创新高地、宁德时代南宁扩产、中东局势反复、碳酸锂涨 6%、马斯克造芯计划",
     "silentPeriodStart": "21:00",
     "silentPeriodEnd": "07:00",
-    "summaryReport": "memory/news-brief-2026-03-24-0700.md"
+    "summaryReport": "memory/news-brief-2026-03-24-0900.md"
   },
   "pendingTasks": {
     "newsPush": "✅ 今日全部完成（7 档，发送失败，已保存简报）- 明日 07:30 继续",
