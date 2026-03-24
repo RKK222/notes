@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-23T11:06:00+08:00",
+    "lastUpdated": "2026-03-24T19:03:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
     "lastRun": "2026-03-23T11:06:00+08:00"
@@ -809,12 +809,89 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "测试驱动代理开发，图依赖影响分析，94% 准确率，-67% 开销"
+    },
+    {
+      "title": "MARCUS - 心脏诊断多模态视觉语言代理",
+      "url": "https://arxiv.org/abs/2603.22179",
+      "type": "paper",
+      "topic": "心脏诊断多模态",
+      "firstSeen": "2026-03-24",
+      "lastDeepDive": "2026-03-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "分层代理架构，13.5M 图像训练，超越前沿模型 34-45%"
+    },
+    {
+      "title": "LemmaNet - 代理程序验证引理发现",
+      "url": "https://arxiv.org/abs/2603.22114",
+      "type": "paper",
+      "topic": "形式化验证×AI",
+      "firstSeen": "2026-03-24",
+      "lastDeepDive": "2026-03-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "程序理解辅助引理发现，形式化验证×AI 交叉突破"
+    },
+    {
+      "title": "软件健康三重债务模型",
+      "url": "https://arxiv.org/abs/2603.22106",
+      "type": "paper",
+      "topic": "软件健康三重债务",
+      "firstSeen": "2026-03-24",
+      "lastDeepDive": "2026-03-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "技术债务 + 认知债务 + 意图债务，AI 时代软件工程理论创新"
+    },
+    {
+      "title": "SpecTM - 光谱目标掩码可信基础模型",
+      "url": "https://arxiv.org/abs/2603.22097",
+      "type": "paper",
+      "topic": "物理 AI 融合",
+      "firstSeen": "2026-03-24",
+      "lastDeepDive": "2026-03-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "物理约束掩码设计，地球观测可信基础模型，IEEE IGARSS 2026"
+    },
+    {
+      "title": "pentagi - 全自动 AI 代理渗透测试",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstSeen": "2026-03-24",
+      "lastDeepDive": "2026-03-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "多代理渗透测试架构，Trending #1，4,044 星"
+    },
+    {
+      "title": "project-nomad - 自包含离线生存计算机",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "type": "project",
+      "topic": "边缘 AI",
+      "firstSeen": "2026-03-24",
+      "lastDeepDive": "2026-03-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "10GB→2GB 压缩，离线 AI 推理，边缘 AI 实用化"
+    },
+    {
+      "title": "RuView - WiFi 人体姿态估计",
+      "url": "https://github.com/ruvnet/RuView",
+      "type": "project",
+      "topic": "无线感知×AI",
+      "firstSeen": "2026-03-24",
+      "lastDeepDive": "2026-03-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "WiFi CSI 信号姿态估计，隐私保护感知新方向"
     }
   ],
   "summary": {
-    "totalDeepDives": 73,
-    "activeProjects": 27,
-    "activePapers": 33,
+    "totalDeepDives": 80,
+    "activeProjects": 30,
+    "activePapers": 37,
     "activeResearch": 8,
     "monitoringOnly": 5,
     "byTopic": {

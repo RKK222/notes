@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-22T19:00:00+08:00",
+    "lastUpdated": "2026-03-24T19:03:00+08:00",
     "version": "1.0",
     "validFrom": "2026-03-12",
     "nextReview": "2026-03-19"
@@ -153,6 +153,26 @@
       {
         "topic": "量子纠错×AI",
         "reason": "量子计算与 AI 交叉突破，神经解码器提升纠错效率",
+        "priority": "medium"
+      },
+      {
+        "topic": "无线感知×AI",
+        "reason": "RuView 展示 WiFi 信号人体姿态估计可行性，隐私保护感知新赛道",
+        "priority": "medium"
+      },
+      {
+        "topic": "心脏诊断多模态",
+        "reason": "MARCUS 证明域专用多模态代理超越通用模型，医学 AI 新范式",
+        "priority": "high"
+      },
+      {
+        "topic": "物理 AI 融合",
+        "reason": "SpecTM 物理约束掩码设计，可信基础模型新方向",
+        "priority": "medium"
+      },
+      {
+        "topic": "离线边缘 AI",
+        "reason": "project-nomad 实现 10GB→2GB 压缩，边缘 AI 实用化加速",
         "priority": "medium"
       }
     ]
