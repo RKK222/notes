@@ -1,26 +1,26 @@
 {
   "lastChecks": {
-    "news": 1742825760,
+    "news": 1742832840,
     "calendar": 1742793780,
     "email": null,
     "memory": 1773583440,
-    "heartbeat": 1742827560
+    "heartbeat": 1742832840
   },
-  "lastNewsPush": 1742825760,
-  "nextNewsPush": 1742832900,
+  "lastNewsPush": 1742832840,
+  "nextNewsPush": 1742840400,
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-03-24 17:06",
+    "lastUpdate": "2026-03-24 19:14",
     "newsBlocker": "Brave Search API 未配置",
-    "newsWindowStatus": "07:03✅ 09:08✅ 11:13✅ 13:05✅ 15:05✅ 17:06✅(A 股 2 万亿、周亮被查、黄仁勋赞中国 AI、内存条暴涨) (使用 web_fetch 替代) | 今日第 6 档",
+    "newsWindowStatus": "07:03✅ 09:08✅ 11:13✅ 13:05✅ 15:05✅ 17:06✅ 19:14✅(A 股 2 万亿、欧洲介入美伊、字节卖沐瞳) (使用 web_fetch 替代) | 今日第 7 档",
     "pushMethod": "web_fetch (Brave API 未配置)",
     "pushStatus": "❌ 推送失败（需飞书 OAuth 授权）",
-    "todaySummary": "A 股深 V 成交 2 万亿、金融副局长被查、黄仁勋赞中国 AI 第一、华为千元机用麒麟、内存条涨 5 倍",
+    "todaySummary": "A 股深 V 成交 2 万亿、金融副局长被查、华为千元机麒麟芯片、字节 60 亿卖沐瞳、欧洲介入美伊",
     "silentPeriodStart": "21:00",
     "silentPeriodEnd": "07:00",
-    "summaryReport": "memory/news-brief-2026-03-24-1700.md"
+    "summaryReport": "memory/news-brief-2026-03-24-1900.md"
   },
   "pendingTasks": {
     "newsPush": "✅ 今日全部完成（7 档，发送失败，已保存简报）- 明日 07:30 继续",
