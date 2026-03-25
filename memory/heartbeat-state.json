@@ -1,13 +1,13 @@
 {
   "lastChecks": {
-    "news": 1742860080,
+    "news": 1742868420,
     "calendar": 1742793780,
     "email": null,
     "memory": 1773583440,
-    "heartbeat": 1742860080
+    "heartbeat": 1742868420
   },
-  "lastNewsPush": 1742860080,
-  "nextNewsPush": 1742867280,
+  "lastNewsPush": 1742868420,
+  "nextNewsPush": 1742875620,
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
