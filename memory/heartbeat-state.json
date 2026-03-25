@@ -1,20 +1,20 @@
 {
   "lastChecks": {
-    "news": 1742868420,
+    "news": 1742875800,
     "calendar": 1742793780,
     "email": null,
     "memory": 1773583440,
-    "heartbeat": 1742868420
+    "heartbeat": 1742875800
   },
-  "lastNewsPush": 1742868420,
-  "nextNewsPush": 1742875620,
+  "lastNewsPush": 1742875800,
+  "nextNewsPush": 1742883000,
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
     "lastUpdate": "2026-03-24 20:44",
     "newsBlocker": "Brave Search API 未配置",
-    "newsWindowStatus": "07:08✅ 09:07✅(原油暴跌6%+、黄金$4563、深圳AI政策、SK海力士赴美上市) | 今日 2/8 档",
+    "newsWindowStatus": "07:08✅ 09:07✅ 11:10✅(A股万亿成交、豆包100万亿Token、首条硅光量产线、以军打3000目标) | 今日 3/8 档",
     "pushMethod": "web_fetch (Brave API 未配置)",
     "pushStatus": "✅ 09:07 推送成功（YKK家庭议事群）",
     "todaySummary": "美伊停火曙光→原油暴跌6%+、黄金$4,563新高、国内能化板块崩盘（液化气-11%）、深圳AI服务器产业链政策、SK海力士赴美上市、专项债破万亿",
