@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-24T19:03:00+08:00",
+    "lastUpdated": "2026-03-25T09:10:00+08:00",
     "version": "1.0",
     "validFrom": "2026-03-12",
     "nextReview": "2026-03-19"
@@ -174,6 +174,26 @@
         "topic": "离线边缘 AI",
         "reason": "project-nomad 实现 10GB→2GB 压缩，边缘 AI 实用化加速",
         "priority": "medium"
+      },
+      {
+        "topic": "推理溯源基础设施",
+        "reason": "AER 定义 Agent 可审计性标准，大规模部署前提",
+        "priority": "high"
+      },
+      {
+        "topic": "AI 编码工具工程质量",
+        "reason": "3.8K bug 分类揭示质量治理方向，新研究子领域",
+        "priority": "high"
+      },
+      {
+        "topic": "MCP 生态安全",
+        "reason": "7 个 MCP 客户端安全分析，Agent 工具调用安全核心",
+        "priority": "high"
+      },
+      {
+        "topic": "多代理运维基础设施",
+        "reason": "EAGER+RuntimeSlicer+AER 三篇顶会论文定义方向",
+        "priority": "high"
       }
     ]
   },
@@ -189,21 +209,21 @@
     ]
   },
   "weeklyFocus": {
-    "week": "2026-W11",
-    "startDate": "2026-03-09",
-    "endDate": "2026-03-15",
+    "week": "2026-W13",
+    "startDate": "2026-03-23",
+    "endDate": "2026-03-29",
     "primaryFocus": [
-      "Agent Security 沙箱方案",
-      "递归自改进对齐保护",
-      "多模态医学诊断"
+      "Agent 编排平台爆发（superpowers/ruflo）",
+      "AI 编码工具质量治理",
+      "MCP 安全标准化"
     ],
     "secondaryFocus": [
-      "知识图谱推理",
-      "计算生物学"
+      "多代理运维基础设施",
+      "推理溯源"
     ],
     "newExploration": [
-      "操作系统",
-      "网络系统"
+      "跨语言零样本安全检测",
+      "群体智能金融应用"
     ]
   },
   "monthlyFocus": {

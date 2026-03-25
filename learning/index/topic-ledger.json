@@ -1,19 +1,19 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-24T19:03:00+08:00",
+    "lastUpdated": "2026-03-25T09:10:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-03-23T09:07:00+08:00"
+    "lastRun": "2026-03-25T09:10:00+08:00"
   },
   "topics": [
     {
       "name": "AI Testing",
       "category": "core",
-      "lastSeen": "2026-03-22",
-      "lastDeepDive": "2026-03-10",
-      "repeatCount7d": 17,
-      "repeatCount30d": 12,
+      "lastSeen": "2026-03-25",
+      "lastDeepDive": "2026-03-25",
+      "repeatCount7d": 18,
+      "repeatCount30d": 13,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
@@ -24,10 +24,10 @@
     {
       "name": "Software Testing",
       "category": "core",
-      "lastSeen": "2026-03-22",
-      "lastDeepDive": "2026-03-10",
-      "repeatCount7d": 14,
-      "repeatCount30d": 12,
+      "lastSeen": "2026-03-25",
+      "lastDeepDive": "2026-03-25",
+      "repeatCount7d": 15,
+      "repeatCount30d": 13,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
@@ -66,14 +66,14 @@
     {
       "name": "Agent Security",
       "category": "core",
-      "lastSeen": "2026-03-22",
-      "lastDeepDive": "2026-03-09",
-      "repeatCount7d": 8,
-      "repeatCount30d": 5,
+      "lastSeen": "2026-03-25",
+      "lastDeepDive": "2026-03-25",
+      "repeatCount7d": 9,
+      "repeatCount30d": 6,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
-      "representativeItem": "Agent Safehouse - macOS 沙箱",
+      "representativeItem": "MCP 客户端提示注入安全分析",
       "trend": "rising",
       "notes": "本地 Agent 安全痛点"
     },
@@ -566,10 +566,66 @@
       "representativeItem": "技术债务 + 认知债务 + 意图债务模型",
       "trend": "rising",
       "notes": "AI 时代软件工程理论创新"
+    },
+    {
+      "name": "MCP 安全",
+      "category": "core",
+      "lastSeen": "2026-03-25",
+      "lastDeepDive": "2026-03-25",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": true,
+      "shouldDowngrade": false,
+      "representativeItem": "MCP 客户端提示注入安全分析",
+      "trend": "rising",
+      "notes": "OWASP Top 1 漏洞类别，MCP 生态安全基石"
+    },
+    {
+      "name": "AI 编码工具质量",
+      "category": "core",
+      "lastSeen": "2026-03-25",
+      "lastDeepDive": "2026-03-25",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": true,
+      "shouldDowngrade": false,
+      "representativeItem": "AI 编码工具工程缺陷实证研究",
+      "trend": "rising",
+      "notes": "首个 3.8K+ bug 系统分析，AI 编码工具质量治理新方向"
+    },
+    {
+      "name": "推理溯源",
+      "category": "exploration",
+      "lastSeen": "2026-03-25",
+      "lastDeepDive": "2026-03-25",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "AER - Agent Execution Record",
+      "trend": "rising",
+      "notes": "Agent 可审计性基础设施，从执行追踪到推理溯源"
+    },
+    {
+      "name": "Agent 编排平台",
+      "category": "exploration",
+      "lastSeen": "2026-03-25",
+      "lastDeepDive": "2026-03-25",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "superpowers (110K 星)",
+      "trend": "rising",
+      "notes": "superpowers/ruflo/hermes-agent 同周爆发"
     }
   ],
   "summary": {
-    "totalTopics": 40,
+    "totalTopics": 44,
     "coreTopics": 5,
     "explorationTopics": 32,
     "highPriority": 14,
@@ -581,6 +637,6 @@
       "stable": 12,
       "declining": 3
     },
-    "lastUpdated": "2026-03-24"
+    "lastUpdated": "2026-03-25"
   }
 }
