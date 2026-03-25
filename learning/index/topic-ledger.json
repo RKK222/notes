@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-25T11:08:00+08:00",
+    "lastUpdated": "2026-03-25T19:10:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-03-25T11:08:00+08:00"
+    "lastRun": "2026-03-25T19:10:00+08:00"
   },
   "topics": [
     {
@@ -12,12 +12,12 @@
       "category": "core",
       "lastSeen": "2026-03-25",
       "lastDeepDive": "2026-03-25",
-      "repeatCount7d": 19,
-      "repeatCount30d": 14,
+      "repeatCount7d": 20,
+      "repeatCount30d": 15,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
-      "representativeItem": "c-CRAB - 代码审查代理基准",
+      "representativeItem": "SkillClone - Agent Skill 多模态克隆检测",
       "trend": "stable",
       "notes": "核心领域，每日必跟"
     },
@@ -26,22 +26,22 @@
       "category": "core",
       "lastSeen": "2026-03-25",
       "lastDeepDive": "2026-03-25",
-      "repeatCount7d": 16,
-      "repeatCount30d": 14,
+      "repeatCount7d": 17,
+      "repeatCount30d": 15,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
-      "representativeItem": "Hegel - 跨语言属性基测试框架",
+      "representativeItem": "Quantum Simulator Bugs 实证研究",
       "trend": "rising",
-      "notes": "核心领域，Hegel 带来 PBT 复兴"
+      "notes": "核心领域，量子软件测试新方向"
     },
     {
       "name": "LLM Evaluation",
       "category": "core",
       "lastSeen": "2026-03-25",
       "lastDeepDive": "2026-03-25",
-      "repeatCount7d": 9,
-      "repeatCount30d": 9,
+      "repeatCount7d": 10,
+      "repeatCount30d": 10,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
@@ -53,32 +53,32 @@
       "name": "AI Safety & Alignment",
       "category": "core",
       "lastSeen": "2026-03-25",
-      "lastDeepDive": "2026-03-10",
-      "repeatCount7d": 7,
-      "repeatCount30d": 7,
+      "lastDeepDive": "2026-03-25",
+      "repeatCount7d": 8,
+      "repeatCount30d": 8,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
-      "representativeItem": "Agent 社会内生立场研究",
+      "representativeItem": "DILLO 主动式代理安全引导",
       "trend": "stable",
-      "notes": "Agent 行为安全新维度"
+      "notes": "Describe-Then-Act 安全范式"
     },
     {
       "name": "Agent Security",
       "category": "core",
       "lastSeen": "2026-03-25",
       "lastDeepDive": "2026-03-25",
-      "repeatCount7d": 10,
-      "repeatCount30d": 7,
+      "repeatCount7d": 11,
+      "repeatCount30d": 8,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
       "representativeItem": "MCP 工具投毒威胁建模",
       "trend": "rising",
-      "notes": "MCP 安全+供应链安全双线上升"
+      "notes": "MCP 安全+供应链安全+Skill 安全三线上升"
     },
     {
-      "name": "代码审查代理评估",
+      "name": "Agent Skill 生态治理",
       "category": "emerging",
       "lastSeen": "2026-03-25",
       "lastDeepDive": "2026-03-25",
@@ -87,12 +87,12 @@
       "priority": "high",
       "isCore": false,
       "shouldDowngrade": false,
-      "representativeItem": "c-CRAB 基准",
+      "representativeItem": "SkillClone - 75% Skills 存在克隆",
       "trend": "new",
-      "notes": "代码审查自动化首个标准化评估"
+      "notes": "Agent 生态首个供应链质量治理，3.5x 生态膨胀"
     },
     {
-      "name": "属性基测试",
+      "name": "Proof-First SE",
       "category": "emerging",
       "lastSeen": "2026-03-25",
       "lastDeepDive": "2026-03-25",
@@ -101,27 +101,27 @@
       "priority": "high",
       "isCore": false,
       "shouldDowngrade": false,
-      "representativeItem": "Hegel 跨语言 PBT",
+      "representativeItem": "Algorithmist - proof-first code synthesis",
       "trend": "new",
-      "notes": "Hypothesis 创始人新作，测试领域重要进展"
+      "notes": "从代码生成进化到研究级算法发明"
     },
     {
-      "name": "AI 供应链安全",
+      "name": "代理记忆",
       "category": "emerging",
       "lastSeen": "2026-03-25",
       "lastDeepDive": "2026-03-25",
-      "repeatCount7d": 1,
-      "repeatCount30d": 1,
+      "repeatCount7d": 3,
+      "repeatCount30d": 5,
       "priority": "high",
       "isCore": false,
       "shouldDowngrade": false,
-      "representativeItem": "LiteLLM PyPI 投毒事件",
-      "trend": "new",
-      "notes": "AI 工具链供应链安全的首次重大事件"
+      "representativeItem": "MemCollab 跨代理记忆协作",
+      "trend": "rising",
+      "notes": "从个人记忆进化到共享知识库"
     },
     {
-      "name": "自动化科研",
-      "category": "emerging",
+      "name": "量子软件测试",
+      "category": "exploration",
       "lastSeen": "2026-03-25",
       "lastDeepDive": "2026-03-25",
       "repeatCount7d": 1,
@@ -129,17 +129,59 @@
       "priority": "medium",
       "isCore": false,
       "shouldDowngrade": false,
-      "representativeItem": "Bilevel Autoresearch",
+      "representativeItem": "12 模拟器 394 Bug 大规模实证",
       "trend": "new",
-      "notes": "元自研究优化范式"
+      "notes": "量子计算测试新前沿"
+    },
+    {
+      "name": "代码审查代理评估",
+      "category": "emerging",
+      "lastSeen": "2026-03-25",
+      "lastDeepDive": "2026-03-25",
+      "repeatCount7d": 2,
+      "repeatCount30d": 2,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "c-CRAB 基准",
+      "trend": "stable",
+      "notes": "代码审查自动化首个标准化评估"
+    },
+    {
+      "name": "属性基测试",
+      "category": "emerging",
+      "lastSeen": "2026-03-25",
+      "lastDeepDive": "2026-03-25",
+      "repeatCount7d": 2,
+      "repeatCount30d": 2,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Hegel 跨语言 PBT",
+      "trend": "stable",
+      "notes": "Hypothesis 创始人新作"
+    },
+    {
+      "name": "AI 供应链安全",
+      "category": "emerging",
+      "lastSeen": "2026-03-25",
+      "lastDeepDive": "2026-03-25",
+      "repeatCount7d": 2,
+      "repeatCount30d": 2,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "SkillClone 供应链质量治理",
+      "trend": "rising",
+      "notes": "从 LiteLLM 投毒到 Skill 克隆"
     },
     {
       "name": "分布式系统",
       "category": "exploration",
       "lastSeen": "2026-03-25",
       "lastDeepDive": "2026-03-08",
-      "repeatCount7d": 5,
-      "repeatCount30d": 5,
+      "repeatCount7d": 6,
+      "repeatCount30d": 6,
       "priority": "medium",
       "isCore": false,
       "shouldDowngrade": false,
@@ -159,7 +201,7 @@
       "shouldDowngrade": true,
       "representativeItem": "SCOUT Flaky 测试分诊",
       "trend": "declining",
-      "notes": "维持降权，但 CI 分诊方向有实用价值"
+      "notes": "维持降权"
     },
     {
       "name": "编译器",
@@ -174,20 +216,6 @@
       "representativeItem": "MLIR 编译器框架",
       "trend": "declining",
       "notes": "维持降权"
-    },
-    {
-      "name": "AI 硬件",
-      "category": "exploration",
-      "lastSeen": "2026-03-25",
-      "lastDeepDive": "2026-03-09",
-      "repeatCount7d": 5,
-      "repeatCount30d": 5,
-      "priority": "medium",
-      "isCore": false,
-      "shouldDowngrade": false,
-      "representativeItem": "ARM AGI CPU / Hypura Apple Silicon",
-      "trend": "rising",
-      "notes": "ARM AGI CPU + Apple Silicon 优化双热点"
     },
     {
       "name": "边缘 AI",
@@ -207,29 +235,29 @@
       "name": "形式化验证",
       "category": "exploration",
       "lastSeen": "2026-03-25",
-      "lastDeepDive": "2026-03-24",
-      "repeatCount7d": 4,
-      "repeatCount30d": 4,
+      "lastDeepDive": "2026-03-25",
+      "repeatCount7d": 5,
+      "repeatCount30d": 5,
       "priority": "medium",
       "isCore": false,
       "shouldDowngrade": false,
-      "representativeItem": "Lean 4 POSIX 状态机编码",
-      "trend": "stable",
-      "notes": "形式化验证在系统编程中持续活跃"
+      "representativeItem": "Algorithmist proof-first 范式",
+      "trend": "rising",
+      "notes": "与 Proof-First SE 交叉上升"
     },
     {
-      "name": "Transformer 理论",
-      "category": "emerging",
+      "name": "AI 硬件",
+      "category": "exploration",
       "lastSeen": "2026-03-25",
-      "lastDeepDive": "2026-03-25",
-      "repeatCount7d": 1,
-      "repeatCount30d": 1,
+      "lastDeepDive": "2026-03-09",
+      "repeatCount7d": 5,
+      "repeatCount30d": 5,
       "priority": "medium",
       "isCore": false,
       "shouldDowngrade": false,
-      "representativeItem": "Transformers are Bayesian Networks",
-      "trend": "new",
-      "notes": "基础理论突破，待同行评审"
+      "representativeItem": "ARM AGI CPU / Hypura Apple Silicon",
+      "trend": "stable",
+      "notes": "维持观察"
     }
   ]
 }

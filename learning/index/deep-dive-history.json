@@ -1,12 +1,78 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-25T11:08:00+08:00",
+    "lastUpdated": "2026-03-25T19:10:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-03-25T11:08:00+08:00"
+    "lastRun": "2026-03-25T19:10:00+08:00"
   },
   "deepDives": [
+    {
+      "title": "SkillClone: Agent Skill 多模态克隆检测",
+      "url": "https://arxiv.org/abs/2603.22447",
+      "type": "paper",
+      "topic": "Agent Skill 生态治理",
+      "firstSeen": "2026-03-25",
+      "lastDeepDive": "2026-03-25",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "75% Skills 存在克隆，生态膨胀 3.5x"
+    },
+    {
+      "title": "Algorithmist: 可证明算法合成代理",
+      "url": "https://arxiv.org/abs/2603.22363",
+      "type": "paper",
+      "topic": "Proof-First SE",
+      "firstSeen": "2026-03-25",
+      "lastDeepDive": "2026-03-25",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Copilot 上的 proof-first code synthesis，发现已发表论文 Bug"
+    },
+    {
+      "title": "Quantum Simulator Bugs 实证研究",
+      "url": "https://arxiv.org/abs/2603.22789",
+      "type": "paper",
+      "topic": "量子软件测试",
+      "firstSeen": "2026-03-25",
+      "lastDeepDive": "2026-03-25",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "12 模拟器 394 Bug，静默逻辑错误是最大挑战"
+    },
+    {
+      "title": "MemCollab: 跨代理记忆协作",
+      "url": "https://arxiv.org/abs/2603.23234",
+      "type": "paper",
+      "topic": "代理记忆",
+      "firstSeen": "2026-03-25",
+      "lastDeepDive": "2026-03-25",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "首个可跨模型家族共享的代理记忆系统"
+    },
+    {
+      "title": "DILLO: 主动式代理安全引导",
+      "url": "https://arxiv.org/abs/2603.23149",
+      "type": "paper",
+      "topic": "AI Safety",
+      "firstSeen": "2026-03-25",
+      "lastDeepDive": "2026-03-25",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Describe-Then-Act 范式，14x 加速"
+    },
+    {
+      "title": "supermemory: AI 记忆引擎",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "type": "project",
+      "topic": "代理记忆",
+      "firstSeen": "2026-03-25",
+      "lastDeepDive": "2026-03-25",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "18,949★，AI 时代记忆 API"
+    },
     {
       "title": "c-CRAB: Code Review Agent Benchmark",
       "url": "https://arxiv.org/abs/2603.23448",
@@ -27,7 +93,7 @@
       "lastDeepDive": "2026-03-25",
       "deepDiveCount": 1,
       "status": "active",
-      "notes": "大规模实证揭示 LLM 测试生成表面线索依赖"
+      "notes": "LLM 测试生成严重依赖表面线索"
     },
     {
       "title": "Hegel: 跨语言属性基测试框架",
@@ -39,39 +105,6 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "Hypothesis 创始人+Antithesis 的跨语言 PBT"
-    },
-    {
-      "title": "Bilevel Autoresearch: 元自研究优化",
-      "url": "https://arxiv.org/abs/2603.23420",
-      "type": "paper",
-      "topic": "自动化科研",
-      "firstSeen": "2026-03-25",
-      "lastDeepDive": "2026-03-25",
-      "deepDiveCount": 1,
-      "status": "active",
-      "notes": "自研究循环优化自研究循环，5 倍性能提升"
-    },
-    {
-      "title": "Transformers are Bayesian Networks",
-      "url": "https://arxiv.org/abs/2603.17063",
-      "type": "paper",
-      "topic": "Transformer 理论",
-      "firstSeen": "2026-03-25",
-      "lastDeepDive": "2026-03-25",
-      "deepDiveCount": 1,
-      "status": "active",
-      "notes": "5 种方式证明 Transformer=贝叶斯网络，形式验证"
-    },
-    {
-      "title": "LLM ISTQB 认证评估",
-      "url": "https://arxiv.org/abs/2603.23142",
-      "type": "paper",
-      "topic": "AI Testing",
-      "firstSeen": "2026-03-25",
-      "lastDeepDive": "2026-03-25",
-      "deepDiveCount": 1,
-      "status": "active",
-      "notes": "60 个 LLM × 30 个 ISTQB 考试系统评估"
     },
     {
       "title": "DAIRA: Dynamic Analysis-enhanced Issue Resolution Agent",

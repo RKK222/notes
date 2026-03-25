@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-25T11:08:00+08:00",
+    "lastUpdated": "2026-03-25T19:10:00+08:00",
     "version": "1.0",
     "validFrom": "2026-03-25",
     "nextReview": "2026-03-28"
@@ -26,24 +26,25 @@
       "name": "新兴高优先级（上升趋势）",
       "description": "近期有突破，值得深入",
       "topics": [
+        "Agent Skill 生态治理",
+        "Proof-First SE",
         "AI 供应链安全",
+        "代理记忆",
         "自动化科研",
         "Transformer 理论",
         "MCP 安全",
         "多模态 AI",
-        "计算生物学",
-        "AI 硬件",
-        "形式化验证×AI",
-        "代理记忆"
+        "形式化验证×AI"
       ],
       "allocationPercent": 25,
-      "rationale": "新兴热点，有重大突破潜力"
+      "rationale": "新兴热点，SkillClone/Algorithmist/MemCollab 三大突破"
     },
     "tier3_maintenance": {
       "name": "观察维持（中低频）",
       "description": "保持关注，不做主打",
       "topics": [
         "分布式系统",
+        "AI 硬件",
         "机器人学",
         "知识图谱",
         "强化学习",
@@ -56,6 +57,7 @@
       "name": "低频探索（新领域）",
       "description": "偶尔探索，保持敏感度",
       "topics": [
+        "量子软件测试",
         "量子计算",
         "神经形态计算",
         "隐私计算",
@@ -64,7 +66,7 @@
         "操作系统"
       ],
       "allocationPercent": 10,
-      "rationale": "前沿方向，保持技术敏感度"
+      "rationale": "前沿方向+量子测试新增"
     },
     "tier5_downgrade": {
       "name": "建议降权（重复过多）",
@@ -83,28 +85,28 @@
     "description": "本次新增或需要后续重点关注的方向",
     "candidates": [
       {
-        "topic": "AI 供应链安全",
-        "reason": "LiteLLM 投毒事件暴露 AI 工具链供应链风险",
+        "topic": "Agent Skill 生态治理",
+        "reason": "SkillClone 揭示 75% Skills 存在克隆，生态膨胀 3.5x",
         "priority": "high"
       },
       {
-        "topic": "代码审查代理评估",
-        "reason": "c-CRAB 基准开创代码审查自动化标准化评估",
+        "topic": "Proof-First Software Engineering",
+        "reason": "Algorithmist 开创 proof-first code synthesis 范式",
         "priority": "high"
       },
       {
-        "topic": "属性基测试跨语言统一",
-        "reason": "Hegel 有望成为跨语言 PBT 事实标准",
-        "priority": "high"
-      },
-      {
-        "topic": "Apple Silicon AI 优化",
-        "reason": "Hypura 揭示存储层级感知调度潜力",
+        "topic": "量子软件测试",
+        "reason": "首个大规模量子模拟器 Bug 实证，揭示测试方法论空白",
         "priority": "medium"
       },
       {
-        "topic": "元自研究优化",
-        "reason": "Bilevel Autoresearch 展示自我改进通用范式",
+        "topic": "跨代理记忆共享",
+        "reason": "MemCollab 实现首个跨模型家族记忆系统",
+        "priority": "high"
+      },
+      {
+        "topic": "LLM 原生标记语言",
+        "reason": "LLMON 从语言层面解决提示注入，类比编程语言类型系统",
         "priority": "medium"
       }
     ]
