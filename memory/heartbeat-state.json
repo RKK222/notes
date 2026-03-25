@@ -1,38 +1,39 @@
 {
   "lastChecks": {
-    "news": 1742910540,
+    "news": 1743055860,
     "calendar": 1742793780,
     "email": null,
     "memory": 1773583440,
-    "heartbeat": 1742910540
+    "heartbeat": 1743055860
   },
   "lastNewsPush": 1742910540,
-  "nextNewsPush": 1742950800,
+  "nextNewsPush": 1742961600,
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-03-24 20:44",
+    "lastUpdate": "2026-03-26 07:11",
     "newsBlocker": "Brave Search API 未配置",
-    "newsWindowStatus": "07:08✅ 09:07✅ 11:10✅ 13:12✅ 15:10✅ 17:11✅ 19:11✅ 20:49✅(SpaceX拟IPO 750亿$、恒瑞+21.7%、雷军辞金山云、可灵ARR超3亿$) | 今日 8/8 档全部完成 🎉",
+    "newsWindowStatus": "07:11⏸️(待推送 - 飞书 OAuth 未授权)",
     "pushMethod": "web_fetch (Brave API 未配置)",
-    "pushStatus": "✅ 20:49 推送成功（YKK家庭议事群）- 进入静默期",
-    "todaySummary": "沪指+1.3%回3900、南向+223亿、拼多多新拼姆1000亿、SpaceX拟IPO750亿$、豆包100万亿Token、可灵ARR超3亿$、恒瑞+21.7%、速腾聚创首盈利、泡泡玛特-22%、广州新机场开工",
+    "pushStatus": "⏸️ 07:11 简报已生成，待飞书 OAuth 授权后推送",
+    "todaySummary": "博鳌论坛举行、长期护理险加速、深圳环保举报奖 10 万、OpenAI 关闭 Sora、词元定名、长江存储 4000 亿估值、内存条暴涨 4 倍、美团发财报",
     "silentPeriodStart": "21:00",
     "silentPeriodEnd": "07:00",
-    "silentPeriodActive": true,
-    "summaryReport": "memory/news-brief-2026-03-24-2100.md"
+    "silentPeriodActive": false,
+    "summaryReport": "memory/news-brief-2026-03-26-0700.md"
   },
   "pendingTasks": {
-    "newsPush": "✅ 20:49 第8档推送成功 - 今日8/8全部完成🎉 - 明日07:00继续",
-    "calendarCheck": "⚠️ 已完成（飞书 API 缺少权限）",
+    "newsPush": "⏸️ 07:11 简报已生成 - 待飞书 OAuth 授权",
+    "calendarCheck": "⚠️ 飞书 API 缺少权限",
     "githubExplorer": "⏰ 19:00 待执行",
     "moltbookLearn": "⏰ 待执行",
     "novelWrite": "⏰ 待执行"
   },
   "completedTasks": {
-    "newsSearch": "✅ 已使用 web_fetch 搜索 2026-03-21 新闻",
+    "newsSearch": "✅ 已使用 web_fetch 搜索 2026-03-26 新闻",
     "newsCompile": "✅ 已按 HEARTBEAT.md 要求整理（国内 45%、国际 25%、科技 20%、财经 10%）",
+    "newsBriefSaved": "✅ 简报已保存到 memory/news-brief-2026-03-26-0700.md",
     "newsPush2030": "✅ 20:30 尝试推送失败，已保存简报到 memory/news-brief-2026-03-21-2030.md",
     "newsPush1031": "✅ 10:31 尝试推送失败，已保存简报到 memory/news-summary-2026-03-21.md",
     "newsPush1230": "✅ 12:30 尝试推送失败，已更新简报（补充 AI 出行新闻、个税汇算信息）",
