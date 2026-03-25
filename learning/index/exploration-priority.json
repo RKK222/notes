@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-25T09:10:00+08:00",
+    "lastUpdated": "2026-03-25T11:08:00+08:00",
     "version": "1.0",
-    "validFrom": "2026-03-12",
-    "nextReview": "2026-03-19"
+    "validFrom": "2026-03-25",
+    "nextReview": "2026-03-28"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -16,23 +16,25 @@
         "LLM Evaluation",
         "AI Safety & Alignment",
         "Agent Security",
-        "工具调用安全"
+        "代码审查代理评估",
+        "属性基测试"
       ],
       "allocationPercent": 40,
-      "rationale": "核心研究领域，与工作直接相关"
+      "rationale": "核心研究领域+新兴高价值方向"
     },
     "tier2_emerging": {
       "name": "新兴高优先级（上升趋势）",
       "description": "近期有突破，值得深入",
       "topics": [
+        "AI 供应链安全",
+        "自动化科研",
+        "Transformer 理论",
+        "MCP 安全",
         "多模态 AI",
         "计算生物学",
         "AI 硬件",
         "形式化验证×AI",
-        "医疗 AI 验证",
-        "代理记忆",
-        "神经符号测试",
-        "量子纠错×AI"
+        "代理记忆"
       ],
       "allocationPercent": 25,
       "rationale": "新兴热点，有重大突破潜力"
@@ -44,7 +46,8 @@
         "分布式系统",
         "机器人学",
         "知识图谱",
-        "强化学习"
+        "强化学习",
+        "形式化验证"
       ],
       "allocationPercent": 20,
       "rationale": "有价值但已充分覆盖"
@@ -57,9 +60,8 @@
         "神经形态计算",
         "隐私计算",
         "eBPF 技术",
-        "1-bit 量化",
-        "页面内 GUI 代理",
-        "群体智能"
+        "Apple Silicon AI 优化",
+        "操作系统"
       ],
       "allocationPercent": 10,
       "rationale": "前沿方向，保持技术敏感度"
@@ -78,169 +80,33 @@
   },
   "newExplorationTargets": {
     "name": "待探索新领域",
-    "description": "历史记录中未出现或极少出现的方向",
+    "description": "本次新增或需要后续重点关注的方向",
     "candidates": [
       {
-        "topic": "操作系统",
-        "reason": "系统级 AI 工具链基础",
-        "priority": "medium"
-      },
-      {
-        "topic": "网络系统",
-        "reason": "分布式 AI 基础设施",
-        "priority": "medium"
-      },
-      {
-        "topic": "新编程语言",
-        "reason": "Rust 在 AI 工具链中的应用",
-        "priority": "low"
-      },
-      {
-        "topic": "Web3",
-        "reason": "去中心化 AI 与区块链结合",
-        "priority": "low"
-      },
-      {
-        "topic": "算法研究",
-        "reason": "基础算法创新",
-        "priority": "medium"
-      },
-      {
-        "topic": "生物 AI 接口",
-        "reason": "脑机接口与 AI 结合",
-        "priority": "low"
-      },
-      {
-        "topic": "实时 WiFi 感知",
-        "reason": "无线感知与 AI 融合",
-        "priority": "low"
-      },
-      {
-        "topic": "工业智能制造",
-        "reason": "AI 在制造业的应用",
-        "priority": "low"
-      },
-      {
-        "topic": "反应式算法",
-        "reason": "新型编程范式",
-        "priority": "low"
-      },
-      {
-        "topic": "OSINT 仪表板",
-        "reason": "开源情报与 AI 分析",
-        "priority": "low"
-      },
-      {
-        "topic": "AI 安全对抗测试",
-        "reason": "确认偏误攻击、元审计、验证基准反映对抗测试新方向",
+        "topic": "AI 供应链安全",
+        "reason": "LiteLLM 投毒事件暴露 AI 工具链供应链风险",
         "priority": "high"
       },
       {
-        "topic": "AI 工具链可观测性",
-        "reason": "Claude HUD trending #1 显示可观测性是刚需",
+        "topic": "代码审查代理评估",
+        "reason": "c-CRAB 基准开创代码审查自动化标准化评估",
+        "priority": "high"
+      },
+      {
+        "topic": "属性基测试跨语言统一",
+        "reason": "Hegel 有望成为跨语言 PBT 事实标准",
+        "priority": "high"
+      },
+      {
+        "topic": "Apple Silicon AI 优化",
+        "reason": "Hypura 揭示存储层级感知调度潜力",
         "priority": "medium"
       },
       {
-        "topic": "神经符号测试",
-        "reason": "神经符号 AI 在测试领域的落地，安全关键系统新范式",
-        "priority": "high"
-      },
-      {
-        "topic": "工具调用安全",
-        "reason": "Agent 安全核心子方向，Toolformer 漏洞研究揭示严重风险",
-        "priority": "high"
-      },
-      {
-        "topic": "量子纠错×AI",
-        "reason": "量子计算与 AI 交叉突破，神经解码器提升纠错效率",
+        "topic": "元自研究优化",
+        "reason": "Bilevel Autoresearch 展示自我改进通用范式",
         "priority": "medium"
-      },
-      {
-        "topic": "无线感知×AI",
-        "reason": "RuView 展示 WiFi 信号人体姿态估计可行性，隐私保护感知新赛道",
-        "priority": "medium"
-      },
-      {
-        "topic": "心脏诊断多模态",
-        "reason": "MARCUS 证明域专用多模态代理超越通用模型，医学 AI 新范式",
-        "priority": "high"
-      },
-      {
-        "topic": "物理 AI 融合",
-        "reason": "SpecTM 物理约束掩码设计，可信基础模型新方向",
-        "priority": "medium"
-      },
-      {
-        "topic": "离线边缘 AI",
-        "reason": "project-nomad 实现 10GB→2GB 压缩，边缘 AI 实用化加速",
-        "priority": "medium"
-      },
-      {
-        "topic": "推理溯源基础设施",
-        "reason": "AER 定义 Agent 可审计性标准，大规模部署前提",
-        "priority": "high"
-      },
-      {
-        "topic": "AI 编码工具工程质量",
-        "reason": "3.8K bug 分类揭示质量治理方向，新研究子领域",
-        "priority": "high"
-      },
-      {
-        "topic": "MCP 生态安全",
-        "reason": "7 个 MCP 客户端安全分析，Agent 工具调用安全核心",
-        "priority": "high"
-      },
-      {
-        "topic": "多代理运维基础设施",
-        "reason": "EAGER+RuntimeSlicer+AER 三篇顶会论文定义方向",
-        "priority": "high"
       }
-    ]
-  },
-  "deDuplicationRules": {
-    "projectCooldown": 14,
-    "paperCooldown": 30,
-    "topicCooldown": 7,
-    "maxRepeatBeforeDowngrade": 3,
-    "exceptions": [
-      "AI Testing",
-      "Software Testing",
-      "LLM Evaluation"
-    ]
-  },
-  "weeklyFocus": {
-    "week": "2026-W13",
-    "startDate": "2026-03-23",
-    "endDate": "2026-03-29",
-    "primaryFocus": [
-      "Agent 编排平台爆发（superpowers/ruflo）",
-      "AI 编码工具质量治理",
-      "MCP 安全标准化"
-    ],
-    "secondaryFocus": [
-      "多代理运维基础设施",
-      "推理溯源"
-    ],
-    "newExploration": [
-      "跨语言零样本安全检测",
-      "群体智能金融应用"
-    ]
-  },
-  "monthlyFocus": {
-    "month": "2026-03",
-    "primaryThemes": [
-      "AI 安全与测试基础设施",
-      "多模态 AI 应用",
-      "Agent 编排与安全"
-    ],
-    "emergingThemes": [
-      "递归自改进系统",
-      "Bio AI 接口",
-      "边缘 - 云协同"
-    ],
-    "avoidThemes": [
-      "数据库选型（已充分覆盖）",
-      "编译器框架（已充分覆盖）"
     ]
   }
 }
