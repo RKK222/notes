@@ -1,20 +1,20 @@
 {
   "lastChecks": {
-    "news": 1742875800,
+    "news": 1742883120,
     "calendar": 1742793780,
     "email": null,
     "memory": 1773583440,
-    "heartbeat": 1742875800
+    "heartbeat": 1742883120
   },
-  "lastNewsPush": 1742875800,
-  "nextNewsPush": 1742883000,
+  "lastNewsPush": 1742883120,
+  "nextNewsPush": 1742890320,
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
     "lastUpdate": "2026-03-24 20:44",
     "newsBlocker": "Brave Search API 未配置",
-    "newsWindowStatus": "07:08✅ 09:07✅ 11:10✅(A股万亿成交、豆包100万亿Token、首条硅光量产线、以军打3000目标) | 今日 3/8 档",
+    "newsWindowStatus": "07:08✅ 09:07✅ 11:10✅ 13:12✅(A股1.5万亿、泡泡玛特+309%跌14%、杨植麟AI第三阶段、金饰1400元) | 今日 4/8 档",
     "pushMethod": "web_fetch (Brave API 未配置)",
     "pushStatus": "✅ 11:10 推送成功（YKK家庭议事群）",
     "todaySummary": "美伊停火→原油暴跌6%+、A股万亿成交立讯涨停、豆包日均100万亿Token、首条硅光芯片量产线开工、绿电概念暴涨、华沿机器人3500倍超购",
