@@ -20,7 +20,7 @@
     "todaySummary": "沪指+1.3%回3900、南向+223亿、拼多多新拼姆1000亿、SpaceX拟IPO750亿$、豆包100万亿Token、可灵ARR超3亿$、恒瑞+21.7%、速腾聚创首盈利、泡泡玛特-22%、广州新机场开工",
     "silentPeriodStart": "21:00",
     "silentPeriodEnd": "07:00",
-    "silentPeriodActive": false,
+    "silentPeriodActive": true,
     "summaryReport": "memory/news-brief-2026-03-24-2100.md"
   },
   "pendingTasks": {
