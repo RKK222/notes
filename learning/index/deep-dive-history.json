@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-25T19:10:00+08:00",
+    "lastUpdated": "2026-03-26T09:11:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-03-25T19:10:00+08:00"
+    "lastRun": "2026-03-26T09:11:00+08:00"
   },
   "deepDives": [
     {
@@ -46,10 +46,32 @@
       "type": "paper",
       "topic": "代理记忆",
       "firstSeen": "2026-03-25",
-      "lastDeepDive": "2026-03-25",
+      "lastDeepDive": "2026-03-26",
+      "deepDiveCount": 2,
+      "status": "active",
+      "notes": "首个可跨模型家族共享的代理记忆系统，对比轨迹蒸馏"
+    },
+    {
+      "title": "Mecha-nudges: AI 代理行为微调",
+      "url": "https://arxiv.org/abs/2603.23433",
+      "type": "paper",
+      "topic": "AI Safety",
+      "firstSeen": "2026-03-26",
+      "lastDeepDive": "2026-03-26",
       "deepDiveCount": 1,
       "status": "active",
-      "notes": "首个可跨模型家族共享的代理记忆系统"
+      "notes": "贝叶斯说服+V-可用信息，Etsy 实证机器可用信息增加"
+    },
+    {
+      "title": "RelayS2S: 双路径实时对话",
+      "url": "https://arxiv.org/abs/2603.23346",
+      "type": "paper",
+      "topic": "AI Infrastructure",
+      "firstSeen": "2026-03-26",
+      "lastDeepDive": "2026-03-26",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "S2S 推测前缀+ASR→LLM 续写，P90 延迟接近 S2S 保持 99% 质量"
     },
     {
       "title": "DILLO: 主动式代理安全引导",
