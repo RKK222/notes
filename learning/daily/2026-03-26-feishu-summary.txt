@@ -1,0 +1,38 @@
+📘 AI 技术研究日报 - 2026-03-26 09:11
+
+【今日研究方向】
+- 核心主线：AI Testing / Software Testing / Agent Security / 跨代理记忆协作
+- 新兴热点：Mecha-nudges 机器行为微调 / RelayS2S 实时对话推测生成
+- 探索补位：车载系统安全 / FPGA 游戏移植 / 钠离子电池突破
+
+【重点关注】
+1. MemCollab：首个可跨模型家族共享的代理记忆系统，对比轨迹蒸馏去除代理偏见
+2. Mecha-nudges：首次形式化人机共存环境中的行为微调，贝叶斯说服+V-可用信息
+3. RelayS2S：双路径实时对话架构，P90 延迟接近 S2S 保持 99% 级联质量
+4. c-CRAB：首个代码审查代理基准，现有代理仅解决 40% 任务
+5. Hegel：Hypothesis 创始人新作，跨语言属性基测试框架
+6. supermemory：19K★ AI 记忆引擎，定位为 AI 时代的记忆 API
+7. deer-flow：字节开源 SuperAgent 框架，46K★ 支持长时任务分解
+
+【技术趋势】
+- 跨代理记忆共享兴起：从个人记忆进化到共享知识库，支撑多代理协作
+- AI 行为影响研究形式化：Mecha-nudges 揭示人机共存环境中选择架构新维度
+- 实时对话延迟优化创新：推测生成+条件化续写实现延迟 - 质量最优平衡
+
+【新领域收获】
+- Tesla 车载计算机逆向：使用撞车零件在桌面运行 Model 3 计算机，车载系统安全研究新案例
+- 钠离子电池突破：11 分钟充电 450km 续航，可能改变 EV 充电基础设施格局
+- FPGA 游戏移植社区：DIY FPGA 板运行 Quake II，硬件逆向与游戏移植交叉实践
+
+【下一步学习计划】
+- 深入 MemCollab 实现：理解对比轨迹蒸馏的具体算法
+- 实验 RelayS2S 开源代码：本地部署测试延迟 - 质量权衡
+- 持续关注 Agent Skill 生态治理：跟踪 SkillClone 后续治理方案
+
+【记忆更新】
+- 已更新主题索引（topic-ledger.json）
+- 已更新深度研究历史（deep-dive-history.json）新增 3 项
+- 周摘要 W13 待周末生成 / 月摘要 2026-03 已存在
+
+【GitHub】
+https://github.com/RKK222/notes
