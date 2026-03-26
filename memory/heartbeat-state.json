@@ -1,30 +1,30 @@
 {
   "lastChecks": {
-    "news": 1743060900,
+    "news": 1743066480,
     "calendar": 1742793780,
     "email": null,
     "memory": 1773583440,
-    "heartbeat": 1743060900
+    "heartbeat": 1743066480
   },
   "lastNewsPush": 1742910540,
-  "nextNewsPush": 1743066000,
+  "nextNewsPush": 1743073200,
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-03-26 09:35",
+    "lastUpdate": "2026-03-26 11:08",
     "newsBlocker": "Brave Search API 未配置",
-    "newsWindowStatus": "07:11✅ 09:35✅(待推送) | 博鳌论坛赵乐际演讲、长期护理险发布会、沪指 +1.3%",
+    "newsWindowStatus": "07:11✅ 09:35✅ 11:08✅(待推送) | SpaceX 拟 6 月 IPO、长期护理险发布会、A 股低开存储芯片领跌",
     "pushMethod": "web_fetch (Brave API 未配置)",
-    "pushStatus": "⏸️ 07:00/09:00 档简报已生成，待飞书 OAuth 授权后推送",
-    "todaySummary": "博鳌论坛赵乐际演讲、长期护理险加速、深圳环保奖 10 万、OpenAI 关闭 Sora、词元定名、长江存储 4000 亿、内存条暴涨 4 倍、美团发财报、沪指 +1.3%",
+    "pushStatus": "⏸️ 07:00/09:00/11:00 档简报已生成，待飞书 OAuth 授权后推送",
+    "todaySummary": "博鳌赵乐际演讲、长期护理险发布、SpaceX 拟 6 月 IPO、OpenAI 关闭 Sora、内存条暴涨 4 倍、美团今晚财报、A 股低开、中概股普涨",
     "silentPeriodStart": "21:00",
     "silentPeriodEnd": "07:00",
     "silentPeriodActive": false,
-    "summaryReport": "memory/news-brief-2026-03-26-0900.md"
+    "summaryReport": "memory/news-brief-2026-03-26-1100.md"
   },
   "pendingTasks": {
-    "newsPush": "⏸️ 07:00/09:00 档简报已生成 - 待飞书 OAuth 授权",
+    "newsPush": "⏸️ 07:00/09:00/11:00 档简报已生成 - 待飞书 OAuth 授权",
     "calendarCheck": "⚠️ 飞书 API 缺少权限",
     "githubExplorer": "⏰ 19:00 待执行",
     "moltbookLearn": "⏰ 待执行",
@@ -33,10 +33,13 @@
   "completedTasks": {
     "newsSearch0700": "✅ 已使用 web_fetch 搜索 2026-03-26 早间新闻",
     "newsSearch0900": "✅ 已使用 web_fetch 搜索 2026-03-26 上午新闻",
+    "newsSearch1100": "✅ 已使用 web_fetch 搜索 2026-03-26 中午新闻",
     "newsCompile0700": "✅ 已按 HEARTBEAT.md 要求整理（国内 45%、国际 25%、科技 20%、财经 10%）",
     "newsCompile0900": "✅ 已按 HEARTBEAT.md 要求整理（含博鳌论坛赵乐际演讲、股市回顾）",
+    "newsCompile1100": "✅ 已按 HEARTBEAT.md 要求整理（含 SpaceX IPO、美股收盘、A 股午间）",
     "newsBriefSaved0700": "✅ 简报已保存到 memory/news-brief-2026-03-26-0700.md",
     "newsBriefSaved0900": "✅ 简报已保存到 memory/news-brief-2026-03-26-0900.md",
+    "newsBriefSaved1100": "✅ 简报已保存到 memory/news-brief-2026-03-26-1100.md",
     "newsPush2030": "✅ 20:30 尝试推送失败，已保存简报到 memory/news-brief-2026-03-21-2030.md",
     "newsPush1031": "✅ 10:31 尝试推送失败，已保存简报到 memory/news-summary-2026-03-21.md",
     "newsPush1230": "✅ 12:30 尝试推送失败，已更新简报（补充 AI 出行新闻、个税汇算信息）",
