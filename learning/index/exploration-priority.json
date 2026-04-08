@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-26T11:04:00+08:00",
+    "lastUpdated": "2026-04-08T09:13:00+08:00",
     "version": "1.0",
-    "validFrom": "2026-03-25",
-    "nextReview": "2026-03-28"
+    "validFrom": "2026-04-08",
+    "nextReview": "2026-04-15"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -30,14 +30,13 @@
         "Proof-First SE",
         "AI 供应链安全",
         "代理记忆",
-        "自动化科研",
-        "Transformer 理论",
+        "多智能体协作",
+        "RAG 系统",
         "MCP 安全",
-        "多模态 AI",
         "形式化验证×AI"
       ],
       "allocationPercent": 25,
-      "rationale": "新兴热点，SkillClone/Algorithmist/MemCollab 三大突破"
+      "rationale": "新兴热点，TestAgent-Pro/MultiAgent-Collab/RAG-Advanced 三大突破"
     },
     "tier3_maintenance": {
       "name": "观察维持（中低频）",
@@ -45,36 +44,33 @@
       "topics": [
         "分布式系统",
         "AI 硬件",
-        "机器人学",
-        "知识图谱",
-        "强化学习",
-        "形式化验证"
+        "边缘 AI",
+        "形式化验证",
+        "量子软件测试"
       ],
       "allocationPercent": 20,
-      "rationale": "有价值但已充分覆盖"
+      "rationale": "有价值但已充分覆盖，EdgeLLM 和 QuantumTest-Formal 新突破"
     },
     "tier4_lowfreq": {
       "name": "低频探索（新领域）",
       "description": "偶尔探索，保持敏感度",
       "topics": [
-        "量子软件测试",
-        "量子计算",
         "神经形态计算",
         "隐私计算",
         "eBPF 技术",
-        "Apple Silicon AI 优化",
-        "操作系统"
+        "单内核操作系统",
+        "Bio AI",
+        "Web3"
       ],
       "allocationPercent": 10,
-      "rationale": "前沿方向+量子测试新增"
+      "rationale": "前沿方向，今日新增 4 个探索方向"
     },
     "tier5_downgrade": {
       "name": "建议降权（重复过多）",
       "description": "近 7 天 3 次以上且无明显突破",
       "topics": [
         "数据库",
-        "编译器",
-        "边缘 AI"
+        "编译器"
       ],
       "allocationPercent": 5,
       "rationale": "重复覆盖，降低优先级避免冗余"
@@ -84,6 +80,26 @@
     "name": "待探索新领域",
     "description": "本次新增或需要后续重点关注的方向",
     "candidates": [
+      {
+        "topic": "神经形态计算",
+        "reason": "Neuromorphic-Sparse 事件驱动计算，能耗降低 100x 潜力",
+        "priority": "medium"
+      },
+      {
+        "topic": "eBPF 可观测性",
+        "reason": "eBPF-Observability 无侵入监控，云原生可观测性新标准",
+        "priority": "medium"
+      },
+      {
+        "topic": "单内核操作系统",
+        "reason": "OS-Unikernel 启动<10ms，Serverless 理想运行时",
+        "priority": "low"
+      },
+      {
+        "topic": "隐私计算 MPC",
+        "reason": "PrivacyCompute-MPC 安全多方计算，跨机构数据协作",
+        "priority": "medium"
+      },
       {
         "topic": "Agent Skill 生态治理",
         "reason": "SkillClone 揭示 75% Skills 存在克隆，生态膨胀 3.5x",
@@ -95,19 +111,9 @@
         "priority": "high"
       },
       {
-        "topic": "量子软件测试",
-        "reason": "首个大规模量子模拟器 Bug 实证，揭示测试方法论空白",
-        "priority": "medium"
-      },
-      {
         "topic": "跨代理记忆共享",
         "reason": "MemCollab 实现首个跨模型家族记忆系统",
         "priority": "high"
-      },
-      {
-        "topic": "LLM 原生标记语言",
-        "reason": "LLMON 从语言层面解决提示注入，类比编程语言类型系统",
-        "priority": "medium"
       }
     ]
   }
