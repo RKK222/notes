@@ -1,6 +1,8 @@
 # HEARTBEAT.md - 定时任务配置
 
-## 📰 新闻推送任务（每天 07:00-21:00，每 2 小时）
+## 📰 新闻推送任务（每天 07:00-21:00，每 2 小时）【⏸️ 已禁用 - 待 Brave API 配置】
+
+**状态**：❌ 禁用中（2026-04-08 起，Brave API 未配置）
 
 **触发条件**：当前时间在 07:00-21:00 之间，且距离上次推送 >= 2 小时
 
@@ -10,6 +12,10 @@
 3. 推送到 **YKK 家庭议事群**
 
 **执行方式**：isolated agentTurn（自动执行，不需要主会话参与）
+
+**恢复条件**：
+- 配置 Brave Search API: `openclaw configure --section web`
+- 获取 API Key: https://brave.com/search/api/
 
 ---
 
