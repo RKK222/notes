@@ -25,10 +25,10 @@
     "summaryReport": "memory/news-brief-2026-03-26-1100.md"
   },
   "pendingTasks": {
-    "newsPush": "⏸️ 07:00/09:00/11:00 档简报已生成 - 待飞书 OAuth 授权",
+    "newsPush": "⏸️ 已禁用 (2026-04-08 起，待 Brave API)",
     "calendarCheck": "⚠️ 飞书 API 缺少权限",
-    "githubExplorer": "⏰ 19:00 待执行",
-    "moltbookLearn": "⏰ 待执行",
+    "githubExplorer": "✅ 20:04 已执行 (GitHub 页面可访问，内容有限)",
+    "moltbookLearn": "❌ 20:04 重试失败 (web_fetch 无法访问)",
     "novelWrite": "⏰ 待执行"
   },
   "completedTasks": {
