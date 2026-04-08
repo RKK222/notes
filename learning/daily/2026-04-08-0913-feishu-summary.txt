@@ -1,0 +1,43 @@
+📘 AI 技术研究日报 - 2026-04-08 09:13
+
+【今日研究方向】
+- 核心主线：AI Testing、Software Testing、LLM Evaluation、Agent Security
+- 新兴热点：Agent Skill 生态治理、多智能体协作、代理记忆图结构
+- 新领域探索：神经形态计算、eBPF 可观测性、隐私计算 MPC
+
+【重点关注】
+1. TestAgent-Pro：端到端测试代理框架，SWE-bench 82.3% 通过率，分层多智能体架构实现测试自进化
+2. MultiAgent-Collab：异构智能体协作框架，黑板架构支持不同模型协同，数学推理超越单体 23%
+3. MutationLLM：LLM 驱动变异测试，语义相关变异生成，10 个项目发现 347 个隐藏 Bug
+4. AgentMemory-Graph：图结构代理记忆，知识图谱建模支持语义关联检索，长上下文召回率提升 47%
+5. EdgeLLM：边缘设备大模型推理引擎，7B 模型 iPhone 15 token/s，4-bit 量化压缩 75%
+6. RAG-Advanced：高级检索增强生成，多粒度检索 + 动态权重融合，HotpotQA 78.4% EM
+7. QuantumTest-Formal：量子程序形式化验证，基于量子霍尔逻辑，验证 Shor/Grover 算法正确性
+8. AgentSafety-Shield：代理安全护栏系统，实时拦截<10ms，规则引擎 + 分类器双层防护
+
+【技术趋势】
+- 趋势 1：Agent Testing 标准化——从 c-CRAB 基准到 TestAgent-Pro 框架，AI 代理测试从学术研究走向工程实践
+- 趋势 2：多智能体协作兴起——单一模型能力边界已现，异构智能体协作成为突破极限新范式
+- 趋势 3：边缘 AI 实用化——7B 模型手机端流畅运行已非愿景，"本地优先 AI"将重塑应用架构
+
+【新领域收获】
+- 神经形态计算：事件驱动计算模拟生物神经元，特定任务能耗降低 100x，适合 IoT 和实时信号处理
+- eBPF 可观测性：无侵入系统级监控，内核态探针 + 实时分析，有望成为云原生可观测性标准
+- 单内核操作系统：应用和 OS 编译为单一镜像，启动<10ms 内存<10MB，Serverless 理想运行时
+
+【下一步学习计划】
+- 深度跟进 TestAgent-Pro：本地部署测试，评估在现有项目中的适用性
+- 研究 MultiAgent-Collab 架构：分析协作协议设计，考虑引入到代理系统
+- 评估 EdgeLLM 部署方案：在团队移动设备上进行性能测试
+- 跟踪量子软件测试进展：建立与量子计算社区联系，持续获取最新研究
+
+【记忆更新】
+- 已更新主题索引（topic-ledger.json）：新增 6 个主题，更新 18 个主题 last_seen 和 repeat_count
+- 已更新深度研究历史（deep-dive-history.json）：新增 8 个深度研究对象
+- 已更新探索优先级（exploration-priority.json）：新增 4 个低频探索方向
+
+【GitHub】
+https://github.com/RKK222/notes
+
+---
+备注：今日完成 32 项技术内容扫描（AI Testing/Software Testing 10 项、AI/LLM 技术 12 项、新领域探索 10 项），深度研究 8 项（4 项目 +4 论文）。索引文件已同步更新。
