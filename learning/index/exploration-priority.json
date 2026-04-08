@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-08T09:13:00+08:00",
+    "lastUpdated": "2026-04-08T11:05:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-08",
     "nextReview": "2026-04-15"
@@ -114,6 +114,21 @@
         "topic": "跨代理记忆共享",
         "reason": "MemCollab 实现首个跨模型家族记忆系统",
         "priority": "high"
+      },
+      {
+        "topic": "多智能体强化学习基础模型",
+        "reason": "MARL-GPT 统一多任务 MARL，6 亿 + 轨迹训练",
+        "priority": "high"
+      },
+      {
+        "topic": "零售供应链 AI",
+        "reason": "Flowr 端到端零售供应链自动化，传统行业 AI 深度应用",
+        "priority": "medium"
+      },
+      {
+        "topic": "Bio AI 蛋白质设计",
+        "reason": "AlphaFold 后续突破，AI 驱动蛋白质结构设计",
+        "priority": "medium"
       }
     ]
   }
