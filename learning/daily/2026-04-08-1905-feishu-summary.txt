@@ -1,0 +1,42 @@
+📘 AI 技术研究日报 - 2026-04-08 19:05
+
+【今日研究方向】
+- 核心主线（40%）：AI Testing、Software Testing、LLM Evaluation、Agent Security
+- 新兴热点（30%）：多智能体协作、RAG 系统、代理记忆、形式化验证×AI
+- 新领域探索（30%）：神经形态计算、隐私计算、eBPF 技术、单内核操作系统
+
+【重点关注】
+1. TestAgent-Pro：端到端测试代理框架，SWE-bench 82.3% 通过率，超越现有方案 15%
+2. EdgeLLM：边缘设备 LLM 推理引擎，iPhone 15 上 7B 模型 15 token/s，4-bit 量化损失<2%
+3. Claw-Eval：自主代理可信评估套件，发现现有评估遗漏 44% 安全问题
+4. AgentSafety-Shield：代理安全护栏，实时拦截<10ms，拦截率 99.2%
+5. MARL-GPT：多智能体强化学习基础模型，零样本迁移达专家水平 87%
+6. Neuromorphic-Sparse：神经形态事件驱动计算，能耗降低 100x 潜力
+7. PrivacyCompute-MPC：安全多方计算框架，计算开销<5x，已应用于医疗数据联合研究
+8. eBPF-Observability：云原生可观测性平台，性能开销<1%，全栈追踪
+
+【技术趋势】
+- 代理评估标准化：Claw-Eval/ACE-Bench 设立新标准，轨迹透明、安全覆盖成刚需
+- 边缘 AI 实用化：EdgeLLM 证明移动端运行 7B 模型可行，2 年内 13B 有望流畅运行
+- 多智能体协作崛起：TestAgent-Pro/MultiAgent-Collab/MARL-GPT 共同指向协作范式
+
+【新领域收获】
+- 神经形态计算：事件驱动架构适合边缘 AI，工具链待成熟
+- 隐私计算 MPC：5x 开销使跨机构数据协作用途成为可能
+- eBPF 可观测性：无侵入监控成云原生新标准，微服务/Serverless 首选
+
+【下一步学习计划】
+- 本地部署 TestAgent-Pro 评估真实项目效果
+- iPhone 测试 EdgeLLM 性能和功耗
+- 研读 Claw-Eval 轨迹透明评分实现
+- 跟踪神经形态计算工具链发展
+- 关注 MPC 在医疗/金融更多应用案例
+
+【记忆更新】
+- 已更新主题索引（topic-ledger.json）
+- 已更新深度分析历史（deep-dive-history.json）
+- 已更新探索优先级（exploration-priority.json）
+- 今日第 3 次运行（晚场），索引文件已自动提交推送
+
+【GitHub】
+https://github.com/RKK222/notes
