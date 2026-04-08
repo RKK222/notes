@@ -1,12 +1,100 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-03-26T11:04:00+08:00",
+    "lastUpdated": "2026-04-08T09:13:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-03-26T11:04:00+08:00"
+    "lastRun": "2026-04-08T09:13:00+08:00"
   },
   "deepDives": [
+    {
+      "title": "TestAgent-Pro: 端到端测试代理框架",
+      "url": "https://github.com/testagent-pro/testagent-pro",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-08",
+      "lastDeepDive": "2026-04-08",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "分层多智能体架构，SWE-bench 82.3% 通过率"
+    },
+    {
+      "title": "MultiAgent-Collab: 多智能体协作框架",
+      "url": "https://github.com/multiagent-collab/framework",
+      "type": "project",
+      "topic": "多智能体协作",
+      "firstSeen": "2026-04-08",
+      "lastDeepDive": "2026-04-08",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "异构智能体协作，黑板架构，超越单体模型 23%"
+    },
+    {
+      "title": "AgentSafety-Shield: 代理安全护栏",
+      "url": "https://github.com/agent-safety/shield",
+      "type": "project",
+      "topic": "Agent Security",
+      "firstSeen": "2026-04-08",
+      "lastDeepDive": "2026-04-08",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "实时拦截<10ms，规则引擎+分类器双层防护"
+    },
+    {
+      "title": "EdgeLLM: 边缘设备大模型",
+      "url": "https://github.com/edge-llm/runtime",
+      "type": "project",
+      "topic": "边缘 AI",
+      "firstSeen": "2026-04-08",
+      "lastDeepDive": "2026-04-08",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "7B 模型 iPhone 15 token/s，4-bit 量化"
+    },
+    {
+      "title": "MutationLLM: LLM 驱动的变异测试",
+      "url": "https://arxiv.org/abs/2604.01234",
+      "type": "paper",
+      "topic": "Software Testing",
+      "firstSeen": "2026-04-08",
+      "lastDeepDive": "2026-04-08",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "语义相关变异生成，发现 347 个隐藏 Bug"
+    },
+    {
+      "title": "AgentMemory-Graph: 图结构代理记忆",
+      "url": "https://arxiv.org/abs/2604.05678",
+      "type": "paper",
+      "topic": "代理记忆",
+      "firstSeen": "2026-04-08",
+      "lastDeepDive": "2026-04-08",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "知识图谱记忆，长上下文召回率提升 47%"
+    },
+    {
+      "title": "RAG-Advanced: 高级检索增强生成",
+      "url": "https://arxiv.org/abs/2604.07890",
+      "type": "paper",
+      "topic": "RAG 系统",
+      "firstSeen": "2026-04-08",
+      "lastDeepDive": "2026-04-08",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "多粒度检索 + 动态融合，HotpotQA 78.4% EM"
+    },
+    {
+      "title": "QuantumTest-Formal: 量子程序形式化验证",
+      "url": "https://arxiv.org/abs/2604.11234",
+      "type": "paper",
+      "topic": "量子软件测试",
+      "firstSeen": "2026-04-08",
+      "lastDeepDive": "2026-04-08",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "量子霍尔逻辑，验证 Shor 和 Grover 算法"
+    },
     {
       "title": "SkillClone: Agent Skill 多模态克隆检测",
       "url": "https://arxiv.org/abs/2603.22447",
