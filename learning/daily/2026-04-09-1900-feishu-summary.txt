@@ -1,0 +1,42 @@
+📘 AI 技术研究日报 - 2026-04-09 19:00
+
+【今日研究方向】
+- 核心主线：AI Testing、Software Testing、LLM Evaluation、Agent Security
+- 新兴热点：多智能体协作、RAG 系统、边缘 AI、代理记忆
+- 新领域探索：神经形态计算、隐私计算 MPC、eBPF 可观测性、单内核操作系统
+
+【重点关注】
+1. EdgeLLM 2.0：7B 模型手机端 15 token/s 实时推理，边缘 AI 实用化里程碑
+2. MemCollab：首个跨模型家族记忆共享系统，多代理协作基础设施
+3. PrivacyCompute-MPC：亿级数据分钟级 PSI，隐私计算进入工业应用
+4. Neuromorphic-Sparse：SNN 首次超越 CNN，能耗降低 100x
+5. eBPF-Observability：零侵入云原生监控，开销降低 90%
+6. RAG-Advanced：四粒度联合检索，多跳问答准确率 +18.5%
+7. MARL-GPT：6 亿 + 轨迹预训练的多智能体 RL 基础模型
+8. OS-Unikernel：启动<10ms 的 Serverless 理想运行时
+
+【技术趋势】
+- 边缘 AI 实用化：EdgeLLM 2.0 证明手机端 7B 模型实时运行可行，2027 年或支持 13B
+- 多智能体基础设施成熟：记忆共享 + 协作框架 + 基础模型构成完整技术栈
+- 隐私计算工业化：MPC 性能突破使金融/医疗跨机构数据协作成为可能
+
+【新领域收获】
+- 神经形态计算：事件驱动 SNN 架构，边缘 AI 能耗降低 100x 潜力
+- 隐私计算 MPC：安全多方计算框架，数据要素市场化基础设施
+- eBPF 可观测性：内核级零侵入监控，云原生可观测性新标准
+- 单内核操作系统：超轻量 Serverless 运行时，启动速度提升 100x
+
+【下一步学习计划】
+- 本地部署 EdgeLLM 2.0 测试实际性能
+- 研究 MemCollab 跨模型记忆编码机制
+- 学习 MPC 原理评估数据协作场景应用
+- 探索 eBPF 技术对比传统 APM 方案
+
+【记忆更新】
+- 已更新 topic-ledger.json（新增 4 个探索方向）
+- 已更新 deep-dive-history.json（新增 8 个深度研究）
+- 已更新 exploration-priority.json（调整优先级）
+- 已生成 4 月月摘要（2026-04.md）
+
+【GitHub】
+https://github.com/RKK222/notes
