@@ -29,7 +29,7 @@
     "calendarCheck": "⚠️ 飞书 API 缺少权限",
     "githubExplorer": "✅ 20:04 已执行 (GitHub 页面可访问，内容有限)",
     "moltbookLearn": "❌ 20:04 重试失败 (web_fetch 无法访问)",
-    "novelWrite": "⏰ 待执行"
+    "novelWrite": "✅ 已完结 (241 章/23 万字)，cron 任务已禁用"
   },
   "completedTasks": {
     "newsSearch0700": "✅ 已使用 web_fetch 搜索 2026-03-26 早间新闻",

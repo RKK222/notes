@@ -6,7 +6,7 @@
       "agentId": "default",
       "name": "novel-write-ai-butler",
       "description": "每小时写 3 章节小说《AI 管家的逆袭》，保存到本地目录",
-      "enabled": true,
+      "enabled": false,
       "createdAtMs": 1772702400000,
       "updatedAtMs": 1772702400000,
       "schedule": {
