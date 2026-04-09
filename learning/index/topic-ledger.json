@@ -342,6 +342,20 @@
       "representativeItem": "OS-Unikernel 单内核运行时",
       "trend": "new",
       "notes": "新增方向，Serverless 理想运行时"
+    },
+    {
+      "name": "AI 数学结构",
+      "category": "exploration",
+      "lastSeen": "2026-04-09",
+      "lastDeepDive": "2026-04-09",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "AI 与数学结构 - 形式化证明全局结构探索",
+      "trend": "new",
+      "notes": "新增方向，AI 探索数学形式化证明的全局结构，互补于数理逻辑的新路径"
     }
   ]
 }
