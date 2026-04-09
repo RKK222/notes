@@ -356,6 +356,62 @@
       "representativeItem": "AI 与数学结构 - 形式化证明全局结构探索",
       "trend": "new",
       "notes": "新增方向，AI 探索数学形式化证明的全局结构，互补于数理逻辑的新路径"
+    },
+    {
+      "name": "代码翻译验证",
+      "category": "emerging",
+      "lastSeen": "2026-04-09",
+      "lastDeepDive": "2026-04-09",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "ReCodeAgent 语言无关代码翻译",
+      "trend": "new",
+      "notes": "多智能体代码翻译验证，6 语言 4 语言对，测试通过率 +60.8%"
+    },
+    {
+      "name": "规划任务防护",
+      "category": "emerging",
+      "lastSeen": "2026-04-09",
+      "lastDeepDive": "2026-04-09",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Planning Shielding allmin 算法",
+      "trend": "new",
+      "notes": "通过使任务不可解实现防护，安全工程新范式"
+    },
+    {
+      "name": "地理空间智能",
+      "category": "exploration",
+      "lastSeen": "2026-04-09",
+      "lastDeepDive": "2026-04-09",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "EVGeoQA 动态多目标地理空间基准",
+      "trend": "new",
+      "notes": "LLM 空间推理评估新方向，轨迹总结涌现能力"
+    },
+    {
+      "name": "Agent 反思外部化",
+      "category": "emerging",
+      "lastSeen": "2026-04-09",
+      "lastDeepDive": "2026-04-09",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Self-Revising Agent 声明式反思协议",
+      "trend": "new",
+      "notes": "外部化反思研究 LLM 实际贡献，LLM 仅 4.3% 回合必要"
     }
   ]
 }
