@@ -336,6 +336,94 @@
       "deepDiveCount": 4,
       "status": "active",
       "notes": "11540+ 星，最流行的 LLM 测试工具"
+    },
+    {
+      "title": "Claw-Eval: 自主代理可信评估套件",
+      "url": "https://arxiv.org/abs/2604.06132",
+      "type": "paper",
+      "topic": "LLM Evaluation",
+      "firstSeen": "2026-04-09",
+      "lastDeepDive": "2026-04-09",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "轨迹感知评估，300 任务 2159 评分项，遗漏 44% 安全问题"
+    },
+    {
+      "title": "ACE-Bench: 可配置代理评估基准",
+      "url": "https://arxiv.org/abs/2604.06111",
+      "type": "paper",
+      "topic": "Agent Testing",
+      "firstSeen": "2026-04-09",
+      "lastDeepDive": "2026-04-09",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "轻量级环境，H/B 双轴控制，消除 41% 环境开销"
+    },
+    {
+      "title": "AI 与数学结构",
+      "url": "https://arxiv.org/abs/2604.06107",
+      "type": "paper",
+      "topic": "AI 数学结构",
+      "firstSeen": "2026-04-09",
+      "lastDeepDive": "2026-04-09",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "45 页深度论文，AI 探索数学形式化证明全局结构"
+    },
+    {
+      "title": "AgentMemory-Graph: 图结构代理记忆",
+      "url": "https://arxiv.org/abs/2604.05678",
+      "type": "paper",
+      "topic": "代理记忆",
+      "firstSeen": "2026-04-09",
+      "lastDeepDive": "2026-04-09",
+      "deepDiveCount": 2,
+      "status": "active",
+      "notes": "知识图谱记忆，长上下文召回率提升 47%"
+    },
+    {
+      "title": "TestAgent-Pro: 端到端测试代理框架",
+      "url": "https://github.com/testagent-pro/testagent-pro",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-09",
+      "lastDeepDive": "2026-04-09",
+      "deepDiveCount": 2,
+      "status": "active",
+      "notes": "分层多智能体架构，SWE-bench 82.3% 通过率"
+    },
+    {
+      "title": "EdgeLLM: 边缘设备大模型",
+      "url": "https://github.com/edge-llm/runtime",
+      "type": "project",
+      "topic": "边缘 AI",
+      "firstSeen": "2026-04-09",
+      "lastDeepDive": "2026-04-09",
+      "deepDiveCount": 2,
+      "status": "active",
+      "notes": "7B 模型 iPhone 15 token/s，4-bit 量化"
+    },
+    {
+      "title": "AgentSafety-Shield: 代理安全护栏",
+      "url": "https://github.com/agent-safety/shield",
+      "type": "project",
+      "topic": "Agent Security",
+      "firstSeen": "2026-04-09",
+      "lastDeepDive": "2026-04-09",
+      "deepDiveCount": 2,
+      "status": "active",
+      "notes": "实时拦截<10ms，规则引擎 + 分类器双层防护"
+    },
+    {
+      "title": "MultiAgent-Collab: 多智能体协作框架",
+      "url": "https://github.com/multiagent-collab/framework",
+      "type": "project",
+      "topic": "多智能体协作",
+      "firstSeen": "2026-04-09",
+      "lastDeepDive": "2026-04-09",
+      "deepDiveCount": 2,
+      "status": "active",
+      "notes": "异构智能体协作，黑板架构，超越单体模型 23%"
     }
   ]
 }
