@@ -133,6 +133,36 @@
         "topic": "Bio AI 蛋白质设计",
         "reason": "AlphaFold 后续突破，AI 驱动蛋白质结构设计",
         "priority": "medium"
+      },
+      {
+        "topic": "Hegel PBT 协议",
+        "reason": "首个跨语言属性基测试标准，15 个语言实现，APDL 属性描述语言",
+        "priority": "high"
+      },
+      {
+        "topic": "Research-Driven Agents",
+        "reason": "研究驱动型代理新范式，先阅读后编码，代码质量提升 43%",
+        "priority": "high"
+      },
+      {
+        "topic": "持续学习代理",
+        "reason": "Hermes-Agent 技能图谱 + 元学习，6485 stars/日，AGI 基础设施",
+        "priority": "high"
+      },
+      {
+        "topic": "AI 编程 Harness",
+        "reason": "Archon 解决 AI 编程非确定性问题，测试驱动 + 审计日志",
+        "priority": "high"
+      },
+      {
+        "topic": "NASA 容错计算机设计",
+        "reason": "Artemis II 三模冗余 + 五重冗余，动态故障隔离，地面系统借鉴",
+        "priority": "medium"
+      },
+      {
+        "topic": "AI 水印逆向工程",
+        "reason": "SynthID 逆向揭示商用 AI 水印机制，版权和溯源影响深远",
+        "priority": "medium"
       }
     ]
   }
