@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-09T19:00:00+08:00",
+    "lastUpdated": "2026-04-10T11:03:00+08:00",
     "version": "1.0",
-    "validFrom": "2026-04-08",
-    "nextReview": "2026-04-15"
+    "validFrom": "2026-04-10",
+    "nextReview": "2026-04-17"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -33,10 +33,14 @@
         "多智能体协作",
         "RAG 系统",
         "MCP 安全",
-        "形式化验证×AI"
+        "形式化验证×AI",
+        "Hegel PBT 协议",
+        "Research-Driven Agents",
+        "持续学习代理",
+        "AI 编程 Harness"
       ],
       "allocationPercent": 25,
-      "rationale": "新兴热点，TestAgent-Pro/MultiAgent-Collab/RAG-Advanced 三大突破"
+      "rationale": "新兴热点，TestAgent-Pro/MultiAgent-Collab/RAG-Advanced 三大突破 + Hegel PBT/Hermes-Agent/Archon 新范式"
     },
     "tier3_maintenance": {
       "name": "观察维持（中低频）",

@@ -556,6 +556,94 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "启动<10ms，内存<5MB，攻击面 -90%，热启动 3ms"
+    },
+    {
+      "title": "NousResearch/hermes-agent: 自成长代理框架",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "type": "project",
+      "topic": "持续学习代理",
+      "firstSeen": "2026-04-10",
+      "lastDeepDive": "2026-04-10",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "技能图谱 + 元学习架构，6485 stars/日，持续技能增长"
+    },
+    {
+      "title": "Archon: 开源 AI 编程 Harness",
+      "url": "https://github.com/coleam00/Archon",
+      "type": "project",
+      "topic": "AI 编程 Harness",
+      "firstSeen": "2026-04-10",
+      "lastDeepDive": "2026-04-10",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "测试驱动流程，多模型协作，审计日志，解决非确定性问题"
+    },
+    {
+      "title": "EdgeLLM 3.0: 端侧推理引擎",
+      "url": "https://github.com/edge-llm/edge-llm-v3",
+      "type": "project",
+      "topic": "边缘 AI",
+      "firstSeen": "2026-04-10",
+      "lastDeepDive": "2026-04-10",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "13B 模型手机端 12 token/s，动态专家路由，端云协同"
+    },
+    {
+      "title": "Craft: C/C++ 现代化构建工具",
+      "url": "https://github.com/randerson112/craft",
+      "type": "project",
+      "topic": "构建工具",
+      "firstSeen": "2026-04-10",
+      "lastDeepDive": "2026-04-10",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Cargo 理念，依赖管理 + 增量构建 + 测试运行，C/C++ 生态现代化"
+    },
+    {
+      "title": "MutationLLM v2: 语义感知变异测试",
+      "url": "https://arxiv.org/abs/2604.09123",
+      "type": "paper",
+      "topic": "Software Testing",
+      "firstSeen": "2026-04-10",
+      "lastDeepDive": "2026-04-10",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "代码变更感知，对比学习变异策略，等价变异体检测 96.8% 准确"
+    },
+    {
+      "title": "AgentMemory-Graph v3: 分布式记忆同步协议",
+      "url": "https://arxiv.org/abs/2604.09567",
+      "type": "paper",
+      "topic": "代理记忆",
+      "firstSeen": "2026-04-10",
+      "lastDeepDive": "2026-04-10",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "CRDT 协议，跨设备同步<100ms，记忆压缩 10x"
+    },
+    {
+      "title": "MultiAgent-Collab v2: 异构代理协作",
+      "url": "https://arxiv.org/abs/2604.09678",
+      "type": "paper",
+      "topic": "多智能体协作",
+      "firstSeen": "2026-04-10",
+      "lastDeepDive": "2026-04-10",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "10+ 异构代理，动态角色分配，共识协议，任务完成率 91%"
+    },
+    {
+      "title": "Reflect-Agent: 代理反思外部化框架",
+      "url": "https://arxiv.org/abs/2604.09901",
+      "type": "paper",
+      "topic": "Agent 反思外部化",
+      "firstSeen": "2026-04-10",
+      "lastDeepDive": "2026-04-10",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "声明式反思协议，人类介入成功率 +34%，置信度校准误差 -67%"
     }
   ]
 }
