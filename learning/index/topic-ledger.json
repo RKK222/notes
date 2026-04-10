@@ -1,39 +1,39 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-09T19:00:00+08:00",
+    "lastUpdated": "2026-04-10T09:10:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-08T11:05:00+08:00"
+    "lastRun": "2026-04-10T09:10:00+08:00"
   },
   "topics": [
     {
       "name": "AI Testing",
       "category": "core",
-      "lastSeen": "2026-04-08",
-      "lastDeepDive": "2026-04-08",
-      "repeatCount7d": 22,
-      "repeatCount30d": 17,
+      "lastSeen": "2026-04-10",
+      "lastDeepDive": "2026-04-10",
+      "repeatCount7d": 25,
+      "repeatCount30d": 18,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
-      "representativeItem": "TestAgent-Pro 端到端测试代理框架",
+      "representativeItem": "TestAgent-Pro v2.1 三合一测试框架",
       "trend": "stable",
-      "notes": "核心领域，每日必跟，TestAgent-Pro 新突破"
+      "notes": "核心领域，每日必跟，v2.1 视觉 + 性能+安全突破"
     },
     {
       "name": "Software Testing",
       "category": "core",
-      "lastSeen": "2026-04-08",
-      "lastDeepDive": "2026-04-08",
-      "repeatCount7d": 19,
-      "repeatCount30d": 17,
+      "lastSeen": "2026-04-10",
+      "lastDeepDive": "2026-04-10",
+      "repeatCount7d": 22,
+      "repeatCount30d": 18,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
-      "representativeItem": "MutationLLM 变异测试",
+      "representativeItem": "MutationLLM v2 语义感知变异",
       "trend": "rising",
-      "notes": "核心领域，LLM 驱动测试新范式"
+      "notes": "核心领域，LLM 驱动测试新范式，v2 变更感知"
     },
     {
       "name": "LLM Evaluation",
