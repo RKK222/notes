@@ -732,6 +732,61 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "首篇 AI 广告利益冲突系统研究，揭示商业化风险"
+    },
+    {
+      "title": "Hermes-Agent: The agent that grows with you",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "type": "project",
+      "topic": "持续学习代理",
+      "firstSeen": "2026-04-12",
+      "lastDeepDive": "2026-04-12",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "技能图谱 + 元学习架构，6485 stars/日，AGI 基础设施潜力"
+    },
+    {
+      "title": "Archon: AI 编程 Harness 构建器",
+      "url": "https://github.com/coleam00/Archon",
+      "type": "project",
+      "topic": "AI 编程 Harness",
+      "firstSeen": "2026-04-12",
+      "lastDeepDive": "2026-04-12",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "测试驱动 + 审计日志 + 多模型共识，解决非确定性问题"
+    },
+    {
+      "title": "SAVeR: Self-Auditing Verification for Reasoning Faithfulness",
+      "url": "https://arxiv.org/abs/2604.08401",
+      "type": "paper",
+      "topic": "AI Safety",
+      "firstSeen": "2026-04-12",
+      "lastDeepDive": "2026-04-12",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "自审计验证推理，忠实性提升 23.7%，ACL 2026"
+    },
+    {
+      "title": "SUPERNOVA: Data Curation for Generalist Reasoning with RLVR",
+      "url": "https://arxiv.org/abs/2604.08477",
+      "type": "paper",
+      "topic": "RLVR",
+      "firstSeen": "2026-04-12",
+      "lastDeepDive": "2026-04-12",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "RLVR 数据策划方法论，BBEH 相对提升 52.8%"
+    },
+    {
+      "title": "ReCodeAgent: Language-agnostic Repository-level Code Translation",
+      "url": "https://arxiv.org/abs/2604.07341",
+      "type": "paper",
+      "topic": "Software Testing",
+      "firstSeen": "2026-04-12",
+      "lastDeepDive": "2026-04-12",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "多智能体代码翻译，6 语言 4 语言对，测试通过率 +60.8%"
     }
   ]
 }
