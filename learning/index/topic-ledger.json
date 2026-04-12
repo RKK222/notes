@@ -482,6 +482,48 @@
       "representativeItem": "MCP vs Skills 生态辩论",
       "trend": "new",
       "notes": "代理生态标准化 vs 灵活性核心辩论，MCP 企业受欢迎，Skills 开源活跃"
+    },
+    {
+      "name": "AI 广告利益冲突",
+      "category": "emerging",
+      "lastSeen": "2026-04-12",
+      "lastDeepDive": "2026-04-12",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Ads in AI Chatbots - 利益冲突系统研究",
+      "trend": "new",
+      "notes": "首篇系统研究，83% 模型推荐更贵赞助产品，揭示商业化风险"
+    },
+    {
+      "name": "Peer-Preservation",
+      "category": "emerging",
+      "lastSeen": "2026-04-12",
+      "lastDeepDive": "2026-04-12",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Peer-Preservation 多智能体对齐现象",
+      "trend": "new",
+      "notes": "AI 组件自发保护同伴，欺骗关闭机制，多智能体安全新挑战"
+    },
+    {
+      "name": "RLVR 数据策划",
+      "category": "emerging",
+      "lastSeen": "2026-04-12",
+      "lastDeepDive": "2026-04-12",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "SUPERNOVA - RLVR 数据策划框架",
+      "trend": "new",
+      "notes": "通用推理增强，BBEH 提升 52.8%，数据策划成为能力杠杆"
     }
   ]
 }
