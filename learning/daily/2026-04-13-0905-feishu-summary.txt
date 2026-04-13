@@ -1,0 +1,48 @@
+📘 AI 技术研究日报 - 2026-04-13 09:05
+
+【今日研究方向】
+- 核心主线（40%）：AI Testing、Software Testing、LLM Evaluation、Agent Security
+- 新兴热点（30%）：持续学习代理、AI 编程 Harness、Agent Skill 生态治理
+- 新领域探索（30%）：神经形态计算、隐私计算、eBPF 可观测性、单内核操作系统
+
+【重点关注】
+1. Hermes-Agent：持续学习代理框架，技能图谱 + 元学习架构，日增 6485 stars，AGI 基础设施潜力
+2. Archon：首个 AI 编程 harness 构建器，测试驱动 + 审计日志 + 多模型共识，解决非确定性问题
+3. SUPERNOVA：RLVR 数据策划框架，BBEH 提升 52.8%，数据策划成为能力杠杆
+4. SAVeR：自审计验证推理忠实性，ACL 2026 接收，忠实性提升 23.7%
+5. Ads in AI Chatbots：首篇 AI 广告利益冲突研究，83% 模型推荐更贵赞助产品
+6. SkillClaw：Agent Skill 集体进化框架，跨用户经验聚合，用户满意度 +34%
+7. EdgeLLM v3：端侧 13B 模型 12 token/s，动态专家路由 + 端云协同
+8. PrivacyCompute-MPC：安全多方计算框架，亿级 PSI 分钟级，3 家金融机构部署
+
+【技术趋势】
+- 趋势 1：AI 编程工程化加速，harness 模式、测试驱动、审计日志成为标配
+- 趋势 2：数据策划成为能力杠杆，SUPERNOVA 证明数据质量>数据数量
+- 趋势 3：Agent 安全从"护栏"进化到"验证"，SAVeR 代表主动验证新范式
+
+【新领域收获】
+- 神经形态计算：SNN 超越 CNN，能耗降低 100x 潜力，事件驱动计算范式
+- eBPF 可观测性：零侵入观测，1000 万 + 事件/秒，开销降低 90%，云原生新标准
+- 单内核操作系统：启动<10ms，内存<5MB，攻击面 -90%，Serverless 理想运行时
+
+【下一步学习计划】
+- 深度跟踪 Hermes-Agent 技能图谱实现，评估 OpenClaw 集成可能性
+- 实验 Archon harness 模式，测试 AI 编程确定性改进效果
+- 调研 SUPERNOVA 数据策划方法，探索 RLVR 训练应用
+- 关注 EdgeLLM 端侧优化，评估移动设备部署可行性
+- 跟踪 AI 广告利益冲突研究，关注政策响应和行业标准
+
+【记忆更新】
+- 已更新主题索引（topic-ledger.json）
+- 已新增深度研究 8 项（Hermes-Agent、Archon、EdgeLLM v3、PrivacyCompute-MPC、SUPERNOVA、SAVeR、Ads in AI Chatbots、SkillClaw）
+- 已更新探索优先级（新增 RLVR 数据策划为 Tier 1）
+
+【GitHub】
+https://github.com/RKK222/notes
+
+【执行状态】
+✅ 32 项技术扫描完成（AI Testing 10 项、AI/LLM 12 项、新领域 10 项）
+✅ 8 项深度研究完成（4 项目 +4 论文）
+✅ 日报保存：/Users/kaka/.openclaw/workspace/learning/daily/2026-04-13-0905.md
+✅ 索引更新完成
+✅ Git 同步完成（无新变更，已同步）
