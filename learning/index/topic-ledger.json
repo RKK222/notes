@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-12T19:07:00+08:00",
+    "lastUpdated": "2026-04-13T09:05:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-12T19:07:00+08:00"
+    "lastRun": "2026-04-13T09:05:00+08:00"
   },
   "topics": [
     {
@@ -444,15 +444,15 @@
     {
       "name": "持续学习代理",
       "category": "emerging",
-      "lastSeen": "2026-04-11",
-      "lastDeepDive": "2026-04-11",
-      "repeatCount7d": 2,
-      "repeatCount30d": 1,
+      "lastSeen": "2026-04-13",
+      "lastDeepDive": "2026-04-13",
+      "repeatCount7d": 4,
+      "repeatCount30d": 2,
       "priority": "high",
       "isCore": false,
       "shouldDowngrade": false,
       "representativeItem": "Hermes-Agent - 自成长代理框架",
-      "trend": "new",
+      "trend": "rising",
       "notes": "技能图谱 + 元学习架构，6485 stars/日，AGI 基础设施潜力"
     },
     {
