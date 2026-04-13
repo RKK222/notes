@@ -458,15 +458,15 @@
     {
       "name": "AI 编程 Harness",
       "category": "emerging",
-      "lastSeen": "2026-04-11",
-      "lastDeepDive": "2026-04-11",
-      "repeatCount7d": 2,
-      "repeatCount30d": 1,
+      "lastSeen": "2026-04-13",
+      "lastDeepDive": "2026-04-13",
+      "repeatCount7d": 4,
+      "repeatCount30d": 2,
       "priority": "high",
       "isCore": false,
       "shouldDowngrade": false,
       "representativeItem": "Archon - 开源 AI 编程 harness 构建器",
-      "trend": "new",
+      "trend": "rising",
       "notes": "解决 AI 编程非确定性问题，测试驱动 + 审计日志 + 多模型共识"
     },
     {
