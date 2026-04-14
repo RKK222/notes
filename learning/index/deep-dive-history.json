@@ -787,6 +787,94 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "多智能体代码翻译，6 语言 4 语言对，测试通过率 +60.8%"
+    },
+    {
+      "title": "Hermes-Agent - 持续学习代理框架",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "type": "project",
+      "topic": "持续学习代理",
+      "firstSeen": "2026-04-14",
+      "lastDeepDive": "2026-04-14",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "技能图谱 + 元学习架构，6485 stars/日，AGI 基础设施潜力"
+    },
+    {
+      "title": "Archon - AI 编程 Harness 构建器",
+      "url": "https://github.com/coleam00/Archon",
+      "type": "project",
+      "topic": "AI 编程 Harness",
+      "firstSeen": "2026-04-14",
+      "lastDeepDive": "2026-04-14",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "测试驱动 + 审计日志 + 多模型共识，解决非确定性问题"
+    },
+    {
+      "title": "EdgeLLM v3 - 端侧推理引擎",
+      "url": "https://github.com/edge-llm/edge-llm-v3",
+      "type": "project",
+      "topic": "边缘 AI",
+      "firstSeen": "2026-04-14",
+      "lastDeepDive": "2026-04-14",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "13B 模型手机端 12 token/s，动态专家路由，端云协同"
+    },
+    {
+      "title": "eBPF-Observability - 云原生无侵入监控",
+      "url": "https://github.com/ebpf-observability/platform",
+      "type": "project",
+      "topic": "eBPF 技术",
+      "firstSeen": "2026-04-14",
+      "lastDeepDive": "2026-04-14",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "零侵入观测，1000 万 + 事件/秒，开销降低 90%"
+    },
+    {
+      "title": "HiL-Bench: Human-in-Loop Benchmark",
+      "url": "https://arxiv.org/abs/2604.09408",
+      "type": "paper",
+      "topic": "Human-in-Loop 评估",
+      "firstSeen": "2026-04-14",
+      "lastDeepDive": "2026-04-14",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "首个代理判断力标准化评估，Ask-F1 指标防刷"
+    },
+    {
+      "title": "Spatial-Gym: 空间推理逐步评估",
+      "url": "https://arxiv.org/abs/2604.09338",
+      "type": "paper",
+      "topic": "空间推理评估",
+      "firstSeen": "2026-04-14",
+      "lastDeepDive": "2026-04-14",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "视觉模型接收图像反而降低 73% 解决率，多模态融合挑战"
+    },
+    {
+      "title": "Process Reward Agents - 在线逐步奖励",
+      "url": "https://arxiv.org/abs/2604.09234",
+      "type": "paper",
+      "topic": "Process Reward Agents",
+      "firstSeen": "2026-04-14",
+      "lastDeepDive": "2026-04-14",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "在线逐步奖励机制，医学推理 80.8% 准确率新 SOTA"
+    },
+    {
+      "title": "Self-Revising Agent - 代理反思外部化",
+      "url": "https://arxiv.org/abs/2604.09901",
+      "type": "paper",
+      "topic": "Agent 反思外部化",
+      "firstSeen": "2026-04-14",
+      "lastDeepDive": "2026-04-14",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "声明式反思协议，LLM 仅 4.3% 回合必要，人类介入成功率 +34%"
     }
   ]
 }
