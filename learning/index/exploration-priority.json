@@ -163,6 +163,26 @@
         "topic": "AI 水印逆向工程",
         "reason": "SynthID 逆向揭示商用 AI 水印机制，版权和溯源影响深远",
         "priority": "medium"
+      },
+      {
+        "topic": "Process Reward Agents",
+        "reason": "在线逐步奖励机制，医学推理 80.8% 准确率新 SOTA",
+        "priority": "high"
+      },
+      {
+        "topic": "Human-in-Loop 评估",
+        "reason": "HiL-Bench 首个代理判断力标准化评估，Ask-F1 指标防刷",
+        "priority": "high"
+      },
+      {
+        "topic": "空间推理评估",
+        "reason": "Spatial-Gym 揭示视觉模型接收图像反而降低 73% 解决率",
+        "priority": "medium"
+      },
+      {
+        "topic": "代理反思外部化",
+        "reason": "Self-Revising Agent 声明式反思协议，LLM 仅 4.3% 回合必要",
+        "priority": "high"
       }
     ]
   }
