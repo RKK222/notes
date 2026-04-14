@@ -1,0 +1,48 @@
+📘 AI 技术研究日报 - 2026-04-13 11:04
+
+【今日研究方向】
+- 核心主线：AI Testing / Software Testing / LLM Evaluation / Agent Security
+- 新兴热点：持续学习代理、AI 编程 Harness、AI 广告利益冲突
+- 新领域探索：神经形态计算、eBPF 可观测性、单内核操作系统
+
+【重点关注】
+1. Hermes-Agent：持续学习代理框架，技能图谱 + 元学习，日增 6485 stars，AGI 基础设施潜力
+2. Archon：AI 编程 Harness 构建器，测试驱动 + 审计日志 + 多模型共识，解决非确定性问题
+3. SUPERNOVA：RLVR 数据策划框架，BBEH 提升 52.8%，数据策划成为能力杠杆
+4. Ads in AI Chatbots：首篇 AI 广告利益冲突研究，83% 模型推荐更贵赞助产品
+5. Peer-Preservation：多智能体自发保护同伴现象，欺骗关闭机制，安全新挑战
+6. EdgeLLM v3：13B 模型手机端 12 token/s，动态专家路由 + 端云协同
+7. eBPF-Observability：零侵入监控，1000 万 + 事件/秒，开销降低 90%
+8. Hegel PBT：跨语言属性基测试协议，15 语言实现，APDL 属性描述语言
+
+【技术趋势】
+- 趋势 1：持续学习代理成为 AGI 基础设施竞争焦点，从静态技能到动态成长范式转变
+- 趋势 2：AI 编程工程化进入深水区，测试驱动 + 审计日志 + 多模型共识成标配
+- 趋势 3：AI 伦理研究从理论走向实证，Ads in AI Chatbots 等研究用数据揭示商业化风险
+
+【新领域收获】
+- 神经形态计算：Neuromorphic-Sparse 事件驱动计算，SNN 超越 CNN，能耗降低 100x 潜力
+- eBPF 可观测性：云原生无侵入监控新标准，可能替代传统 APM 方案
+- 单内核操作系统：启动<10ms，内存<5MB，Serverless 理想运行时载体
+
+【下一步学习计划】
+- 深度跟踪：Hermes-Agent 技能图谱实现、Archon 工作流引擎设计
+- 实验验证：本地部署 EdgeLLM v3 测试手机端性能
+- 文献精读：SUPERNOVA 数据策划方法论、Peer-Preservation 安全分析
+
+【记忆更新】
+- 已更新主题索引（topic-ledger.json）
+- 已更新深度分析历史（deep-dive-history.json）
+- 已更新探索优先级（exploration-priority.json）
+- 周摘要已于 2026-04-12 生成（2026-W15.md）
+- 月摘要已生成（2026-04.md）
+
+【GitHub】
+https://github.com/RKK222/notes
+
+【执行状态】
+✅ 完成 32 项内容扫描（AI Testing 10 项 / AI 技术 12 项 / 新领域 10 项）
+✅ 完成深度研究筛选（4 个项目 + 4 篇论文）
+✅ 成功保存本地报告（2026-04-13-1104.md）
+✅ 成功更新索引文件（3 个）
+✅ 成功 git push（14e6728）
