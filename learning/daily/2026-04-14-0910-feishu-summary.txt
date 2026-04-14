@@ -1,0 +1,38 @@
+📘 AI 技术研究日报 - 2026-04-14 09:10
+
+【今日研究方向】
+- 核心主线：AI Testing、Software Testing、LLM Evaluation、Agent Security
+- 新兴热点：持续学习代理、AI 编程 Harness、Process Reward Agents、Human-in-Loop 评估
+- 新领域探索：多智能体协调博弈、空间推理评估、工具集成推理训练
+
+【重点关注】
+1. HiL-Bench：首个代理判断力评估基准，揭示编码代理"何时求助"的普遍缺陷，Ask-F1 指标防刷设计
+2. Process Reward Agents：在线逐步奖励机制，医学推理 80.8% 准确率创 4B 规模 SOTA，冻结骨干 + 可插拔奖励新范式
+3. Hermes-Agent：持续学习代理框架，技能图谱 + 元学习架构，日增 6485 stars，AGI 基础设施潜力
+4. Spatial-Gym：空间推理逐步评估，视觉模型接收图像反而降低 73% 解决率，挑战多模态假设
+5. Strategic Monoculture：多智能体协调博弈实验，LLM 自发收敛相似策略，系统鲁棒性新风险
+6. Archon：AI 编程 Harness 构建器，测试驱动 + 审计日志 + 多模型共识，解决非确定性问题
+7. PrivacyCompute-MPC：亿级 PSI 分钟级完成，3 家金融机构部署，隐私计算工程化突破
+
+【技术趋势】
+- 趋势 1：代理评估从"能力"到"判断力"转变，HiL-Bench 揭示元认知能力是关键瓶颈
+- 趋势 2：冻结骨干 + 可插拔模块成为新范式，PRA 证明无需训练即可提升多模型性能
+- 趋势 3：端侧 AI 从"可行"到"实用"拐点，EdgeLLM v3 实现 13B 模型手机端 12 token/s
+
+【新领域收获】
+- 空间推理反直觉发现：视觉信息可能干扰抽象推理，视觉模型图像输入降低 73% 解决率
+- 算法单一文化战略维度：LLM 不仅基线相似度高，还会战略性响应激励调整相似性
+- 隐私计算工程化：PrivacyCompute-MPC 标志隐私计算从学术研究进入工业部署
+
+【下一步学习计划】
+- 深度跟踪 HiL-Bench，研究 Ask-F1 指标设计，考虑引入代理评估体系
+- 实验 PRA 方法，本地测试 Process Reward Agents 在知识密集型任务效果
+- 调研端侧推理优化，学习 EdgeLLM 动态专家路由和混合精度量化技术
+
+【记忆更新】
+- 已更新主题索引（新增 4 个主题：Process Reward Agents、HiL-Bench、Spatial-Gym、Strategic Monoculture）
+- 已更新深度研究历史（新增 8 项深度分析）
+- 已更新探索优先级（新增 4 个探索方向）
+
+【GitHub】
+https://github.com/RKK222/notes
