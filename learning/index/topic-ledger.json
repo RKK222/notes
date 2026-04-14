@@ -524,6 +524,48 @@
       "representativeItem": "SUPERNOVA - RLVR 数据策划框架",
       "trend": "new",
       "notes": "通用推理增强，BBEH 提升 52.8%，数据策划成为能力杠杆"
+    },
+    {
+      "name": "Process Reward Agents",
+      "category": "emerging",
+      "lastSeen": "2026-04-14",
+      "lastDeepDive": "2026-04-14",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Process Reward Agents - 在线逐步奖励机制",
+      "trend": "new",
+      "notes": "在线逐步奖励，医学推理 80.8% 准确率新 SOTA"
+    },
+    {
+      "name": "Human-in-Loop 评估",
+      "category": "emerging",
+      "lastSeen": "2026-04-14",
+      "lastDeepDive": "2026-04-14",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "HiL-Bench - 编码代理判断力评估",
+      "trend": "new",
+      "notes": "首个代理判断力标准化评估，Ask-F1 指标防刷"
+    },
+    {
+      "name": "空间推理评估",
+      "category": "exploration",
+      "lastSeen": "2026-04-14",
+      "lastDeepDive": "2026-04-14",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Spatial-Gym - 空间推理逐步评估框架",
+      "trend": "new",
+      "notes": "视觉模型接收图像反而降低 73% 解决率，多模态融合挑战"
     }
   ]
 }
