@@ -66,10 +66,12 @@
         "eBPF 技术",
         "单内核操作系统",
         "Bio AI",
-        "Web3"
+        "Web3",
+        "人机协作制造",
+        "AI 教育个性化"
       ],
       "allocationPercent": 10,
-      "rationale": "前沿方向，今日新增 4 个探索方向"
+      "rationale": "前沿方向，今日新增人机协作制造 (Industry 5.0) 和 AI 教育个性化 (PAL)"
     },
     "tier5_downgrade": {
       "name": "建议降权（重复过多）",
@@ -185,6 +187,26 @@
         "topic": "代理反思外部化",
         "reason": "Self-Revising Agent 声明式反思协议，LLM 仅 4.3% 回合必要",
         "priority": "high"
+      },
+      {
+        "topic": "机器遗忘 (Machine Unlearning)",
+        "reason": "RePAIR 交互式机器遗忘框架，用户驱动模型编辑，STAMP 伪逆更新",
+        "priority": "high"
+      },
+      {
+        "topic": "AI 安全基准治理",
+        "reason": "AISafetyBenchExplorer 揭示 195 基准碎片化，仅 7 个 Popular，137/195 仓库停滞",
+        "priority": "high"
+      },
+      {
+        "topic": "人机协作制造",
+        "reason": "EBQ&SAP/PF-CD3Q 疲劳预测任务规划，Industry 5.0 以人为本",
+        "priority": "medium"
+      },
+      {
+        "topic": "AI 教育个性化",
+        "reason": "PAL 多模态讲座分析，实时自适应问题生成，个性化总结",
+        "priority": "medium"
       }
     ]
   }
