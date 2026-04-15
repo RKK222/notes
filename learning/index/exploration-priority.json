@@ -37,10 +37,12 @@
         "Hegel PBT 协议",
         "Research-Driven Agents",
         "持续学习代理",
-        "AI 编程 Harness"
+        "AI 编程 Harness",
+        "机器遗忘 (Machine Unlearning)",
+        "AI 安全基准治理"
       ],
       "allocationPercent": 25,
-      "rationale": "新兴热点，TestAgent-Pro/MultiAgent-Collab/RAG-Advanced 三大突破 + Hegel PBT/Hermes-Agent/Archon 新范式"
+      "rationale": "新兴热点，TestAgent-Pro/MultiAgent-Collab/RAG-Advanced 三大突破 + Hegel PBT/Hermes-Agent/Archon 新范式 + RePAIR/AISafetyBenchExplorer 今日突破"
     },
     "tier3_maintenance": {
       "name": "观察维持（中低频）",
