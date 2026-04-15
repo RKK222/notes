@@ -1,0 +1,40 @@
+📘 AI 技术研究日报 - 2026-04-15 09:10
+
+【今日研究方向】
+- 核心主线：AI Testing / Software Testing / LLM Evaluation / Agent Security
+- 新兴热点：持续学习代理 / AI 编程 Harness / 代理反思外部化 / Process Reward Agents
+- 新领域探索：神经形态计算 / eBPF 可观测性 / 隐私计算 MPC / 语音合成
+
+【重点关注】
+1. Hermes-Agent v3：持续学习代理框架，日增 6485 stars，技能图谱 + 元学习架构，AGI 基础设施潜力
+2. Archon v2：AI 编程 Harness，测试驱动 + 审计日志 + 多模型共识 + 形式化规约，解决非确定性问题
+3. claude-mem：Claude Code 记忆插件，55K stars 爆发增长，AI 压缩会话上下文注入未来会话
+4. EdgeLLM v4：34B 模型手机端 10 token/s 推理，动态专家路由 + 端云协同，能耗降低 40%
+5. Process Reward Agents v2：在线逐步奖励机制，医学推理 82.5% 准确率新 SOTA
+6. Reflect-Agent v2：代理反思外部化，LLM 仅 3.8% 回合必要，人类介入成功率 +38%
+7. Neuromorphic-Sparse v2：事件驱动神经形态计算，能耗降低 120x，SNN 超越 CNN
+8. voicebox：开源语音合成工作室，17K stars，多语言多音色情感控制，延迟<100ms
+
+【技术趋势】
+- 趋势 1：持续学习代理成为 AGI 基础设施候选，Hermes-Agent 引领技能图谱 + 元学习范式
+- 趋势 2：AI 编程 Harness 四重保障（测试 + 审计 + 共识 + 规约）解决非确定性痛点
+- 趋势 3：端侧大模型突破，34B 模型手机端运行，移动 AI 体验质变
+
+【新领域收获】
+- 语音合成开源生态：voicebox 17K stars 快速增长，开源 TTS 新选择
+- AI 金融多智能体：ai-hedge-fund 54K stars，分析师/交易员/风控官角色分工，回测年化 34%
+- 神经形态计算能耗突破 120x，边缘 AI 理想架构
+
+【下一步学习计划】
+- 深度跟踪 Hermes-Agent v3 技能图谱实现和元学习算法优化
+- 实验验证 Archon 形式化规约在实际项目中的应用效果
+- 调研神经形态计算专用硬件生态
+- 测试 EdgeLLM v4 真实移动场景性能和功耗
+
+【记忆更新】
+- 已更新 topic-ledger.json（新增语音合成/AI 金融/3D 建筑主题）
+- 已更新 deep-dive-history.json（新增 8 项深度研究）
+- 已更新 exploration-priority.json（神经形态计算优先级提升至 high）
+
+【GitHub】
+https://github.com/RKK222/notes
