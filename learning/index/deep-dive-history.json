@@ -875,6 +875,94 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "声明式反思协议，LLM 仅 4.3% 回合必要，人类介入成功率 +34%"
+    },
+    {
+      "title": "RePAIR: Interactive Machine Unlearning",
+      "url": "https://arxiv.org/abs/2604.12820",
+      "type": "paper",
+      "topic": "机器遗忘 (Machine Unlearning)",
+      "firstSeen": "2026-04-15",
+      "lastDeepDive": "2026-04-15",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "用户驱动模型编辑，STAMP 伪逆更新，设备上遗忘~3x 加速"
+    },
+    {
+      "title": "PAL: Personal Adaptive Learner",
+      "url": "https://arxiv.org/abs/2604.13017",
+      "type": "paper",
+      "topic": "AI 教育个性化",
+      "firstSeen": "2026-04-15",
+      "lastDeepDive": "2026-04-15",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "多模态讲座分析，实时自适应问题生成，个性化总结"
+    },
+    {
+      "title": "CCS: Cycle-Consistent Search",
+      "url": "https://arxiv.org/abs/2604.12967",
+      "type": "paper",
+      "topic": "搜索代理训练",
+      "firstSeen": "2026-04-15",
+      "lastDeepDive": "2026-04-15",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "无黄金监督训练，循环一致性，信息瓶颈防泄漏"
+    },
+    {
+      "title": "MISID: Strategic Deception Intent Recognition",
+      "url": "https://arxiv.org/abs/2604.12700",
+      "type": "paper",
+      "topic": "意图识别",
+      "firstSeen": "2026-04-15",
+      "lastDeepDive": "2026-04-15",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "多模态多轮多参与者基准，FRACTAM 解耦 - 锚定 - 推理框架"
+    },
+    {
+      "title": "RePAIR GitHub Project",
+      "url": "https://github.com/repair-unlearning/repair",
+      "type": "project",
+      "topic": "机器遗忘 (Machine Unlearning)",
+      "firstSeen": "2026-04-15",
+      "lastDeepDive": "2026-04-15",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "交互式机器遗忘框架实现，watchdog+surgeon+patient 三模型架构"
+    },
+    {
+      "title": "Hermes-Agent: Continuous Learning",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "type": "project",
+      "topic": "持续学习代理",
+      "firstSeen": "2026-04-15",
+      "lastDeepDive": "2026-04-15",
+      "deepDiveCount": 2,
+      "status": "active",
+      "notes": "技能图谱 + 元学习，6485 stars/日，AGI 基础设施"
+    },
+    {
+      "title": "Archon: AI Programming Harness",
+      "url": "https://github.com/coleam00/Archon",
+      "type": "project",
+      "topic": "AI 编程 Harness",
+      "firstSeen": "2026-04-15",
+      "lastDeepDive": "2026-04-15",
+      "deepDiveCount": 2,
+      "status": "active",
+      "notes": "测试驱动 + 审计日志 + 多模型共识，解决非确定性"
+    },
+    {
+      "title": "EdgeLLM v3: On-Device Inference",
+      "url": "https://github.com/edge-llm/edge-llm-v3",
+      "type": "project",
+      "topic": "边缘 AI",
+      "firstSeen": "2026-04-15",
+      "lastDeepDive": "2026-04-15",
+      "deepDiveCount": 2,
+      "status": "active",
+      "notes": "13B 模型手机端 12 token/s，动态专家路由，端云协同"
     }
   ]
 }
