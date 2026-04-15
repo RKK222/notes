@@ -566,6 +566,62 @@
       "representativeItem": "Spatial-Gym - 空间推理逐步评估框架",
       "trend": "new",
       "notes": "视觉模型接收图像反而降低 73% 解决率，多模态融合挑战"
+    },
+    {
+      "name": "机器遗忘 (Machine Unlearning)",
+      "category": "emerging",
+      "lastSeen": "2026-04-15",
+      "lastDeepDive": "2026-04-15",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "RePAIR - 交互式机器遗忘框架",
+      "trend": "new",
+      "notes": "用户驱动模型编辑，设备上遗忘，STAMP 伪逆更新技术"
+    },
+    {
+      "name": "AI 安全基准治理",
+      "category": "emerging",
+      "lastSeen": "2026-04-15",
+      "lastDeepDive": "2026-04-15",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "AISafetyBenchExplorer - 195 基准目录",
+      "trend": "new",
+      "notes": "揭示基准碎片化问题，195 基准仅 7 个 Popular，137/195 仓库停滞"
+    },
+    {
+      "name": "人机协作制造",
+      "category": "exploration",
+      "lastSeen": "2026-04-15",
+      "lastDeepDive": "2026-04-15",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "EBQ&SAP / PF-CD3Q - 疲劳预测任务规划",
+      "trend": "new",
+      "notes": "Industry 5.0 以人为本，安全 RL+ 在线疲劳估计"
+    },
+    {
+      "name": "AI 教育个性化",
+      "category": "exploration",
+      "lastSeen": "2026-04-15",
+      "lastDeepDive": "2026-04-15",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "PAL - 个人自适应学习平台",
+      "trend": "new",
+      "notes": "多模态讲座分析，实时自适应问题生成，个性化总结"
     }
   ]
 }
