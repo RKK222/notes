@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-15T11:04:00+08:00",
+    "lastUpdated": "2026-04-15T19:00:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-15",
     "nextReview": "2026-04-22"
@@ -51,11 +51,10 @@
         "分布式系统",
         "AI 硬件",
         "边缘 AI",
-        "形式化验证",
-        "量子软件测试"
+        "形式化验证"
       ],
       "allocationPercent": 20,
-      "rationale": "有价值但已充分覆盖，EdgeLLM 和 QuantumTest-Formal 新突破"
+      "rationale": "有价值但已充分覆盖，EdgeLLM 新突破"
     },
     "tier4_lowfreq": {
       "name": "低频探索（新领域）",

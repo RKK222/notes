@@ -963,6 +963,39 @@
       "deepDiveCount": 2,
       "status": "active",
       "notes": "13B 模型手机端 12 token/s，动态专家路由，端云协同"
+    },
+    {
+      "title": "Neural-Formal: Neural Network Formal Verification",
+      "url": "https://arxiv.org/abs/2604.13156",
+      "type": "paper",
+      "topic": "形式化验证×AI",
+      "firstSeen": "2026-04-15",
+      "lastDeepDive": "2026-04-15",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "多面体抽象+SMT 求解，验证效率提升 10x，安全关键系统验证"
+    },
+    {
+      "title": "TestOracle-LLM: Test Oracle Generation",
+      "url": "https://arxiv.org/abs/2604.13089",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-15",
+      "lastDeepDive": "2026-04-15",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "LLM 自动生成测试预言，准确率 87.3%，测试自动化闭环"
+    },
+    {
+      "title": "AISafetyBenchExplorer: AI Safety Benchmark Catalog",
+      "url": "https://arxiv.org/abs/2604.12875",
+      "type": "paper",
+      "topic": "AI 安全基准治理",
+      "firstSeen": "2026-04-15",
+      "lastDeepDive": "2026-04-15",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "195 基准目录，揭示碎片化问题，仅 7 个 Popular，137/195 仓库停滞"
     }
   ]
 }
