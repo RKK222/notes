@@ -126,12 +126,12 @@
       "lastDeepDive": "2026-04-08",
       "repeatCount7d": 2,
       "repeatCount30d": 2,
-      "priority": "medium",
+      "priority": "low",
       "isCore": false,
-      "shouldDowngrade": false,
+      "shouldDowngrade": true,
       "representativeItem": "QuantumTest-Formal 形式化验证",
-      "trend": "rising",
-      "notes": "量子计算测试新前沿，形式化验证突破"
+      "trend": "stable",
+      "notes": "量子计算测试新前沿，实用化尚早，降为低频探索"
     },
     {
       "name": "代码审查代理评估",
@@ -622,6 +622,20 @@
       "representativeItem": "PAL - 个人自适应学习平台",
       "trend": "new",
       "notes": "多模态讲座分析，实时自适应问题生成，个性化总结"
+    },
+    {
+      "name": "形式化验证×AI",
+      "category": "emerging",
+      "lastSeen": "2026-04-15",
+      "lastDeepDive": "2026-04-15",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Neural-Formal - 神经网络形式化验证框架",
+      "trend": "new",
+      "notes": "多面体抽象+SMT 求解，验证效率提升 10x，AI 安全关键系统必备"
     }
   ]
 }
