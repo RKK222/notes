@@ -77,10 +77,11 @@
       "description": "近 7 天 3 次以上且无明显突破",
       "topics": [
         "数据库",
-        "编译器"
+        "编译器",
+        "量子软件测试"
       ],
       "allocationPercent": 5,
-      "rationale": "重复覆盖，降低优先级避免冗余"
+      "rationale": "重复覆盖，降低优先级避免冗余；量子软件测试实用化尚早"
     }
   },
   "newExplorationTargets": {
