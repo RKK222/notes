@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-15T11:04:00+08:00",
+    "lastUpdated": "2026-04-15T19:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-15T11:04:00+08:00"
+    "lastRun": "2026-04-15T19:00:00+08:00"
   },
   "topics": [
     {
@@ -12,8 +12,8 @@
       "category": "core",
       "lastSeen": "2026-04-15",
       "lastDeepDive": "2026-04-11",
-      "repeatCount7d": 27,
-      "repeatCount30d": 19,
+      "repeatCount7d": 28,
+      "repeatCount30d": 20,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
@@ -26,8 +26,8 @@
       "category": "core",
       "lastSeen": "2026-04-15",
       "lastDeepDive": "2026-04-11",
-      "repeatCount7d": 24,
-      "repeatCount30d": 19,
+      "repeatCount7d": 25,
+      "repeatCount30d": 20,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
