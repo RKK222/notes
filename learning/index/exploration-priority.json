@@ -1,9 +1,9 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-15T19:00:00+08:00",
+    "lastUpdated": "2026-04-16T09:09:00+08:00",
     "version": "1.0",
-    "validFrom": "2026-04-15",
+    "validFrom": "2026-04-16",
     "nextReview": "2026-04-22"
   },
   "priorityTiers": {
@@ -39,7 +39,8 @@
         "持续学习代理",
         "AI 编程 Harness",
         "机器遗忘 (Machine Unlearning)",
-        "AI 安全基准治理"
+        "AI 安全基准治理",
+        "TestAgent 评估"
       ],
       "allocationPercent": 25,
       "rationale": "新兴热点，TestAgent-Pro/MultiAgent-Collab/RAG-Advanced 三大突破 + Hegel PBT/Hermes-Agent/Archon 新范式 + RePAIR/AISafetyBenchExplorer 今日突破"
@@ -51,7 +52,9 @@
         "分布式系统",
         "AI 硬件",
         "边缘 AI",
-        "形式化验证"
+        "形式化验证",
+        "端云协同推理",
+        "智能可观测性"
       ],
       "allocationPercent": 20,
       "rationale": "有价值但已充分覆盖，EdgeLLM 新突破"
@@ -206,6 +209,21 @@
       {
         "topic": "AI 教育个性化",
         "reason": "PAL 多模态讲座分析，实时自适应问题生成，个性化总结",
+        "priority": "medium"
+      },
+      {
+        "topic": "TestAgent 评估",
+        "reason": "TestAgent-Eval 首个测试代理标准化评估框架，5 维度指标防止刷分",
+        "priority": "high"
+      },
+      {
+        "topic": "端云协同推理",
+        "reason": "EdgeLLM v4 动态任务分配实现性能成本隐私最优平衡，端侧 7B 18 token/s",
+        "priority": "medium"
+      },
+      {
+        "topic": "智能可观测性",
+        "reason": "eBPF-Observability v2 自动基线学习 + 根因分析，1500 万 + 事件/秒，开销 -92%",
         "priority": "medium"
       }
     ]
