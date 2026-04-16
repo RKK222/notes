@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-16T09:09:00+08:00",
+    "lastUpdated": "2026-04-16T11:00:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-16",
     "nextReview": "2026-04-22"
@@ -40,7 +40,10 @@
         "AI 编程 Harness",
         "机器遗忘 (Machine Unlearning)",
         "AI 安全基准治理",
-        "TestAgent 评估"
+        "TestAgent 评估",
+        "代码 LLM 记忆化",
+        "计划 - 代码协同进化",
+        "供应链安全实证"
       ],
       "allocationPercent": 25,
       "rationale": "新兴热点，TestAgent-Pro/MultiAgent-Collab/RAG-Advanced 三大突破 + Hegel PBT/Hermes-Agent/Archon 新范式 + RePAIR/AISafetyBenchExplorer 今日突破"
@@ -54,7 +57,8 @@
         "边缘 AI",
         "形式化验证",
         "端云协同推理",
-        "智能可观测性"
+        "智能可观测性",
+        "AIOps 故障诊断"
       ],
       "allocationPercent": 20,
       "rationale": "有价值但已充分覆盖，EdgeLLM 新突破"
@@ -224,6 +228,26 @@
       {
         "topic": "智能可观测性",
         "reason": "eBPF-Observability v2 自动基线学习 + 根因分析，1500 万 + 事件/秒，开销 -92%",
+        "priority": "medium"
+      },
+      {
+        "topic": "代码 LLM 记忆化",
+        "reason": "ICSE 2026 Accepted，扰动基量化方法揭示任务/模型依赖性，评估协议改进依据",
+        "priority": "high"
+      },
+      {
+        "topic": "计划 - 代码协同进化",
+        "reason": "ACL 2026 Findings，CollabCoder 代码生成效率 +11-20%，API 调用 -4-10 次",
+        "priority": "high"
+      },
+      {
+        "topic": "供应链安全实证",
+        "reason": "平台级 Commit 签名实证揭示<6% 开发者自行签名，生态级安全 gap 需改进",
+        "priority": "high"
+      },
+      {
+        "topic": "AIOps 故障诊断",
+        "reason": "图增强日志分析混合模型最优，从被动监控到主动预测",
         "priority": "medium"
       }
     ]
