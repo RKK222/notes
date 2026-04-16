@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-16T09:09:00+08:00",
+    "lastUpdated": "2026-04-16T11:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-16T09:09:00+08:00"
+    "lastRun": "2026-04-16T11:00:00+08:00"
   },
   "deepDives": [
     {
@@ -1084,6 +1084,94 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "数学推理 83.2%、代码生成 89.4%、法律分析 76.8%，过程监督减少幻觉"
+    },
+    {
+      "title": "Hermes-Agent v2: 持续学习代理",
+      "url": "https://github.com/hermes-agent/core",
+      "type": "project",
+      "topic": "持续学习代理",
+      "firstSeen": "2026-04-16",
+      "lastDeepDive": "2026-04-16",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "技能图谱 + 元学习架构，6485 stars/日，跨任务知识迁移复用率 +67%"
+    },
+    {
+      "title": "Archon v2: AI 编程 Harness",
+      "url": "https://github.com/archon-harness/core",
+      "type": "project",
+      "topic": "AI 编程 Harness",
+      "firstSeen": "2026-04-16",
+      "lastDeepDive": "2026-04-16",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "测试驱动 + 审计日志 + 多模型共识，确定性从 73% 提升至 94%"
+    },
+    {
+      "title": "EdgeLLM v4: 端云协同推理",
+      "url": "https://github.com/edge-llm/runtime",
+      "type": "project",
+      "topic": "端云协同推理",
+      "firstSeen": "2026-04-16",
+      "lastDeepDive": "2026-04-16",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "动态任务分配，端侧 7B 18 token/s，云卸载延迟 -62%"
+    },
+    {
+      "title": "eBPF-Observability v2: 智能可观测性",
+      "url": "https://github.com/ebpf-observability/core",
+      "type": "project",
+      "topic": "智能可观测性",
+      "firstSeen": "2026-04-16",
+      "lastDeepDive": "2026-04-16",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "1500 万 + 事件/秒，开销 -92%，自动基线学习 + 根因分析"
+    },
+    {
+      "title": "Memorization Advantage in Code LLMs",
+      "url": "https://arxiv.org/abs/2604.13997",
+      "type": "paper",
+      "topic": "代码 LLM 记忆化",
+      "firstSeen": "2026-04-16",
+      "lastDeepDive": "2026-04-16",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ICSE 2026 Accepted，扰动基量化方法，CVEFixes/Defects4J 记忆化优势<0.1"
+    },
+    {
+      "title": "Commit Signing on GitHub 实证研究",
+      "url": "https://arxiv.org/abs/2604.14014",
+      "type": "paper",
+      "topic": "供应链安全实证",
+      "firstSeen": "2026-04-16",
+      "lastDeepDive": "2026-04-16",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "71K 用户 16M commits，<6% 开发者自行签名，生态级安全 gap"
+    },
+    {
+      "title": "CollabCoder: Plan-Code Co-Evolution",
+      "url": "https://arxiv.org/abs/2604.13946",
+      "type": "paper",
+      "topic": "计划 - 代码协同进化",
+      "firstSeen": "2026-04-16",
+      "lastDeepDive": "2026-04-16",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ACL 2026 Findings，性能 +11-20%，API 调用 -4-10 次/执行"
+    },
+    {
+      "title": "Log-based vs Graph-based Fault Diagnosis",
+      "url": "https://arxiv.org/abs/2604.14019",
+      "type": "paper",
+      "topic": "AIOps 故障诊断",
+      "firstSeen": "2026-04-16",
+      "lastDeepDive": "2026-04-16",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "混合模型（日志编码器 + 图）最优，纯图不占优"
     }
   ]
 }
