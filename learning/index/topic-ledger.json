@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-16T09:09:00+08:00",
+    "lastUpdated": "2026-04-16T11:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-16T09:09:00+08:00"
+    "lastRun": "2026-04-16T11:00:00+08:00"
   },
   "topics": [
     {
@@ -12,7 +12,7 @@
       "category": "core",
       "lastSeen": "2026-04-16",
       "lastDeepDive": "2026-04-11",
-      "repeatCount7d": 29,
+      "repeatCount7d": 30,
       "repeatCount30d": 20,
       "priority": "high",
       "isCore": true,
@@ -26,7 +26,7 @@
       "category": "core",
       "lastSeen": "2026-04-16",
       "lastDeepDive": "2026-04-11",
-      "repeatCount7d": 26,
+      "repeatCount7d": 27,
       "repeatCount30d": 20,
       "priority": "high",
       "isCore": true,
@@ -678,6 +678,62 @@
       "representativeItem": "eBPF-Observability v2 智能异常检测",
       "trend": "new",
       "notes": "新增方向，自动基线学习 + 根因分析，可观测性从被动到主动"
+    },
+    {
+      "name": "代码 LLM 记忆化",
+      "category": "emerging",
+      "lastSeen": "2026-04-16",
+      "lastDeepDive": "2026-04-16",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Memorization Advantage in Code LLMs (ICSE 2026)",
+      "trend": "new",
+      "notes": "扰动基记忆化量化方法，揭示任务/模型依赖性，ICSE 2026 接受"
+    },
+    {
+      "name": "计划 - 代码协同进化",
+      "category": "emerging",
+      "lastSeen": "2026-04-16",
+      "lastDeepDive": "2026-04-16",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "CollabCoder 计划代码协同框架",
+      "trend": "new",
+      "notes": "ACL 2026 Findings，代码生成效率提升 11-20%，API 调用减少 4-10 次"
+    },
+    {
+      "name": "AIOps 故障诊断",
+      "category": "exploration",
+      "lastSeen": "2026-04-16",
+      "lastDeepDive": "2026-04-16",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Log-based vs Graph-based Fault Diagnosis",
+      "trend": "new",
+      "notes": "图增强日志分析，混合模型最优，学生项目但方法新颖"
+    },
+    {
+      "name": "供应链安全实证",
+      "category": "emerging",
+      "lastSeen": "2026-04-16",
+      "lastDeepDive": "2026-04-16",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Commit Signing on GitHub 实证研究",
+      "trend": "new",
+      "notes": "平台级实证揭示<6% 开发者自行签名，生态级安全 gap"
     }
   ]
 }
