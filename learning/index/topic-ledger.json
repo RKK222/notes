@@ -1,18 +1,18 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-16T19:00:00+08:00",
+    "lastUpdated": "2026-04-17T09:12:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-16T19:00:00+08:00"
+    "lastRun": "2026-04-17T09:12:00+08:00"
   },
   "topics": [
     {
       "name": "AI Testing",
       "category": "core",
-      "lastSeen": "2026-04-16",
+      "lastSeen": "2026-04-17",
       "lastDeepDive": "2026-04-11",
-      "repeatCount7d": 30,
+      "repeatCount7d": 40,
       "repeatCount30d": 20,
       "priority": "high",
       "isCore": true,
@@ -24,9 +24,9 @@
     {
       "name": "Software Testing",
       "category": "core",
-      "lastSeen": "2026-04-16",
+      "lastSeen": "2026-04-17",
       "lastDeepDive": "2026-04-11",
-      "repeatCount7d": 27,
+      "repeatCount7d": 37,
       "repeatCount30d": 20,
       "priority": "high",
       "isCore": true,
@@ -220,9 +220,9 @@
     {
       "name": "边缘 AI",
       "category": "exploration",
-      "lastSeen": "2026-04-16",
+      "lastSeen": "2026-04-17",
       "lastDeepDive": "2026-04-08",
-      "repeatCount7d": 5,
+      "repeatCount7d": 6,
       "repeatCount30d": 4,
       "priority": "medium",
       "isCore": false,
@@ -318,9 +318,9 @@
     {
       "name": "eBPF 技术",
       "category": "exploration",
-      "lastSeen": "2026-04-16",
+      "lastSeen": "2026-04-17",
       "lastDeepDive": "2026-04-08",
-      "repeatCount7d": 3,
+      "repeatCount7d": 4,
       "repeatCount30d": 1,
       "priority": "medium",
       "isCore": false,
@@ -444,9 +444,9 @@
     {
       "name": "持续学习代理",
       "category": "emerging",
-      "lastSeen": "2026-04-16",
+      "lastSeen": "2026-04-17",
       "lastDeepDive": "2026-04-13",
-      "repeatCount7d": 5,
+      "repeatCount7d": 6,
       "repeatCount30d": 2,
       "priority": "high",
       "isCore": false,
@@ -458,9 +458,9 @@
     {
       "name": "AI 编程 Harness",
       "category": "emerging",
-      "lastSeen": "2026-04-16",
+      "lastSeen": "2026-04-17",
       "lastDeepDive": "2026-04-13",
-      "repeatCount7d": 5,
+      "repeatCount7d": 6,
       "repeatCount30d": 2,
       "priority": "high",
       "isCore": false,
@@ -570,9 +570,9 @@
     {
       "name": "机器遗忘 (Machine Unlearning)",
       "category": "emerging",
-      "lastSeen": "2026-04-16",
+      "lastSeen": "2026-04-17",
       "lastDeepDive": "2026-04-15",
-      "repeatCount7d": 2,
+      "repeatCount7d": 3,
       "repeatCount30d": 1,
       "priority": "high",
       "isCore": false,
@@ -626,9 +626,9 @@
     {
       "name": "形式化验证×AI",
       "category": "emerging",
-      "lastSeen": "2026-04-16",
+      "lastSeen": "2026-04-17",
       "lastDeepDive": "2026-04-15",
-      "repeatCount7d": 2,
+      "repeatCount7d": 3,
       "repeatCount30d": 1,
       "priority": "high",
       "isCore": false,
@@ -734,6 +734,34 @@
       "representativeItem": "Commit Signing on GitHub 实证研究",
       "trend": "new",
       "notes": "平台级实证揭示<6% 开发者自行签名，生态级安全 gap"
+    },
+    {
+      "name": "多智能体安全对齐",
+      "category": "emerging",
+      "lastSeen": "2026-04-17",
+      "lastDeepDive": "2026-04-17",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "MultiAgent-Safety v2 Peer-Preservation 检测",
+      "trend": "new",
+      "notes": "多智能体互相保护有害行为，对齐检测 87%，干预成功 79%"
+    },
+    {
+      "name": "Industry 5.0",
+      "category": "exploration",
+      "lastSeen": "2026-04-17",
+      "lastDeepDive": "2026-04-17",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Industry-5.0-Human 以人为本制造框架",
+      "trend": "new",
+      "notes": "工人满意度 +34%、效率 +12%、工伤率 -47%，健康 - 效率双赢"
     }
   ]
 }
