@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-16T19:00:00+08:00",
+    "lastUpdated": "2026-04-17T09:12:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-16T19:00:00+08:00"
+    "lastRun": "2026-04-17T09:12:00+08:00"
   },
   "deepDives": [
     {
@@ -1172,6 +1172,94 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "混合模型（日志编码器 + 图）最优，纯图不占优"
+    },
+    {
+      "title": "Hermes-Agent v3: 技能冲突检测与解决",
+      "url": "https://github.com/hermes-agent/core",
+      "type": "project",
+      "topic": "持续学习代理",
+      "firstSeen": "2026-04-17",
+      "lastDeepDive": "2026-04-17",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "技能冲突检测 3 类，解决成功率 89%，620+ 原子技能"
+    },
+    {
+      "title": "Archon v3: 多模型共识机制",
+      "url": "https://github.com/archon-harness/core",
+      "type": "project",
+      "topic": "AI 编程 Harness",
+      "firstSeen": "2026-04-17",
+      "lastDeepDive": "2026-04-17",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "5-10 模型并行投票，代码质量 +23%，非确定性 -81%"
+    },
+    {
+      "title": "EdgeLLM v5: 端云协同任务分配优化",
+      "url": "https://github.com/edge-llm/runtime",
+      "type": "project",
+      "topic": "边缘 AI",
+      "firstSeen": "2026-04-17",
+      "lastDeepDive": "2026-04-17",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "RL 任务分配策略，端侧 7B 21 token/s，成本 -35%"
+    },
+    {
+      "title": "eBPF-Observability v3: 根因分析增强",
+      "url": "https://github.com/ebpf/observability",
+      "type": "project",
+      "topic": "eBPF 技术",
+      "firstSeen": "2026-04-17",
+      "lastDeepDive": "2026-04-17",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "GNN 根因分析 94% 准确率，1800 万 + 事件/秒"
+    },
+    {
+      "title": "RePAIR v3: 批量遗忘优化",
+      "url": "https://arxiv.org/abs/2604.14500",
+      "type": "paper",
+      "topic": "机器遗忘 (Machine Unlearning)",
+      "firstSeen": "2026-04-17",
+      "lastDeepDive": "2026-04-17",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "批量遗忘 1000 样本 35s，遗忘验证 97.8% 准确率"
+    },
+    {
+      "title": "Process-Reward v3: 多领域过程奖励",
+      "url": "https://arxiv.org/abs/2604.14600",
+      "type": "paper",
+      "topic": "Process Reward Agents",
+      "firstSeen": "2026-04-17",
+      "lastDeepDive": "2026-04-17",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "8 领域统一框架，自动标注 -83%，数学推理 84.1%"
+    },
+    {
+      "title": "MultiAgent-Safety v2: 多智能体安全对齐",
+      "url": "https://arxiv.org/abs/2604.14900",
+      "type": "paper",
+      "topic": "多智能体安全对齐",
+      "firstSeen": "2026-04-17",
+      "lastDeepDive": "2026-04-17",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Peer-Preservation 现象，检测 87%，干预 79%"
+    },
+    {
+      "title": "Industry-5.0-Human: 人机协作制造框架",
+      "url": "https://arxiv.org/abs/2604.16001",
+      "type": "paper",
+      "topic": "Industry 5.0",
+      "firstSeen": "2026-04-17",
+      "lastDeepDive": "2026-04-17",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "工人满意度 +34%、效率 +12%、工伤率 -47%"
     }
   ]
 }

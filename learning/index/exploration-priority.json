@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-16T19:00:00+08:00",
+    "lastUpdated": "2026-04-17T09:12:00+08:00",
     "version": "1.0",
-    "validFrom": "2026-04-16",
-    "nextReview": "2026-04-22"
+    "validFrom": "2026-04-17",
+    "nextReview": "2026-04-24"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -43,7 +43,8 @@
         "TestAgent 评估",
         "代码 LLM 记忆化",
         "计划 - 代码协同进化",
-        "供应链安全实证"
+        "供应链安全实证",
+        "多智能体安全对齐"
       ],
       "allocationPercent": 25,
       "rationale": "新兴热点，TestAgent-Pro/MultiAgent-Collab/RAG-Advanced 三大突破 + Hegel PBT/Hermes-Agent/Archon 新范式 + RePAIR/AISafetyBenchExplorer 今日突破"
@@ -74,7 +75,8 @@
         "Bio AI",
         "Web3",
         "人机协作制造",
-        "AI 教育个性化"
+        "AI 教育个性化",
+        "Industry 5.0"
       ],
       "allocationPercent": 10,
       "rationale": "前沿方向，今日新增人机协作制造 (Industry 5.0) 和 AI 教育个性化 (PAL)"
