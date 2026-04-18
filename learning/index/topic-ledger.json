@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-18T09:08:00+08:00",
+    "lastUpdated": "2026-04-18T19:02:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
     "lastRun": "2026-04-17T19:00:00+08:00"
@@ -804,6 +804,48 @@
       "representativeItem": "NuHF Claw - 风险约束认知代理框架",
       "trend": "new",
       "notes": "安全关键环境人机协作，认知状态推理 + 概率安全评估实时调节，从自动化驱动到认知感知自主"
+    },
+    {
+      "name": "自进化代理技能树",
+      "category": "emerging",
+      "lastSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "GenericAgent - 从 3.3K 行种子成长为完整系统控制",
+      "trend": "new",
+      "notes": "技能图谱自动扩展，token 消耗降低 6 倍，AGI 基础设施关键组件"
+    },
+    {
+      "name": "GEP 驱动进化引擎",
+      "category": "emerging",
+      "lastSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "EvoMap/evolver - GEP-Powered Self-Evolution Engine",
+      "trend": "new",
+      "notes": "基因组进化协议驱动 AI 代理自进化，模拟生物进化机制，与技能树互补"
+    },
+    {
+      "name": "毒性评论过滤",
+      "category": "emerging",
+      "lastSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "ToxiShield - GitHub PR 实时毒性过滤扩展",
+      "trend": "new",
+      "notes": "BERT 98% 准确率检测，Llama 3.2 95.27% 重构准确率，FSE'2026 接受"
     }
   ]
 }
