@@ -1436,6 +1436,94 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "LevelDB vs SAP HANA 对比研究，LLM prioritizes compilability over semantic effectiveness"
+    },
+    {
+      "title": "GenericAgent: Self-evolving agent with skill tree",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "type": "project",
+      "topic": "自进化代理技能树",
+      "firstSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "从 3.3K 行种子成长为完整技能树，token 消耗降低 6 倍，845 stars/日"
+    },
+    {
+      "title": "EvoMap/evolver: GEP-Powered Self-Evolution Engine",
+      "url": "https://github.com/EvoMap/evolver",
+      "type": "project",
+      "topic": "GEP 驱动进化引擎",
+      "firstSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "基因组进化协议驱动，模拟生物进化机制，737 stars/日"
+    },
+    {
+      "title": "TestAgent-MultiRound: Multi-Round Testing Evaluation",
+      "url": "https://github.com/testagent/multi-round-eval",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "首个多轮测试评估框架，5/10/20 轮三档，收敛速度指标"
+    },
+    {
+      "title": "eBPF-Observability v3: Cloud-Native Observability",
+      "url": "https://github.com/ebpf/observability",
+      "type": "project",
+      "topic": "eBPF 技术",
+      "firstSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "GNN 根因分析 94% 准确率，1800 万 + 事件/秒，异常预测 5-15 分钟"
+    },
+    {
+      "title": "TestTime-Compute v2: Inference-Time Compute Scaling",
+      "url": "https://arxiv.org/abs/2604.15201",
+      "type": "paper",
+      "topic": "LLM Inference",
+      "firstSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "置信度触发动态推理，数学 84.1%、代码 85.3%，延迟 1.45x"
+    },
+    {
+      "title": "FuzzLLM v3: LLM-Driven Intelligent Fuzzing",
+      "url": "https://arxiv.org/abs/2604.15101",
+      "type": "paper",
+      "topic": "Security Testing",
+      "firstSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "语义分析输入生成，漏洞发现 +172%，路径覆盖 95.3%"
+    },
+    {
+      "title": "PhotonAI-Chip v2: Photonic AI Computing",
+      "url": "https://arxiv.org/abs/2604.15301",
+      "type": "paper",
+      "topic": "AI Hardware",
+      "firstSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "光子 AI 芯片，能耗 -10x，延迟 -100x，7B 推理 5W，2027 年量产"
+    },
+    {
+      "title": "DNA-Storage-Random v3: CRISPR-Guided Random Access",
+      "url": "https://arxiv.org/abs/2604.15302",
+      "type": "paper",
+      "topic": "Storage",
+      "firstSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "CRISPR 引导随机读取，秒级访问，1EB/mm³，1000 年保存"
     }
   ]
 }

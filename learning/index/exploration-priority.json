@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-18T09:08:00+08:00",
+    "lastUpdated": "2026-04-18T19:02:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-17",
     "nextReview": "2026-04-24"
@@ -44,7 +44,10 @@
         "代码 LLM 记忆化",
         "计划 - 代码协同进化",
         "供应链安全实证",
-        "多智能体安全对齐"
+        "多智能体安全对齐",
+        "自进化代理技能树",
+        "GEP 驱动进化引擎",
+        "毒性评论过滤"
       ],
       "allocationPercent": 25,
       "rationale": "新兴热点，TestAgent-Pro/MultiAgent-Collab/RAG-Advanced 三大突破 + Hegel PBT/Hermes-Agent/Archon 新范式 + RePAIR/AISafetyBenchExplorer 今日突破"
@@ -266,6 +269,21 @@
         "topic": "核能控制室人机协作",
         "reason": "NuHF Claw 风险约束认知代理框架，安全关键环境认知状态推理 + 概率安全评估实时调节",
         "priority": "medium"
+      },
+      {
+        "topic": "自进化代理技能树",
+        "reason": "GenericAgent 从 3.3K 行种子成长为完整系统控制，token 消耗降低 6 倍，845 stars/日",
+        "priority": "high"
+      },
+      {
+        "topic": "GEP 驱动进化引擎",
+        "reason": "EvoMap/evolver 基因组进化协议驱动 AI 代理自进化，模拟生物进化机制，737 stars/日",
+        "priority": "high"
+      },
+      {
+        "topic": "毒性评论过滤",
+        "reason": "ToxiShield GitHub PR 扩展，BERT 98% 准确率检测，Llama 3.2 95.27% 重构准确率，FSE'2026",
+        "priority": "high"
       }
     ]
   }
