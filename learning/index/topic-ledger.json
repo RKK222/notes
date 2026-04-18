@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-17T19:00:00+08:00",
+    "lastUpdated": "2026-04-18T09:08:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
     "lastRun": "2026-04-17T19:00:00+08:00"
@@ -762,6 +762,48 @@
       "representativeItem": "Industry-5.0-Human 以人为本制造框架",
       "trend": "new",
       "notes": "工人满意度 +34%、效率 +12%、工伤率 -47%，健康 - 效率双赢"
+    },
+    {
+      "name": "心跳驱动认知调度",
+      "category": "emerging",
+      "lastSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Heartbeat-Driven Autonomous Thinking Activity Scheduling",
+      "trend": "new",
+      "notes": "LLM 代理主动自适应控制新范式，周期性心跳编排认知模块，元学习持续优化"
+    },
+    {
+      "name": "企业 AI 有界自主",
+      "category": "emerging",
+      "lastSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Bounded Autonomy for Enterprise AI - 类型化行动契约",
+      "trend": "new",
+      "notes": "企业 AI 安全架构新范式，25 场景 23/25 零不安全执行，结构性强制安全属性"
+    },
+    {
+      "name": "核能控制室人机协作",
+      "category": "exploration",
+      "lastSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "NuHF Claw - 风险约束认知代理框架",
+      "trend": "new",
+      "notes": "安全关键环境人机协作，认知状态推理 + 概率安全评估实时调节，从自动化驱动到认知感知自主"
     }
   ]
 }
