@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-17T19:00:00+08:00",
+    "lastUpdated": "2026-04-18T09:08:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-17",
     "nextReview": "2026-04-24"
@@ -250,6 +250,21 @@
       {
         "topic": "AIOps 故障诊断",
         "reason": "图增强日志分析混合模型最优，从被动监控到主动预测",
+        "priority": "medium"
+      },
+      {
+        "topic": "心跳驱动认知调度",
+        "reason": "Heartbeat-Driven 机制实现 LLM 代理主动自适应控制，周期性心跳编排认知模块，元学习持续优化",
+        "priority": "high"
+      },
+      {
+        "topic": "企业 AI 有界自主",
+        "reason": "Bounded Autonomy 架构通过类型化行动契约 + 消费者侧执行边界实现结构性安全，25 场景 23/25 零不安全执行",
+        "priority": "high"
+      },
+      {
+        "topic": "核能控制室人机协作",
+        "reason": "NuHF Claw 风险约束认知代理框架，安全关键环境认知状态推理 + 概率安全评估实时调节",
         "priority": "medium"
       }
     ]

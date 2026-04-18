@@ -1348,6 +1348,94 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "CRISPR 引导随机读取，秒级访问，1EB/mm³，1000 年保存"
+    },
+    {
+      "title": "Hermes-Agent v3: 持续学习代理框架",
+      "url": "https://github.com/hermes-agent/core",
+      "type": "project",
+      "topic": "持续学习代理",
+      "firstSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "技能冲突检测与解决 v3，620+ 原子技能，解决成功率 89%，8100 stars/日"
+    },
+    {
+      "title": "Archon v3: AI 编程 Harness",
+      "url": "https://github.com/archon-harness/core",
+      "type": "project",
+      "topic": "AI 编程 Harness",
+      "firstSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "多模型共识机制 v3，5-10 模型并行投票，代码质量 +23%，非确定性 -81%"
+    },
+    {
+      "title": "EdgeLLM v5: 端云协同推理引擎",
+      "url": "https://github.com/edge-llm/runtime",
+      "type": "project",
+      "topic": "边缘 AI",
+      "firstSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "RL 任务分配优化，端侧 7B 21 token/s，带宽 -72%，延迟 -48%，成本 -35%"
+    },
+    {
+      "title": "eBPF-Observability v3: 云原生智能可观测性",
+      "url": "https://github.com/ebpf/observability",
+      "type": "project",
+      "topic": "eBPF 技术",
+      "firstSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "GNN 根因分析 94% 准确率，1800 万 + 事件/秒，异常预测 5-15 分钟"
+    },
+    {
+      "title": "Heartbeat-Driven Autonomous Thinking Activity Scheduling",
+      "url": "https://arxiv.org/abs/2604.14178",
+      "type": "paper",
+      "topic": "心跳驱动认知调度",
+      "firstSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "LLM 代理主动自适应控制，周期性心跳编排认知模块，元学习持续优化策略"
+    },
+    {
+      "title": "Bounded Autonomy for Enterprise AI",
+      "url": "https://arxiv.org/abs/2604.14723",
+      "type": "paper",
+      "topic": "企业 AI 有界自主",
+      "firstSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "类型化行动契约 + 消费者侧执行边界，25 场景 23/25 零不安全执行，13-18x 加速"
+    },
+    {
+      "title": "SWE-TRACE: Optimizing Long-Horizon SWE Agents",
+      "url": "https://arxiv.org/abs/2604.14820",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "长程 SWE 代理优化，Rubric-Based PRM 密集反馈，测试时缩放动态剪枝"
+    },
+    {
+      "title": "LLMs taking shortcuts in test generation",
+      "url": "https://arxiv.org/abs/2604.14437",
+      "type": "paper",
+      "topic": "Software Testing",
+      "firstSeen": "2026-04-18",
+      "lastDeepDive": "2026-04-18",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "LevelDB vs SAP HANA 对比研究，LLM prioritizes compilability over semantic effectiveness"
     }
   ]
 }
