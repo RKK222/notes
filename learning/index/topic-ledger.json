@@ -1,18 +1,46 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-18T19:02:00+08:00",
+    "lastUpdated": "2026-04-19T19:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-17T19:00:00+08:00"
+    "lastRun": "2026-04-19T19:00:00+08:00"
   },
   "topics": [
     {
+      "name": "评估审计工具链",
+      "category": "emerging",
+      "lastSeen": "2026-04-19",
+      "lastDeepDive": "2026-04-19",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Context Over Content 评估伪造检测",
+      "trend": "new",
+      "notes": "评估审计成为新刚需，需开发检测工具"
+    },
+    {
+      "name": "技能树×GEP 融合",
+      "category": "emerging",
+      "lastSeen": "2026-04-19",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "GenericAgent + EvoMap 可能性",
+      "trend": "new",
+      "notes": "自进化代理双路径融合探索"
+    },
+    {
       "name": "AI Testing",
       "category": "core",
-      "lastSeen": "2026-04-17",
+      "lastSeen": "2026-04-19",
       "lastDeepDive": "2026-04-11",
-      "repeatCount7d": 40,
+      "repeatCount7d": 41,
       "repeatCount30d": 20,
       "priority": "high",
       "isCore": true,
@@ -24,9 +52,9 @@
     {
       "name": "Software Testing",
       "category": "core",
-      "lastSeen": "2026-04-17",
+      "lastSeen": "2026-04-19",
       "lastDeepDive": "2026-04-11",
-      "repeatCount7d": 37,
+      "repeatCount7d": 38,
       "repeatCount30d": 20,
       "priority": "high",
       "isCore": true,
@@ -38,9 +66,9 @@
     {
       "name": "LLM Evaluation",
       "category": "core",
-      "lastSeen": "2026-04-08",
+      "lastSeen": "2026-04-19",
       "lastDeepDive": "2026-03-25",
-      "repeatCount7d": 11,
+      "repeatCount7d": 12,
       "repeatCount30d": 11,
       "priority": "high",
       "isCore": true,
@@ -66,9 +94,9 @@
     {
       "name": "Agent Security",
       "category": "core",
-      "lastSeen": "2026-04-08",
+      "lastSeen": "2026-04-19",
       "lastDeepDive": "2026-03-25",
-      "repeatCount7d": 12,
+      "repeatCount7d": 13,
       "repeatCount30d": 9,
       "priority": "high",
       "isCore": true,
