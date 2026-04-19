@@ -1,0 +1,41 @@
+📘 AI 技术研究日报 - 2026-04-19 09:10
+
+【今日研究方向】
+- AI Testing/Software Testing：RAG 增强测试生成、评估伪造检测、测试生成捷径问题
+- LLM 评估与泛化：自动化评估偏差、最短路径泛化能力、推理时计算扩展
+- Agent 架构演进：自进化技能树、GEP 进化引擎、心跳驱动认知调度
+- 新领域探索：光子 AI 芯片、DNA 随机存储、脑机接口软件栈
+
+【重点关注】
+1. Context Over Content (arXiv:2604.15224)：揭示 LLM-as-a-judge 评估伪造，stakes signaling 导致 30% 漏检且思维链无法检测，AI 评估进入"审计时代"
+2. GenericAgent (GitHub:lsdefine/GenericAgent)：自进化技能树从 3.3K 行成长为完整系统，token 消耗降低 6 倍，12.4K stars，AGI 基础设施关键组件
+3. Generalization in LLM Problem Solving (arXiv:2604.15306)：最短路径泛化研究，空间转移强但长度扩展 consistently fail，递归不稳定是根本原因
+4. EdgeLLM v5 (GitHub:edge-llm/runtime)：RL 动态任务分配实现端侧 7B 21 token/s、云侧 70B 按需卸载，带宽 -72%、延迟 -48%、成本 -35%
+5. Heartbeat-Driven Cognitive Scheduling (arXiv:2604.14178)：心跳驱动认知调度新范式，周期性心跳编排认知模块，资源效率 +47%、任务完成 +23%
+6. EvoMap/evolver (GitHub:EvoMap/evolver)：GEP 基因组进化协议驱动 AI 代理自进化，模拟生物进化机制，与技能树互补的进化路径
+7. RAG for Software Testing (arXiv:2604.15270)：RAG 流水线集成外部知识源，测试生成质量 +23%、人工时间 -35%，RAG 从问答增强到工程实践
+
+【技术趋势】
+- 趋势 1：AI 评估进入"审计时代"——Context Over Content 揭示评估伪造系统性漏洞，HiL-Bench/TestAgent-Eval 建立标准化评估框架，从"信任但验证"转向"零信任审计"
+- 趋势 2：代理架构从"构建"到"培育"——Hermes-Agent/GenericAgent/EvoMap 三条技术路线成熟，代理从静态工具进化为持续进化实体，AGI 开发范式转变
+- 趋势 3：边缘 AI 重新定义边界——EdgeLLM v5 实现手机端 70B 推理可能，边缘 AI 从"小模型"转向"大小协同"，端云协同成为新标准
+
+【新领域收获】
+- 光子 AI 芯片：PhotonAI-Chip v2 光计算矩阵乘法，能耗 -10x、延迟 -100x，7B 推理 5W，2027 年量产
+- DNA 随机存储：DNA-Storage-Random v3 CRISPR 引导随机读取，秒级访问、1EB/mm³、1000 年保存
+- 脑机接口软件栈：Neuralink 首次开源软件架构，实时信号处理 + 解码 pipeline，延迟<10ms、运动意图识别 94%
+
+【下一步学习计划】
+- 深度阅读：Context Over Content、Generalization in LLM、Heartbeat-Driven 三篇论文精读
+- 代码分析：GenericAgent、EvoMap/evolver、EdgeLLM v5 三个项目源码学习
+- 实验复现：RAG for Software Testing 实验验证测试生成质量提升效果
+- 主题收敛：Hermes-Agent/Archon/EdgeLLM 降为隔日或周跟踪，避免重复覆盖
+
+【记忆更新】
+- 已更新主题索引 (topic-ledger.json)：新增评估伪造检测、LLM 泛化能力、脑机接口软件栈等 5 个主题
+- 已更新深度研究历史 (deep-dive-history.json)：新增 8 个深度研究对象
+- 已更新探索优先级 (exploration-priority.json)：评估伪造检测/自进化代理/端云协同升为 tier1
+- 已生成周摘要 (2026-W17.md)：覆盖 4 月 13-19 日 7 份日报，总结本周技术趋势与下周优先方向
+
+【GitHub】
+https://github.com/RKK222/notes
