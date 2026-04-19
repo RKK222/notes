@@ -1,10 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-18T19:02:00+08:00",
+    "lastUpdated": "2026-04-19T19:00:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-17",
-    "nextReview": "2026-04-24"
+    "nextReview": "2026-04-24",
+    "lastRun": "2026-04-19T19:00:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -286,5 +287,53 @@
         "priority": "high"
       }
     ]
-  }
+  },
+  "持续高优先级": [
+    "AI Testing",
+    "Software Testing",
+    "LLM Evaluation",
+    "Agent Security",
+    "自进化代理",
+    "评估审计工具链"
+  ],
+  "低频但值得探索": [
+    "光子 AI 芯片",
+    "DNA 存储",
+    "脑机接口软件栈",
+    "量子 - 经典混合计算",
+    "神经形态视觉传感器",
+    "合成生物学 CAD"
+  ],
+  "降权方向": [
+    {
+      "topic": "Hermes-Agent",
+      "reason": "连续 8 天覆盖，边际收益递减",
+      "newFrequency": "隔日跟踪"
+    },
+    {
+      "topic": "Archon",
+      "reason": "连续 7 天覆盖，机制已充分理解",
+      "newFrequency": "周跟踪"
+    },
+    {
+      "topic": "EdgeLLM",
+      "reason": "连续 6 天覆盖，v5 已较成熟",
+      "newFrequency": "周跟踪"
+    },
+    {
+      "topic": "量子软件测试",
+      "reason": "近 7 天 2 次，实用化 5-10 年",
+      "newFrequency": "tier5"
+    },
+    {
+      "topic": "数据库",
+      "reason": "近 7 天 4 次，无明显突破",
+      "newFrequency": "tier5"
+    },
+    {
+      "topic": "编译器",
+      "reason": "近 7 天 4 次，方向成熟",
+      "newFrequency": "tier5"
+    }
+  ]
 }
