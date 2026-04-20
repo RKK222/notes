@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-20T11:05:00+08:00",
+    "lastUpdated": "2026-04-20T19:06:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-20",
     "nextReview": "2026-04-27",
-    "lastRun": "2026-04-20T11:05:00+08:00"
+    "lastRun": "2026-04-20T19:06:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -18,10 +18,11 @@
         "AI Safety & Alignment",
         "Agent Security",
         "代码审查代理评估",
-        "属性基测试"
+        "属性基测试",
+        "评估审计工具链"
       ],
       "allocationPercent": 40,
-      "rationale": "核心研究领域+新兴高价值方向"
+      "rationale": "核心研究领域 + 新兴高价值方向 + 评估审计工具链刚需确认"
     },
     "tier2_emerging": {
       "name": "新兴高优先级（上升趋势）",
@@ -80,10 +81,13 @@
         "Web3",
         "人机协作制造",
         "AI 教育个性化",
-        "Industry 5.0"
+        "Industry 5.0",
+        "WiFi 传感技术",
+        "FP8 计算优化",
+        "ML 研究完整性审计"
       ],
       "allocationPercent": 10,
-      "rationale": "前沿方向，今日新增人机协作制造 (Industry 5.0) 和 AI 教育个性化 (PAL)"
+      "rationale": "前沿方向，今日新增 WiFi 传感/FP8 计算/ML 研究审计"
     },
     "tier5_downgrade": {
       "name": "建议降权（重复过多）",

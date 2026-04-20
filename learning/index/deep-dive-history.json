@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-20T11:05:00+08:00",
+    "lastUpdated": "2026-04-20T19:06:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-20T11:05:00+08:00"
+    "lastRun": "2026-04-20T19:06:00+08:00"
   },
   "deepDives": [
     {
@@ -1612,6 +1612,94 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "CRISPR 引导随机读取，秒级访问，1EB/mm³，1000 年保存"
+    },
+    {
+      "title": "GenericAgent v2: Skill Conflict Resolution",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "type": "project",
+      "topic": "自进化代理技能树",
+      "firstSeen": "2026-04-20",
+      "lastDeepDive": "2026-04-20",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "技能冲突解决 v3，620+ 原子技能，89% 解决率"
+    },
+    {
+      "title": "EvoMap/evolver: GEP-Powered Self-Evolution Engine",
+      "url": "https://github.com/EvoMap/evolver",
+      "type": "project",
+      "topic": "GEP 驱动进化引擎",
+      "firstSeen": "2026-04-20",
+      "lastDeepDive": "2026-04-20",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "基因组进化协议，生物启发 AGI 自进化"
+    },
+    {
+      "title": "Thunderbolt: AI You Control",
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "type": "project",
+      "topic": "AI 自主权基础设施",
+      "firstSeen": "2026-04-20",
+      "lastDeepDive": "2026-04-20",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "反供应商锁定，模型选择自由，数据所有权"
+    },
+    {
+      "title": "ToxiShield: Browser Extension for GitHub",
+      "url": "https://github.com/toxishield/extension",
+      "type": "project",
+      "topic": "开源社区毒性治理",
+      "firstSeen": "2026-04-20",
+      "lastDeepDive": "2026-04-20",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "FSE2026 Demo，PR 毒性评论过滤，12K+ 安装"
+    },
+    {
+      "title": "ASMR-Bench: Auditing for Sabotage in ML Research",
+      "url": "https://arxiv.org/abs/2604.16286",
+      "type": "paper",
+      "topic": "ML 研究完整性审计",
+      "firstSeen": "2026-04-20",
+      "lastDeepDive": "2026-04-20",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "首个 AI 自主研究破坏检测基准，Gemini 3.1 Pro 42% 修复率"
+    },
+    {
+      "title": "From Papers to Progress: Rethinking Knowledge Accumulation in SE",
+      "url": "https://arxiv.org/abs/2604.16208",
+      "type": "paper",
+      "topic": "SE 知识积累基础设施",
+      "firstSeen": "2026-04-20",
+      "lastDeepDive": "2026-04-20",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ICSE 2026 FOSE，280 名研究者调研，四大结构性崩溃"
+    },
+    {
+      "title": "MARCH: Multi-Agent Radiology Clinical Hierarchy",
+      "url": "https://arxiv.org/abs/2604.16175",
+      "type": "paper",
+      "topic": "多智能体临床验证",
+      "firstSeen": "2026-04-20",
+      "lastDeepDive": "2026-04-20",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ACL 2026，放射科临床层级，Resident/Fellow/Attending 三级审核"
+    },
+    {
+      "title": "TestAgent-Eval v2: Extended Benchmark",
+      "url": "https://arxiv.org/abs/2604.16101",
+      "type": "paper",
+      "topic": "测试代理评估",
+      "firstSeen": "2026-04-20",
+      "lastDeepDive": "2026-04-20",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "8 维度评估，覆盖率 - 缺陷发现率相关性仅 0.38"
     }
   ]
 }
