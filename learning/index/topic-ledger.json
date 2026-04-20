@@ -1,24 +1,24 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-20T11:05:00+08:00",
+    "lastUpdated": "2026-04-20T19:06:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-20T11:05:00+08:00"
+    "lastRun": "2026-04-20T19:06:00+08:00"
   },
   "topics": [
     {
       "name": "评估审计工具链",
       "category": "emerging",
-      "lastSeen": "2026-04-19",
+      "lastSeen": "2026-04-20",
       "lastDeepDive": "2026-04-19",
-      "repeatCount7d": 1,
+      "repeatCount7d": 3,
       "repeatCount30d": 1,
       "priority": "high",
       "isCore": false,
       "shouldDowngrade": false,
       "representativeItem": "Context Over Content 评估伪造检测",
-      "trend": "new",
+      "trend": "rising",
       "notes": "评估审计成为新刚需，需开发检测工具"
     },
     {
@@ -38,9 +38,9 @@
     {
       "name": "AI Testing",
       "category": "core",
-      "lastSeen": "2026-04-19",
+      "lastSeen": "2026-04-20",
       "lastDeepDive": "2026-04-11",
-      "repeatCount7d": 41,
+      "repeatCount7d": 42,
       "repeatCount30d": 20,
       "priority": "high",
       "isCore": true,
@@ -52,9 +52,9 @@
     {
       "name": "Software Testing",
       "category": "core",
-      "lastSeen": "2026-04-19",
+      "lastSeen": "2026-04-20",
       "lastDeepDive": "2026-04-11",
-      "repeatCount7d": 38,
+      "repeatCount7d": 39,
       "repeatCount30d": 20,
       "priority": "high",
       "isCore": true,
@@ -874,6 +874,48 @@
       "representativeItem": "ToxiShield - GitHub PR 实时毒性过滤扩展",
       "trend": "new",
       "notes": "BERT 98% 准确率检测，Llama 3.2 95.27% 重构准确率，FSE'2026 接受"
+    },
+    {
+      "name": "WiFi 传感技术",
+      "category": "exploration",
+      "lastSeen": "2026-04-20",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "RuView WiFi DensePose",
+      "trend": "new",
+      "notes": "WiFi 信号实现姿态估计和生命体征监测，隐私友好"
+    },
+    {
+      "name": "FP8 计算优化",
+      "category": "exploration",
+      "lastSeen": "2026-04-20",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "DeepGEMM FP8 GEMM kernels",
+      "trend": "new",
+      "notes": "FP8 量化降低推理成本，边缘部署可行化"
+    },
+    {
+      "name": "ML 研究完整性审计",
+      "category": "emerging",
+      "lastSeen": "2026-04-20",
+      "lastDeepDive": "2026-04-20",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "ASMR-Bench 首个 AI 自主研究破坏检测基准",
+      "trend": "new",
+      "notes": "AI 自主研究时代科研完整性审计刚需"
     }
   ]
 }
