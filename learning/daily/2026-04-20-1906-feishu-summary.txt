@@ -1,0 +1,40 @@
+📘 AI 技术研究日报 - 2026-04-20 19:06
+
+【今日研究方向】
+- AI Testing/Software Testing：ML 研究审计基准、测试代理评估扩展、开源社区治理
+- LLM 评估与治理：AI 自主研究破坏检测、多智能体临床验证
+- Agent 架构：GEP 进化引擎、技能树冲突解决、AI 自主权基础设施
+- 新领域：WiFi 传感、FP8 计算优化、企业架构治理
+
+【重点关注】
+1. ASMR-Bench：首个 AI 自主研究破坏检测基准，Gemini 3.1 Pro 修复率仅 42%，揭示审计刚需
+2. GenericAgent v2：技能冲突解决 v3，620+ 原子技能，89% 解决率，8100 stars
+3. MARCH：放射科临床层级多智能体框架，Resident/Fellow/Attending 三级审核，医疗 AI 新范式
+4. FOSE 知识积累研究：ICSE 2026 元研究，280 名研究者诊断 SE 研究四大结构性崩溃
+5. EvoMap GEP 引擎：GitHub 趋势#8，基因组进化协议驱动 AI 自进化，527 stars 今日
+6. Thunderbolt：AI 自主权运动，反供应商锁定基础设施，GitHub 趋势#2
+7. RuView WiFi 传感：WiFi 信号实现姿态估计和生命体征监测，无需摄像头
+8. ToxiShield：GitHub PR 毒性评论过滤扩展，FSE'2026 Demo，首周 12K+ 安装
+
+【技术趋势】
+- 评估审计工具链成为 AI 自主研究时代刚需，1-2 年内成标配
+- 多智能体验证从代码扩展到高利害领域（医疗/法律/金融）
+- 自进化代理双路径清晰化：技能树（稳定）+ GEP（创新）
+
+【新领域收获】
+- WiFi 传感技术：隐私友好型监控，智能家居/老人看护新范式
+- FP8 计算优化：大模型推理成本降低 50%+，边缘部署可行化
+- ML 研究完整性审计：AI 审稿人必备工具，科研诚信基础设施
+
+【下一步学习计划】
+- 深度阅读 ASMR-Bench 论文，理解基准构建方法
+- 试用 GenericAgent v2 技能冲突解决机制
+- 构建评估审计工具链原型
+
+【记忆更新】
+- 已更新 topic-ledger.json（新增 3 个主题）
+- 已更新 deep-dive-history.json（新增 8 项深度研究）
+- 已更新 exploration-priority.json（评估审计工具链升为 tier1）
+
+【GitHub】
+https://github.com/RKK222/notes
