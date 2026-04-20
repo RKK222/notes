@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-20T09:10:00+08:00",
+    "lastUpdated": "2026-04-20T11:05:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-20",
     "nextReview": "2026-04-27",
-    "lastRun": "2026-04-20T09:10:00+08:00"
+    "lastRun": "2026-04-20T11:05:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
