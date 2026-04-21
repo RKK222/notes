@@ -1,12 +1,82 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-20T19:06:00+08:00",
+    "lastUpdated": "2026-04-21T09:10:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-20T19:06:00+08:00"
+    "lastRun": "2026-04-21T09:10:00+08:00"
   },
   "topics": [
+    {
+      "name": "零变量软件系统",
+      "category": "exploration",
+      "lastSeen": "2026-04-21",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "low",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Null Variability in Software 首个实证研究",
+      "trend": "new",
+      "notes": "无可配置性软件概念，不可变/专用软件设计新范式"
+    },
+    {
+      "name": "神经符号程序分析",
+      "category": "emerging",
+      "lastSeen": "2026-04-21",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "LogicLoc LLM+Datalog 代码定位",
+      "trend": "new",
+      "notes": "结构性推理可验证，token 消耗显著降低，自主软件工程新方向"
+    },
+    {
+      "name": "SE 知识累积基础设施",
+      "category": "emerging",
+      "lastSeen": "2026-04-21",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "From Papers to Progress 280 名研究者调研",
+      "trend": "new",
+      "notes": "SE 研究领域元研究，累积性科学进步基础设施设计"
+    },
+    {
+      "name": "LLM 生成代码检测",
+      "category": "emerging",
+      "lastSeen": "2026-04-21",
+      "lastDeepDive": "2026-04-21",
+      "repeatCount7d": 2,
+      "repeatCount30d": 2,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "LLMSniffer GraphCodeBERT 对比学习",
+      "trend": "rising",
+      "notes": "学术诚信 + 代码质量保证 + 软件安全，检测准确率 78-95%"
+    },
+    {
+      "name": "评估审计工具链",
+      "category": "emerging",
+      "lastSeen": "2026-04-21",
+      "lastDeepDive": "2026-04-21",
+      "repeatCount7d": 4,
+      "repeatCount30d": 2,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "ASMR-Bench ML 研究破坏检测",
+      "trend": "rising",
+      "notes": "评估审计成为新刚需，AI 自主时代质量保障基础设施"
+    },
     {
       "name": "评估审计工具链",
       "category": "emerging",
@@ -38,30 +108,30 @@
     {
       "name": "AI Testing",
       "category": "core",
-      "lastSeen": "2026-04-20",
-      "lastDeepDive": "2026-04-11",
-      "repeatCount7d": 42,
-      "repeatCount30d": 20,
+      "lastSeen": "2026-04-21",
+      "lastDeepDive": "2026-04-21",
+      "repeatCount7d": 43,
+      "repeatCount30d": 21,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
-      "representativeItem": "Hegel 跨语言 PBT 协议",
+      "representativeItem": "GenericAgent v2 技能冲突解决",
       "trend": "stable",
-      "notes": "核心领域，每日必跟，AISafetyBenchExplorer 揭示基准碎片化"
+      "notes": "核心领域，每日必跟，自进化代理双路径深化"
     },
     {
       "name": "Software Testing",
       "category": "core",
-      "lastSeen": "2026-04-20",
-      "lastDeepDive": "2026-04-11",
-      "repeatCount7d": 39,
-      "repeatCount30d": 20,
+      "lastSeen": "2026-04-21",
+      "lastDeepDive": "2026-04-21",
+      "repeatCount7d": 40,
+      "repeatCount30d": 21,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
-      "representativeItem": "MutationLLM v2 语义感知变异",
+      "representativeItem": "LLMSniffer LLM 生成代码检测",
       "trend": "rising",
-      "notes": "核心领域，LLM 驱动测试新范式，AISafetyBenchExplorer 基准治理"
+      "notes": "核心领域，代码生成质量治理 + 检测技术双线上升"
     },
     {
       "name": "LLM Evaluation",
