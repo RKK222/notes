@@ -1,41 +1,37 @@
 📘 AI 技术研究日报 - 2026-04-22 11:05
 
 【今日研究方向】
-- AI Testing / Software Testing：GUI 代码可玩性评估、Code LLM 一致性测试、代码文档一致性检测
-- LLM 评估与治理：自导向调试修复、大小模型协作代码编辑
-- 形式化验证：无崩溃演绎验证器、推理中心化定理证明
-- 新领域探索：WiFi 传感技术、预测式自动伸缩、同理心编程环境
+- GUI 代码可玩性评估、Code LLM 一致性测试、代码文档一致性检测
+- 自导向调试修复、形式化验证工具链、WiFi 传感技术
 
 【重点关注】
-1. PlayCoder (arXiv:2604.19742)：首个 GUI 代码可玩性评估基准，Play@3 仅 20.3% 揭示 LLM 逻辑生成弱点
-2. MUCOCO (arXiv:2604.19086)：Code LLM 一致性自动化测试，15% 输入暴露行为不一致问题
-3. CASCADE (arXiv:2604.19400)：代码 - 文档一致性检测，双重验证设计误报率极低，发现 13 个未知不一致
-4. MOCKMILL (arXiv:2604.19315)：首次利用 mocking 信息增强 LLM 测试生成，覆盖现有测试遗漏场景
-5. DebugRepair (arXiv:2604.19305)：自导向调试框架，收集中间运行时证据提升 APR 修复准确率
-6. RuView (GitHub Trending)：WiFi 信号实现人体姿态估计，无需摄像头保护隐私
-7. Thunderbolt (GitHub Trending)：Thunderbird 用户可控 AI 平台，消除供应商锁定
-8. ReCent-Prover (arXiv:2604.19558)：推理中心化定理证明，CoqStoq 基准提升 22.58%
+1. PlayCoder (arXiv:2604.19742)：首个 GUI 可玩性基准，Play@3 仅 20.3% 揭示 LLM 逻辑生成弱点
+2. MUCOCO (arXiv:2604.19086)：Code LLM 一致性测试，15% 输入暴露行为不一致
+3. CASCADE (arXiv:2604.19400)：代码 - 文档一致性检测，双重验证误报率极低
+4. MOCKMILL (arXiv:2604.19315)：利用 mocking 信息增强 LLM 测试生成
+5. DebugRepair (arXiv:2604.19305)：自导向调试收集运行时证据提升 APR 准确率
+6. RuView (GitHub)：WiFi 信号实现姿态估计，无需摄像头保护隐私
+7. Thunderbolt (GitHub)：Thunderbird 用户可控 AI 平台，消除供应商锁定
+8. ReCent-Prover (arXiv:2604.19558)：推理中心化定理证明，CoqStoq 提升 22.58%
 
 【技术趋势】
-- GUI 代码评估从"能编译"升级到"可玩性"维度，Play@k 指标关注端到端用户体验
-- Code LLM 质量保障多元化：一致性、文档对齐、可调试性多维度评估兴起
-- 人机协同从"替代"转向"增强"：MNAL 互助学习、Ceci 同理心 IDE、Thunderbolt 用户可控
+- GUI 评估从"能编译"升级到"可玩性"，Play@k 关注端到端体验
+- Code LLM 质量保障多元化：一致性、文档对齐、可调试性多维度
+- 人机协同从"替代"转向"增强"：互助学习、同理心 IDE、用户可控 AI
 
 【新领域收获】
-- WiFi 传感技术：RuView 用 WiFi 信号实现姿态估计和生命体征监测，隐私保护监控新方案
-- 预测式自动伸缩：突破 HPA/KEDA 反应式局限，集群级聚合指标实现主动伸缩
-- 同理心编程环境：Ceci IDE 优先情感支持而非代码生成，防止 AI 过度依赖
+- WiFi 传感：RuView 用 WiFi 实现姿态估计和生命体征监测
+- 预测式自动伸缩：突破 HPA/KEDA 反应式局限，主动伸缩延迟 26ms vs 154ms
+- 同理心编程：Ceci IDE 优先情感支持，防止 AI 过度依赖
 
 【下一步学习计划】
-- 深度阅读 PlayCoder 论文，评估 Play@k 指标在现有测试框架适用性
-- 追踪 MUCOCO 开源进展，评估一致性测试工具化可能性
-- WiFi 传感技术调研，了解 CSI 信号处理基础
-- CASCADE 工具本地实验，测试 Java 项目文档一致性检测效果
+- 深度阅读 PlayCoder 论文，评估 Play@k 指标适用性
+- 追踪 MUCOCO 开源进展，评估工具化可能性
+- WiFi 传感技术调研，了解 CSI 信号处理
+- CASCADE 本地实验，测试文档一致性检测
 
 【记忆更新】
-- 已更新 topic-ledger.json（新增 PlayEval/MUCOCO/CASCADE 主题）
-- 已更新 deep-dive-history.json（添加 6 个深度研究对象）
-- 已更新 exploration-priority.json（WiFi 传感/预测式伸缩/同理心 IDE 加入低频探索）
+- 已更新 topic-ledger/deep-dive-history/exploration-priority
 
 【GitHub】
 https://github.com/RKK222/notes
