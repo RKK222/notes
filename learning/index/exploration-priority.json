@@ -292,6 +292,21 @@
         "topic": "毒性评论过滤",
         "reason": "ToxiShield GitHub PR 扩展，BERT 98% 准确率检测，Llama 3.2 95.27% 重构准确率，FSE'2026",
         "priority": "high"
+      },
+      {
+        "topic": "零变量软件系统",
+        "reason": "Null Variability 首个实证研究，无可配置性软件新范式",
+        "priority": "low"
+      },
+      {
+        "topic": "神经符号程序分析",
+        "reason": "LogicLoc LLM+Datalog 代码定位，结构性推理可验证，token 消耗降低",
+        "priority": "medium"
+      },
+      {
+        "topic": "SE 知识累积基础设施",
+        "reason": "From Papers to Progress 280 名研究者调研，四大结构性崩溃，累积性基础设施呼吁",
+        "priority": "medium"
       }
     ]
   },
