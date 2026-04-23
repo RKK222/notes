@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-21T11:05:00+08:00",
+    "lastUpdated": "2026-04-23T11:03:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-21T11:05:00+08:00"
+    "lastRun": "2026-04-23T11:03:00+08:00"
   },
   "topics": [
     {
@@ -986,6 +986,48 @@
       "representativeItem": "ASMR-Bench 首个 AI 自主研究破坏检测基准",
       "trend": "new",
       "notes": "AI 自主研究时代科研完整性审计刚需"
+    },
+    {
+      "name": "零变量软件系统",
+      "category": "exploration",
+      "lastSeen": "2026-04-23",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "low",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Null Variability in Software 首个实证研究",
+      "trend": "new",
+      "notes": "无可配置性软件概念，专用软件设计新范式"
+    },
+    {
+      "name": "神经符号程序分析",
+      "category": "emerging",
+      "lastSeen": "2026-04-23",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "LogicLoc LLM+Datalog 代码定位",
+      "trend": "new",
+      "notes": "结构性推理可验证，token 消耗显著降低，自主软件工程新方向"
+    },
+    {
+      "name": "SE 知识累积基础设施",
+      "category": "emerging",
+      "lastSeen": "2026-04-23",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "From Papers to Progress 280 名研究者调研",
+      "trend": "new",
+      "notes": "SE 研究领域元研究，累积性科学进步基础设施设计"
     }
   ]
 }
