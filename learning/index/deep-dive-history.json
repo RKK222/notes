@@ -1766,6 +1766,72 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "8 维度评估，覆盖率 - 缺陷发现率相关性仅 0.38"
+    },
+    {
+      "title": "GenericAgent v2: Skill Conflict Resolution",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-23",
+      "lastDeepDive": "2026-04-23",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "技能冲突解决 v3，620+ 原子技能，89% 解决率，token -6x，8100 stars"
+    },
+    {
+      "title": "EvoMap/evolver: GEP-Powered Self-Evolution",
+      "url": "https://github.com/EvoMap/evolver",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-23",
+      "lastDeepDive": "2026-04-23",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "GEP 进化引擎，GitHub Trending #8，527 stars/日，AGI 基础设施双路径之一"
+    },
+    {
+      "title": "ASMR-Bench: Auditing for Sabotage in ML Research",
+      "url": "https://arxiv.org/abs/2604.16286",
+      "type": "paper",
+      "topic": "AI Safety",
+      "firstSeen": "2026-04-23",
+      "lastDeepDive": "2026-04-23",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "AI 自主研究破坏检测基准，9 个代码库，Gemini 3.1 Pro AUROC 0.77，top-1 修复率 42%"
+    },
+    {
+      "title": "MARCH: Multi-Agent Radiology Clinical Hierarchy",
+      "url": "https://arxiv.org/abs/2604.16175",
+      "type": "paper",
+      "topic": "Multi-Agent",
+      "firstSeen": "2026-04-23",
+      "lastDeepDive": "2026-04-23",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "放射科临床层级框架，ACL 2026，Resident/Fellow/Attending 三层智能体，RadGenome-ChestCT SOTA"
+    },
+    {
+      "title": "LLMSniffer: Detecting LLM-Generated Code",
+      "url": "https://arxiv.org/abs/2604.16058",
+      "type": "paper",
+      "topic": "Software Testing",
+      "firstSeen": "2026-04-23",
+      "lastDeepDive": "2026-04-23",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "GraphCodeBERT 对比学习，GPTSniffer 78%/Whodunit 94.65% 准确率，学术诚信 + 代码安全"
+    },
+    {
+      "title": "From Papers to Progress: Rethinking Knowledge Accumulation in SE",
+      "url": "https://arxiv.org/abs/2604.16208",
+      "type": "paper",
+      "topic": "SE Research",
+      "firstSeen": "2026-04-23",
+      "lastDeepDive": "2026-04-23",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ICSE 2026 FOSE，280 名研究者调研，四大结构性崩溃，累积性基础设施呼吁"
     }
   ]
 }
