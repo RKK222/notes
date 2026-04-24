@@ -1028,6 +1028,48 @@
       "representativeItem": "From Papers to Progress 280 名研究者调研",
       "trend": "new",
       "notes": "SE 研究领域元研究，累积性科学进步基础设施设计"
+    },
+    {
+      "name": "WiFi 传感技术",
+      "category": "exploration",
+      "lastSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "RuView WiFi DensePose 姿态估计 + 生命体征监测",
+      "trend": "new",
+      "notes": "商品 WiFi 信号转传感器，隐私友好，穿透能力强，家庭健康监测/入侵检测场景"
+    },
+    {
+      "name": "光子 AI 芯片",
+      "category": "exploration",
+      "lastSeen": "2026-04-24",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "PhotonAI-Chip v2 光计算矩阵乘法",
+      "trend": "new",
+      "notes": "能耗 -10x 延迟 -100x，7B 推理 5W，2027 年量产，边缘 AI 部署新希望"
+    },
+    {
+      "name": "DNA 存储",
+      "category": "exploration",
+      "lastSeen": "2026-04-24",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "low",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "DNA-Storage-Random v3 CRISPR 引导随机访问",
+      "trend": "new",
+      "notes": "秒级访问，1EB/mm³密度，1000 年保存，长期档案存储革命性方案"
     }
   ]
 }
