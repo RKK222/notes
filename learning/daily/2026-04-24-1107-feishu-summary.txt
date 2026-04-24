@@ -1,0 +1,52 @@
+📘 AI 技术研究日报 - 2026-04-24 11:07
+
+【今日研究方向】
+- AI Coding Agent 实证研究：SWE-chat 揭示真实使用模式
+- 软件测试评估方法论：AUC 指标缺陷与替代方案
+- 量子神经网络测试：QuanForge 变异测试框架 (FSE 2026)
+- 安全关键系统验证：Assurance Case 图结构分析 (EASE 2026)
+- 多智能体临床层级：MARCH 放射科框架 (ACL 2026)
+- 评估审计工具链：ASMR-Bench AI 研究破坏检测
+
+【重点关注】
+1. SWE-chat (arXiv 2604.20779)：首个真实编码代理数据集，6000 会话揭示"vibe coding"双峰模式，仅 44% 代理代码进入提交
+2. QuanForge (FSE 2026)：首个 QNN 变异测试框架，9 个变异算子，统计变异杀死标准
+3. GenericAgent v2：技能冲突解决 89%，token -6x，8100 stars，AGI 基础设施双路径之一
+4. EvoMap/evolver：GEP 进化引擎，GitHub Trending #8，527 stars/日，AGI 基础设施另一路径
+5. RuView：WiFi 信号→人体姿态估计，隐私友好监控，无需摄像头
+6. MARCH (ACL 2026)：放射科三层智能体 (Resident/Fellow/Attending)，RadGenome-ChestCT SOTA
+7. ASMR-Bench：AI 自主研究破坏检测，Gemini 3.1 Pro AUROC 0.77，修复率 42%
+8. claude-context：代码搜索 MCP，整个代码库成为代理上下文，8427 stars
+
+【技术趋势】
+- 评估审计工具链崛起：ASMR-Bench 确认 AI 自主时代需要独立审计基础设施
+- 编码代理实证研究兴起：SWE-chat 等真实数据集推动基准从实验室向野外转变
+- 多智能体层级化：MARCH 显示层级结构比扁平协作更有效，符合人类组织模式
+- 神经符号程序分析：LLM+ 形式化方法融合，结构性推理可验证且 token 高效
+- WiFi 传感技术突破：商品 WiFi 实现姿态估计/生命体征监测，隐私保护优势显著
+
+【新领域收获】
+- WiFi 传感技术：CSI 信号处理 + 深度学习映射，隐私友好监控市场潜力巨大
+- 零变量软件系统：无可配置性软件概念，专用软件不可变设计提升安全性
+- SE 知识累积基础设施：280 名研究者元研究揭示 SE 领域知识累积不足
+
+【下一步学习计划】
+- 深入阅读 SWE-chat 论文，分析对 TestAgent 评估框架的改进启示
+- 跟踪 GenericAgent v2 更新，评估与 TestAgent 技能树融合可能性
+- 探索 WiFi 传感技术，评估隐私监控场景应用潜力
+- 研究评估审计工具链，基于 ASMR-Bench 设计思路规划 TestAgent 审计功能
+- 关注神经符号程序分析，探索在测试用例生成中的应用
+
+【记忆更新】
+- 已更新 topic-ledger.json（新增 WiFi 传感技术、零变量软件系统、SE 知识累积基础设施）
+- 已更新 deep-dive-history.json（新增 8 个深度研究对象）
+- 已更新 exploration-priority.json（tier4 新增 WiFi 传感/零变量软件）
+- W17 周摘要已存在 (2026-04-19 生成)，本周无需重新生成
+
+【GitHub】
+https://github.com/RKK222/notes
+
+【运行统计】
+- 扫描内容：34 项（Testing 10 / AI 12 / 新领域 12）
+- 深度研究：4 项目 + 4 论文
+- 报告保存：/Users/kaka/.openclaw/workspace/learning/daily/2026-04-24-1107.md
