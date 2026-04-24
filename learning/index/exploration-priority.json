@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-24T11:07:00+08:00",
+    "lastUpdated": "2026-04-24T19:03:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-24",
     "nextReview": "2026-04-30",
-    "lastRun": "2026-04-24T11:07:00+08:00"
+    "lastRun": "2026-04-24T19:03:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -322,6 +322,56 @@
         "topic": "DNA 存储",
         "reason": "DNA-Storage-Random v3 CRISPR 引导随机访问，秒级访问，1EB/mm³，1000 年保存",
         "priority": "low"
+      },
+      {
+        "topic": "Tool Attention (MCP/Tools Tax)",
+        "reason": "动态工具门控消除 95% MCP Tax，协议级效率优化是代理可扩展性关键约束",
+        "priority": "high"
+      },
+      {
+        "topic": "跨提交漏洞检测",
+        "reason": "CrossCommitVuln 揭示 per-commit SAST 87% 漏检率，供应链安全新维度",
+        "priority": "high"
+      },
+      {
+        "topic": "多智能体隐式通信",
+        "reason": "DiffMAS 端到端可学习通信协议，从文本通信进化到默契协作，COLM 2026 下审",
+        "priority": "high"
+      },
+      {
+        "topic": "AI 统计认证框架",
+        "reason": "RoMA/gRoMA 航空认证范式移植，EU AI Act 合规缺失验证工具",
+        "priority": "high"
+      },
+      {
+        "topic": "代理认知接地",
+        "reason": "GROUNDING.md 领域知识编码为硬性约束，AI 辅助编程质量保证新方向",
+        "priority": "medium"
+      },
+      {
+        "topic": "DryRUN 自主代码生成",
+        "reason": "消除公共测试依赖，自主输入生成+模拟执行，代码生成从基准到真实工程",
+        "priority": "high"
+      },
+      {
+        "topic": "Orchid 模糊需求基准",
+        "reason": "1304 模糊需求基准，LLM 无法自主消歧，高级模型受影响最严重",
+        "priority": "high"
+      },
+      {
+        "topic": "SpecSyn 形式规范生成",
+        "reason": "LLM 驱动真实世界程序验证规范生成，精确率>90% 召回率>75%",
+        "priority": "high"
+      },
+      {
+        "topic": "free-claude-code",
+        "reason": "6382 stars 1962 stars/日，AI 编码工具民主化，绕过供应商锁定",
+        "priority": "medium"
+      },
+      {
+        "topic": "DeepEP MoE 通信库",
+        "reason": "DeepSeek-V3/R1 生产级 MoE 通信优化，FP8 低精度支持",
+        "priority": "medium"
       }
     ]
   },
@@ -331,7 +381,9 @@
     "LLM Evaluation",
     "Agent Security",
     "自进化代理",
-    "评估审计工具链"
+    "评估审计工具链",
+    "Tool Attention (MCP/Tools Tax)",
+    "跨提交漏洞检测"
   ],
   "低频但值得探索": [
     "光子 AI 芯片",
@@ -371,6 +423,11 @@
       "topic": "编译器",
       "reason": "近 7 天 4 次，方向成熟",
       "newFrequency": "tier5"
+    },
+    {
+      "topic": "free-claude-code",
+      "reason": "今日新增，增长极快，需持续跟踪",
+      "newFrequency": "每日跟踪"
     }
   ]
 }
