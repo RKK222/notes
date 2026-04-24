@@ -1,0 +1,41 @@
+📘 AI 技术研究日报 - 2026-04-24 09:10
+
+【今日研究方向】
+- AI Coding Agent 实证研究（SWE-chat 数据集）
+- 软件测试评估方法论反思（AUC 指标缺陷）
+- 量子神经网络测试（QuanForge 框架）
+- 自进化代理双路径（技能树×GEP）
+- 隐私友好感知计算（WiFi 传感）
+
+【重点关注】
+1. SWE-chat：首个真实编码代理数据集，6000 会话揭示仅 44% 代理代码进入提交，安全隐患被低估
+2. SDP AUC 评估缺陷：高 AUC 不保证 TPR/FPR 优于随机，挑战 SE 领域标准实践
+3. QuanForge：FSE 2026 接受，首个 QNN 变异测试框架，9 个变异算子 + 统计杀死标准
+4. GenericAgent v2：技能冲突解决 89% 成功率，620+ 原子技能，token 消耗 -6x
+5. EvoMap/evolver：GEP 进化引擎驱动代理自进化，GitHub Trending #8，生物启发 AGI
+6. RuView：WiFi 信号实现姿态估计 + 生命体征监测，隐私友好无摄像头
+7. Assurance Case 图分析：EASE 2026 接受，GNN 检测 LLM 生成安全文档 F1 0.94
+
+【技术趋势】
+- 编码代理从 curated 基准转向野外实证，效率和安全问题被重新评估
+- 评估领域进入"元评估"阶段，AI Safety 基准碎片化（195 基准仅 7 个 Popular）
+- 自进化代理双路径明确：结构化进化（技能树）vs 涌现式进化（GEP）
+
+【新领域收获】
+- WiFi 传感技术：商品 WiFi 路由器变传感器，隐私友好健康监测
+- 光子 AI 芯片：能耗 -10x 延迟 -100x，7B 推理 5W，2027 年量产
+- DNA 随机访问存储：CRISPR 引导秒级访问，1EB/mm³，1000 年保存
+
+【下一步学习计划】
+- 深度分析 SWE-chat 失败模式分类
+- 实验 QuanForge 量子变异测试
+- 研究 GEP 进化算法机制
+- 验证装饰性 ROC 曲线替代评估
+
+【记忆更新】
+- 已更新 topic-ledger（新增 WiFi 传感/光子芯片/DNA 存储）
+- 已更新 deep-dive-history（8 项新增）
+- 已更新 exploration-priority（tier1 新增评估审计工具链）
+
+【GitHub】
+https://github.com/RKK222/notes
