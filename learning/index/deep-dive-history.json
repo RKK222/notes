@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-24T11:07:00+08:00",
+    "lastUpdated": "2026-04-24T19:03:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-24T11:07:00+08:00"
+    "lastRun": "2026-04-24T19:03:00+08:00"
   },
   "deepDives": [
     {
@@ -1920,6 +1920,110 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "代码搜索 MCP 服务器，8427 stars，1011 stars/日，解决编码代理上下文限制"
+    },
+    {
+      "title": "Tool Attention: Dynamic Tool Gating for MCP/Tools Tax Elimination",
+      "url": "https://arxiv.org/abs/2604.21816",
+      "type": "paper",
+      "topic": "AI Infrastructure",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "MCP/Tools Tax 消除，95% token 减少，上下文利用率 24%->91%，协议级效率优化"
+    },
+    {
+      "title": "DiffMAS: End-to-End Optimization of Multi-Agent Language Systems",
+      "url": "https://arxiv.org/abs/2604.21794",
+      "type": "paper",
+      "topic": "多智能体隐式通信",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "COLM 2026 下审，隐式通信可学习组件，AIME24 26.7%，从文本通信到默契协作"
+    },
+    {
+      "title": "free-claude-code: Use Claude Code for Free",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "type": "project",
+      "topic": "AI 编码工具民主化",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "6382 stars 1962 stars/日，NVIDIA NIM 40 req/min 免费，绕过供应商锁定"
+    },
+    {
+      "title": "DryRUN: Eliminating Ground-Truth Test Dependency",
+      "url": "https://arxiv.org/abs/2604.21598",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "消除公共测试依赖，自主输入生成+模拟执行，LiveCodeBench v6 匹配 CodeSIM"
+    },
+    {
+      "title": "Metamorphic Testing for Diagnosing Memorization in LLM-based APR",
+      "url": "https://arxiv.org/abs/2604.21579",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "MT+NLL 联合揭示 APR 数据泄露，GPT-4o -4.1% Llama-3.1 -15.98%"
+    },
+    {
+      "title": "Orchid: Requirement Ambiguity Impact on Code Generation",
+      "url": "https://arxiv.org/abs/2604.21505",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "1304 模糊需求基准，LLM 无法自主消歧，高级模型受影响最严重"
+    },
+    {
+      "title": "SpecSyn: LLM-based Formal Specification Synthesis",
+      "url": "https://arxiv.org/abs/2604.21570",
+      "type": "paper",
+      "topic": "形式化验证",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "精确率>90% 召回率>75%，1365 属性处理 1071，真实世界程序验证"
+    },
+    {
+      "title": "CrossCommitVuln: Multi-Commit Python Vulnerabilities",
+      "url": "https://arxiv.org/abs/2604.21917",
+      "type": "paper",
+      "topic": "供应链安全",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "AIware 2026，per-commit SAST 87% 漏检率，跨提交安全分析新方向"
+    },
+    {
+      "title": "Bounding the Black Box: Statistical Certification for AI Risk",
+      "url": "https://arxiv.org/abs/2604.21854",
+      "type": "paper",
+      "topic": "AI 安全",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "RoMA/gRoMA 航空认证范式移植 AI 风险监管",
+      "trend": "new",
+      "notes": "EU AI Act 合规缺失验证工具，可审计失败率上限"
     }
   ]
 }
