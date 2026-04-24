@@ -1832,6 +1832,94 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "ICSE 2026 FOSE，280 名研究者调研，四大结构性崩溃，累积性基础设施呼吁"
+    },
+    {
+      "title": "SWE-chat: Coding Agent Interactions From Real Users",
+      "url": "https://arxiv.org/abs/2604.20779",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "首个真实编码代理数据集，6000 会话，44% 代码存活率，代理代码安全隐患更多"
+    },
+    {
+      "title": "Evaluating SDP Models via AUC Can Be Misleading",
+      "url": "https://arxiv.org/abs/2604.20742",
+      "type": "paper",
+      "topic": "Software Testing",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "挑战 SDP 评估标准实践，高 AUC 不保证 TPR/FPR 优于随机，装饰性 ROC 曲线替代方案"
+    },
+    {
+      "title": "QuanForge: Mutation Testing for Quantum Neural Networks",
+      "url": "https://arxiv.org/abs/2604.20706",
+      "type": "paper",
+      "topic": "Quantum Testing",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "FSE 2026 接受，首个 QNN 变异测试框架，9 个变异算子，统计变异杀死标准"
+    },
+    {
+      "title": "Evaluating Assurance Cases as Text-Attributed Graphs",
+      "url": "https://arxiv.org/abs/2604.20577",
+      "type": "paper",
+      "topic": "Safety Engineering",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "EASE 2026 接受，GNN 链接预测 ROC-AUC 0.760，LLM 生成检测 F1 0.94"
+    },
+    {
+      "title": "GenericAgent v2: Skill Conflict Resolution",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "type": "project",
+      "topic": "Self-Evolving Agents",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "deepDiveCount": 2,
+      "status": "active",
+      "notes": "技能冲突解决 v3，620+ 原子技能，89% 解决率，token -6x，8100 stars，AGI 基础设施技能树路径"
+    },
+    {
+      "title": "EvoMap/evolver: GEP-Powered Self-Evolution",
+      "url": "https://github.com/EvoMap/evolver",
+      "type": "project",
+      "topic": "Self-Evolving Agents",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "deepDiveCount": 2,
+      "status": "active",
+      "notes": "GEP 进化引擎，GitHub Trending #8，527 stars/日，AGI 基础设施 GEP 路径，生物启发进化"
+    },
+    {
+      "title": "RuView: WiFi DensePose",
+      "url": "https://github.com/ruvnet/RuView",
+      "type": "project",
+      "topic": "WiFi Sensing",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "WiFi 信号转姿态估计 + 生命体征监测，隐私友好无摄像头，穿透能力强"
+    },
+    {
+      "title": "claude-context: Code Search MCP",
+      "url": "https://github.com/zilliztech/claude-context",
+      "type": "project",
+      "topic": "AI Infrastructure",
+      "firstSeen": "2026-04-24",
+      "lastDeepDive": "2026-04-24",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "代码搜索 MCP 服务器，8427 stars，1011 stars/日，解决编码代理上下文限制"
     }
   ]
 }

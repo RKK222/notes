@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-23T11:03:00+08:00",
+    "lastUpdated": "2026-04-24T09:10:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-23",
     "nextReview": "2026-04-30",
-    "lastRun": "2026-04-23T11:03:00+08:00"
+    "lastRun": "2026-04-24T09:10:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -90,7 +90,7 @@
         "零变量软件系统"
       ],
       "allocationPercent": 10,
-      "rationale": "前沿方向，今日新增 WiFi 传感/FP8 计算/ML 研究审计/零变量软件系统"
+      "rationale": "前沿方向，今日新增 WiFi 传感/光子 AI 芯片/DNA 存储/FP8 计算/ML 研究审计/零变量软件系统"
     },
     "tier5_downgrade": {
       "name": "建议降权（重复过多）",
@@ -307,6 +307,21 @@
         "topic": "SE 知识累积基础设施",
         "reason": "From Papers to Progress 280 名研究者调研，四大结构性崩溃，累积性基础设施呼吁",
         "priority": "medium"
+      },
+      {
+        "topic": "WiFi 传感技术",
+        "reason": "RuView WiFi DensePose，商品 WiFi 信号转姿态估计 + 生命体征监测，隐私友好",
+        "priority": "medium"
+      },
+      {
+        "topic": "光子 AI 芯片",
+        "reason": "PhotonAI-Chip v2 光计算矩阵乘法，能耗 -10x 延迟 -100x，7B 推理 5W，2027 量产",
+        "priority": "medium"
+      },
+      {
+        "topic": "DNA 存储",
+        "reason": "DNA-Storage-Random v3 CRISPR 引导随机访问，秒级访问，1EB/mm³，1000 年保存",
+        "priority": "low"
       }
     ]
   },
