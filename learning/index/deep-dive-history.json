@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-25T11:00:00+08:00",
+    "lastUpdated": "2026-04-25T19:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-25T11:00:00+08:00"
+    "lastRun": "2026-04-25T19:00:00+08:00"
   },
   "deepDives": [
     {
@@ -2156,6 +2156,17 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "v4.7 破坏确定性 hook，Agent 工具链可靠性问题暴露，76 points/75 comments"
+    },
+    {
+      "title": "TestGeneralizer: Test Scenario Coverage (FSE 2026)",
+      "url": "https://arxiv.org/abs/2604.21771",
+      "type": "paper",
+      "topic": "Software Testing",
+      "firstSeen": "2026-04-25",
+      "lastDeepDive": "2026-04-25",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "FSE 2026，从单测试推导多场景，+31.66%变异覆盖，场景驱动测试生成"
     }
   ]
 }
