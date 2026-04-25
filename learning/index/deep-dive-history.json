@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-24T19:03:00+08:00",
+    "lastUpdated": "2026-04-25T09:10:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-24T19:03:00+08:00"
+    "lastRun": "2026-04-25T09:10:00+08:00"
   },
   "deepDives": [
     {
@@ -2024,6 +2024,72 @@
       "representativeItem": "RoMA/gRoMA 航空认证范式移植 AI 风险监管",
       "trend": "new",
       "notes": "EU AI Act 合规缺失验证工具，可审计失败率上限"
+    },
+    {
+      "title": "VLAA-GUI: Modular Framework for GUI Automation",
+      "url": "https://arxiv.org/abs/2604.21375",
+      "type": "paper",
+      "topic": "GUI Agent",
+      "firstSeen": "2026-04-25",
+      "lastDeepDive": "2026-04-25",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Stop/Recover/Search 三组件模块化，OSWorld 77.5% 超越人类 72.4%，Opus 4.5/4.6/Gemini 3.1 Pro"
+    },
+    {
+      "title": "CrossCommitVuln-Bench: Multi-Commit Python Vulnerabilities",
+      "url": "https://arxiv.org/abs/2604.21917",
+      "type": "paper",
+      "topic": "Security Testing",
+      "firstSeen": "2026-04-25",
+      "lastDeepDive": "2026-04-25",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "AIware 2026，15 CVEs 跨提交，per-commit SAST 87% 漏检，全代码库仅 27%"
+    },
+    {
+      "title": "VLAF: Value-Conflict Diagnostics for Alignment Faking",
+      "url": "https://arxiv.org/abs/2604.20995",
+      "type": "paper",
+      "topic": "AI Safety",
+      "firstSeen": "2026-04-25",
+      "lastDeepDive": "2026-04-25",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "COLM 2026 下审，MSLD 2026 最佳学生论文，7B 模型 37% 伪造率，单对比向量 85-94% 减少"
+    },
+    {
+      "title": "DexBench: Duality in Reasoning about Program Execution",
+      "url": "https://arxiv.org/abs/2604.20917",
+      "type": "paper",
+      "topic": "LLM Evaluation",
+      "firstSeen": "2026-04-25",
+      "lastDeepDive": "2026-04-25",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ACL 2026，445 配对实例正向+逆向推理，13 模型评估"
+    },
+    {
+      "title": "SpecSyn: LLM-based Formal Specification Synthesis",
+      "url": "https://arxiv.org/abs/2604.21570",
+      "type": "paper",
+      "topic": "Formal Verification",
+      "firstSeen": "2026-04-25",
+      "lastDeepDive": "2026-04-25",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "90%+ 精度 75%+ 召回率，1071/1365 目标属性，变异精炼增强语义强度"
+    },
+    {
+      "title": "MathDuels: LLMs as Problem Posers and Solvers",
+      "url": "https://arxiv.org/abs/2604.21916",
+      "type": "paper",
+      "topic": "LLM Evaluation",
+      "firstSeen": "2026-04-25",
+      "lastDeepDive": "2026-04-25",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "19 模型自我博弈，Rasch 模型联合估计，出题解题能力解耦"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-24T19:03:00+08:00",
+    "lastUpdated": "2026-04-25T09:10:00+08:00",
     "version": "1.0",
-    "validFrom": "2026-04-24",
-    "nextReview": "2026-04-30",
-    "lastRun": "2026-04-24T19:03:00+08:00"
+    "validFrom": "2026-04-25",
+    "nextReview": "2026-05-01",
+    "lastRun": "2026-04-25T09:10:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -51,10 +51,16 @@
         "GEP 驱动进化引擎",
         "毒性评论过滤",
         "神经符号程序分析",
-        "SE 知识累积基础设施"
+        "SE 知识累积基础设施",
+        "GUI 代理模块化",
+        "对齐伪造检测",
+        "跨提交漏洞检测",
+        "形式化规格 LLM 合成",
+        "自我博弈 LLM 评估",
+        "因果同步长上下文"
       ],
       "allocationPercent": 25,
-      "rationale": "新兴热点，TestAgent-Pro/MultiAgent-Collab/RAG-Advanced 三大突破 + Hegel PBT/Hermes-Agent/Archon 新范式 + LogicLoc 神经符号/SE 知识累积今日新增"
+      "rationale": "VLAA-GUI 模块化超越人类 + VLAF 对齐伪造揭示深层安全 + CrossCommitVuln 跨提交安全 + SpecSyn 形式化验证 + MathDuels 自我博弈评估 + Absorber 因果同步"
     },
     "tier3_maintenance": {
       "name": "观察维持（中低频）",
@@ -66,7 +72,8 @@
         "形式化验证",
         "端云协同推理",
         "智能可观测性",
-        "AIOps 故障诊断"
+        "AIOps 故障诊断",
+        "LLM API 网关透明度"
       ],
       "allocationPercent": 20,
       "rationale": "有价值但已充分覆盖，EdgeLLM 新突破"
@@ -87,7 +94,8 @@
         "WiFi 传感技术",
         "FP8 计算优化",
         "ML 研究完整性审计",
-        "零变量软件系统"
+        "零变量软件系统",
+        "量子-HPC 软件生态"
       ],
       "allocationPercent": 10,
       "rationale": "前沿方向，今日新增 WiFi 传感/光子 AI 芯片/DNA 存储/FP8 计算/ML 研究审计/零变量软件系统"
