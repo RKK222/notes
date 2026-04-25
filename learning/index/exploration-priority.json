@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-25T09:10:00+08:00",
+    "lastUpdated": "2026-04-25T11:00:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-25",
     "nextReview": "2026-05-01",
-    "lastRun": "2026-04-25T09:10:00+08:00"
+    "lastRun": "2026-04-25T11:00:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -57,10 +57,18 @@
         "跨提交漏洞检测",
         "形式化规格 LLM 合成",
         "自我博弈 LLM 评估",
-        "因果同步长上下文"
+        "因果同步长上下文",
+        "Agent 评估效率优化",
+        "Transformer 符号推理理论",
+        "Agent 专用内存数据库",
+        "Agent 可靠性基础设施",
+        "视觉多智能体社会动力学",
+        "AI 价值观安全",
+        "分布式 AI 时间因果",
+        "AI 芯片设计验证"
       ],
       "allocationPercent": 25,
-      "rationale": "VLAA-GUI 模块化超越人类 + VLAF 对齐伪造揭示深层安全 + CrossCommitVuln 跨提交安全 + SpecSyn 形式化验证 + MathDuels 自我博弈评估 + Absorber 因果同步"
+      "rationale": "DIVERT 快照+分支评估 + Transformer 符号推理理论化 + MenteDB 专用内存数据库 + Claude Code Hook 回归可靠性 + AI-Gram 视觉社交网络 + 道德操纵安全 + OCP 时间因果 + AI 芯片验证"
     },
     "tier3_maintenance": {
       "name": "观察维持（中低频）",
