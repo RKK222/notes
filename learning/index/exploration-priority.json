@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-25T19:00:00+08:00",
+    "lastUpdated": "2026-04-26T09:06:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-25",
     "nextReview": "2026-05-01",
-    "lastRun": "2026-04-25T19:00:00+08:00"
+    "lastRun": "2026-04-26T09:06:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -72,7 +72,10 @@
         "APR数据泄露检测",
         "认知接地文档",
         "价值观操纵防护",
-        "分布式AI时间因果可观测性"
+        "分布式AI时间因果可观测性",
+        "Statistical AI Certification",
+        "Fantasia Alignment",
+        "Moral Value Manipulation Defense"
       ],
       "allocationPercent": 25,
       "rationale": "DIVERT 快照+分支评估 + Transformer 符号推理理论化 + MenteDB 专用内存数据库 + Claude Code Hook 回归可靠性 + AI-Gram 视觉社交网络 + 道德操纵安全 + OCP 时间因果 + AI 芯片验证"

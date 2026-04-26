@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-25T19:00:00+08:00",
+    "lastUpdated": "2026-04-26T09:06:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-25T19:00:00+08:00"
+    "lastRun": "2026-04-26T09:06:00+08:00"
   },
   "deepDives": [
     {
@@ -1922,26 +1922,26 @@
       "notes": "代码搜索 MCP 服务器，8427 stars，1011 stars/日，解决编码代理上下文限制"
     },
     {
-      "title": "Tool Attention: Dynamic Tool Gating for MCP/Tools Tax Elimination",
+      "title": "Tool Attention: Dynamic Tool Gating and Lazy Schema Loading",
       "url": "https://arxiv.org/abs/2604.21816",
       "type": "paper",
-      "topic": "AI Infrastructure",
-      "firstSeen": "2026-04-24",
-      "lastDeepDive": "2026-04-24",
-      "deepDiveCount": 1,
+      "topic": "Agent Infrastructure",
+      "firstSeen": "2026-04-26",
+      "lastDeepDive": "2026-04-26",
+      "deepDiveCount": 2,
       "status": "active",
-      "notes": "MCP/Tools Tax 消除，95% token 减少，上下文利用率 24%->91%，协议级效率优化"
+      "notes": "MCP Tax 消除 95% token，上下文利用率 24%→91%"
     },
     {
       "title": "DiffMAS: End-to-End Optimization of Multi-Agent Language Systems",
       "url": "https://arxiv.org/abs/2604.21794",
       "type": "paper",
-      "topic": "多智能体隐式通信",
-      "firstSeen": "2026-04-24",
-      "lastDeepDive": "2026-04-24",
-      "deepDiveCount": 1,
+      "topic": "Multi-Agent",
+      "firstSeen": "2026-04-26",
+      "lastDeepDive": "2026-04-26",
+      "deepDiveCount": 2,
       "status": "active",
-      "notes": "COLM 2026 下审，隐式通信可学习组件，AIME24 26.7%，从文本通信到默契协作"
+      "notes": "隐式通信可学习组件，AIME24 26.7%，COLM 2026 下审"
     },
     {
       "title": "free-claude-code: Use Claude Code for Free",
@@ -2013,9 +2013,9 @@
       "title": "Bounding the Black Box: Statistical Certification for AI Risk",
       "url": "https://arxiv.org/abs/2604.21854",
       "type": "paper",
-      "topic": "AI 安全",
-      "firstSeen": "2026-04-24",
-      "lastDeepDive": null,
+      "topic": "AI Safety",
+      "firstSeen": "2026-04-26",
+      "lastDeepDive": "2026-04-26",
       "repeatCount7d": 1,
       "repeatCount30d": 1,
       "priority": "high",
@@ -2023,7 +2023,9 @@
       "shouldDowngrade": false,
       "representativeItem": "RoMA/gRoMA 航空认证范式移植 AI 风险监管",
       "trend": "new",
-      "notes": "EU AI Act 合规缺失验证工具，可审计失败率上限"
+      "notes": "航空认证范式迁移，RoMA/gRoMA统计验证，EU AI Act合规",
+      "deepDiveCount": null,
+      "status": "active"
     },
     {
       "title": "VLAA-GUI: Modular Framework for GUI Automation",
@@ -2167,6 +2169,39 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "FSE 2026，从单测试推导多场景，+31.66%变异覆盖，场景驱动测试生成"
+    },
+    {
+      "title": "Nemobot: Strategic AI Gaming Agents",
+      "url": "https://arxiv.org/abs/2604.21896",
+      "type": "paper",
+      "topic": "Game AI",
+      "firstSeen": "2026-04-26",
+      "lastDeepDive": "2026-04-26",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Shannon分类法扩展到LLM时代，四类游戏代理"
+    },
+    {
+      "title": "Alignment has a Fantasia Problem",
+      "url": "https://arxiv.org/abs/2604.21827",
+      "type": "paper",
+      "topic": "AI Alignment",
+      "firstSeen": "2026-04-26",
+      "lastDeepDive": "2026-04-26",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "用户意图未形成时的对齐失败，ICLR 2026 Workshop"
+    },
+    {
+      "title": "Brief Chatbot Interactions Change Human Moral Values",
+      "url": "https://arxiv.org/abs/2604.21430",
+      "type": "paper",
+      "topic": "AI Safety",
+      "firstSeen": "2026-04-26",
+      "lastDeepDive": "2026-04-26",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "AI聊天机器人持久改变道德价值观，Cohen d达2.069"
     }
   ]
 }
