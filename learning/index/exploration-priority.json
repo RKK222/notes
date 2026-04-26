@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-26T09:06:00+08:00",
+    "lastUpdated": "2026-04-26T11:03:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-25",
     "nextReview": "2026-05-01",
-    "lastRun": "2026-04-26T09:06:00+08:00"
+    "lastRun": "2026-04-26T11:03:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -75,10 +75,15 @@
         "分布式AI时间因果可观测性",
         "Statistical AI Certification",
         "Fantasia Alignment",
-        "Moral Value Manipulation Defense"
+        "Moral Value Manipulation Defense",
+        "Learning Mechanics",
+        "AI 代理辩论",
+        "Lambda 演算基准",
+        "轻量级 AI 知识库",
+        "AI 嵌入式架构"
       ],
       "allocationPercent": 25,
-      "rationale": "DIVERT 快照+分支评估 + Transformer 符号推理理论化 + MenteDB 专用内存数据库 + Claude Code Hook 回归可靠性 + AI-Gram 视觉社交网络 + 道德操纵安全 + OCP 时间因果 + AI 芯片验证"
+      "rationale": "Learning Mechanics 深度学习理论化 + HATS 代理辩论 + LambdaBench 形式化基准 + Stash 轻量级知识库 + AI 嵌入式架构 + DIVERT 快照评估"
     },
     "tier3_maintenance": {
       "name": "观察维持（中低频）",
@@ -120,7 +125,12 @@
         "AI行为倾向实证分析",
         "AI治理政治脆弱性",
         "LLM经济因果推理偏见",
-        "MemPalace科学审计"
+        "MemPalace科学审计",
+        "ChatGPT 解 Erdős 猜想",
+        "Kloak K8s 密钥管理",
+        "Datalog GPU 优化",
+        "Niri Wayland Compositor",
+        "WebAssembly RDP 客户端"
       ],
       "allocationPercent": 10,
       "rationale": "前沿方向，今日新增 WiFi 传感/光子 AI 芯片/DNA 存储/FP8 计算/ML 研究审计/零变量软件系统"

@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-26T09:06:00+08:00",
+    "lastUpdated": "2026-04-26T11:03:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-26T09:06:00+08:00"
+    "lastRun": "2026-04-26T11:03:00+08:00"
   },
   "deepDives": [
     {
@@ -2202,6 +2202,61 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "AI聊天机器人持久改变道德价值观，Cohen d达2.069"
+    },
+    {
+      "title": "HATS: AI Agents That Argue to Improve Decisions",
+      "url": "https://github.com/rockcat/HATS",
+      "type": "project",
+      "topic": "AI Testing / Multi-Agent",
+      "firstSeen": "2026-04-26",
+      "lastDeepDive": "2026-04-26",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "层级辩论框架，多代理通过互相争论改进决策质量，质量保障新范式"
+    },
+    {
+      "title": "Stash: Open Source Memory Layer for AI Agents",
+      "url": "https://alash3al.github.io/stash",
+      "type": "project",
+      "topic": "AI Infrastructure",
+      "firstSeen": "2026-04-26",
+      "lastDeepDive": "2026-04-26",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Markdown+Git 轻量级记忆层，BM25+SQLite 检索，挑战向量数据库方案"
+    },
+    {
+      "title": "LambdaBench: Lambda Calculus Benchmark for AI",
+      "url": "https://victortaelin.github.io/lambench/",
+      "type": "project",
+      "topic": "AI Evaluation",
+      "firstSeen": "2026-04-26",
+      "lastDeepDive": "2026-04-26",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "λ 演算基准测试，形式推理能力纯净度量，无歧义评估"
+    },
+    {
+      "title": "GPT-5.5 + Bio Bug Bounty (OpenAI)",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "type": "paper",
+      "topic": "AI Safety",
+      "firstSeen": "2026-04-26",
+      "lastDeepDive": "2026-04-26",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "OpenAI 最新模型，HN 1559 分，Bio Bug Bounty 生物安全悬赏"
+    },
+    {
+      "title": "DeepSeek V4 Pro Technical Paper",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf",
+      "type": "paper",
+      "topic": "LLM",
+      "firstSeen": "2026-04-26",
+      "lastDeepDive": "2026-04-26",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "HN 2036 分最高帖，高性价比路线，MoE 架构优化"
     }
   ]
 }
