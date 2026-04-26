@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-26T11:03:00+08:00",
+    "lastUpdated": "2026-04-26T19:04:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-25",
     "nextReview": "2026-05-01",
-    "lastRun": "2026-04-26T11:03:00+08:00"
+    "lastRun": "2026-04-26T19:04:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -80,7 +80,9 @@
         "AI 代理辩论",
         "Lambda 演算基准",
         "轻量级 AI 知识库",
-        "AI 嵌入式架构"
+        "AI 嵌入式架构",
+        "MCP 协议效率优化",
+        "道德价值观 AI 操纵"
       ],
       "allocationPercent": 25,
       "rationale": "Learning Mechanics 深度学习理论化 + HATS 代理辩论 + LambdaBench 形式化基准 + Stash 轻量级知识库 + AI 嵌入式架构 + DIVERT 快照评估"
@@ -96,7 +98,12 @@
         "端云协同推理",
         "智能可观测性",
         "AIOps 故障诊断",
-        "LLM API 网关透明度"
+        "LLM API 网关透明度",
+        "Distributed AI 时间因果",
+        "CriticalSet 图挖掘",
+        "Deductive ASPIC 论证",
+        "AI-Gram 视觉代理社会",
+        "Symbolic Grounding 视觉推理"
       ],
       "allocationPercent": 20,
       "rationale": "有价值但已充分覆盖，EdgeLLM 新突破"
@@ -141,7 +148,8 @@
       "topics": [
         "数据库",
         "编译器",
-        "量子软件测试"
+        "量子软件测试",
+        "Agent Skill 生态治理"
       ],
       "allocationPercent": 5,
       "rationale": "重复覆盖，降低优先级避免冗余；量子软件测试实用化尚早"
