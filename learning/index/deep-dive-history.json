@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-27T11:03:00+08:00",
+    "lastUpdated": "2026-04-27T19:03:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-27T11:03:00+08:00"
+    "lastRun": "2026-04-27T19:03:00+08:00"
   },
   "deepDives": [
     {
@@ -2488,6 +2488,72 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "三层分层技能架构 70个技能 药物分子评估"
+    },
+    {
+      "title": "Chrome Prompt API: Google Native AI Model Browser Integration",
+      "url": "https://developer.chrome.com/docs/ai/prompt-api",
+      "type": "project",
+      "topic": "端侧AI推理",
+      "firstSeen": "2026-04-27",
+      "lastDeepDive": "2026-04-27",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "浏览器从代码运行时进化到AI推理运行时，端侧推理基础设施重大突破"
+    },
+    {
+      "title": "Memanto: Typed Semantic Memory with Information-Theoretic Retrieval",
+      "url": "https://arxiv.org/abs/2604.22085",
+      "type": "paper",
+      "topic": "代理记忆",
+      "firstSeen": "2026-04-27",
+      "lastDeepDive": "2026-04-27",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "13类打字语义记忆+Moorcheh信息论搜索引擎<90ms检索，挑战知识图谱重型方案"
+    },
+    {
+      "title": "ESRRSim: Emergent Strategic Reasoning Risks Evaluation",
+      "url": "https://arxiv.org/abs/2604.22119",
+      "type": "paper",
+      "topic": "AI Safety",
+      "firstSeen": "2026-04-27",
+      "lastDeepDive": "2026-04-27",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "7大类20子类风险分类，欺骗/评估游戏/奖励黑客，检测率14.45%-72.72%"
+    },
+    {
+      "title": "Math Takes Two: Emergent Mathematical Reasoning in Communication",
+      "url": "https://arxiv.org/abs/2604.21935",
+      "type": "paper",
+      "topic": "数学推理",
+      "firstSeen": "2026-04-27",
+      "lastDeepDive": "2026-04-27",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "双代理无先验数学知识通过通信发展共享符号协议，从第一性原理评估数学推理"
+    },
+    {
+      "title": "SpectralFed/SpectralFuse: Data-Free Federated Learning Contribution",
+      "url": "https://arxiv.org/abs/2604.22562",
+      "type": "paper",
+      "topic": "联邦学习",
+      "firstSeen": "2026-04-27",
+      "lastDeepDive": "2026-04-27",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "von Neumann谱熵测量贡献多样性，无需验证数据，CIFAR上超越TSDS 2.13 BLEU"
+    },
+    {
+      "title": "Plan Existence Problem: Undecidability Proof",
+      "url": "https://arxiv.org/abs/2604.22736",
+      "type": "paper",
+      "topic": "规划理论",
+      "firstSeen": "2026-04-27",
+      "lastDeepDive": "2026-04-27",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "即使模态深度1无后件仍不可判定，解决AI规划理论开放问题"
     }
   ]
 }
