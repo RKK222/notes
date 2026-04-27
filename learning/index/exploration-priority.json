@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-27T09:10:00+08:00",
+    "lastUpdated": "2026-04-27T11:03:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-27",
     "nextReview": "2026-05-01",
-    "lastRun": "2026-04-27T09:10:00+08:00"
+    "lastRun": "2026-04-27T11:03:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -19,7 +19,9 @@
         "Agent Security",
         "代码审查代理评估",
         "属性基测试",
-        "评估审计工具链"
+        "评估审计工具链",
+        "Agent 搜索基准",
+        "形式化验证规模化"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域 + 新兴高价值方向 + 评估审计工具链刚需确认"
@@ -90,7 +92,12 @@
         "Fantasia 对齐问题",
         "AI 统计认证框架",
         "mattpocock/skills 生态",
-        "DIVERT 快照分支评估"
+        "DIVERT 快照分支评估",
+        "Agent 集体智能实证",
+        "LLM 自校正控制理论",
+        "Bio AI 数字孪生",
+        "Agent 组织化",
+        "Background Temperature"
       ],
       "allocationPercent": 25,
       "rationale": "Learning Mechanics 深度学习理论化 + HATS 代理辩论 + LambdaBench 形式化基准 + Stash 轻量级知识库 + AI 嵌入式架构 + DIVERT 快照评估"
@@ -148,7 +155,12 @@
         "Kloak K8s 密钥管理",
         "Datalog GPU 优化",
         "Niri Wayland Compositor",
-        "WebAssembly RDP 客户端"
+        "WebAssembly RDP 客户端",
+        "multica-ai 托管Agent平台",
+        "RAG-Anything 全功能框架",
+        "AI SRE Agent",
+        "Karpathy编码技能",
+        "FinceptTerminal 金融分析"
       ],
       "allocationPercent": 10,
       "rationale": "前沿方向，今日新增 WiFi 传感/光子 AI 芯片/DNA 存储/FP8 计算/ML 研究审计/零变量软件系统"
