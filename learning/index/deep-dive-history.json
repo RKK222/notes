@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-26T19:04:00+08:00",
+    "lastUpdated": "2026-04-27T09:10:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-26T19:04:00+08:00"
+    "lastRun": "2026-04-27T09:10:00+08:00"
   },
   "deepDives": [
     {
@@ -2323,6 +2323,50 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "意图未形成时的对齐问题，ICLR 2026 Workshop"
+    },
+    {
+      "title": "OpenAI: SWE-bench Verified 废弃分析",
+      "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-27",
+      "lastDeepDive": "2026-04-27",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "59.4% 测试缺陷 + 训练污染，AI 编码评估进入后基准时代"
+    },
+    {
+      "title": "mattpocock/skills: Agent Skills for Real Engineers",
+      "url": "https://github.com/mattpocock/skills",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-27",
+      "lastDeepDive": "2026-04-27",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "23K+ stars，2519 stars/day，工程方法论编码为代理技能，TDD/grill-me/design-an-interface"
+    },
+    {
+      "title": "8v: One CLI for AI Coding Agents",
+      "url": "https://github.com/8Network/8v",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-27",
+      "lastDeepDive": "2026-04-27",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "统一二进制替代 agent 原生工具，Python 场景 token -66%，15+ 语言支持"
+    },
+    {
+      "title": "Thinking with Reasoning Skills: Fewer Tokens, More Accuracy",
+      "url": "https://arxiv.org/abs/2604.21764",
+      "type": "paper",
+      "topic": "LLM Evaluation",
+      "firstSeen": "2026-04-27",
+      "lastDeepDive": "2026-04-27",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ACL 2026，推理技能蒸馏+检索挑战从头推理范式"
     }
   ]
 }

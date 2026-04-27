@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-26T19:04:00+08:00",
+    "lastUpdated": "2026-04-27T09:10:00+08:00",
     "version": "1.0",
-    "validFrom": "2026-04-25",
+    "validFrom": "2026-04-27",
     "nextReview": "2026-05-01",
-    "lastRun": "2026-04-26T19:04:00+08:00"
+    "lastRun": "2026-04-27T09:10:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -82,7 +82,15 @@
         "轻量级 AI 知识库",
         "AI 嵌入式架构",
         "MCP 协议效率优化",
-        "道德价值观 AI 操纵"
+        "道德价值观 AI 操纵",
+        "SWE-bench 基准失效",
+        "Agent 记忆系统分化",
+        "统一编码工具效率",
+        "推理技能蒸馏",
+        "Fantasia 对齐问题",
+        "AI 统计认证框架",
+        "mattpocock/skills 生态",
+        "DIVERT 快照分支评估"
       ],
       "allocationPercent": 25,
       "rationale": "Learning Mechanics 深度学习理论化 + HATS 代理辩论 + LambdaBench 形式化基准 + Stash 轻量级知识库 + AI 嵌入式架构 + DIVERT 快照评估"
@@ -103,7 +111,10 @@
         "CriticalSet 图挖掘",
         "Deductive ASPIC 论证",
         "AI-Gram 视觉代理社会",
-        "Symbolic Grounding 视觉推理"
+        "Symbolic Grounding 视觉推理",
+        "Apple Silicon Linux",
+        "后量子密码学迁移",
+        "状态机在代理行为建模中"
       ],
       "allocationPercent": 20,
       "rationale": "有价值但已充分覆盖，EdgeLLM 新突破"
