@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-28T11:04:00+08:00",
+    "lastUpdated": "2026-04-28T19:03:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-28T11:04:00+08:00"
+    "lastRun": "2026-04-28T19:03:00+08:00"
   },
   "deepDives": [
     {
@@ -2642,6 +2642,61 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "UML 对齐真实开发实践，仓库级生成难度远超函数级"
+    },
+    {
+      "title": "VibeVoice: Open-Source Frontier Voice AI",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "type": "project",
+      "topic": "语音AI统一框架",
+      "firstSeen": "2026-04-28",
+      "lastDeepDive": "2026-04-28",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Microsoft开源 TTS+ASR统一 7.5Hz连续分词器 ICLR 2026 Oral 50+语言"
+    },
+    {
+      "title": "ds2api: DeepSeek to Universal API Middleware",
+      "url": "https://github.com/CJackHwang/ds2api",
+      "type": "project",
+      "topic": "API中间件",
+      "firstSeen": "2026-04-28",
+      "lastDeepDive": "2026-04-28",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Go全量实现 三协议兼容 多账号轮询 PoW实现"
+    },
+    {
+      "title": "SciCrafter: Discovery-to-Application Gap in Minecraft",
+      "url": "https://arxiv.org/abs/2604.24697",
+      "type": "paper",
+      "topic": "代理评估",
+      "firstSeen": "2026-04-28",
+      "lastDeepDive": "2026-04-28",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Minecraft红石电路基准 发现→应用循环 前沿模型26% plateau 瓶颈从解决问题转向提出问题"
+    },
+    {
+      "title": "Agent Viability Framework: Adaptive Runtime Governance",
+      "url": "https://arxiv.org/abs/2604.24686",
+      "type": "paper",
+      "topic": "代理治理",
+      "firstSeen": "2026-04-28",
+      "lastDeepDive": "2026-04-28",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Aubin生存理论 VI(t)生存能力指数 预测式治理 RiskGate实例化"
+    },
+    {
+      "title": "SSRP: Self-Synthesizing Reasoning Protocols",
+      "url": "https://arxiv.org/abs/2604.24512",
+      "type": "paper",
+      "topic": "代理推理",
+      "firstSeen": "2026-04-28",
+      "lastDeepDive": "2026-04-28",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Attention Latch失败模式 Architect/Executive分离 715x弹性提升 MultiWOZ 9K轨迹"
     }
   ]
 }
