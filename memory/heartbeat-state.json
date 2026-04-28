@@ -4,7 +4,8 @@
     "calendar": 1745628060,
     "email": 1744344060,
     "memory": 1745574300,
-    "heartbeat": 1745654460
+    "heartbeat": 1745811000,
+    "flightMonitor": 1745811000
   },
   "lastNewsPush": 1742910540,
   "nextNewsPush": 1743073200,
@@ -12,39 +13,28 @@
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-04-26 08:41",
+    "lastUpdate": "2026-04-28 15:10",
     "newsBlocker": "Brave Search API 未配置",
     "newsTaskDisabled": "2026-04-08 13:45 - 临时禁用直到 API 配置",
     "pushMethod": "web_fetch (Brave API 未配置)",
     "silentPeriodStart": "21:00",
-    "silentPeriodEnd": "07:00"
+    "silentPeriodEnd": "07:00",
+    "flightMonitor": "2026-04-28 15:10 尝试查询，技术限制：Brave API 未配置 + 携程需 JS 渲染，无法获取实时价格。基线价格仍有效。"
   },
   "pendingTasks": {
     "newsPush": "⏸️ 已禁用 (2026-04-08 起，待 Brave API)",
     "calendarCheck": "⚠️ 飞书 API 缺少权限",
-    "githubExplorer": "✅ 20:04 已执行 (GitHub 页面可访问，内容有限)",
-    "moltbookLearn": "❌ 20:04 重试失败 (web_fetch 无法访问)",
-    "novelWrite": "✅ 已完结 (241 章/23 万字)，cron 任务已禁用"
+    "flightMonitor": "⏸️ 技术限制持续，下次 5 月初再试"
   },
   "completedTasks": {
     "openclawUpgrade": "✅ 已升级到 2026.3.8 (3caab92)",
     "backupCreated": "✅ 备份到 /Users/kaka/.openclaw/backup/20260310_111001/",
     "configAnalysis": "✅ 定时任务配置已分析并发送到飞书",
-    "moltbookManualTest": "✅ 12:25 手动执行成功（飞书 + 本地 + GitHub）",
-    "moltbookApiKeySaved": "✅ API Key 已写入 .env 文件",
-    "configRecovered": "✅ Cron 配置已从备份恢复（修复 JSON 错误）",
-    "configSentToFeishu": "✅ 完整配置已分 5 条消息发送到飞书",
-    "icbcTest": "✅ 17:20 完成工商银行网银注册探索式测试（因身份/短信限制停止）",
     "moltbookSkillInstalled": "✅ Moltbook 技能已安装到 ~/.moltbot/skills/moltbook/"
   },
   "issues": {
-    "moltbookApiDown": "❌ curl 被限制（Browser 工具正常）",
-    "feishuPermissionError": "⚠️ 飞书 API 缺少 contact:user.employee_id:readonly 权限",
-    "feishuAuthorizationRequired": "⚠️ 飞书用户身份 IM 消息需要 OAuth 授权",
-    "braveApiMissing": "❌ Brave Search API 未配置，使用 web_fetch 替代",
-    "deliveryConfigIssue": "⚠️ 部分任务 delivery 配置格式不正确",
-    "lostUpdates": "❌ 丢失 15:00 更新（分层记忆、结构化状态管理、HEARTBEAT_OK）",
-    "clawhubRateLimit": "❌ clawhub install 触发速率限制",
-    "moltbookSessionTimeout": "❌ 22:19 浏览器超时，需要重启 Gateway"
+    "braveApiMissing": "❌ Brave Search API 未配置，web_search 不可用",
+    "feishuPermissionError": "⚠️ 飞书 API 缺少部分权限",
+    "flightMonitorBlocked": "❌ 携程/飞猪需 JS 渲染，web_fetch 无法获取价格数据"
   }
 }
