@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-28T09:11:00+08:00",
+    "lastUpdated": "2026-04-28T11:04:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-28T09:11:00+08:00"
+    "lastRun": "2026-04-28T11:04:00+08:00"
   },
   "deepDives": [
     {
@@ -2609,6 +2609,39 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "Utility-Modulated InfoNCE，Recall@1 +30.59%，比 LLM 重排序快 180x"
+    },
+    {
+      "title": "GitNexus: Zero-Server Code Intelligence Engine",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "type": "project",
+      "topic": "代码知识图谱引擎",
+      "firstSeen": "2026-04-28",
+      "lastDeepDive": "2026-04-28",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "31K+ stars，Tree-sitter+MCP，AI 编码代理结构化代码理解，3618 stars/day"
+    },
+    {
+      "title": "FlyCatcher: Neural Inference of Runtime Checkers from Tests",
+      "url": "https://arxiv.org/abs/2604.22028",
+      "type": "paper",
+      "topic": "运行时检查器推断",
+      "firstSeen": "2026-04-28",
+      "lastDeepDive": "2026-04-28",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "LLM+静态分析+动态验证，334 检查器 300 正确，2.6x SOTA"
+    },
+    {
+      "title": "RealBench: Repo-Level Code Generation Benchmark",
+      "url": "https://arxiv.org/abs/2604.22659",
+      "type": "paper",
+      "topic": "仓库级代码生成基准",
+      "firstSeen": "2026-04-28",
+      "lastDeepDive": "2026-04-28",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "UML 对齐真实开发实践，仓库级生成难度远超函数级"
     }
   ]
 }

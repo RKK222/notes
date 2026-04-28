@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-28T09:11:00+08:00",
+    "lastUpdated": "2026-04-28T11:04:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-27",
-    "nextReview": "2026-05-01",
-    "lastRun": "2026-04-28T09:11:00+08:00"
+    "nextReview": "2026-05-02",
+    "lastRun": "2026-04-28T11:04:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -97,7 +97,21 @@
         "LLM 自校正控制理论",
         "Bio AI 数字孪生",
         "Agent 组织化",
-        "Background Temperature"
+        "Background Temperature",
+        "代码知识图谱引擎",
+        "运行时检查器推断",
+        "仓库级代码生成基准",
+        "调用链感知测试生成",
+        "自动驾驶事故仿真测试",
+        "伦理测试",
+        "需求-代码追踪框架",
+        "小模型代码生成管道",
+        "AI 供应链偏见治理",
+        "变异测试质量框架",
+        "遗留固件等价类推断",
+        "RAG-Reflect 代码维护",
+        "需求工程目标提取",
+        "训练数据聚类选择"
       ],
       "allocationPercent": 25,
       "rationale": "Learning Mechanics 深度学习理论化 + HATS 代理辩论 + LambdaBench 形式化基准 + Stash 轻量级知识库 + AI 嵌入式架构 + DIVERT 快照评估"
