@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-27T19:03:00+08:00",
+    "lastUpdated": "2026-04-28T09:11:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-27",
     "nextReview": "2026-05-01",
-    "lastRun": "2026-04-27T19:03:00+08:00"
+    "lastRun": "2026-04-28T09:11:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -486,6 +486,81 @@
         "topic": "guizang-ppt-skill Agent技能扩展",
         "reason": "Agent技能从编程工具扩展到内容生成，3303 stars",
         "priority": "medium"
+      },
+      {
+        "topic": "Dirac OSS Agent",
+        "reason": "AST 驱动上下文管理+Hash-Anchored 编辑，TerminalBench SOTA，HN 293 分",
+        "priority": "high"
+      },
+      {
+        "topic": "QuantClaw 动态精度路由",
+        "reason": "代理系统精度即动态资源，成本-21.4% 延迟-15.7%",
+        "priority": "high"
+      },
+      {
+        "topic": "Sound Agentic Science",
+        "reason": "ICLR Workshop 证伪优先标准，AI 辅助研究方法论",
+        "priority": "high"
+      },
+      {
+        "topic": "AI Research Certification",
+        "reason": "双层认证框架，知识质量与人类贡献分级分离",
+        "priority": "high"
+      },
+      {
+        "topic": "UAE 检索效用对齐",
+        "reason": "密度检索器与 LLM 效用蒸馏对齐，Recall@1 +30.59%",
+        "priority": "high"
+      },
+      {
+        "topic": "GitHub Copilot 按使用量计费",
+        "reason": "AI 编码经济性转折点，token 效率成为核心竞争力",
+        "priority": "high"
+      },
+      {
+        "topic": "Microsoft-OpenAI 协议终结",
+        "reason": "AI 基础设施竞争格局重塑，多云 AI 成为可能",
+        "priority": "high"
+      },
+      {
+        "topic": "生物识别数据安全",
+        "reason": "Mercor 4TB 语音泄露，生物识别不可轮换",
+        "priority": "high"
+      },
+      {
+        "topic": "SSG LLM 水印",
+        "reason": "ACL 2026 对数平衡词汇分区，代码生成水印检测",
+        "priority": "high"
+      },
+      {
+        "topic": "Lean 形式化验证辩论",
+        "reason": "HN 246 分热帖，形式化验证在 AI 编码中的角色",
+        "priority": "medium"
+      },
+      {
+        "topic": "SOLAR-RL GUI 代理",
+        "reason": "半在线长程强化学习，桥接离线/在线 RL",
+        "priority": "medium"
+      },
+      {
+        "topic": "XAI 评估错位",
+        "reason": "Shapley 基准人类中心审计，定量指标与人类效用脱钩",
+        "priority": "medium"
+      },
+      {
+        "topic": "CRAFT 训练数据筛选",
+        "reason": "聚类回归自适应筛选，3300 万语料 40 倍加速",
+        "priority": "medium"
+      },
+      {
+        "topic": "CGC 多图像理解",
+        "reason": "组合接地对比，MIG-Bench SOTA",
+        "priority": "medium"
+      },
+      {
+        "topic": "AI 供应链偏见责任碎片化",
+        "reason": "AI 招聘系统供应链依赖链偏见归因",
+        "priority": "medium"
       }
     ]
   },
@@ -542,6 +617,11 @@
       "topic": "free-claude-code",
       "reason": "今日新增，增长极快，需持续跟踪",
       "newFrequency": "每日跟踪"
+    },
+    {
+      "topic": "Agent 记忆系统",
+      "reason": "beads/memsearch/engram/Memanto/Stash 已充分覆盖，转为周跟踪",
+      "newFrequency": "周跟踪"
     }
   ]
 }
