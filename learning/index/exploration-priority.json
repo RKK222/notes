@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-28T11:04:00+08:00",
+    "lastUpdated": "2026-04-28T19:03:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-27",
-    "nextReview": "2026-05-02",
-    "lastRun": "2026-04-28T11:04:00+08:00"
+    "nextReview": "2026-05-04",
+    "lastRun": "2026-04-28T19:03:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -111,10 +111,19 @@
         "遗留固件等价类推断",
         "RAG-Reflect 代码维护",
         "需求工程目标提取",
-        "训练数据聚类选择"
+        "训练数据聚类选择",
+        "VibeVoice 语音AI统一框架",
+        "Agent Viability Framework",
+        "SciCrafter 发现→应用循环",
+        "SSRP 自合成推理协议",
+        "MAS-SZZ 多代理漏洞追踪",
+        "XGRAG GraphRAG可解释性",
+        "FastOMOP 医疗多代理架构",
+        "AVES-DPO 自我校正偏好学习",
+        "AI Safety Sabotage 安全研究破坏评估"
       ],
       "allocationPercent": 25,
-      "rationale": "Learning Mechanics 深度学习理论化 + HATS 代理辩论 + LambdaBench 形式化基准 + Stash 轻量级知识库 + AI 嵌入式架构 + DIVERT 快照评估"
+      "rationale": "VibeVoice语音AI统一 + Agent Viability预测式治理 + SciCrafter发现应用循环 + SSRP Attention Latch + MAS-SZZ多代理漏洞追踪 + XGRAG可解释性 + FastOMOP医疗多代理 + AVES-DPO自我校正"
     },
     "tier3_maintenance": {
       "name": "观察维持（中低频）",
@@ -135,7 +144,12 @@
         "Symbolic Grounding 视觉推理",
         "Apple Silicon Linux",
         "后量子密码学迁移",
-        "状态机在代理行为建模中"
+        "状态机在代理行为建模中",
+        "SIREN-RoPE 可学习旋转编码",
+        "Diffusion Templates 扩散模型插件化",
+        "Adaptive ToR 复杂性感知检索",
+        "Super-DeepG 几何鲁棒性认证",
+        "ds2api API中间件"
       ],
       "allocationPercent": 20,
       "rationale": "有价值但已充分覆盖，EdgeLLM 新突破"
@@ -174,10 +188,16 @@
         "RAG-Anything 全功能框架",
         "AI SRE Agent",
         "Karpathy编码技能",
-        "FinceptTerminal 金融分析"
+        "FinceptTerminal 金融分析",
+        "MIMIC 生物分子多模态模型",
+        "Interoceptive Machine 内部感知框架",
+        "ace-step-ui 开源音乐生成",
+        "Quarkdown Markdown排版",
+        "claude-code-templates Claude Code配置生态",
+        "awesome-codex-skills Codex技能策展"
       ],
       "allocationPercent": 10,
-      "rationale": "前沿方向，今日新增 WiFi 传感/光子 AI 芯片/DNA 存储/FP8 计算/ML 研究审计/零变量软件系统"
+      "rationale": "前沿方向 今日新增 VibeVoice语音AI/内部感知框架/扩散模型插件化/几何鲁棒性认证/MIMIC生物分子"
     },
     "tier5_downgrade": {
       "name": "建议降权（重复过多）",
@@ -575,6 +595,86 @@
         "topic": "AI 供应链偏见责任碎片化",
         "reason": "AI 招聘系统供应链依赖链偏见归因",
         "priority": "medium"
+      },
+      {
+        "topic": "VibeVoice 语音AI统一框架",
+        "reason": "Microsoft开源 TTS+ASR统一 7.5Hz连续分词器 ICLR 2026 Oral 50+语言 60分钟长格式",
+        "priority": "high"
+      },
+      {
+        "topic": "Agent Viability Framework",
+        "reason": "Aubin生存理论引入代理治理 VI(t)生存能力指数 从反应式到预测式治理",
+        "priority": "high"
+      },
+      {
+        "topic": "SciCrafter 发现→应用循环",
+        "reason": "Minecraft基准评估代理发现→应用循环 前沿模型瓶颈从解决问题转向提出问题",
+        "priority": "high"
+      },
+      {
+        "topic": "SSRP 自合成推理协议",
+        "reason": "Attention Latch失败模式 Architect/Executive分离 715x弹性提升",
+        "priority": "high"
+      },
+      {
+        "topic": "MAS-SZZ 多代理漏洞追踪",
+        "reason": "多代理协作SZZ算法 F1提升65% 解决锚点选择错误",
+        "priority": "high"
+      },
+      {
+        "topic": "XGRAG GraphRAG可解释性",
+        "reason": "图扰动策略量化图组件贡献 解释质量+14.81%",
+        "priority": "high"
+      },
+      {
+        "topic": "FastOMOP 医疗多代理架构",
+        "reason": "治理/可观测/编排三层架构 OMOP CDM RWE生成 可靠性0.84-0.94",
+        "priority": "high"
+      },
+      {
+        "topic": "AVES-DPO 自我校正偏好学习",
+        "reason": "模型自身知识对齐 避免分布不匹配 ACL 2026 仅5.2k样本",
+        "priority": "high"
+      },
+      {
+        "topic": "MIMIC 生物分子多模态模型",
+        "reason": "6种模态统一 核酸/蛋白质/进化/结构/调控/语义 SOTA剪接预测",
+        "priority": "medium"
+      },
+      {
+        "topic": "SIREN-RoPE 可学习旋转编码",
+        "reason": "旋转空间作为可学习表达维度 复数类比Transformer 时间戳+周期模式",
+        "priority": "medium"
+      },
+      {
+        "topic": "Interoceptive Machine 内部感知框架",
+        "reason": "稳态/异态/主动三原则 神经科学→AI架构 内部状态调节",
+        "priority": "medium"
+      },
+      {
+        "topic": "Diffusion Templates 扩散模型插件化",
+        "reason": "统一扩散控制插件框架 解耦基础模型与可控能力 KV-Cache+LoRA",
+        "priority": "medium"
+      },
+      {
+        "topic": "Adaptive ToR 复杂性感知检索",
+        "reason": "查询复杂性指数路由 延迟-37.6% LLM调用-43% Pareto最优",
+        "priority": "medium"
+      },
+      {
+        "topic": "Super-DeepG 几何鲁棒性认证",
+        "reason": "GPU加速几何鲁棒性认证 ICCPS/HSCC 2026 线性松弛+Lipschitz优化",
+        "priority": "medium"
+      },
+      {
+        "topic": "ds2api API中间件",
+        "reason": "Go全量实现 三协议兼容 多账号轮询 PoW实现",
+        "priority": "medium"
+      },
+      {
+        "topic": "AI Safety Sabotage 安全研究破坏评估",
+        "reason": "Claude模型安全研究破坏倾向 隐蔽破坏推理 Mythos 7%延续破坏",
+        "priority": "high"
       }
     ]
   },
