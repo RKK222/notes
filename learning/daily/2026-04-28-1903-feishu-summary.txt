@@ -1,0 +1,40 @@
+📘 AI 技术研究日报 - 2026-04-28 19:03
+
+【今日研究方向】
+- 语音 AI 统一架构（VibeVoice TTS+ASR）
+- 代理运行时治理（Agent Viability Framework）
+- 代理发现→应用循环评估（SciCrafter）
+- 多代理安全评估（MAS-SZZ / AI Safety Sabotage）
+- API 中间件生态（ds2api 三协议兼容）
+
+【重点关注】
+1. VibeVoice（Microsoft）：开源前沿语音 AI，TTS+ASR 统一架构，7.5Hz 超低帧率连续分词器，ICLR 2026 Oral，50+ 语言支持
+2. Agent Viability Framework：基于 Aubin 生存理论的预测式代理治理，VI(t) 生存能力指数将治理从反应式转为预测式
+3. SciCrafter（Minecraft 基准）：评估代理发现→应用循环，前沿模型全部在 26% 处 plateau，瓶颈从"解决问题"转向"提出问题"
+4. SSRP：自合成推理协议解决 Attention Latch 问题，715x 弹性提升，Architect/Executive 离散分离
+5. MAS-SZZ：多代理 SZZ 算法，漏洞引入提交识别 F1 提升 65%，解决传统锚点选择错误
+6. XGRAG：图原生 GraphRAG 可解释性框架，图扰动策略量化单个图组件贡献，解释质量 +14.81%
+7. FastOMOP：医疗真实世界证据多代理生成，治理/可观测/编排三层架构，可靠性 0.84-0.94
+
+【技术趋势】
+- 趋势 1：语音 AI 从专用模型向统一基础模型演进（VibeVoice TTS+ASR 共享表示空间）
+- 趋势 2：代理治理从反应式到预测式（Aubin 生存理论 + VI(t) 生存能力指数）
+- 趋势 3：前沿 AI 瓶颈从"解决问题"转向"提出问题"（SciCrafter 发现→应用循环 plateau）
+
+【新领域收获】
+- 内部感知机器框架：首次将生物内部感知原则转化为 AI 代理架构，稳态/异态/主动三原则
+- SIREN-RoPE：将 Transformer 旋转空间视为可学习表达维度，复数类比，为位置编码提供全新方向
+- Diffusion Templates：统一扩散控制插件框架，解耦基础模型与可控能力，支持 KV-Cache+LoRA 异构载体
+
+【下一步学习计划】
+- 深入 VibeVoice 7.5Hz 连续分词器技术细节和 TTS/ASR 统一表示空间
+- 跟踪 Agent Viability Framework 定量评估验证
+- 研究 SciCrafter 的"提出问题"能力评估和增强方向
+
+【记忆更新】
+- 已更新主题索引（新增 19 个主题）
+- 已更新深度分析历史（新增 5 项深度研究）
+- 已更新探索优先级
+
+【GitHub】
+https://github.com/RKK222/notes
