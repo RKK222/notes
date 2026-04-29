@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-29T11:04:00+08:00",
+    "lastUpdated": "2026-04-29T19:03:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-27",
     "nextReview": "2026-05-06",
-    "lastRun": "2026-04-29T11:04:00+08:00"
+    "lastRun": "2026-04-29T19:03:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -146,7 +146,16 @@
         "CJIT即时编译C",
         "Warp开源终端",
         "Karpathy CLAUDE.md",
-        "AI代码版权法律"
+        "AI代码版权法律",
+        "RecursiveMAS 递归多智能体",
+        "ADEMA 知识状态编排",
+        "MultiVul 多模态漏洞检测",
+        "SWE-MIMIC-Bench GitHub Issue知识提取",
+        "Ghostty 离开 GitHub 去中心化",
+        "OpenAI on Bedrock 多云AI",
+        "SCSL 场景化系统测试",
+        "TrialCalibre 医疗因果推理",
+        "jcode 编码代理Harness"
       ],
       "allocationPercent": 25,
       "rationale": "VibeVoice语音AI统一 + Agent Viability预测式治理 + SciCrafter发现应用循环 + SSRP Attention Latch + MAS-SZZ多代理漏洞追踪 + XGRAG可解释性 + FastOMOP医疗多代理 + AVES-DPO自我校正"
@@ -761,6 +770,86 @@
         "topic": "OpenAI on Amazon Bedrock",
         "reason": "打破OpenAI单一供应商锁定，多云AI里程碑",
         "priority": "high"
+      },
+      {
+        "topic": "RecursiveMAS 递归多智能体",
+        "reason": "递归缩放从单模型扩展到多智能体，潜在空间隐式协作，新缩放轴",
+        "priority": "high"
+      },
+      {
+        "topic": "ADEMA 知识状态编排",
+        "reason": "长程知识合成架构，认识论记账+检查点恢复，60次运行验证",
+        "priority": "high"
+      },
+      {
+        "topic": "MultiVul 多模态漏洞检测",
+        "reason": "代码+注释双模态对比学习，F1 +27%，多模态代码分析新方向",
+        "priority": "high"
+      },
+      {
+        "topic": "Ghostty 离开 GitHub",
+        "reason": "Mitchell Hashimoto情感迁移，开源平台去中心化趋势加速",
+        "priority": "high"
+      },
+      {
+        "topic": "OpenAI on Bedrock",
+        "reason": "打破单一供应商锁定，企业AI部署新选择",
+        "priority": "high"
+      },
+      {
+        "topic": "SCSL 场景化系统测试",
+        "reason": "解决分布式测试三大挑战，场景组合+在线测试+动态配置",
+        "priority": "high"
+      },
+      {
+        "topic": "Rocky Rust SQL引擎",
+        "reason": "DAG控制面，治理波计划端到端落地",
+        "priority": "medium"
+      },
+      {
+        "topic": "HardenedBSD on Radicle",
+        "reason": "与Ghostty迁移同一天，去中心化代码托管",
+        "priority": "medium"
+      },
+      {
+        "topic": "ChatGPT 广告技术",
+        "reason": "完整归因循环分析，AI产品商业化技术路径",
+        "priority": "medium"
+      },
+      {
+        "topic": "Claude Code 代码所有权",
+        "reason": "AI生成内容法律框架重要议题",
+        "priority": "medium"
+      },
+      {
+        "topic": "Auto-Architecture Karpathy循环CPU设计",
+        "reason": "AI驱动代码生成范式扩展到硬件设计",
+        "priority": "medium"
+      },
+      {
+        "topic": "TrialCalibre 医疗因果推理",
+        "reason": "ICML 2025，多代理系统引入医疗因果推理",
+        "priority": "medium"
+      },
+      {
+        "topic": "StratFormer 博弈AI",
+        "reason": "Computers and Games 2026，Transformer博弈论元代理",
+        "priority": "medium"
+      },
+      {
+        "topic": "QAROO 边缘计算",
+        "reason": "量子神经网络+注意力机制在MEC中应用",
+        "priority": "medium"
+      },
+      {
+        "topic": "A2Gen 推荐系统",
+        "reason": "快手大规模在线A/B测试，时间维度行动序列",
+        "priority": "medium"
+      },
+      {
+        "topic": "MBSE+AI协同设计",
+        "reason": "模型即知识库而非提示，系统工程新方向",
+        "priority": "medium"
       }
     ]
   },
