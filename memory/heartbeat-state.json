@@ -13,7 +13,7 @@
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-04-28 15:10",
+    "lastUpdate": "2026-04-29 13:01",
     "newsBlocker": "Brave Search API 未配置",
     "newsTaskDisabled": "2026-04-08 13:45 - 临时禁用直到 API 配置",
     "pushMethod": "web_fetch (Brave API 未配置)",
