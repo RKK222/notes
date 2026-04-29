@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-29T09:09:00+08:00",
+    "lastUpdated": "2026-04-29T11:04:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-27",
-    "nextReview": "2026-05-04",
-    "lastRun": "2026-04-29T09:09:00+08:00"
+    "nextReview": "2026-05-06",
+    "lastRun": "2026-04-29T11:04:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -21,7 +21,16 @@
         "属性基测试",
         "评估审计工具链",
         "Agent 搜索基准",
-        "形式化验证规模化"
+        "形式化验证规模化",
+        "自动化基准审计",
+        "代码推理过程透明度",
+        "微调安全漂移",
+        "零服务器代码智能",
+        "多Agent代码编辑可靠性",
+        "R3-SQL Text-to-SQL",
+        "Free Claude Code",
+        "VibeVoice统一语音AI",
+        "Claude系统提示Bug"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域 + 新兴高价值方向 + 评估审计工具链刚需确认"
@@ -120,7 +129,24 @@
         "XGRAG GraphRAG可解释性",
         "FastOMOP 医疗多代理架构",
         "AVES-DPO 自我校正偏好学习",
-        "AI Safety Sabotage 安全研究破坏评估"
+        "AI Safety Sabotage 安全研究破坏评估",
+        "绿色模型压缩",
+        "企业深度研究架构",
+        "多Agent恶意检测",
+        "Commit-Aware TCP",
+        "代码抄袭检测CEM",
+        "分布式机器人系统测试",
+        "多模态漏洞检测",
+        "PLM-GNN混合代码分类",
+        "SWE-MIMIC-Bench知识提取",
+        "可用性评估MLLM",
+        "意图编译理论",
+        "同态加密过程挖掘",
+        "Auto-Arch CPU设计",
+        "CJIT即时编译C",
+        "Warp开源终端",
+        "Karpathy CLAUDE.md",
+        "AI代码版权法律"
       ],
       "allocationPercent": 25,
       "rationale": "VibeVoice语音AI统一 + Agent Viability预测式治理 + SciCrafter发现应用循环 + SSRP Attention Latch + MAS-SZZ多代理漏洞追踪 + XGRAG可解释性 + FastOMOP医疗多代理 + AVES-DPO自我校正"
