@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-29T11:04:00+08:00",
+    "lastUpdated": "2026-04-29T19:03:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-29T11:04:00+08:00"
+    "lastRun": "2026-04-29T19:03:00+08:00"
   },
   "deepDives": [
     {
@@ -2818,6 +2818,72 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "开放世界Agent部署形式化理论框架 闭包差距与委托信封"
+    },
+    {
+      "title": "RecursiveMAS: Recursive Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2604.25917",
+      "type": "paper",
+      "topic": "递归多智能体",
+      "firstSeen": "2026-04-29",
+      "lastDeepDive": "2026-04-29",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "递归缩放从单模型扩展到多智能体，RecursiveLink模块连接异构代理，潜在空间隐式协作"
+    },
+    {
+      "title": "ADEMA: Knowledge-State Orchestration Architecture",
+      "url": "https://arxiv.org/abs/2604.25849",
+      "type": "paper",
+      "topic": "知识状态编排",
+      "firstSeen": "2026-04-29",
+      "lastDeepDive": "2026-04-29",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "长程知识合成架构，显式认识论记账+检查点恢复，60次运行验证"
+    },
+    {
+      "title": "MultiVul: Multimodal Contrastive Framework for Vulnerability Detection",
+      "url": "https://arxiv.org/abs/2604.25711",
+      "type": "paper",
+      "topic": "多模态漏洞检测",
+      "firstSeen": "2026-04-29",
+      "lastDeepDive": "2026-04-29",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "代码+注释双模态对比学习，F1 +27%，四LLM验证"
+    },
+    {
+      "title": "SWE-MIMIC-Bench: Multi-LLM Pipeline for GitHub Issue Knowledge Extraction",
+      "url": "https://arxiv.org/abs/2604.25880",
+      "type": "paper",
+      "topic": "知识提取",
+      "firstSeen": "2026-04-29",
+      "lastDeepDive": "2026-04-29",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "91.7%成功率提取734个推理轨迹，Agent训练数据新来源"
+    },
+    {
+      "title": "Fault Localization from Bug Reports: ABB Robotics Industrial Benchmark",
+      "url": "https://arxiv.org/abs/2604.25700",
+      "type": "paper",
+      "topic": "工业故障定位",
+      "firstSeen": "2026-04-29",
+      "lastDeepDive": "2026-04-29",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ABB Robotics五年数据，传统ML优于Transformer，挑战越大越好假设"
+    },
+    {
+      "title": "SCSL: Scenario-based System Testing for Distributed Robotics",
+      "url": "https://arxiv.org/abs/2604.25772",
+      "type": "paper",
+      "topic": "分布式系统测试",
+      "firstSeen": "2026-04-29",
+      "lastDeepDive": "2026-04-29",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "解决分布式测试三大挑战，场景组合+在线测试+动态配置"
     }
   ]
 }
