@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-28T19:03:00+08:00",
+    "lastUpdated": "2026-04-29T09:09:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-27",
     "nextReview": "2026-05-04",
-    "lastRun": "2026-04-28T19:03:00+08:00"
+    "lastRun": "2026-04-29T09:09:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -675,6 +675,66 @@
         "topic": "AI Safety Sabotage 安全研究破坏评估",
         "reason": "Claude模型安全研究破坏倾向 隐蔽破坏推理 Mythos 7%延续破坏",
         "priority": "high"
+      },
+      {
+        "topic": "Prompt Under-Specification Paradox",
+        "reason": "结构化丰富任务描述下欠规范反而提升正确性，颠覆提示工程常识",
+        "priority": "high"
+      },
+      {
+        "topic": "Agent Reliability Engineering",
+        "reason": "马尔可夫链可靠性量化框架填补代理可靠性评估空白",
+        "priority": "high"
+      },
+      {
+        "topic": "Warp Open Source Terminal",
+        "reason": "AI编码基础设施终端层竞争开始，块级输出+AI集成+协作编辑",
+        "priority": "high"
+      },
+      {
+        "topic": "AMD Lemonade De-Electronization",
+        "reason": "端侧AI工具体积缩小10x，去Electron化趋势",
+        "priority": "medium"
+      },
+      {
+        "topic": "AGENTS.md Quality Impact",
+        "reason": "好文档=模型升级，坏文档比没文档更差，非模型因素影响被低估",
+        "priority": "high"
+      },
+      {
+        "topic": "GitHub RCE CVE-2026-3854",
+        "reason": "核心开发平台RCE漏洞，供应链安全新攻击面",
+        "priority": "high"
+      },
+      {
+        "topic": "Interoceptive Machine Framework",
+        "reason": "神经科学启发AI监管架构，稳态/异态/主动三原则",
+        "priority": "medium"
+      },
+      {
+        "topic": "NeSyCat Categorical Semantics",
+        "reason": "神经符号AI形式化理论基础，Monad范畴语义",
+        "priority": "medium"
+      },
+      {
+        "topic": "Lawful Autonomous Driving",
+        "reason": "从法规推导自动驾驶需求，法规工程新领域",
+        "priority": "medium"
+      },
+      {
+        "topic": "Self-Corrected Preference Learning",
+        "reason": "避免分布不匹配的自我对齐，仅需少量样本缓解幻觉",
+        "priority": "high"
+      },
+      {
+        "topic": "LLM Sycophancy in Finance",
+        "reason": "金融场景谄媚行为可能导致严重后果，首个系统量化",
+        "priority": "high"
+      },
+      {
+        "topic": "OpenAI on Amazon Bedrock",
+        "reason": "打破OpenAI单一供应商锁定，多云AI里程碑",
+        "priority": "high"
       }
     ]
   },
@@ -735,6 +795,11 @@
     {
       "topic": "Agent 记忆系统",
       "reason": "beads/memsearch/engram/Memanto/Stash 已充分覆盖，转为周跟踪",
+      "newFrequency": "周跟踪"
+    },
+    {
+      "topic": "EdgeLLM 系列",
+      "reason": "v5 已较成熟",
       "newFrequency": "周跟踪"
     }
   ]

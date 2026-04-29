@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-28T19:03:00+08:00",
+    "lastUpdated": "2026-04-29T09:09:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-28T19:03:00+08:00"
+    "lastRun": "2026-04-29T09:09:00+08:00"
   },
   "deepDives": [
     {
@@ -2697,6 +2697,61 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "Attention Latch失败模式 Architect/Executive分离 715x弹性提升 MultiWOZ 9K轨迹"
+    },
+    {
+      "title": "Warp: Open-Source Modern Terminal Emulator",
+      "url": "https://www.warp.dev/blog/warp-is-now-open-source",
+      "type": "project",
+      "topic": "AI Infrastructure",
+      "firstSeen": "2026-04-29",
+      "lastDeepDive": "2026-04-29",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "现代终端模拟器完全开源，AI编码基础设施终端层竞争开始，块级输出+AI集成+协作编辑"
+    },
+    {
+      "title": "AMD Lemonade SDK 10.3: De-Electronization",
+      "url": "https://www.phoronix.com/news/AMD-Lemonade-10.3",
+      "type": "project",
+      "topic": "Edge AI",
+      "firstSeen": "2026-04-29",
+      "lastDeepDive": "2026-04-29",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "去除Electron体积缩小10x，端侧AI部署经济性突破"
+    },
+    {
+      "title": "When Prompt Under-Specification Improves Code Correctness",
+      "url": "https://arxiv.org/abs/2604.24712",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-29",
+      "lastDeepDive": "2026-04-29",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "颠覆提示工程常识，结构化丰富任务描述下欠规范反而提升正确性，10模型评估"
+    },
+    {
+      "title": "Measuring the Unmeasurable: Markov Chain Reliability for LLM Agents",
+      "url": "https://arxiv.org/abs/2604.24579",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-29",
+      "lastDeepDive": "2026-04-29",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "首个LLM代理可靠性量化框架，马尔可夫链建模行为状态转移"
+    },
+    {
+      "title": "Defective Task Descriptions in LLM-Based Code Generation",
+      "url": "https://arxiv.org/abs/2604.24703",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-04-29",
+      "lastDeepDive": "2026-04-29",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "系统分析缺陷任务描述类型/频率/影响，从任务端提升代码生成质量"
     }
   ]
 }
