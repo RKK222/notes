@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-29T19:03:00+08:00",
+    "lastUpdated": "2026-04-30T11:02:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-29T19:03:00+08:00"
+    "lastRun": "2026-04-30T11:02:00+08:00"
   },
   "deepDives": [
     {
@@ -2884,6 +2884,61 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "解决分布式测试三大挑战，场景组合+在线测试+动态配置"
+    },
+    {
+      "title": "Zed 1.0: 高性能代码编辑器",
+      "url": "https://zed.dev/blog/zed-1-0",
+      "type": "project",
+      "topic": "开发工具",
+      "firstSeen": "2026-04-30",
+      "lastDeepDive": "2026-04-30",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "HN 1587分，Rust+GPU架构，对AI编码工具有直接影响"
+    },
+    {
+      "title": "Vera: 机器编写编程语言",
+      "url": "https://github.com/aallan/vera",
+      "type": "project",
+      "topic": "编程语言",
+      "firstSeen": "2026-04-30",
+      "lastDeepDive": "2026-04-30",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "专为机器编写设计的语言，挑战人类优先假设"
+    },
+    {
+      "title": "Cognitive Atrophy & Epistemological Debt",
+      "url": "https://arxiv.org/abs/2604.26855",
+      "type": "paper",
+      "topic": "AI Safety",
+      "firstSeen": "2026-04-30",
+      "lastDeepDive": "2026-04-30",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "AI依赖软件工程中的认知萎缩与认识论债务，Amazon 2026中断案例"
+    },
+    {
+      "title": "DreamProver: Wake-Sleep Theorem-Proving Agent",
+      "url": "https://arxiv.org/abs/2604.26311",
+      "type": "paper",
+      "topic": "形式化验证",
+      "firstSeen": "2026-04-30",
+      "lastDeepDive": "2026-04-30",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "醒睡范式进化可迁移引理库，形式化验证新方向"
+    },
+    {
+      "title": "Onchain LLM Agents Under Real Capital",
+      "url": "https://arxiv.org/abs/2604.26091",
+      "type": "paper",
+      "topic": "AI Security",
+      "firstSeen": "2026-04-30",
+      "lastDeepDive": "2026-04-30",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "750万次调用实证，可靠性来自运营层而非模型本身"
     }
   ]
 }
