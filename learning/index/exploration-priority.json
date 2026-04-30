@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-30T11:02:00+08:00",
+    "lastUpdated": "2026-04-30T19:03:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-27",
     "nextReview": "2026-05-06",
-    "lastRun": "2026-04-30T11:02:00+08:00"
+    "lastRun": "2026-04-30T19:03:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -37,7 +37,13 @@
         "DreamProver 醒睡引理进化",
         "AGEL-Comp 神经符号组合泛化",
         "ClassEval-Pro 类级别代码生成",
-        "SWE-Edit 双子代理代码编辑"
+        "SWE-Edit 双子代理代码编辑",
+        "跨架构知识蒸馏",
+        "推理感知检索",
+        "4D世界模型",
+        "对齐脆弱性",
+        "Agentic SDLC综述",
+        "ClawGym Agent全生命周期"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域 + 新兴高价值方向 + 评估审计工具链刚需确认"
@@ -173,7 +179,17 @@
         "Auto-Relational Reasoning",
         "SciHorizon-DataEVA 科学数据AI就绪度",
         "AI Observability 五层分类",
-        "Speculative Decoding SE"
+        "Speculative Decoding SE",
+        "DeFi攻击级联检测",
+        "扩散LLM联想记忆",
+        "训练自由NAS",
+        "FutureWorld实时预测Agent",
+        "AGEL-Comp神经符号组合泛化",
+        "SciHorizon数据AI就绪评估",
+        "测试时策略路由",
+        "神经集合因果学习",
+        "Mozilla反对Chrome Prompt API",
+        "IBM Granite 4.1"
       ],
       "allocationPercent": 25,
       "rationale": "VibeVoice语音AI统一 + Agent Viability预测式治理 + SciCrafter发现应用循环 + SSRP Attention Latch + MAS-SZZ多代理漏洞追踪 + XGRAG可解释性 + FastOMOP医疗多代理 + AVES-DPO自我校正"
@@ -263,6 +279,39 @@
       ],
       "allocationPercent": 5,
       "rationale": "重复覆盖，降低优先级避免冗余；量子软件测试实用化尚早"
+    },
+    "tier3_exploration": {
+      "name": "探索领域（低频但值得跟踪）",
+      "description": "新领域探索，低频但潜在价值高",
+      "topics": [
+        "ImproBR Bug报告改进",
+        "TDD过程治理",
+        "量子程序覆盖标准",
+        "LLM可观测性五层框架",
+        "Speculative Decoding在SE任务",
+        "RepoDoc知识图谱文档",
+        "PICKLES MBT+BDD融合",
+        "能耗监控RAPL开销",
+        "HPC动态资源管理测试",
+        "智能合约范式比较",
+        "LLM实证SE综述",
+        "临床AI可信框架",
+        "机器人LLM安全基准",
+        "语义克隆检测Solidity",
+        "UAV搜索救援规则-RL混合",
+        "语音数据集虚假相关性",
+        "SDV计算卸载",
+        "MBSE OCL验证框架",
+        "OpenAI goblins叙事",
+        "HERMES.md计费Bug",
+        "Zig反AI贡献政策",
+        "Copy Fail编程模式",
+        "Cursor Camp",
+        "Forge联邦化",
+        "Rust所有权类型概念模型",
+        "FastCGI 30年"
+      ],
+      "allocationPercent": 20
     }
   },
   "newExplorationTargets": {
