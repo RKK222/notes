@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-29T19:03:00+08:00",
+    "lastUpdated": "2026-04-30T11:02:00+08:00",
     "version": "1.0",
     "validFrom": "2026-04-27",
     "nextReview": "2026-05-06",
-    "lastRun": "2026-04-29T19:03:00+08:00"
+    "lastRun": "2026-04-30T11:02:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -30,7 +30,14 @@
         "R3-SQL Text-to-SQL",
         "Free Claude Code",
         "VibeVoice统一语音AI",
-        "Claude系统提示Bug"
+        "Claude系统提示Bug",
+        "认识论债务 Epistemological Debt",
+        "Zed 1.0 高性能编辑器",
+        "Onchain Agent 可靠性",
+        "DreamProver 醒睡引理进化",
+        "AGEL-Comp 神经符号组合泛化",
+        "ClassEval-Pro 类级别代码生成",
+        "SWE-Edit 双子代理代码编辑"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域 + 新兴高价值方向 + 评估审计工具链刚需确认"
@@ -155,7 +162,18 @@
         "OpenAI on Bedrock 多云AI",
         "SCSL 场景化系统测试",
         "TrialCalibre 医疗因果推理",
-        "jcode 编码代理Harness"
+        "jcode 编码代理Harness",
+        "Vera 机器编写语言",
+        "IssueSpecter 覆盖率引导缺陷发现",
+        "Bian Que 扁鹊运维Agent",
+        "FutureWorld 实时预测代理RL",
+        "BTF-2 战略推理评估",
+        "Legal LLM 可说服性",
+        "OMEGA AI研究自动化",
+        "Auto-Relational Reasoning",
+        "SciHorizon-DataEVA 科学数据AI就绪度",
+        "AI Observability 五层分类",
+        "Speculative Decoding SE"
       ],
       "allocationPercent": 25,
       "rationale": "VibeVoice语音AI统一 + Agent Viability预测式治理 + SciCrafter发现应用循环 + SSRP Attention Latch + MAS-SZZ多代理漏洞追踪 + XGRAG可解释性 + FastOMOP医疗多代理 + AVES-DPO自我校正"
