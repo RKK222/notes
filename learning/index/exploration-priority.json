@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-01T09:10:00+08:00",
+    "lastUpdated": "2026-05-01T11:04:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-01",
     "nextReview": "2026-05-08",
-    "lastRun": "2026-05-01T09:10:00+08:00"
+    "lastRun": "2026-05-01T11:04:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -48,7 +48,11 @@
         "Computer-Use Agent 基础设施",
         "代码推理基准",
         "多代理代码编辑",
-        "Agentic 技能框架"
+        "Agentic 技能框架",
+        "Agent 沙箱基础设施",
+        "LLM 供应链治理",
+        "探索黑客 Exploration Hacking",
+        "Agent 评估动态演化"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域 + 新兴高价值方向 + Agentic 开发环境爆发 + Computer-Use 基础设施标准化"
@@ -199,7 +203,11 @@
         "金融多代理系统",
         "MBSE AI 消费设计",
         "MBT+BDD 融合测试",
-        "ML 工程师 Agent"
+        "ML 工程师 Agent",
+        "多模态 RL 预对齐",
+        "Transformer 故障诊断",
+        "视觉 Agent 架构模式",
+        "自动驾驶 RL + 3D 高斯"
       ],
       "allocationPercent": 25,
       "rationale": "绿色 AI 压缩 + 金融多代理 + MBSE AI 消费 + MBT+BDD 融合 + ML Agent"

@@ -1,10 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-01T09:10:00+08:00",
+    "lastUpdated": "2026-05-01T11:04:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-05-01T09:10:00+08:00"
+    "lastRun": "2026-05-01T11:04:00+08:00",
+    "totalItems": 12
   },
   "deepDives": [
     {
@@ -3049,6 +3050,104 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "Gherkin+形式化模型双向翻译，工业案例验证"
+    }
+  ],
+  "items": [
+    {
+      "title": "Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows",
+      "url": "https://arxiv.org/abs/2604.28138",
+      "type": "paper",
+      "topic": "Agent 评估动态演化",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "DEFault++: Automated Fault Detection for Transformer Architectures",
+      "url": "https://arxiv.org/abs/2604.28113",
+      "type": "paper",
+      "topic": "Transformer 故障诊断",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "Exploration Hacking: Can LLMs Learn to Resist RL Training?",
+      "url": "https://arxiv.org/abs/2604.28181",
+      "type": "paper",
+      "topic": "探索黑客 Exploration Hacking",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "Test Before You Deploy: Governing Updates in the LLM Supply Chain",
+      "url": "https://arxiv.org/abs/2604.27781",
+      "type": "paper",
+      "topic": "LLM 供应链治理",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "The Grand Software Supply Chain of AI Systems",
+      "url": "https://arxiv.org/abs/2604.27754",
+      "type": "paper",
+      "topic": "LLM 供应链治理",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "PRISM: Pre-alignment via Black-box On-policy Distillation",
+      "url": "https://arxiv.org/abs/2604.28119",
+      "type": "paper",
+      "topic": "多模态 RL 预对齐",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "Latent Adversarial Detection: Adaptive Probing of LLM Activations",
+      "url": "https://arxiv.org/abs/2604.28089",
+      "type": "paper",
+      "topic": "AI Security",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "FlashRT: Efficient Red-Teaming for Prompt Injection",
+      "url": "https://arxiv.org/abs/2604.28146",
+      "type": "paper",
+      "topic": "AI Security",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "Crab: Semantics-Aware Checkpoint/Restore for Agent Sandboxes",
+      "url": "https://arxiv.org/abs/2604.28111",
+      "type": "paper",
+      "topic": "Agent 沙箱基础设施",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "type": "project",
+      "topic": "AI Design Tool",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "future-agi/future-agi",
+      "url": "https://github.com/future-agi/future-agi",
+      "type": "project",
+      "topic": "LLM 评估可观测性",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "GammaLabTechnologies/harmonist",
+      "url": "https://github.com/GammaLabTechnologies/harmonist",
+      "type": "project",
+      "topic": "Agent 编排",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
     }
   ]
 }
