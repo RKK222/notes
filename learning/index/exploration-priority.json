@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-01T11:04:00+08:00",
+    "lastUpdated": "2026-05-01T19:06:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-01",
     "nextReview": "2026-05-08",
-    "lastRun": "2026-05-01T11:04:00+08:00"
+    "lastRun": "2026-05-01T19:06:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -946,7 +946,14 @@
     "自进化代理",
     "评估审计工具链",
     "Tool Attention (MCP/Tools Tax)",
-    "跨提交漏洞检测"
+    "跨提交漏洞检测",
+    "Agentic Harness Engineering",
+    "C8s Confidential K8s",
+    "jcode Rust 编码代理 Harness",
+    "TradingAgents 多代理金融交易",
+    "SimStudio AI 代理编排平台",
+    "Lovable Agent WireGuard K8s Bug",
+    "Grok 4.3 x.ai"
   ],
   "低频但值得探索": [
     "光子 AI 芯片",
