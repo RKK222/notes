@@ -3148,6 +3148,70 @@
       "topic": "Agent 编排",
       "firstRecorded": "2026-05-01",
       "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "Agentic Harness Engineering",
+      "url": "https://arxiv.org/abs/2604.25850",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "C8s: A Confidential Kubernetes Architecture",
+      "url": "https://arxiv.org/abs/2604.26974",
+      "type": "paper",
+      "topic": "Infrastructure",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "jcode - Coding Agent Harness",
+      "url": "https://github.com/1jehuang/jcode",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "TradingAgents - Multi-Agents LLM Financial Trading Framework",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "SimStudio AI (sim) - AI Agent Orchestration Platform",
+      "url": "https://github.com/simstudioai/sim",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "CPanel/WHM CVE-2026-41940 Authentication Bypass",
+      "url": "https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/",
+      "type": "project",
+      "topic": "Software Testing",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "Lovable Agent - WireGuard K8s Bug Discovery",
+      "url": "https://lovable.dev/blog/hunting-networking-bugs-in-kubernetes",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "Shor's Algorithm More Efficient Implementation",
+      "url": "https://lwn.net/Articles/1066156/",
+      "type": "project",
+      "topic": "Quantum Computing",
+      "firstRecorded": "2026-05-01",
+      "lastDeepDive": "2026-05-01"
     }
   ]
 }
