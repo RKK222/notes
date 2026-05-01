@@ -1008,6 +1008,11 @@
       "topic": "EdgeLLM 系列",
       "reason": "v5 已较成熟",
       "newFrequency": "周跟踪"
+    },
+    {
+      "topic": "Agent Skill 生态",
+      "reason": "mattpocock/skills (50K+ stars) 已充分覆盖，browserbase/skills 延续同一趋势但差异化明显",
+      "newFrequency": "周跟踪"
     }
   ]
 }
