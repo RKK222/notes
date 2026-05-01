@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-30T19:03:00+08:00",
+    "lastUpdated": "2026-05-01T09:10:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-04-30T19:03:00+08:00"
+    "lastRun": "2026-05-01T09:10:00+08:00"
   },
   "deepDives": [
     {
@@ -3005,6 +3005,50 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "微调激活版权书籍回忆，对齐抑制可逆，HN 144分"
+    },
+    {
+      "title": "Warp: Agentic Development Environment",
+      "url": "https://github.com/warpdotdev/warp",
+      "type": "project",
+      "topic": "Agentic 开发环境",
+      "firstSeen": "2026-05-01",
+      "lastDeepDive": "2026-05-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "OpenAI 赞助开源 Agentic 终端，build.warp.dev 展示数千 Oz 代理工作流"
+    },
+    {
+      "title": "Superpowers: Agentic Skills Framework",
+      "url": "https://github.com/obra/superpowers",
+      "type": "project",
+      "topic": "Agentic 技能框架",
+      "firstSeen": "2026-05-01",
+      "lastDeepDive": "2026-05-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "TDD+子代理驱动开发，7 个核心技能自动触发，多平台兼容"
+    },
+    {
+      "title": "CUA: Computer-Use Agent Infrastructure",
+      "url": "https://github.com/trycua/cua",
+      "type": "project",
+      "topic": "Computer-Use Agent 基础设施",
+      "firstSeen": "2026-05-01",
+      "lastDeepDive": "2026-05-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "统一 API 覆盖 5 平台，15K+ stars，Computer-Use Agent 的 Kubernetes"
+    },
+    {
+      "title": "PICKLES: MBT + BDD Testing Framework",
+      "url": "https://arxiv.org/abs/2604.26572",
+      "type": "paper",
+      "topic": "MBT+BDD 融合测试",
+      "firstSeen": "2026-05-01",
+      "lastDeepDive": "2026-05-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Gherkin+形式化模型双向翻译，工业案例验证"
     }
   ]
 }
