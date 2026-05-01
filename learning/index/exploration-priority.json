@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-04-30T19:03:00+08:00",
+    "lastUpdated": "2026-05-01T09:10:00+08:00",
     "version": "1.0",
-    "validFrom": "2026-04-27",
-    "nextReview": "2026-05-06",
-    "lastRun": "2026-04-30T19:03:00+08:00"
+    "validFrom": "2026-05-01",
+    "nextReview": "2026-05-08",
+    "lastRun": "2026-05-01T09:10:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -43,10 +43,15 @@
         "4D世界模型",
         "对齐脆弱性",
         "Agentic SDLC综述",
-        "ClawGym Agent全生命周期"
+        "ClawGym Agent全生命周期",
+        "Agentic 开发环境",
+        "Computer-Use Agent 基础设施",
+        "代码推理基准",
+        "多代理代码编辑",
+        "Agentic 技能框架"
       ],
       "allocationPercent": 40,
-      "rationale": "核心研究领域 + 新兴高价值方向 + 评估审计工具链刚需确认"
+      "rationale": "核心研究领域 + 新兴高价值方向 + Agentic 开发环境爆发 + Computer-Use 基础设施标准化"
     },
     "tier2_emerging": {
       "name": "新兴高优先级（上升趋势）",
@@ -189,10 +194,15 @@
         "测试时策略路由",
         "神经集合因果学习",
         "Mozilla反对Chrome Prompt API",
-        "IBM Granite 4.1"
+        "IBM Granite 4.1",
+        "绿色 AI 压缩",
+        "金融多代理系统",
+        "MBSE AI 消费设计",
+        "MBT+BDD 融合测试",
+        "ML 工程师 Agent"
       ],
       "allocationPercent": 25,
-      "rationale": "VibeVoice语音AI统一 + Agent Viability预测式治理 + SciCrafter发现应用循环 + SSRP Attention Latch + MAS-SZZ多代理漏洞追踪 + XGRAG可解释性 + FastOMOP医疗多代理 + AVES-DPO自我校正"
+      "rationale": "绿色 AI 压缩 + 金融多代理 + MBSE AI 消费 + MBT+BDD 融合 + ML Agent"
     },
     "tier3_maintenance": {
       "name": "观察维持（中低频）",
