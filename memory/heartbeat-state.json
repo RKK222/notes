@@ -3,9 +3,9 @@
     "news": 1743066480,
     "calendar": 1746134760,
     "email": 1744344060,
-    "memory": 1745574300,
-    "heartbeat": 1746134760,
-    "flightMonitor": 1745811000
+    "memory": 1746206400,
+    "heartbeat": 1746206400,
+    "flightMonitor": 1746145080
   },
   "lastNewsPush": 1742910540,
   "nextNewsPush": 1743073200,
@@ -13,28 +13,29 @@
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-05-02 08:06",
+    "lastUpdate": "2026-05-03 02:00",
     "newsBlocker": "Brave Search API 未配置",
     "newsTaskDisabled": "2026-04-08 13:45 - 临时禁用直到 API 配置",
     "pushMethod": "web_fetch (Brave API 未配置)",
     "silentPeriodStart": "21:00",
     "silentPeriodEnd": "07:00",
-    "flightMonitor": "2026-04-28 15:10 尝试查询，技术限制：Brave API 未配置 + 携程需 JS 渲染，无法获取实时价格。基线价格仍有效。"
+    "flightMonitor": "2026-05-02 首次成功获取携程实时价格。URC:¥3,056 / HET:¥2,272。下次查询 5/5。"
   },
   "pendingTasks": {
     "newsPush": "⏸️ 已禁用 (2026-04-08 起，待 Brave API)",
     "calendarCheck": "⚠️ 飞书 API 缺少权限",
-    "flightMonitor": "⏸️ 技术限制持续，下次 5 月初再试"
+    "flightMonitor": "✅ 携程数据可获取，下次 5/5 09:00"
   },
   "completedTasks": {
     "openclawUpgrade": "✅ 已升级到 2026.3.8 (3caab92)",
     "backupCreated": "✅ 备份到 /Users/kaka/.openclaw/backup/20260310_111001/",
     "configAnalysis": "✅ 定时任务配置已分析并发送到飞书",
-    "moltbookSkillInstalled": "✅ Moltbook 技能已安装到 ~/.moltbot/skills/moltbook/"
+    "moltbookSkillInstalled": "✅ Moltbook 技能已安装到 ~/.moltbot/skills/moltbook/",
+    "flightMonitorBreakthrough": "✅ 2026-05-02 首次成功获取携程实时价格数据"
   },
   "issues": {
     "braveApiMissing": "❌ Brave Search API 未配置，web_search 不可用",
     "feishuPermissionError": "⚠️ 飞书 API 缺少部分权限",
-    "flightMonitorBlocked": "❌ 携程/飞猪需 JS 渲染，web_fetch 无法获取价格数据"
+    "flightMonitorResolved": "✅ 携程移动端可抓取，价格监控恢复正常"
   }
 }
