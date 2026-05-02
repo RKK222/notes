@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-02T09:09:00+08:00",
+    "lastUpdated": "2026-05-02T11:14:45+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-05-02T09:09:00+08:00",
-    "totalItems": 27
+    "lastRun": "2026-05-02T11:14:45+08:00",
+    "totalItems": 287
   },
   "deepDives": [
     {
@@ -2144,8 +2144,8 @@
       "type": "project",
       "topic": "ML Automation",
       "firstSeen": "2026-04-25",
-      "lastDeepDive": "2026-04-25",
-      "deepDiveCount": 1,
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 2,
       "status": "active",
       "notes": "2985 stars/日，读论文+训练模型+部署，端到端 ML 自动化代理"
     },
@@ -3127,6 +3127,50 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "coherent vs inverted 两种不对齐人格 inverted-persona 产生有害输出但自认对齐"
+    },
+    {
+      "title": "ScaleBox: High-Fidelity Scalable Code Verification for LLMs",
+      "url": "https://github.com/icip-cas/ScaleBox",
+      "type": "project",
+      "topic": "高保真代码验证",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ACL 2026 Demo，高保真可扩展代码验证，RLVR 训练基础设施"
+    },
+    {
+      "title": "PuzzleMark: Robust Code Dataset Watermarking",
+      "url": "https://arxiv.org/abs/2604.27677",
+      "type": "paper",
+      "topic": "代码数据集水印",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "FSE 2026 录用，隐式拼图学习，100% 验证成功率 0% 误报"
+    },
+    {
+      "title": "Intern-Atlas: Methodological Evolution Graph",
+      "url": "https://arxiv.org/abs/2604.28158",
+      "type": "paper",
+      "topic": "方法论演化图",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "1M+ 论文 9.4M 语义边，方法论演化图谱，自动化科学发现基础设施"
+    },
+    {
+      "title": "LLM+ASP: Self-Correction Enables Nonmonotonic Reasoning",
+      "url": "https://arxiv.org/abs/2604.27960",
+      "type": "paper",
+      "topic": "非单调推理",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ASP 非单调推理，自我纠错驱动，context rot 现象发现"
     }
   ],
   "items": [
