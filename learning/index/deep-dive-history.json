@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-02T11:14:45+08:00",
+    "lastUpdated": "2026-05-02T19:03:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-05-02T11:14:45+08:00",
-    "totalItems": 287
+    "lastRun": "2026-05-02T19:03:00+08:00",
+    "totalItems": 297
   },
   "deepDives": [
     {
@@ -3171,6 +3171,116 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "ASP 非单调推理，自我纠错驱动，context rot 现象发现"
+    },
+    {
+      "title": "CI-Repair-Bench: CI 工作流验证的程序修复基准",
+      "url": "https://arxiv.org/abs/2604.27148",
+      "type": "paper",
+      "topic": "Software Testing",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "567 CI 失败实例 103 仓库 12 种错误类型，最佳 LLM 18.9% 修复率"
+    },
+    {
+      "title": "Sliceformer: 数据流感知程序切片 ACL 2026",
+      "url": "https://arxiv.org/abs/2604.26961",
+      "type": "paper",
+      "topic": "Software Testing",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "DFG 预训练+约束解码，Java/Python +22% ExactMatch"
+    },
+    {
+      "title": "AdaEdit: 结构感知自适应代码编辑 ACL 2026",
+      "url": "https://arxiv.org/abs/2604.27296",
+      "type": "paper",
+      "topic": "AI / LLM",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "BlockDiff/FuncDiff 结构感知 diff，AdaEdit 自适应选择，30%+ 延迟成本降低"
+    },
+    {
+      "title": "Self-Evolving Software Agents: BDI-LLM 架构",
+      "url": "https://arxiv.org/abs/2604.27264",
+      "type": "paper",
+      "topic": "AI / LLM",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "BDI 推理+LLM 自主进化目标/推理/代码，多代理环境验证"
+    },
+    {
+      "title": "SKILL.make: Makefile 风格 Agent 技能文件",
+      "url": "https://github.com/Teaonly/SKILL.make",
+      "type": "project",
+      "topic": "AI / LLM",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Makefile 语法定义 Agent 技能，依赖管理+并行执行+失败回退"
+    },
+    {
+      "title": "Test Before You Deploy: LLM 供应链治理",
+      "url": "https://arxiv.org/abs/2604.27789",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "LLMSC 2026，部署侧治理框架，生产契约+风险测试+兼容性门控"
+    },
+    {
+      "title": "Grand Software Supply Chain of AI Systems",
+      "url": "https://arxiv.org/abs/2604.27781",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "AI 供应链 4 层架构 4 大结构性差距，48 项目 3.92 亿行传递依赖"
+    },
+    {
+      "title": "emote: EvoSuite 模块化测试增强",
+      "url": "https://arxiv.org/abs/2604.27112",
+      "type": "paper",
+      "topic": "Software Testing",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "放宽非目标方法调用限制，SF100 基准 +15.15% 覆盖率"
+    },
+    {
+      "title": "LLM EOL 迁移框架",
+      "url": "https://arxiv.org/abs/2604.27082",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "贝叶斯校准自动指标，530 万月交互商业系统实证"
+    },
+    {
+      "title": "PhantomRun: 嵌入式 CI 构建复现 EASE 2026",
+      "url": "https://arxiv.org/abs/2604.27075",
+      "type": "paper",
+      "topic": "Software Testing",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "4628 失败 CI 运行 91.8% 重建率，统一抽象层"
     }
   ],
   "items": [

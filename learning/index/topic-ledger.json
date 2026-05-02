@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-02T11:14:45+08:00",
+    "lastUpdated": "2026-05-02T19:03:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-05-02T11:14:45+08:00",
-    "totalTopics": 471
+    "lastRun": "2026-05-02T19:03:00+08:00",
+    "totalTopics": 480
   },
   "topics": [
     {
@@ -5585,10 +5585,10 @@
     {
       "name": "LLM 供应链治理",
       "category": "emerging",
-      "lastSeen": "2026-05-01",
-      "lastDeepDive": "2026-05-01",
-      "repeatCount7d": 2,
-      "repeatCount30d": 2,
+      "lastSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "repeatCount7d": 3,
+      "repeatCount30d": 3,
       "priority": "high",
       "isCore": false,
       "shouldDowngrade": false,
@@ -6561,6 +6561,132 @@
       "representativeItem": "Game-Theoretic Free Energy Principle Nature 投稿",
       "trend": "new",
       "notes": "统一推理热力学和博弈论均衡"
+    },
+    {
+      "name": "AI 供应链规模量化",
+      "category": "emerging",
+      "lastSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Grand Software Supply Chain 3.92 亿行代码",
+      "trend": "new",
+      "notes": "AI 系统供应链 4 层架构，4 大结构性差距，48 项目 3.92 亿行传递依赖"
+    },
+    {
+      "name": "CI 原生程序修复",
+      "category": "emerging",
+      "lastSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "CI-Repair-Bench 567 CI 失败实例",
+      "trend": "new",
+      "notes": "CI 工作流级别自动修复，12 种错误类型，最佳 LLM 仅 18.9% 成功率"
+    },
+    {
+      "name": "数据流感知程序切片",
+      "category": "emerging",
+      "lastSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Sliceformer ACL 2026 DFG 预训练",
+      "trend": "new",
+      "notes": "DFG 驱动 LM 预训练，约束解码消除幻觉，Java/Python 最多 +22% ExactMatch"
+    },
+    {
+      "name": "LLM EOL 迁移框架",
+      "category": "emerging",
+      "lastSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "LLM EOL 迁移贝叶斯校准框架",
+      "trend": "new",
+      "notes": "生产系统 LLM 替换，贝叶斯校准自动指标，530 万月交互实证"
+    },
+    {
+      "name": "Makefile 风格技能定义",
+      "category": "emerging",
+      "lastSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "SKILL.make 声明式 Agent 技能",
+      "trend": "new",
+      "notes": "Makefile 语法定义 Agent 技能，依赖管理+并行执行+失败回退"
+    },
+    {
+      "name": "Trust Pillars Agentic AI",
+      "category": "exploration",
+      "lastSeen": "2026-05-02",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "low",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Trust Pillars Jade Alglave",
+      "trend": "new",
+      "notes": "Agentic AI 信任支柱框架，信任向量概念"
+    },
+    {
+      "name": "光学仿真 WASM",
+      "category": "exploration",
+      "lastSeen": "2026-05-02",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "low",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "iesna.eu Rust+Bevy+WASM",
+      "trend": "new",
+      "notes": "全客户端光学仿真，真实光度数据驱动，浏览器端实时渲染"
+    },
+    {
+      "name": "自进化软件代理",
+      "category": "emerging",
+      "lastSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "BDI-LLM 自进化架构",
+      "trend": "new",
+      "notes": "BDI 推理+LLM 自主进化目标/推理/代码，多代理环境验证"
+    },
+    {
+      "name": "结构感知代码编辑格式",
+      "category": "emerging",
+      "lastSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "AdaEdit ACL 2026 BlockDiff/FuncDiff",
+      "trend": "new",
+      "notes": "结构感知 diff 格式，AdaEdit 自适应选择，30%+ 延迟成本降低"
     }
   ]
 }
