@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-01T11:04:00+08:00",
+    "lastUpdated": "2026-05-02T09:09:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-05-01T11:04:00+08:00",
-    "totalItems": 12
+    "lastRun": "2026-05-02T09:09:00+08:00",
+    "totalItems": 27
   },
   "deepDives": [
     {
@@ -3050,6 +3050,83 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "Gherkin+形式化模型双向翻译，工业案例验证"
+    },
+    {
+      "title": "Claw-Eval-Live: Dynamic Agent Benchmark for Evolving Workflows",
+      "url": "https://arxiv.org/abs/2604.28139",
+      "type": "paper",
+      "topic": "Agent Evaluation",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "动态 Agent 评估基准 105 任务 13 模型 领先 66.7% 通过率 Agent 评估从静态到动态"
+    },
+    {
+      "title": "DEFault++: Automated Fault Detection for Transformer Architectures",
+      "url": "https://arxiv.org/abs/2604.28118",
+      "type": "paper",
+      "topic": "Transformer Testing",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "12 类故障 45 种根因 AUROC 0.96 Macro-F1 0.85 开发者研究正确修复 +26.2% PhD 论文"
+    },
+    {
+      "title": "Mirage: Multimodal Circuit-to-Verilog Trustworthiness",
+      "url": "https://arxiv.org/abs/2604.27969",
+      "type": "paper",
+      "topic": "Multimodal Code Generation",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "MLLM 视觉输入被绕过 空白图像 Pass@k 不变 VeriGround 4B 实现真正视觉接地"
+    },
+    {
+      "title": "DriftBench: Constraint Adherence in Multi-Turn LLM Ideation",
+      "url": "https://arxiv.org/abs/2604.28031",
+      "type": "paper",
+      "topic": "LLM Evaluation",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "2146 次运行 KBV 率 8-99% 知道但违反约束 多轮协作质量新维度"
+    },
+    {
+      "title": "Crab: Semantics-Aware Checkpoint/Restore for Agent Sandboxes",
+      "url": "https://arxiv.org/abs/2604.28138",
+      "type": "paper",
+      "topic": "Agent Infrastructure",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "eBPF 检查器 100% 恢复正确性 87% 流量削减 75% 轮次无恢复相关状态"
+    },
+    {
+      "title": "What Makes a Good Terminal-Agent Benchmark Task",
+      "url": "https://arxiv.org/abs/2604.28093",
+      "type": "paper",
+      "topic": "Benchmark Design",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "15% 流行基准可奖励黑客 adversarial difficult legible 基准设计指南"
+    },
+    {
+      "title": "Characterizing Emergent Misalignment Persona Consistency",
+      "url": "https://arxiv.org/abs/2604.28082",
+      "type": "paper",
+      "topic": "AI Safety",
+      "firstSeen": "2026-05-02",
+      "lastDeepDive": "2026-05-02",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "coherent vs inverted 两种不对齐人格 inverted-persona 产生有害输出但自认对齐"
     }
   ],
   "items": [
@@ -3212,6 +3289,62 @@
       "topic": "Quantum Computing",
       "firstRecorded": "2026-05-01",
       "lastDeepDive": "2026-05-01"
+    },
+    {
+      "title": "Claw-Eval-Live: Dynamic Agent Benchmark for Evolving Workflows",
+      "url": "https://arxiv.org/abs/2604.28139",
+      "type": "paper",
+      "topic": "Agent Evaluation",
+      "firstRecorded": "2026-05-02",
+      "lastDeepDive": "2026-05-02"
+    },
+    {
+      "title": "DEFault++: Automated Fault Detection for Transformer Architectures",
+      "url": "https://arxiv.org/abs/2604.28118",
+      "type": "paper",
+      "topic": "Transformer Testing",
+      "firstRecorded": "2026-05-02",
+      "lastDeepDive": "2026-05-02"
+    },
+    {
+      "title": "Mirage: Multimodal Circuit-to-Verilog Trustworthiness",
+      "url": "https://arxiv.org/abs/2604.27969",
+      "type": "paper",
+      "topic": "Multimodal Code Generation",
+      "firstRecorded": "2026-05-02",
+      "lastDeepDive": "2026-05-02"
+    },
+    {
+      "title": "DriftBench: Constraint Adherence in Multi-Turn LLM Ideation",
+      "url": "https://arxiv.org/abs/2604.28031",
+      "type": "paper",
+      "topic": "LLM Evaluation",
+      "firstRecorded": "2026-05-02",
+      "lastDeepDive": "2026-05-02"
+    },
+    {
+      "title": "Crab: Semantics-Aware Checkpoint/Restore for Agent Sandboxes",
+      "url": "https://arxiv.org/abs/2604.28138",
+      "type": "paper",
+      "topic": "Agent Infrastructure",
+      "firstRecorded": "2026-05-02",
+      "lastDeepDive": "2026-05-02"
+    },
+    {
+      "title": "What Makes a Good Terminal-Agent Benchmark Task",
+      "url": "https://arxiv.org/abs/2604.28093",
+      "type": "paper",
+      "topic": "Benchmark Design",
+      "firstRecorded": "2026-05-02",
+      "lastDeepDive": "2026-05-02"
+    },
+    {
+      "title": "Characterizing Emergent Misalignment Persona Consistency",
+      "url": "https://arxiv.org/abs/2604.28082",
+      "type": "paper",
+      "topic": "AI Safety",
+      "firstRecorded": "2026-05-02",
+      "lastDeepDive": "2026-05-02"
     }
   ]
 }
