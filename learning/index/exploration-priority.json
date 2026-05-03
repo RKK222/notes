@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-03T09:07:00+08:00",
+    "lastUpdated": "2026-05-03T11:05:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-05-09",
-    "lastRun": "2026-05-03T09:07:00+08:00"
+    "lastRun": "2026-05-03T11:05:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -997,6 +997,156 @@
       {
         "topic": "MBSE+AI协同设计",
         "reason": "模型即知识库而非提示，系统工程新方向",
+        "priority": "medium"
+      },
+      {
+        "topic": "结构感知代码编辑格式",
+        "reason": "BlockDiff/FuncDiff 将 diff 从行级提升到语法块级，AdaEdit 自适应选择最优格式，ACL 2026 录用，30%+ 成本降低",
+        "priority": "high"
+      },
+      {
+        "topic": "Agent 沙箱架构分析",
+        "reason": "Harness 内外部署的安全属性、失败模式和成本差异分析，Agent 部署架构新思考角度",
+        "priority": "high"
+      },
+      {
+        "topic": "认知债务 Epistemological Debt",
+        "reason": "AI 辅助开发导致工程师认知能力萎缩的系统性风险，Amazon 2026 中断案例研究",
+        "priority": "high"
+      },
+      {
+        "topic": "Ladybird 浏览器引擎",
+        "reason": "C++ 从头实现的独立浏览器，增量 HTML 解析 + 投机解析 + 离线 JS 编译，对 Web 生态多样性有意义",
+        "priority": "medium"
+      },
+      {
+        "topic": "跨语言 LLM 漏洞检测误报",
+        "reason": "代码表示格式如何影响跨语言 FPR，文本微调导致表面线索记忆，提出预部署一致性门控",
+        "priority": "high"
+      },
+      {
+        "topic": "逆向工程基准 REBench",
+        "reason": "AIWare 2026 录用，数百兆行源代码和多种架构的二进制数据集，LLM 逆向工程评估",
+        "priority": "medium"
+      },
+      {
+        "topic": "多模态代码生成可信度",
+        "reason": "Mirage 现象揭示 MLLM 视觉输入绕过问题，VeriGround 4B 实现真正视觉接地",
+        "priority": "high"
+      },
+      {
+        "topic": "CI 工作流修复",
+        "reason": "CI-Repair-Bench 567 CI 失败实例 103 仓库 12 种错误类型，最佳 LLM 18.9% 修复率",
+        "priority": "high"
+      },
+      {
+        "topic": "模块化测试 EvoSuite",
+        "reason": "emote 放宽非目标方法调用限制，SF100 基准 +15.15% 覆盖率",
+        "priority": "medium"
+      },
+      {
+        "topic": "嵌入式 CI 构建复现",
+        "reason": "PhantomRun 4628 失败 CI 运行 91.8% 重建率，统一抽象层",
+        "priority": "medium"
+      },
+      {
+        "topic": "LLM 变异性评估",
+        "reason": "12 个 LLM 变异性评估，温度为零仍存在非确定性，SLR 研究筛选影响",
+        "priority": "high"
+      },
+      {
+        "topic": "AI 增强安全测试综述",
+        "reason": "55 项研究系统综述，结构 - 自适应碎片化核心问题",
+        "priority": "medium"
+      },
+      {
+        "topic": "AI 生成代码检测",
+        "reason": "SemEval 竞赛方案，多类归因中的类别不平衡问题",
+        "priority": "medium"
+      },
+      {
+        "topic": "程序切片 LLM",
+        "reason": "ACL 2026 录用，DFG 预训练 + 约束解码消除幻觉，22% 提升",
+        "priority": "high"
+      },
+      {
+        "topic": "TDD 治理多代理",
+        "reason": "PROMPT-SE 2026，将 TDD 纪律编码到 prompt 编排中",
+        "priority": "medium"
+      },
+      {
+        "topic": "类级代码生成基准",
+        "reason": "AIWare 2026 录用，300 类级任务 11 领域，最佳 45.6% Pass@1",
+        "priority": "high"
+      },
+      {
+        "topic": "LLM 密码学代码安全",
+        "reason": "EASE 2026，57% 漏洞率，chain-of-thought 反而更差",
+        "priority": "high"
+      },
+      {
+        "topic": "Agent 编排优化",
+        "reason": "上下文内提示在程序性任务上优于外部编排，挑战 Agent 编排框架必要性",
+        "priority": "high"
+      },
+      {
+        "topic": "Agent 记忆本质",
+        "reason": "查找≠记忆，互补学习系统理论应用，对当前 Agent 记忆系统的根本性质疑",
+        "priority": "high"
+      },
+      {
+        "topic": "OBJECTGRAPH 文档格式",
+        "reason": "95.3% token 减少，知识图遍历替代文档注入，全新文档格式设计",
+        "priority": "high"
+      },
+      {
+        "topic": "MCP 跨边界安全",
+        "reason": "11.5-41.3% 策略违反率，首个 MCP 安全基准",
+        "priority": "high"
+      },
+      {
+        "topic": "自进化软件代理",
+        "reason": "BDI 推理 + LLM 自主进化目标/推理/代码，多代理环境验证",
+        "priority": "high"
+      },
+      {
+        "topic": "视觉代理架构模式",
+        "reason": "ICSA 2026 新思想轨道，VLA 非确定性与企业确定性需求矛盾",
+        "priority": "medium"
+      },
+      {
+        "topic": "跨链 NFT 迁移",
+        "reason": "IEEE ICBC 2026 录用，四层架构方法论",
+        "priority": "medium"
+      },
+      {
+        "topic": "AI 招聘自我偏好",
+        "reason": "HN 318 分高热度，揭示 AI 招聘中的自我偏好问题",
+        "priority": "medium"
+      },
+      {
+        "topic": "VS Code Copilot 归因",
+        "reason": "HN 880 分超高热度，AI 编码工具归因问题",
+        "priority": "medium"
+      },
+      {
+        "topic": "Dav2d 2D 动画引擎",
+        "reason": "HN 356 分高热度，VideoLAN 新方向",
+        "priority": "low"
+      },
+      {
+        "topic": "语音 AI 学习路径",
+        "reason": "结构化语音 AI 学习资源",
+        "priority": "low"
+      },
+      {
+        "topic": "Flue TypeScript Agent 框架",
+        "reason": "TypeScript 原生 Agent 框架，类型安全 + 声明式工作流",
+        "priority": "medium"
+      },
+      {
+        "topic": "SimplePDF Copilot",
+        "reason": "客户端 AI PDF 交互，隐私保护，20 万月活用户",
         "priority": "medium"
       }
     ]
