@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-03T09:07:00+08:00",
+    "lastUpdated": "2026-05-03T11:05:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-05-03T09:07:00+08:00",
-    "totalItems": 297
+    "lastRun": "2026-05-03T11:05:00+08:00",
+    "totalItems": 68
   },
   "deepDives": [
     {
@@ -3539,6 +3539,294 @@
       "topic": "跨语言 LLM 漏洞检测误报",
       "first_seen": "2026-05-03",
       "last_deep_dive": "2026-05-03"
+    },
+    {
+      "title": "Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows",
+      "url": "https://arxiv.org/abs/2604.28139",
+      "type": "paper",
+      "topic": "Agent 评估动态化",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "DEFault++: Automated Fault Detection for Transformer Architectures",
+      "url": "https://arxiv.org/abs/2604.28118",
+      "type": "paper",
+      "topic": "Transformer 故障诊断",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "ScaleBox: High-Fidelity Scalable Code Verification for LLMs",
+      "url": "https://github.com/icip-cas/ScaleBox",
+      "type": "project",
+      "topic": "高保真代码验证",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "From Mirage to Grounding: Towards Reliable Multimodal Circuit-to-Verilog Code Generation",
+      "url": "https://arxiv.org/abs/2604.27969",
+      "type": "paper",
+      "topic": "多模态代码生成可信度",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "How Code Representation Shapes False-Positive Dynamics in Cross-Language LLM Vulnerability Detection",
+      "url": "https://arxiv.org/abs/2604.27714",
+      "type": "paper",
+      "topic": "跨语言 LLM 漏洞检测误报",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "What Makes a Good Terminal-Agent Benchmark Task: A Guideline for Adversarial, Difficult, and Legible Evaluation Design",
+      "url": "https://arxiv.org/abs/2604.28093",
+      "type": "paper",
+      "topic": "终端代理基准设计指南",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "To Diff or Not to Diff: Structure-Aware and Adaptive Output Formats for Efficient LLM-based Code Editing",
+      "url": "https://arxiv.org/abs/2604.27296",
+      "type": "paper",
+      "topic": "结构感知代码编辑格式",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "The agent harness belongs outside the sandbox",
+      "url": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
+      "type": "project",
+      "topic": "Agent 沙箱架构",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "Cognitive Atrophy and Systemic Collapse in AI-Dependent Software Engineering",
+      "url": "https://arxiv.org/abs/2604.26855",
+      "type": "paper",
+      "topic": "认知债务 Epistemological Debt",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "This Month in Ladybird - April 2026",
+      "url": "https://ladybird.org/newsletter/2026-04-30/",
+      "type": "project",
+      "topic": "Ladybird 浏览器引擎",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": null
+    },
+    {
+      "title": "Test Before You Deploy: Governing Updates in the LLM Supply Chain",
+      "url": "https://arxiv.org/abs/2604.27789",
+      "type": "paper",
+      "topic": "LLM 供应链治理",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "The Grand Software Supply Chain of AI Systems",
+      "url": "https://arxiv.org/abs/2604.27781",
+      "type": "paper",
+      "topic": "AI 供应链",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "In-Context Prompting Obsoletes Agent Orchestration for Procedural Tasks",
+      "url": "https://arxiv.org/abs/2604.27891",
+      "type": "paper",
+      "topic": "Agent 编排优化",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "Contextual Agentic Memory is a Memo, Not True Memory",
+      "url": "https://arxiv.org/abs/2604.27707",
+      "type": "paper",
+      "topic": "Agent 记忆本质",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "From Document Injection to Knowledge Traversal: A Native File Format for the Agentic Era",
+      "url": "https://arxiv.org/abs/2604.27820",
+      "type": "paper",
+      "topic": "OBJECTGRAPH 文档格式",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "An Evaluation Framework for Cross-Boundary Data Propagation in Multi-Server MCP Agents",
+      "url": "https://arxiv.org/abs/2604.27819",
+      "type": "paper",
+      "topic": "MCP 跨边界安全",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "Self-Evolving Software Agents: BDI-LLM Architecture",
+      "url": "https://arxiv.org/abs/2604.27264",
+      "type": "paper",
+      "topic": "自进化软件代理",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "A Pattern Language for Resilient Visual Agents",
+      "url": "https://arxiv.org/abs/2604.28001",
+      "type": "paper",
+      "topic": "视觉代理架构模式",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "Feature-Centric Methodology for Analyzing Cross-Chain NFT Migration Compatibility",
+      "url": "https://arxiv.org/abs/2604.27805",
+      "type": "paper",
+      "topic": "跨链 NFT 迁移",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights",
+      "url": "https://arxiv.org/abs/2509.00462",
+      "type": "paper",
+      "topic": "AI 招聘自我偏好",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": null
+    },
+    {
+      "title": "VS Code inserting Co-Authored-by Copilot into commits regardless of usage",
+      "url": "https://github.com/microsoft/vscode/pull/310226",
+      "type": "project",
+      "topic": "VS Code Copilot 归因",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": null
+    },
+    {
+      "title": "Dav2d - 2D Animation Engine",
+      "url": "https://code.videolan.org/videolan/dav2d",
+      "type": "project",
+      "topic": "Dav2d 2D 动画引擎",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": null
+    },
+    {
+      "title": "Voice-AI-for-Beginners Learning Path",
+      "url": "https://github.com/mahimairaja/voiceai",
+      "type": "project",
+      "topic": "语音 AI 学习路径",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": null
+    },
+    {
+      "title": "Flue - TypeScript Framework for Building Next-Gen Agents",
+      "url": "https://flueframework.com/",
+      "type": "project",
+      "topic": "Flue TypeScript Agent 框架",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": null
+    },
+    {
+      "title": "SimplePDF Copilot - AI PDF Assistant",
+      "url": "https://github.com/nicobravo1125/simplepdf-copilot",
+      "type": "project",
+      "topic": "SimplePDF Copilot",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": null
+    },
+    {
+      "title": "CI-Repair-Bench: A Repository-Aware Benchmark for Automated Patch Validation via CI Workflows",
+      "url": "https://arxiv.org/abs/2604.27148",
+      "type": "paper",
+      "topic": "CI 工作流修复",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "On the Effectiveness of Modular Testing with EvoSuite (emote)",
+      "url": "https://arxiv.org/abs/2604.27112",
+      "type": "paper",
+      "topic": "模块化测试 EvoSuite",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "PhantomRun: Reproducing Build Failures in Embedded Open Source Software",
+      "url": "https://arxiv.org/abs/2604.27075",
+      "type": "paper",
+      "topic": "嵌入式 CI 构建复现",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "LLM Variability in Evidence Screening for Software Engineering SLRs",
+      "url": "https://arxiv.org/abs/2604.27006",
+      "type": "paper",
+      "topic": "LLM 变异性评估",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "Adaptive and AI-Augmented Security Testing: A Systematic Survey",
+      "url": "https://arxiv.org/abs/2604.27000",
+      "type": "paper",
+      "topic": "AI 增强安全测试综述",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "UCSC-NLP at SemEval-2026 Task 13: Multi-View Generalization and Diagnostic Analysis of Machine-Generated Code Detection",
+      "url": "https://arxiv.org/abs/2604.26990",
+      "type": "paper",
+      "topic": "AI 生成代码检测",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "Static Program Slicing Using Language Models With Dataflow-Aware Pretraining and Constrained Decoding (Sliceformer)",
+      "url": "https://arxiv.org/abs/2604.26961",
+      "type": "paper",
+      "topic": "程序切片 LLM",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "TDD Governance for Multi-Agent Code Generation via Prompt Engineering",
+      "url": "https://arxiv.org/abs/2604.26615",
+      "type": "paper",
+      "topic": "TDD 治理多代理",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "ClassEval-Pro: A Cross-Domain Benchmark for Class-Level Code Generation",
+      "url": "https://arxiv.org/abs/2604.26923",
+      "type": "paper",
+      "topic": "类级代码生成基准",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "An Empirical Security Evaluation of LLM-Generated Cryptographic Rust Code",
+      "url": "https://arxiv.org/abs/2604.27001",
+      "type": "paper",
+      "topic": "LLM 密码学代码安全",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "REBench: A Procedural, Fair-by-Construction Benchmark for LLMs on Stripped-Binary Types and Names",
+      "url": "https://arxiv.org/abs/2604.27319",
+      "type": "paper",
+      "topic": "逆向工程基准 REBench",
+      "firstRecorded": "2026-05-03",
+      "lastDeepDive": "2026-05-03"
     }
   ]
 }
