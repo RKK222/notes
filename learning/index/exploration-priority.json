@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-02T19:03:00+08:00",
+    "lastUpdated": "2026-05-03T09:07:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-05-09",
-    "lastRun": "2026-05-02T19:03:00+08:00"
+    "lastRun": "2026-05-03T09:07:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -66,7 +66,8 @@
         "高保真代码验证",
         "AI 供应链规模量化",
         "CI 原生程序修复",
-        "结构感知代码编辑格式"
+        "结构感知代码编辑格式",
+        "Agent 沙箱架构"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域 + 新兴高价值方向 + Agent 评估动态化 + LLM 供应链治理 + 多模态代码生成可信度"
@@ -242,7 +243,10 @@
         "数据流感知程序切片",
         "LLM EOL 迁移框架",
         "Makefile 风格技能定义",
-        "自进化软件代理"
+        "自进化软件代理",
+        "认识论债务",
+        "跨语言 LLM 漏洞检测误报",
+        "Agent 信任支柱"
       ],
       "allocationPercent": 25,
       "rationale": "绿色 AI 压缩 + 金融多代理 + MBSE AI 消费 + MBT+BDD 融合 + ML Agent"
@@ -370,7 +374,14 @@
         "合成计算机仿真",
         "VLM 视觉提示行为影响",
         "LLM 机械工程设计",
-        "博弈论自由能原理"
+        "博弈论自由能原理",
+        "Ladybird 浏览器引擎",
+        "LLM 生成密码学代码安全",
+        "ClassEval-Pro 类级别代码生成",
+        "REBench 逆向工程基准",
+        "Pragmos 流程 Agent 建模",
+        "Comet-H 研究软件编排",
+        "LLM EOL 迁移框架"
       ],
       "allocationPercent": 20
     },
@@ -1066,5 +1077,10 @@
       "reason": "mattpocock/skills (50K+ stars) 已充分覆盖，browserbase/skills 延续同一趋势但差异化明显",
       "newFrequency": "周跟踪"
     }
+  ],
+  "downgradeCandidates": [
+    "Agent Skill 生态",
+    "Agent 记忆系统",
+    "边缘 AI/EdgeLLM"
   ]
 }

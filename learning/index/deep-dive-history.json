@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-02T19:03:00+08:00",
+    "lastUpdated": "2026-05-03T09:07:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-05-02T19:03:00+08:00",
+    "lastRun": "2026-05-03T09:07:00+08:00",
     "totalItems": 297
   },
   "deepDives": [
@@ -3499,6 +3499,46 @@
       "topic": "AI Safety",
       "firstRecorded": "2026-05-02",
       "lastDeepDive": "2026-05-02"
+    },
+    {
+      "title": "Agent Harness Outside the Sandbox",
+      "url": "https://www.mendral.com/blog/agent-harness-belongs-outside-sandbox",
+      "type": "project",
+      "topic": "Agent 沙箱架构",
+      "first_seen": "2026-05-03",
+      "last_deep_dive": "2026-05-03"
+    },
+    {
+      "title": "Ladybird Browser April 2026",
+      "url": "https://ladybird.org/newsletter/2026-04-30/",
+      "type": "project",
+      "topic": "Ladybird 浏览器引擎",
+      "first_seen": "2026-05-03",
+      "last_deep_dive": "2026-05-03"
+    },
+    {
+      "title": "BlockDiff/FuncDiff/AdaEdit: Structure-Aware Code Editing",
+      "url": "https://arxiv.org/abs/2604.27296",
+      "type": "paper",
+      "topic": "结构感知代码编辑格式",
+      "first_seen": "2026-05-03",
+      "last_deep_dive": "2026-05-03"
+    },
+    {
+      "title": "Cognitive Atrophy and Epistemological Debt in AI-Dependent SE",
+      "url": "https://arxiv.org/abs/2604.26855",
+      "type": "paper",
+      "topic": "认识论债务",
+      "first_seen": "2026-05-03",
+      "last_deep_dive": "2026-05-03"
+    },
+    {
+      "title": "How Code Representation Shapes FPR in Cross-Language LLM Vulnerability Detection",
+      "url": "https://arxiv.org/abs/2604.27714",
+      "type": "paper",
+      "topic": "跨语言 LLM 漏洞检测误报",
+      "first_seen": "2026-05-03",
+      "last_deep_dive": "2026-05-03"
     }
   ]
 }
