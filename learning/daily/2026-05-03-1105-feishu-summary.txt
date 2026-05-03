@@ -1,0 +1,49 @@
+📘 AI 技术研究日报 - 2026-05-03 11:05
+
+【今日研究方向】
+- Agent 评估动态化：Claw-Eval-Live 实时基准 + DriftBench 多轮约束遵循
+- Transformer 故障诊断：DEFault++ 自动化故障检测框架
+- 多模态代码生成可信度：Mirage 现象揭示 MLLM 视觉输入绕过问题
+- LLM 供应链治理：Test Before You Deploy + Grand Software Supply Chain
+- 代码编辑格式优化：BlockDiff/FuncDiff/AdaEdit 结构感知 diff 格式
+- Agent 沙箱架构分析："Agent Harness 应在沙箱外"架构分析
+- 认知债务：Epistemological Debt 与 AI 依赖认知萎缩
+- 跨语言漏洞检测：代码表示格式如何影响跨语言 FPR
+- 逆向工程基准：REBench 二进制逆向工程 LLM 基准
+- 浏览器引擎：Ladybird 浏览器 2026 年 4 月进展
+
+【重点关注】
+1. Claw-Eval-Live：首个实时 Agent 基准，105 任务 13 模型，领先仅 66.7% 通过率
+2. DEFault++：Transformer 架构自动化故障检测，12 类故障 45 种根因，AUROC 0.96
+3. Mirage/VeriGround：揭示 MLLM 视觉到代码生成的隐蔽缺陷，VeriGround 4B 实现真正视觉接地
+4. BlockDiff/FuncDiff/AdaEdit：ACL 2026 录用，结构感知 diff 格式，30%+ 成本降低
+5. Test Before You Deploy：LLM 供应链治理框架，生产契约 + 风险测试 + 兼容性门控
+6. Cognitive Atrophy：认知债务概念首次系统性提出，Amazon 2026 中断案例研究
+7. MCPHunt：首个 MCP 跨边界凭证传播基准，11.5-41.3% 策略违反率
+8. OBJECTGRAPH：全新文档格式，95.3% token 减少，知识图遍历替代文档注入
+
+【技术趋势】
+- 趋势 1：Agent 评估从静态到动态，Claw-Eval-Live 代表持续监控新方向
+- 趋势 2：AI 供应链治理成为新主线，3.92 亿行代码揭示传统机制不足
+- 趋势 3：多模态代码生成从"能用"到"可信"，Mirage 现象揭示深层问题
+
+【新领域收获】
+- 结构感知代码编辑格式：BlockDiff/FuncDiff 将 diff 从行级提升到语法块级
+- Agent 沙箱架构分析：Harness 内外部署的安全属性、失败模式和成本差异
+- 认知债务 Epistemological Debt：AI 辅助开发导致工程师认知能力萎缩的系统性风险
+
+【下一步学习计划】
+1. 深入研究 Claw-Eval-Live：105 个任务的详细设计，理解动态基准的构建方法
+2. 跟踪 DEFault++ 的开发者研究：21 名从业者的验证结果对 AI 模型测试有重要启示
+3. 探索 VeriGround 的视觉接地机制：理解 D-ORPO 偏好优化如何实现真正的视觉接地
+4. 研究 AI 供应链治理框架：Test Before You Deploy 的三组件框架
+5. 关注 Ladybird 浏览器引擎进展：独立浏览器引擎对 Web 生态多样性的意义
+
+【记忆更新】
+- 已更新主题索引（新增 30+ 主题）
+- 已更新深度研究历史（新增 30+ 深度研究项目）
+- 已更新探索优先级（新增 30+ 探索目标）
+- 已生成 2026-05 月摘要（月初版）
+
+【GitHub】
+https://github.com/RKK222/notes
