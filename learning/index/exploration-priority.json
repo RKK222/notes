@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-03T11:05:00+08:00",
+    "lastUpdated": "2026-05-04T09:10:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
-    "nextReview": "2026-05-09",
-    "lastRun": "2026-05-03T11:05:00+08:00"
+    "nextReview": "2026-05-11",
+    "lastRun": "2026-05-04T09:10:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -67,7 +67,9 @@
         "AI 供应链规模量化",
         "CI 原生程序修复",
         "结构感知代码编辑格式",
-        "Agent 沙箱架构"
+        "Agent 沙箱架构",
+        "基准质量危机",
+        "Agentic Coding 反思"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域 + 新兴高价值方向 + Agent 评估动态化 + LLM 供应链治理 + 多模态代码生成可信度"
@@ -246,7 +248,10 @@
         "自进化软件代理",
         "认识论债务",
         "跨语言 LLM 漏洞检测误报",
-        "Agent 信任支柱"
+        "Agent 信任支柱",
+        "非单调推理 LLM+ASP",
+        "浏览器端 AI 推理",
+        "代码知识图谱"
       ],
       "allocationPercent": 25,
       "rationale": "绿色 AI 压缩 + 金融多代理 + MBSE AI 消费 + MBT+BDD 融合 + ML Agent"
@@ -381,7 +386,9 @@
         "REBench 逆向工程基准",
         "Pragmos 流程 Agent 建模",
         "Comet-H 研究软件编排",
-        "LLM EOL 迁移框架"
+        "LLM EOL 迁移框架",
+        "TUI 复兴",
+        "DeepClaude 代理桥接"
       ],
       "allocationPercent": 20
     },
