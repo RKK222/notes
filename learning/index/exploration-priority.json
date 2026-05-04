@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-04T09:10:00+08:00",
+    "lastUpdated": "2026-05-04T19:00:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-05-11",
-    "lastRun": "2026-05-04T09:10:00+08:00"
+    "lastRun": "2026-05-04T19:00:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -1154,6 +1154,81 @@
       {
         "topic": "SimplePDF Copilot",
         "reason": "客户端 AI PDF 交互，隐私保护，20 万月活用户",
+        "priority": "medium"
+      },
+      {
+        "topic": "Tool-Use Tax",
+        "reason": "工具调用协议本身引入性能退化，G-STEP 门控部分缓解，Agent 架构设计新原则",
+        "priority": "high"
+      },
+      {
+        "topic": "Agent 路由分层",
+        "reason": "AgentFloor 证明小模型可胜任大部分常规工具调用，Agent 系统成本优化新路径",
+        "priority": "high"
+      },
+      {
+        "topic": "代码生成社会偏见",
+        "reason": "SocialBias-Bench 首次系统揭示 60.58% 代码偏见，FMA 提供实用解决方案",
+        "priority": "high"
+      },
+      {
+        "topic": "TUR-DPO 拓扑感知对齐",
+        "reason": "ICML 2026 录用，奖励推导方式而不只是结果，DPO 改进版本",
+        "priority": "high"
+      },
+      {
+        "topic": "LOCA 局部因果 Jailbreak 解释",
+        "reason": "从全局解释转向局部解释，平均 6 个变化诱导拒绝",
+        "priority": "high"
+      },
+      {
+        "topic": "zkSBOM 零知识 SBOM 共享",
+        "reason": "解决 SBOM 共享隐私-透明度权衡，密码学保证",
+        "priority": "high"
+      },
+      {
+        "topic": "Deptex 执行路径主导风险评估",
+        "reason": "从反应性扫描到上下文感知治理，EPD 融合 CPG+LLM",
+        "priority": "high"
+      },
+      {
+        "topic": "AgentReputation 去中心化代理声誉",
+        "reason": "FSE 2026 IVR 录用，代理市场治理新框架",
+        "priority": "high"
+      },
+      {
+        "topic": "TokenArena 端点粒度推理基准",
+        "reason": "首个端点粒度基准，同一模型在不同部署差异达 12.5 分",
+        "priority": "high"
+      },
+      {
+        "topic": "IVLR 交替视觉语言推理",
+        "reason": "LIBERO 95.5% 成功率，文本+视觉交替 trace",
+        "priority": "medium"
+      },
+      {
+        "topic": "AEM 自适应熵调制 RL",
+        "reason": "无监督信用分配，纯熵调制实现有效训练",
+        "priority": "medium"
+      },
+      {
+        "topic": "CLOZEMASTER Rust 编译器模糊测试",
+        "reason": "ICSE 2025 27 确认 Bug，LLM 辅助编译器测试",
+        "priority": "high"
+      },
+      {
+        "topic": "Themis 多语言代码奖励模型",
+        "reason": "350K+ 偏好对，超越功能正确性的多标准代码 RM",
+        "priority": "high"
+      },
+      {
+        "topic": "AutoMat 材料科学编码代理",
+        "reason": "从软件工程扩展到科学发现，编码代理新领域",
+        "priority": "medium"
+      },
+      {
+        "topic": "GeoContra GIS 代码验证修复",
+        "reason": "流畅代码生产转化为可验证空间分析，正确性+26.6%",
         "priority": "medium"
       }
     ]

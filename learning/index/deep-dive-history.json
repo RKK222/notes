@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-04T09:10:00+08:00",
+    "lastUpdated": "2026-05-04T19:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-05-04T09:10:00+08:00",
-    "totalItems": 303
+    "lastRun": "2026-05-04T19:00:00+08:00",
+    "totalItems": 376
   },
   "deepDives": [
     {
@@ -3347,6 +3347,61 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "任务无关非单调推理, 稳定模型语义 + 自我修正, 上下文腐烂现象"
+    },
+    {
+      "title": "AgentFloor: Small Models for Routine Tool Use",
+      "url": "https://arxiv.org/abs/2605.00334",
+      "type": "paper",
+      "topic": "Agent 路由分层",
+      "firstSeen": "2026-05-04",
+      "lastDeepDive": "2026-05-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "0.27B-32B 开源模型匹配 GPT-5 在短程工具调用，Agent 路由分层设计原则"
+    },
+    {
+      "title": "SocialBias-Bench + FMA: Code Generation Fairness",
+      "url": "https://arxiv.org/abs/2605.00382",
+      "type": "paper",
+      "topic": "代码生成社会偏见",
+      "firstSeen": "2026-05-04",
+      "lastDeepDive": "2026-05-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "343 任务 7 人口维度 60.58% 偏见 FMA 降低 65.1%"
+    },
+    {
+      "title": "To Call or Not to Call: LLM Tool Calling Framework",
+      "url": "https://arxiv.org/abs/2605.00737",
+      "type": "paper",
+      "topic": "Agent 工具调用决策",
+      "firstSeen": "2026-05-04",
+      "lastDeepDive": "2026-05-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "决策理论框架评估工具调用必要性/效用/可负担性"
+    },
+    {
+      "title": "TUR-DPO: Topology- and Uncertainty-Aware DPO",
+      "url": "https://arxiv.org/abs/2605.00224",
+      "type": "paper",
+      "topic": "TUR-DPO 拓扑感知对齐",
+      "firstSeen": "2026-05-04",
+      "lastDeepDive": "2026-05-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ICML 2026 奖励推导方式而不只是结果"
+    },
+    {
+      "title": "LOCA: Local Causal Explanations for Jailbreak",
+      "url": "https://arxiv.org/abs/2605.00123",
+      "type": "paper",
+      "topic": "LOCA 局部因果 Jailbreak 解释",
+      "firstSeen": "2026-05-04",
+      "lastDeepDive": "2026-05-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "平均 6 个可解释变化诱导拒绝"
     }
   ],
   "items": [
