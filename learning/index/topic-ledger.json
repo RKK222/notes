@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-03T11:05:00+08:00",
+    "lastUpdated": "2026-05-04T09:10:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-05-03T11:05:00+08:00",
-    "totalTopics": 536
+    "lastRun": "2026-05-04T09:10:00+08:00",
+    "totalTopics": 543
   },
   "topics": [
     {
@@ -109,10 +109,10 @@
     {
       "name": "AI Testing",
       "category": "core",
-      "lastSeen": "2026-05-02",
+      "lastSeen": "2026-05-04",
       "lastDeepDive": "2026-04-21",
-      "repeatCount7d": 76,
-      "repeatCount30d": 42,
+      "repeatCount7d": 77,
+      "repeatCount30d": 43,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
@@ -123,10 +123,10 @@
     {
       "name": "Software Testing",
       "category": "core",
-      "lastSeen": "2026-05-02",
+      "lastSeen": "2026-05-04",
       "lastDeepDive": "2026-04-21",
-      "repeatCount7d": 69,
-      "repeatCount30d": 40,
+      "repeatCount7d": 70,
+      "repeatCount30d": 41,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
@@ -137,10 +137,10 @@
     {
       "name": "LLM Evaluation",
       "category": "core",
-      "lastSeen": "2026-05-02",
+      "lastSeen": "2026-05-04",
       "lastDeepDive": "2026-03-25",
-      "repeatCount7d": 27,
-      "repeatCount30d": 21,
+      "repeatCount7d": 28,
+      "repeatCount30d": 22,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
@@ -6695,9 +6695,9 @@
       "lastDeepDive": "2026-05-03",
       "repeatCount7d": 1,
       "repeatCount30d": 1,
-      "priority": "high",
+      "priority": "low",
       "isCore": true,
-      "shouldDowngrade": false,
+      "shouldDowngrade": true,
       "representativeItem": "Agent Harness Outside Sandbox"
     },
     {
@@ -7419,6 +7419,104 @@
       "representativeItem": "SimplePDF Copilot AI PDF Assistant",
       "trend": "new",
       "notes": "客户端 AI PDF 交互，隐私保护，20 万月活用户"
+    },
+    {
+      "name": "Agentic Coding 反思",
+      "category": "emerging",
+      "lastSeen": "2026-05-04",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Agentic Coding Is a Trap (Lars Faye)",
+      "trend": "rising",
+      "notes": "监督悖论：有效监督 Claude 需要编码技能，而这些技能因 AI 过度使用而萎缩"
+    },
+    {
+      "name": "DeepClaude 代理桥接",
+      "category": "emerging",
+      "lastSeen": "2026-05-04",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "DeepClaude Claude Code + DeepSeek V4 Pro 17x 更便宜",
+      "trend": "new",
+      "notes": "用 DeepSeek V4 Pro 替换 Claude Code 后端，成本降低 17x"
+    },
+    {
+      "name": "TUI 复兴",
+      "category": "exploration",
+      "lastSeen": "2026-05-04",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Why TUIs Are Back (249 HN points)",
+      "trend": "rising",
+      "notes": "终端用户界面在 AI 编码代理时代重新流行"
+    },
+    {
+      "name": "浏览器端 AI 推理",
+      "category": "exploration",
+      "lastSeen": "2026-05-04",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Apple SHARP ONNX Runtime Web",
+      "trend": "new",
+      "notes": "2.4GB 模型在浏览器中运行，端侧 AI 推理新路径"
+    },
+    {
+      "name": "代码知识图谱",
+      "category": "emerging",
+      "lastSeen": "2026-05-04",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "GitNexus 35K stars 零服务器代码智能引擎",
+      "trend": "rising",
+      "notes": "知识图谱而非向量搜索，Tree-sitter + LadybugDB + MCP"
+    },
+    {
+      "name": "基准质量危机",
+      "category": "emerging",
+      "lastSeen": "2026-05-04",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": true,
+      "shouldDowngrade": false,
+      "representativeItem": "15% 基准任务可被 Reward Hacking",
+      "trend": "rising",
+      "notes": "Terminal-Agent Benchmark 指南揭示基准质量问题"
+    },
+    {
+      "name": "非单调推理 LLM+ASP",
+      "category": "emerging",
+      "lastSeen": "2026-05-04",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "LLM+ASP 自我修正实现任务无关非单调推理",
+      "trend": "new",
+      "notes": "稳定模型语义 + 自我修正，超越 SMT 基线"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-03T11:05:00+08:00",
+    "lastUpdated": "2026-05-04T09:10:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-05-03T11:05:00+08:00",
-    "totalItems": 68
+    "lastRun": "2026-05-04T09:10:00+08:00",
+    "totalItems": 303
   },
   "deepDives": [
     {
@@ -3281,6 +3281,72 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "4628 失败 CI 运行 91.8% 重建率，统一抽象层"
+    },
+    {
+      "title": "DeepClaude: Claude Code + DeepSeek V4 Pro 17x 更便宜",
+      "url": "https://github.com/aattaran/deepclaude",
+      "type": "project",
+      "topic": "AI Testing / 编码代理成本优化",
+      "firstSeen": "2026-05-04",
+      "lastDeepDive": "2026-05-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "代理桥接保持完整 UX，DeepSeek 自动上下文缓存 120x 更便宜，轻量用户节省 90%"
+    },
+    {
+      "title": "GitNexus: 零服务器代码智能引擎",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "type": "project",
+      "topic": "AI / 代码知识图谱",
+      "firstSeen": "2026-05-04",
+      "lastDeepDive": "2026-05-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "35K stars, 知识图谱而非向量搜索, Tree-sitter + LadybugDB + MCP, PreToolUse/PostToolUse 钩子"
+    },
+    {
+      "title": "browserbase/skills: AI 驱动对抗性 UI 测试",
+      "url": "https://github.com/browserbase/skills",
+      "type": "project",
+      "topic": "AI Testing / 浏览器自动化",
+      "firstSeen": "2026-05-04",
+      "lastDeepDive": "2026-05-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ui-test 技能分析 git diff 自动发现 bug, browser-trace 完整 CDP 追踪, 1.8K stars"
+    },
+    {
+      "title": "Terminal-Agent Benchmark 设计指南",
+      "url": "https://arxiv.org/abs/2604.28093",
+      "type": "paper",
+      "topic": "AI Testing / 基准设计",
+      "firstSeen": "2026-05-04",
+      "lastDeepDive": "2026-05-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "15% 基准任务可被 reward hacking, adversarial/difficult/legible 三原则"
+    },
+    {
+      "title": "STEF: Schema-agnostic Text-to-SQL 评估",
+      "url": "https://arxiv.org/abs/2604.28049",
+      "type": "paper",
+      "topic": "AI Testing / Text-to-SQL 评估",
+      "firstSeen": "2026-05-04",
+      "lastDeepDive": "2026-05-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "无需 schema 依赖的生产级 T2SQL 评估, 复合评分指标, 生产规模监控"
+    },
+    {
+      "title": "LLM+ASP: 自我修正实现非单调推理",
+      "url": "https://arxiv.org/abs/2604.27960",
+      "type": "paper",
+      "topic": "AI / 神经符号推理",
+      "firstSeen": "2026-05-04",
+      "lastDeepDive": "2026-05-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "任务无关非单调推理, 稳定模型语义 + 自我修正, 上下文腐烂现象"
     }
   ],
   "items": [
