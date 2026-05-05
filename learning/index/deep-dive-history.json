@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-05T11:05:00+08:00",
+    "lastUpdated": "2026-05-05T19:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-05-05T11:05:00+08:00",
-    "totalItems": 320
+    "lastRun": "2026-05-05T19:00:00+08:00",
+    "totalItems": 325
   },
   "deepDives": [
     {
@@ -3534,6 +3534,61 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "GPT-5.4达93.8%重构Bug检测，226真实Bug 47种重构类型"
+    },
+    {
+      "title": "Agent Skills: SDLC Workflows for AI Coding Agents",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "type": "project",
+      "topic": "AI Testing",
+      "firstSeen": "2026-05-05",
+      "lastDeepDive": "2026-05-05",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "26K+ stars，Process over Prose，反合理化表，SDLC工作流编码"
+    },
+    {
+      "title": "OpenAI 低延迟语音AI大规模架构",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+      "type": "project",
+      "topic": "AI Infra",
+      "firstSeen": "2026-05-05",
+      "lastDeepDive": "2026-05-05",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "WebRTC Transceiver+Split Relay，9亿+周活，Kubernetes原生"
+    },
+    {
+      "title": "Async Rust MIR状态机优化",
+      "url": "https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state",
+      "type": "project",
+      "topic": "Compiler",
+      "firstSeen": "2026-05-05",
+      "lastDeepDive": "2026-05-05",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Rust Project Goal，360行MIR→23行，嵌入式2-5%二进制减少"
+    },
+    {
+      "title": "EML不可表达性理论",
+      "url": "https://arxiv.org/abs/2605.01636",
+      "type": "paper",
+      "topic": "Theory",
+      "firstSeen": "2026-05-05",
+      "lastDeepDive": "2026-05-05",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "形式化语言表达能力边界研究"
+    },
+    {
+      "title": "神经网络与密码学cipher的趋同进化",
+      "url": "https://reiner.org/neural-net-ciphers",
+      "type": "paper",
+      "topic": "Theory",
+      "firstSeen": "2026-05-05",
+      "lastDeepDive": "2026-05-05",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "线性+非线性交替、行/列混合、跨领域算法趋同"
     }
   ],
   "items": [

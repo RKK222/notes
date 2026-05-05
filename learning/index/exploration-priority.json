@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-05T11:05:00+08:00",
+    "lastUpdated": "2026-05-05T19:00:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-05-11",
-    "lastRun": "2026-05-05T11:05:00+08:00"
+    "lastRun": "2026-05-05T19:00:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -80,7 +80,11 @@
         "PRP 生产力可靠性悖论",
         "HEJ-Robust APR鲁棒性",
         "LiveFMBench 污染感知规范生成",
-        "GHA Compliance CI合规审计"
+        "GHA Compliance CI合规审计",
+        "Agent Skills 工作流编码",
+        "端侧AI模型部署规范",
+        "Async Rust 编译器优化",
+        "神经网络-密码学交叉"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域 + 新兴高价值方向 + Agent 评估动态化 + LLM 供应链治理 + 多模态代码生成可信度"
@@ -448,6 +452,15 @@
         "SimStudio AI"
       ],
       "allocationPercent": 0
+    },
+    "tier3_downgrade": {
+      "name": "建议降权主题",
+      "description": "近期重复过多，建议降低关注",
+      "topics": [
+        "Agent Skill生态(browserbase/cocoindex/ruflo)",
+        "Agent记忆系统(MemCoE/Memanto/Stash)",
+        "代码生成偏见(SocialBias-Bench)"
+      ]
     }
   },
   "newExplorationTargets": {
