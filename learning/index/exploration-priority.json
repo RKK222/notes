@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-05T09:10:00+08:00",
+    "lastUpdated": "2026-05-05T11:05:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-05-11",
-    "lastRun": "2026-05-05T09:10:00+08:00"
+    "lastRun": "2026-05-05T11:05:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -69,7 +69,18 @@
         "结构感知代码编辑格式",
         "Agent 沙箱架构",
         "基准质量危机",
-        "Agentic Coding 反思"
+        "Agentic Coding 反思",
+        "AI-Generated Smells 机器签名缺陷",
+        "Causal Software Engineering 因果推理",
+        "AOCI 符号语义代码索引",
+        "Refactoring Oracle 重构正确性预言机",
+        "DeFi HKG 知识图谱漏洞利用",
+        "MCP Workflow Engine 工作流引擎",
+        "Code World Model 代码世界模型",
+        "PRP 生产力可靠性悖论",
+        "HEJ-Robust APR鲁棒性",
+        "LiveFMBench 污染感知规范生成",
+        "GHA Compliance CI合规审计"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域 + 新兴高价值方向 + Agent 评估动态化 + LLM 供应链治理 + 多模态代码生成可信度"
@@ -260,7 +271,22 @@
         "GUI自蒸馏定位",
         "自适应熵调制RL",
         "交错视觉推理",
-        "多语言安全护栏"
+        "多语言安全护栏",
+        "SSDE 结构化规格驱动工程",
+        "AIDev AI生成PR审查",
+        "CommitSuite 提交消息基准",
+        "DocSync 文档维护Agent",
+        "QASecClaw SAST误报减少",
+        "VulKey 漏洞修复模式",
+        "ACDL Agent上下文描述语言",
+        "RL Dev Memory 安全门控记忆",
+        "Neuro-Symbolic OOMRAM",
+        "Autonomous Test Repair 工业",
+        "PPO Test Gen RL测试生成",
+        "FeedbackLLM 多Agent测试生成",
+        "ClarifySTL 交互式规范转换",
+        "X-CCD 跨语言代码克隆",
+        "RECAP AI编程交互平台"
       ],
       "allocationPercent": 25,
       "rationale": "绿色 AI 压缩 + 金融多代理 + MBSE AI 消费 + MBT+BDD 融合 + ML Agent"
@@ -402,7 +428,15 @@
         "人机共生伦理",
         "工业操作AI",
         "组合优化实例感知配置",
-        "社会计算多维权重情感"
+        "社会计算多维权重情感",
+        "QSAF 量子软件架构",
+        "SCRIBE 二进制补丁",
+        "HAAS 人机自适应共生",
+        "AutoSLO 遗传编程自动扩展",
+        "DDD Simulator 微服务架构",
+        "Shor Qrisp 量子验证",
+        "Datalog in Lean 逻辑编程",
+        "ProMoTA 可追溯性分析"
       ],
       "allocationPercent": 20
     },
