@@ -5,7 +5,7 @@
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
     "lastRun": "2026-05-06T09:07:00+08:00",
-    "totalTopics": 637
+    "totalTopics": 644
   },
   "topics": [
     {
@@ -8634,9 +8634,9 @@
       "priority": "high",
       "isCore": false,
       "shouldDowngrade": false,
-      "representativeItem": "ruflo/warp/TradingAgents 三大平台周增 9K/28K/14K stars",
+      "representativeItem": "ruflo/warp/TradingAgents 周增 9K/28K/14K stars",
       "trend": "rising",
-      "notes": "Agent 编排从工具升级为平台，平台化竞争时代"
+      "notes": "Agent 编排从工具升级为平台"
     },
     {
       "name": "Triadic Data 三元数据范式",
@@ -8664,7 +8664,7 @@
       "shouldDowngrade": false,
       "representativeItem": "Emergent Misalignment via Feature Superposition Geometry ACL 2026",
       "trend": "new",
-      "notes": "SAE 特征几何分析，紧急不对齐是架构必然非模型缺陷"
+      "notes": "SAE几何分析 紧急不对齐是架构必然"
     },
     {
       "name": "Effect-Transparent Governance",
@@ -8676,9 +8676,9 @@
       "priority": "high",
       "isCore": false,
       "shouldDowngrade": false,
-      "representativeItem": "Effect-Transparent Governance for AI Workflow 12K行机器验证",
+      "representativeItem": "Effect-Transparent Governance 12K行Rocq验证",
       "trend": "new",
-      "notes": "Rocq 形式化证明治理与计算表达力正交"
+      "notes": "治理与计算表达力正交"
     },
     {
       "name": "自主测试修复实际极限",
@@ -8692,7 +8692,7 @@
       "shouldDowngrade": false,
       "representativeItem": "Practical Limits of Autonomous Test Repair 70%收敛率",
       "trend": "new",
-      "notes": "工业级实证揭示70%天花板和38%零产出，受约束自主是关键"
+      "notes": "工业级实证 受约束自主是关键"
     },
     {
       "name": "DeepSeek-TUI 本地化终端编码",
@@ -8718,9 +8718,9 @@
       "priority": "medium",
       "isCore": false,
       "shouldDowngrade": false,
-      "representativeItem": "cocoindex 增量引擎 8392 stars",
+      "representativeItem": "cocoindex 8392 stars 日增616",
       "trend": "rising",
-      "notes": "长程Agent增量计算，避免重复执行，Make/Gradle理念引入Agent领域"
+      "notes": "长程Agent增量计算"
     },
     {
       "name": "ruflo Agent编排平台",
@@ -8762,7 +8762,7 @@
       "shouldDowngrade": false,
       "representativeItem": "How Humans Review AI-Generated PRs EASE 2026",
       "trend": "new",
-      "notes": "AI生成PR主要由AI代理审查而非人类，审查指标解释挑战"
+      "notes": "AI生成PR主要由AI代理审查"
     },
     {
       "name": "CommitSuite 提交基准",
@@ -8774,9 +8774,9 @@
       "priority": "medium",
       "isCore": false,
       "shouldDowngrade": false,
-      "representativeItem": "CommitSuite 63533条CCS提交基准",
+      "representativeItem": "CommitSuite 63533条CCS提交",
       "trend": "new",
-      "notes": "最大规模CCS基准，无参考评估框架"
+      "notes": "最大规模CCS基准"
     },
     {
       "name": "MCTS竞争程序生成",
@@ -8788,9 +8788,9 @@
       "priority": "medium",
       "isCore": false,
       "shouldDowngrade": false,
-      "representativeItem": "Blackboard-Driven MCTS 竞争程序生成",
+      "representativeItem": "Blackboard-Driven MCTS 超越CodeSim 26分",
       "trend": "new",
-      "notes": "黑板驱动MCTS超越CodeSim 26分"
+      "notes": "黑板驱动MCTS五阶段协调"
     },
     {
       "name": "ClinicBot 临床指南聊天机器人",
@@ -8804,7 +8804,7 @@
       "shouldDowngrade": false,
       "representativeItem": "ClinicBot 指南接地临床聊天机器人",
       "trend": "new",
-      "notes": "结构化指南提取+证据优先级排序解决医疗幻觉"
+      "notes": "结构化指南提取+证据优先级"
     },
     {
       "name": "智能制造AI路线图2026",
@@ -8818,7 +8818,7 @@
       "shouldDowngrade": false,
       "representativeItem": "2026 Roadmap AI ML Smart Manufacturing 48作者",
       "trend": "new",
-      "notes": "48位作者权威路线图，工业AI方向参考"
+      "notes": "48位作者权威路线图"
     },
     {
       "name": "TabPFN 表格数据基础模型",
@@ -8833,6 +8833,104 @@
       "representativeItem": "TabPFN 表格数据零样本预测",
       "trend": "rising",
       "notes": "表格数据领域的ChatGPT时刻，零样本预测"
+    },
+    {
+      "name": "Triadic Data 三元数据",
+      "category": "emerging",
+      "lastSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Triadic Data for Long-Horizon SWE Agents",
+      "trend": "new",
+      "notes": "人-人对话+人-AI会话+跨职能协作三元数据"
+    },
+    {
+      "name": "DeepSeek-TUI",
+      "category": "emerging",
+      "lastSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "DeepSeek-TUI 7460 stars 日增2434",
+      "trend": "rising",
+      "notes": "Rust终端编码代理 本地化"
+    },
+    {
+      "name": "ruflo 编排平台",
+      "category": "emerging",
+      "lastSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "ruflo 43663 stars 周增9159",
+      "trend": "rising",
+      "notes": "蜂群智能+企业级架构"
+    },
+    {
+      "name": "TabPFN 表格基础模型",
+      "category": "exploration",
+      "lastSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "TabPFN 6366 stars 表格数据零样本",
+      "trend": "rising",
+      "notes": "表格数据领域ChatGPT时刻"
+    },
+    {
+      "name": "电池研究AI接口",
+      "category": "exploration",
+      "lastSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "FINALES+Kadi4Mat AI接口 电池研究",
+      "trend": "new",
+      "notes": "AI代理在科学发现中的实际部署"
+    },
+    {
+      "name": "ESG评估AI代理",
+      "category": "exploration",
+      "lastSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "AI Agents for Sustainable SMEs ESG评估",
+      "trend": "new",
+      "notes": "n8n+LLM自动化ESG分类"
+    },
+    {
+      "name": "代码翻译假阴性",
+      "category": "emerging",
+      "lastSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Addressing False Failures in Code Translation FSE 2026",
+      "trend": "new",
+      "notes": "评估诱导错误而非逻辑错误"
     }
   ]
 }
