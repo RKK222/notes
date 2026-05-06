@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-05T19:00:00+08:00",
+    "lastUpdated": "2026-05-06T09:07:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-05-05T19:00:00+08:00",
-    "totalItems": 325
+    "lastRun": "2026-05-06T09:07:00+08:00",
+    "totalItems": 338
   },
   "deepDives": [
     {
@@ -3589,6 +3589,149 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "线性+非线性交替、行/列混合、跨领域算法趋同"
+    },
+    {
+      "title": "ruflo: Agent Orchestration Platform",
+      "url": "https://github.com/ruvnet/ruflo",
+      "type": "project",
+      "topic": "Agent 编排平台化",
+      "firstSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "43663 stars 周增9159 蜂群智能+企业级架构 Claude生态编排"
+    },
+    {
+      "title": "DeepSeek-TUI: Terminal Coding Agent",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "type": "project",
+      "topic": "终端编码代理",
+      "firstSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "7460 stars 日增2434 Rust实现 本地化DeepSeek编码"
+    },
+    {
+      "title": "cocoindex: Incremental Engine for Long Horizon Agents",
+      "url": "https://github.com/cocoindex-io/cocoindex",
+      "type": "project",
+      "topic": "Agent 增量引擎",
+      "firstSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "8392 stars 日增616 增量计算避免长程任务重复执行"
+    },
+    {
+      "title": "Practical Limits of Autonomous Test Repair",
+      "url": "https://arxiv.org/abs/2605.01471",
+      "type": "paper",
+      "topic": "自主测试修复",
+      "firstSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "工业级实证70%收敛率 38%零产出 受约束自主是关键"
+    },
+    {
+      "title": "Emergent Misalignment via Feature Superposition Geometry",
+      "url": "https://arxiv.org/abs/2605.00842",
+      "type": "paper",
+      "topic": "AI Safety",
+      "firstSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ACL 2026 SAE几何分析 紧急不对齐是架构必然 几何感知过滤减少34.5%"
+    },
+    {
+      "title": "Effect-Transparent Governance for AI Workflows",
+      "url": "https://arxiv.org/abs/2605.01030",
+      "type": "paper",
+      "topic": "形式化治理",
+      "firstSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Rocq 12K行机器验证 治理与计算表达力正交 454定理"
+    },
+    {
+      "title": "Triadic Data for Long-Horizon SWE Agents",
+      "url": "https://arxiv.org/abs/2605.02244",
+      "type": "paper",
+      "topic": "Agent 训练数据",
+      "firstSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "人-人对话+人-AI会话+跨职能协作三元数据 挑战当前训练数据方向"
+    },
+    {
+      "title": "SSDE: Structured Spec-Driven Engineering",
+      "url": "https://arxiv.org/abs/2605.02455",
+      "type": "paper",
+      "topic": "仓库级代码生成",
+      "firstSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "FSE Companion 2026 结构化规格引导仓库级生成"
+    },
+    {
+      "title": "Addressing False Failures in Code Translation",
+      "url": "https://arxiv.org/abs/2605.02195",
+      "type": "paper",
+      "topic": "代码翻译评估",
+      "firstSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "FSE 2026 评估诱导假阴性 配置感知评估标准"
+    },
+    {
+      "title": "DocSync: Agentic Documentation Maintenance",
+      "url": "https://arxiv.org/abs/2605.02163",
+      "type": "paper",
+      "topic": "文档维护",
+      "firstSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "AST+RAG+Reflexion 解决文档漂移 小模型达3.44/5.0"
+    },
+    {
+      "title": "How Humans Review AI-Generated PRs",
+      "url": "https://arxiv.org/abs/2605.02273",
+      "type": "paper",
+      "topic": "代码审查",
+      "firstSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "EASE 2026 AI生成PR主要由AI代理审查 审查指标解释挑战"
+    },
+    {
+      "title": "CommitSuite: Commit Classification Benchmark",
+      "url": "https://arxiv.org/abs/2605.02256",
+      "type": "paper",
+      "topic": "提交消息生成",
+      "firstSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "63533条CCS提交 无参考评估框架 Kappa 0.849"
+    },
+    {
+      "title": "Blackboard-Driven MCTS for Competitive Programming",
+      "url": "https://arxiv.org/abs/2605.02431",
+      "type": "paper",
+      "topic": "竞争程序生成",
+      "firstSeen": "2026-05-06",
+      "lastDeepDive": "2026-05-06",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "黑板驱动MCTS 超越CodeSim 26分 五阶段协调"
     }
   ],
   "items": [
