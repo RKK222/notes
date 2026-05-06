@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-05T19:00:00+08:00",
+    "lastUpdated": "2026-05-06T09:07:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-05-11",
-    "lastRun": "2026-05-05T19:00:00+08:00"
+    "lastRun": "2026-05-06T09:07:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -1291,6 +1291,56 @@
         "topic": "GeoContra GIS 代码验证修复",
         "reason": "流畅代码生产转化为可验证空间分析，正确性+26.6%",
         "priority": "medium"
+      },
+      {
+        "topic": "Agent 编排平台化",
+        "reason": "ruflo/warp/TradingAgents 三足鼎立 周增 9K/28K/14K stars Agent编排从工具升级为平台",
+        "priority": "high"
+      },
+      {
+        "topic": "Triadic Data 三元数据范式",
+        "reason": "人-人对话+人-AI会话+跨职能协作 挑战当前Agent训练数据方向 12-18个月可捕获",
+        "priority": "high"
+      },
+      {
+        "topic": "特征叠加几何紧急不对齐",
+        "reason": "ACL 2026 SAE几何分析 紧急不对齐是架构必然非模型缺陷 几何感知过滤减少34.5%",
+        "priority": "high"
+      },
+      {
+        "topic": "Effect-Transparent Governance",
+        "reason": "Rocq 12K行机器验证 治理与计算表达力正交 为AI治理提供数学基础",
+        "priority": "high"
+      },
+      {
+        "topic": "自主测试修复实际极限",
+        "reason": "工业级实证70%收敛率 38%零产出 受约束自主是关键 挑战全自主叙事",
+        "priority": "high"
+      },
+      {
+        "topic": "DeepSeek-TUI 本地化终端编码",
+        "reason": "日增2434 stars Rust实现 本地化+DeepSeek模型 TUI复兴",
+        "priority": "high"
+      },
+      {
+        "topic": "cocoindex 增量引擎",
+        "reason": "长程Agent增量计算 避免重复执行 Make/Gradle理念引入Agent领域",
+        "priority": "medium"
+      },
+      {
+        "topic": "TabPFN 表格数据基础模型",
+        "reason": "表格数据零样本预测 表格数据领域的ChatGPT时刻",
+        "priority": "medium"
+      },
+      {
+        "topic": "ClinicBot 临床指南聊天机器人",
+        "reason": "结构化指南提取+证据优先级排序 解决医疗幻觉",
+        "priority": "medium"
+      },
+      {
+        "topic": "智能制造AI路线图2026",
+        "reason": "48位作者权威路线图 工业AI方向参考",
+        "priority": "medium"
       }
     ]
   },
@@ -1374,6 +1424,7 @@
   "downgradeCandidates": [
     "Agent Skill 生态",
     "Agent 记忆系统",
-    "边缘 AI/EdgeLLM"
+    "边缘 AI/EdgeLLM",
+    "代码生成偏见"
   ]
 }
