@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-06T09:07:00+08:00",
+    "lastUpdated": "2026-05-31T11:03:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-05-06T09:07:00+08:00",
-    "totalItems": 338
+    "lastRun": "2026-05-31T11:03:00+08:00",
+    "totalItems": 348
   },
   "deepDives": [
     {
@@ -3732,6 +3732,116 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "黑板驱动MCTS 超越CodeSim 26分 五阶段协调"
+    },
+    {
+      "title": "Microsoft Agent Governance Toolkit",
+      "url": "https://github.com/microsoft/agent-governance-toolkit",
+      "type": "project",
+      "topic": "Agent Security",
+      "firstSeen": "2026-05-31",
+      "lastDeepDive": "2026-05-31",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "覆盖 OWASP Agentic Top 10 全部 10 项，确定性代码层策略执行，3.4K+ stars"
+    },
+    {
+      "title": "CodeGraph: Pre-indexed Code Knowledge Graph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "type": "project",
+      "topic": "AI Infra",
+      "firstSeen": "2026-05-31",
+      "lastDeepDive": "2026-05-31",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Agent 代码理解图谱化，25% 成本降低 + 62% tool call 减少，34K+ stars"
+    },
+    {
+      "title": "RADAR: Automating Low-Risk Code Review at Meta",
+      "url": "https://arxiv.org/abs/2605.30208",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-05-31",
+      "lastDeepDive": "2026-05-31",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Meta 工业级代码审查自动化，535K+ diff 审查，回滚率 1/3，事故率 1/50"
+    },
+    {
+      "title": "Agora: Autonomous Bug Detection in Consensus Protocols",
+      "url": "https://arxiv.org/abs/2605.29910",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-05-31",
+      "lastDeepDive": "2026-05-31",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "领域感知多 Agent 框架，15 个新发现共识协议安全 Bug"
+    },
+    {
+      "title": "Compositional Incoherence in Multi-Component LLM Agents",
+      "url": "https://arxiv.org/abs/2605.30335",
+      "type": "paper",
+      "topic": "Multi-Agent",
+      "firstSeen": "2026-05-31",
+      "lastDeepDive": "2026-05-31",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ICML 2026 Workshops，33-94% 多组件 Agent 违反概率公理"
+    },
+    {
+      "title": "AutoformBot: Formalizing Mathematics at Scale",
+      "url": "https://arxiv.org/abs/2605.29955",
+      "type": "paper",
+      "topic": "Formal Verification",
+      "firstSeen": "2026-05-31",
+      "lastDeepDive": "2026-05-31",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "45K+ Lean 4 声明 + 500K 行代码，数学形式化规模化里程碑"
+    },
+    {
+      "title": "EvoRepair: Experience-Based Self-Evolving AVR Agent",
+      "url": "https://arxiv.org/abs/2605.30105",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-05-31",
+      "lastDeepDive": "2026-05-31",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "经验自进化漏洞修复，PATCHEVAL 93.47%，超越 LoopRepair 39.56%"
+    },
+    {
+      "title": "GUITestScape & GUIJudge: Open-set GUI Testing",
+      "url": "https://arxiv.org/abs/2605.29532",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-05-31",
+      "lastDeepDive": "2026-05-31",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "61 Android 应用 508 缺陷，开放集 GUI 测试评估"
+    },
+    {
+      "title": "CROP: Conformal Certification of Reasoning Trace Prefixes",
+      "url": "https://arxiv.org/abs/2605.30085",
+      "type": "paper",
+      "topic": "AI Safety",
+      "firstSeen": "2026-05-31",
+      "lastDeepDive": "2026-05-31",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "推理前缀一致性认证，不确定性量化从最终答案扩展到推理前缀"
+    },
+    {
+      "title": "PokerSkill: LLMs Play Expert-Level Poker without Training",
+      "url": "https://arxiv.org/abs/2605.30094",
+      "type": "paper",
+      "topic": "AI",
+      "firstSeen": "2026-05-31",
+      "lastDeepDive": "2026-05-31",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "无训练无求解器 LLM 扑克，GPT-5.5 -57 mbb/hand，超越 Slumbot"
     }
   ],
   "items": [

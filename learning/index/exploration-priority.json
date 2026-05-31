@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-06T09:07:00+08:00",
+    "lastUpdated": "2026-05-31T11:03:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
-    "nextReview": "2026-05-11",
-    "lastRun": "2026-05-06T09:07:00+08:00"
+    "nextReview": "2026-06-10",
+    "lastRun": "2026-05-31T11:03:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -84,7 +84,9 @@
         "Agent Skills 工作流编码",
         "端侧AI模型部署规范",
         "Async Rust 编译器优化",
-        "神经网络-密码学交叉"
+        "神经网络-密码学交叉",
+        "Agent Governance",
+        "代码知识图谱基础设施"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域 + 新兴高价值方向 + Agent 评估动态化 + LLM 供应链治理 + 多模态代码生成可信度"
@@ -290,7 +292,11 @@
         "FeedbackLLM 多Agent测试生成",
         "ClarifySTL 交互式规范转换",
         "X-CCD 跨语言代码克隆",
-        "RECAP AI编程交互平台"
+        "RECAP AI编程交互平台",
+        "多 Agent 组合一致性",
+        "形式化验证规模化",
+        "GUI 测试开放集评估",
+        "推理前缀认证"
       ],
       "allocationPercent": 25,
       "rationale": "绿色 AI 压缩 + 金融多代理 + MBSE AI 消费 + MBT+BDD 融合 + ML Agent"
@@ -440,7 +446,9 @@
         "DDD Simulator 微服务架构",
         "Shor Qrisp 量子验证",
         "Datalog in Lean 逻辑编程",
-        "ProMoTA 可追溯性分析"
+        "ProMoTA 可追溯性分析",
+        "PCB 原理图 LLM 生成",
+        "持续数据合成"
       ],
       "allocationPercent": 20
     },

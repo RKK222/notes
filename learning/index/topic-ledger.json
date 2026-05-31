@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-06T09:07:00+08:00",
+    "lastUpdated": "2026-05-31T11:03:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-05-06T09:07:00+08:00",
-    "totalTopics": 644
+    "lastRun": "2026-05-31T11:03:00+08:00",
+    "totalTopics": 652
   },
   "topics": [
     {
@@ -8931,6 +8931,118 @@
       "representativeItem": "Addressing False Failures in Code Translation FSE 2026",
       "trend": "new",
       "notes": "评估诱导错误而非逻辑错误"
+    },
+    {
+      "name": "Agent Governance",
+      "category": "emerging",
+      "lastSeen": "2026-05-31",
+      "lastDeepDive": "2026-05-31",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Microsoft Agent Governance Toolkit",
+      "trend": "new",
+      "notes": "Agent 安全从 prompt 软约束到确定性代码硬约束，覆盖 OWASP Agentic Top 10"
+    },
+    {
+      "name": "代码知识图谱基础设施",
+      "category": "emerging",
+      "lastSeen": "2026-05-31",
+      "lastDeepDive": "2026-05-31",
+      "repeatCount7d": 2,
+      "repeatCount30d": 2,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "CodeGraph 34K+ stars",
+      "trend": "rising",
+      "notes": "Agent 代码理解从文件扫描到图谱查询，25% 成本降低 + 62% tool call 减少"
+    },
+    {
+      "name": "多 Agent 组合一致性",
+      "category": "emerging",
+      "lastSeen": "2026-05-31",
+      "lastDeepDive": "2026-05-31",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Compositional Incoherence ICML 2026",
+      "trend": "new",
+      "notes": "33-94% 多组件 Agent 违反概率公理，局部一致不保证全局一致"
+    },
+    {
+      "name": "形式化验证规模化",
+      "category": "emerging",
+      "lastSeen": "2026-05-31",
+      "lastDeepDive": "2026-05-31",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "AutoformBot 45K+ Lean 4 声明",
+      "trend": "new",
+      "notes": "研究生级数学自动形式化已经济可行，500K 行验证代码"
+    },
+    {
+      "name": "GUI 测试开放集评估",
+      "category": "emerging",
+      "lastSeen": "2026-05-31",
+      "lastDeepDive": "2026-05-31",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "GUITestScape 61 Android 应用",
+      "trend": "new",
+      "notes": "覆盖显示缺陷的 GUI 测试基准，开放集评估超越预定义注释"
+    },
+    {
+      "name": "推理前缀一致性认证",
+      "category": "emerging",
+      "lastSeen": "2026-05-31",
+      "lastDeepDive": "2026-05-31",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "CROP Conformal Reasoning Output Prefixes",
+      "trend": "new",
+      "notes": "不确定性量化从最终答案扩展到推理前缀"
+    },
+    {
+      "name": "PCB 原理图 LLM 生成",
+      "category": "exploration",
+      "lastSeen": "2026-05-31",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "SchGen PCB Schematic Generation",
+      "trend": "new",
+      "notes": "LLM 进入硬件设计领域，语义接地代码表示"
+    },
+    {
+      "name": "持续数据合成",
+      "category": "exploration",
+      "lastSeen": "2026-05-31",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "low",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "StreamSynth 流式经验数据合成",
+      "trend": "new",
+      "notes": "合成数据生成从孤立任务到经验驱动过程"
     }
   ]
 }
