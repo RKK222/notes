@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-31T11:03:00+08:00",
+    "lastUpdated": "2026-05-31T19:04:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
-    "nextReview": "2026-06-10",
-    "lastRun": "2026-05-31T11:03:00+08:00"
+    "nextReview": "2026-06-15",
+    "lastRun": "2026-05-31T19:04:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -86,7 +86,11 @@
         "Async Rust 编译器优化",
         "神经网络-密码学交叉",
         "Agent Governance",
-        "代码知识图谱基础设施"
+        "代码知识图谱基础设施",
+        "Developer-Agent Misalignment",
+        "Tool Forge 工具链治理",
+        "LLM-in-the-loop 漏洞治理",
+        "RAMP 运行时评估"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域 + 新兴高价值方向 + Agent 评估动态化 + LLM 供应链治理 + 多模态代码生成可信度"
@@ -296,7 +300,17 @@
         "多 Agent 组合一致性",
         "形式化验证规模化",
         "GUI 测试开放集评估",
-        "推理前缀认证"
+        "推理前缀认证",
+        "Offloading Score AI依赖度测量",
+        "DEBENCH 反编译评估",
+        "SCDBench 智能合约反编译",
+        "T2J-Bench 代码库转换",
+        "Spec-Agent 规范合成",
+        "ParaTool 参数化工具调用",
+        "Redundancy-Aware RLVR",
+        "SourceTracker 代码溯源",
+        "AndroidDaily 移动端GUI代理",
+        "Agent工程化基础设施"
       ],
       "allocationPercent": 25,
       "rationale": "绿色 AI 压缩 + 金融多代理 + MBSE AI 消费 + MBT+BDD 融合 + ML Agent"
