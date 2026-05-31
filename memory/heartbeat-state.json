@@ -1,10 +1,10 @@
 {
   "lastChecks": {
-    "news": 1743066480,
+    "news": 1748671260,
     "calendar": 1746134760,
     "email": 1744344060,
-    "memory": 1746206400,
-    "heartbeat": 1746206400,
+    "memory": 1748671260,
+    "heartbeat": 1748671260,
     "flightMonitor": 1746406380
   },
   "lastNewsPush": 1742910540,
@@ -13,18 +13,19 @@
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-05-05 08:53",
+    "lastUpdate": "2026-05-31 17:41",
     "newsBlocker": "Brave Search API 未配置",
     "newsTaskDisabled": "2026-04-08 13:45 - 临时禁用直到 API 配置",
     "pushMethod": "web_fetch (Brave API 未配置)",
     "silentPeriodStart": "21:00",
     "silentPeriodEnd": "07:00",
-    "flightMonitor": "2026-05-05 08:53 携程 API 已变更，所有接口返回 302 重定向或空响应。最新可用价格仍为 5/2 数据。URC:¥3,056 / HET:¥2,272。下次查询 5/8。"
+    "flightMonitor": "2026-05-05 08:53 携程 API 已变更，所有接口返回 302 重定向或空响应。最新可用价格仍为 5/2 数据。URC:¥3,056 / HET:¥2,272。下次查询 5/8。",
+    "memoryMaintenance": "2026-05-31 17:41 完成记忆维护。最近 28 天无新日常文件，无特殊事件。MEMORY.md 核心记忆完整保留。"
   },
   "pendingTasks": {
     "newsPush": "⏸️ 已禁用 (2026-04-08 起，待 Brave API)",
     "calendarCheck": "⚠️ 飞书 API 缺少权限",
-    "flightMonitor": "⚠️ 携程 API 已变更，数据获取失败。下次查询 5/8"
+    "flightMonitor": "⚠️ 携程 API 已变更，数据获取失败"
   },
   "completedTasks": {
     "openclawUpgrade": "✅ 已升级到 2026.3.8 (3caab92)",
