@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-31T19:04:00+08:00",
+    "lastUpdated": "2026-06-01T09:10:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-05-31T19:04:00+08:00",
-    "totalItems": 352
+    "lastRun": "2026-06-01T09:10:00+08:00",
+    "totalItems": 358
   },
   "deepDives": [
     {
@@ -3886,6 +3886,72 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "串行工作流100%坍缩到20%，无模型完成管道，成本差异3个数量级"
+    },
+    {
+      "title": "Streambed: Stream Postgres to Iceberg on S3",
+      "url": "https://github.com/viggy28/streambed",
+      "type": "project",
+      "topic": "数据工程",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "极简架构 Postgres WAL→Iceberg 流式传输，Cloudflare 前 Postgres 技术负责人作品，HN 62+ stars"
+    },
+    {
+      "title": "Code-QA-Bench: Separating Code Reasoning from Documentation Memorization",
+      "url": "https://arxiv.org/abs/2605.29277",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "答案先生成管道 + 三条件实验设计，首次分离代码理解和文档记忆化"
+    },
+    {
+      "title": "Teaching Values to Machines: Simulating Human-Like Behavior in LLMs",
+      "url": "https://arxiv.org/abs/2605.30036",
+      "type": "paper",
+      "topic": "AI Safety & Alignment",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "500 万+ 问题实证，LLM 可模拟人类价值观结构，ACL 2026 GEM Workshop"
+    },
+    {
+      "title": "Multi-Phase Inference Framework for World-Model Alignment",
+      "url": "https://arxiv.org/abs/2605.29930",
+      "type": "paper",
+      "topic": "AI Safety & Alignment",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "MIM 形式化异构世界模型产生机制，世界模型对齐从一致转向可处理"
+    },
+    {
+      "title": "RedundancyBench: Detecting Redundant Steps in Agent Trajectories",
+      "url": "https://arxiv.org/abs/2605.29893",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "首次 Agent轨迹冗余检测，最佳方法仅 24.88% 得分，代表 Agent 评估新维度"
+    },
+    {
+      "title": "Moment-KV: Momentum-Based KV Cache Compression",
+      "url": "https://arxiv.org/abs/2605.29873",
+      "type": "paper",
+      "topic": "AI / LLM 推理优化",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "动量时间注意力聚合 KV缓存压缩，2.3-3.2% 生成保真度提升"
     }
   ],
   "items": [
