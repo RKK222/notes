@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-05-31T19:04:00+08:00",
+    "lastUpdated": "2026-06-01T09:10:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-05-31T19:04:00+08:00",
-    "totalTopics": 670
+    "lastRun": "2026-06-01T09:10:00+08:00",
+    "totalTopics": 678
   },
   "topics": [
     {
@@ -109,9 +109,9 @@
     {
       "name": "AI Testing",
       "category": "core",
-      "lastSeen": "2026-05-04",
+      "lastSeen": "2026-06-01",
       "lastDeepDive": "2026-04-21",
-      "repeatCount7d": 77,
+      "repeatCount7d": 86,
       "repeatCount30d": 43,
       "priority": "high",
       "isCore": true,
@@ -123,9 +123,9 @@
     {
       "name": "Software Testing",
       "category": "core",
-      "lastSeen": "2026-05-04",
+      "lastSeen": "2026-06-01",
       "lastDeepDive": "2026-04-21",
-      "repeatCount7d": 70,
+      "repeatCount7d": 79,
       "repeatCount30d": 41,
       "priority": "high",
       "isCore": true,
@@ -137,9 +137,9 @@
     {
       "name": "LLM Evaluation",
       "category": "core",
-      "lastSeen": "2026-05-04",
+      "lastSeen": "2026-06-01",
       "lastDeepDive": "2026-03-25",
-      "repeatCount7d": 28,
+      "repeatCount7d": 31,
       "repeatCount30d": 22,
       "priority": "high",
       "isCore": true,
@@ -9295,6 +9295,118 @@
       "representativeItem": "HN Agent Infrastructure Discussion",
       "trend": "new",
       "notes": "持久性/监控/人工介入等基础设施挑战"
+    },
+    {
+      "name": "Agent轨迹效率评估",
+      "category": "emerging",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "RedundancyBench Agent轨迹冗余步骤检测",
+      "trend": "new",
+      "notes": "Agent 执行效率评估新维度，最佳方法仅 24.88% 得分，代表 Agent 评估从准确性向效率扩展"
+    },
+    {
+      "name": "KV缓存动量压缩",
+      "category": "emerging",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Moment-KV 动量时间注意力聚合",
+      "trend": "new",
+      "notes": "利用注意力时间动态模式进行 KV缓存压缩，2.3-3.2% 生成保真度提升"
+    },
+    {
+      "name": "AI价值观实证对齐",
+      "category": "emerging",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Teaching Values to Machines 500 万问题实证",
+      "trend": "new",
+      "notes": "LLM 可模拟人类价值观结构，为人口模拟和社会科学研究提供新工具"
+    },
+    {
+      "name": "博弈求解器几何学",
+      "category": "exploration",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "On the Geometry of Games and their Solvers",
+      "trend": "new",
+      "notes": "将均衡计算从离散分类转向连续几何视角，自适应求解器合成新范式"
+    },
+    {
+      "name": "Web Agent 标准",
+      "category": "exploration",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "The Website Specification Agent Readiness",
+      "trend": "new",
+      "notes": "Web 标准对 AI Agent 时代的响应，436 分 HN 讨论热度"
+    },
+    {
+      "name": "约束解码加速",
+      "category": "emerging",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "CFGzip 7.5x 约束解码加速",
+      "trend": "rising",
+      "notes": "token 搜索空间压缩使复杂 CFG 约束解码规模化可行"
+    },
+    {
+      "name": "个性化代码智能",
+      "category": "emerging",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "VirtualME IDE 行为驱动的开发者画像",
+      "trend": "new",
+      "notes": "从一刀切到因人而异，开发者行为数据融入代码智能"
+    },
+    {
+      "name": "科学数据集成 Agent",
+      "category": "exploration",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Compass 海洋数据集成 92% 准确率",
+      "trend": "new",
+      "notes": "专家引导 Agent 桥接通用 LLM 和高利益科学领域"
     }
   ]
 }
