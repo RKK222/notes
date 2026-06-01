@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-01T11:00:00+08:00",
+    "lastUpdated": "2026-06-01T19:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-06-01T11:00:00+08:00",
-    "totalItems": 365
+    "lastRun": "2026-06-01T19:00:00+08:00",
+    "totalItems": 370
   },
   "deepDives": [
     {
@@ -4029,6 +4029,61 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "API 知识边界错误是主要失败原因，边界感知干预 41% token 成本实现 32-56 点提升"
+    },
+    {
+      "title": "TraceGraph: Shared Decision Landscapes for Agent Trajectories",
+      "url": "https://arxiv.org/abs/2605.31308",
+      "type": "paper",
+      "topic": "AI Testing / Agent 轨迹分析",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "多模型 Agent 轨迹转共享决策图谱，SWE-bench 恢复率 40.4%→43.5%"
+    },
+    {
+      "title": "GLIDE: Industrializing PPI for Agentic Evaluation",
+      "url": "https://arxiv.org/abs/2605.31278",
+      "type": "project",
+      "topic": "AI Testing / 评估基础设施",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "统一 PPI 估计器开源库，ICML 2026 Workshop，解决 Agent 评估标注成本与偏差"
+    },
+    {
+      "title": "COLLEAGUE.SKILL: Expert Knowledge Distillation to Agent Skills",
+      "url": "https://arxiv.org/abs/2605.31264",
+      "type": "project",
+      "topic": "AI Testing / Agent 技能框架",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "18.5K stars，异构痕迹→可检查可纠正技能包，215 技能 165 贡献者"
+    },
+    {
+      "title": "LinTree: Explicitly Structured Search Histories for LLM Reasoning",
+      "url": "https://arxiv.org/abs/2605.31492",
+      "type": "paper",
+      "topic": "AI / LLM 推理",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "搜索历史显式树结构提升推理，父指针是关键，Blocks World/导航/Sokoban 验证"
+    },
+    {
+      "title": "CHARM: Multimodal JEPA for Time-Series Embeddings",
+      "url": "https://arxiv.org/abs/2605.31580",
+      "type": "paper",
+      "topic": "新领域 / 时间序列表征",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ICML 2026，JEPA 扩展到时间序列，通道感知+潜在空间预测，仅线性探针即强性能"
     }
   ],
   "items": [
