@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-01T09:10:00+08:00",
+    "lastUpdated": "2026-06-01T11:00:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-01T09:10:00+08:00"
+    "lastRun": "2026-06-01T11:00:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -93,7 +93,12 @@
         "RAMP 运行时评估",
         "Agent轨迹效率评估",
         "KV缓存动量压缩",
-        "约束解码加速"
+        "约束解码加速",
+        "Agent 操作安全分类学",
+        "1-bit 模型量化",
+        "C++/CUDA 推理引擎",
+        "API 知识边界管理",
+        "Codex 安全边界突破"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域 + 新兴高价值方向 + Agent 评估动态化 + LLM 供应链治理 + 多模态代码生成可信度"
@@ -317,7 +322,11 @@
         "AI价值观实证对齐",
         "博弈求解器几何学",
         "科学数据集成 Agent",
-        "个性化代码智能"
+        "个性化代码智能",
+        "Agent 连续学习",
+        "金融电子表格 Agent 评估",
+        "边缘 AI 安全加密",
+        "RLVR 代码生成奖励设计"
       ],
       "allocationPercent": 25,
       "rationale": "绿色 AI 压缩 + 金融多代理 + MBSE AI 消费 + MBT+BDD 融合 + ML Agent"

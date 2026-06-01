@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-01T09:10:00+08:00",
+    "lastUpdated": "2026-06-01T11:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-06-01T09:10:00+08:00",
-    "totalTopics": 678
+    "lastRun": "2026-06-01T11:00:00+08:00",
+    "totalTopics": 688
   },
   "topics": [
     {
@@ -9407,6 +9407,146 @@
       "representativeItem": "Compass 海洋数据集成 92% 准确率",
       "trend": "new",
       "notes": "专家引导 Agent 桥接通用 LLM 和高利益科学领域"
+    },
+    {
+      "name": "Agent 操作安全分类学",
+      "category": "emerging",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "What Breaks When LLMs Code? 547 个安全失败案例分类",
+      "trend": "new",
+      "notes": "33 类操作风险，60% 高/关键严重性，Agent 安全从对抗性防御到日常使用保障"
+    },
+    {
+      "name": "1-bit 模型量化",
+      "category": "emerging",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Bonsai Image 4B 1-bit 本地图像生成",
+      "trend": "new",
+      "notes": "模型体积缩小 16-32 倍，边缘 AI 图像生成新方向"
+    },
+    {
+      "name": "C++/CUDA 推理引擎",
+      "category": "emerging",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Tiny-vLLM C++/CUDA 高性能 LLM 推理引擎",
+      "trend": "new",
+      "notes": "从 Python 生态向 C++ 原生迁移，边缘 AI 推理基础设施"
+    },
+    {
+      "name": "Agent 连续学习",
+      "category": "emerging",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Komi-learn 编码 Agent 连续记忆与自改进",
+      "trend": "new",
+      "notes": "从记忆检索到持续学习的范式转变"
+    },
+    {
+      "name": "金融电子表格 Agent 评估",
+      "category": "emerging",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "BlueFin LLM Agent 金融电子表格基准",
+      "trend": "new",
+      "notes": "前沿 LLM 平均得分 <50%，动态正确性是最大弱点"
+    },
+    {
+      "name": "API 知识边界管理",
+      "category": "emerging",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "PowerCodeBench 知识边界探测与需求引导干预",
+      "trend": "new",
+      "notes": "LLM 代码生成瓶颈从推理能力转向 API 知识管理"
+    },
+    {
+      "name": "凭证泄露三分类检测",
+      "category": "emerging",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "ICSME 2026 CNN-CodeBERT 三类凭证泄露检测",
+      "trend": "new",
+      "notes": "三分类比二分类显著降低误报，MCC 0.86"
+    },
+    {
+      "name": "边缘 AI 安全加密",
+      "category": "exploration",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "wolfCOSE 零分配嵌入式 COSE 栈",
+      "trend": "new",
+      "notes": "边缘 AI 设备安全加密需求增长"
+    },
+    {
+      "name": "Codex 安全边界突破",
+      "category": "emerging",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Codex sudo 权限绕过",
+      "trend": "rising",
+      "notes": "AI 编码代理安全边界问题，395 points HN 热议"
+    },
+    {
+      "name": "RLVR 代码生成奖励设计",
+      "category": "emerging",
+      "lastSeen": "2026-06-01",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "AINL-2026 RLVR 小模型代码生成",
+      "trend": "new",
+      "notes": "RLVR 对奖励设计高度敏感，组合奖励优于单一奖励"
     }
   ]
 }

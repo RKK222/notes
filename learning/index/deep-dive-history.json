@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-01T09:10:00+08:00",
+    "lastUpdated": "2026-06-01T11:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-06-01T09:10:00+08:00",
-    "totalItems": 358
+    "lastRun": "2026-06-01T11:00:00+08:00",
+    "totalItems": 365
   },
   "deepDives": [
     {
@@ -3952,6 +3952,83 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "动量时间注意力聚合 KV缓存压缩，2.3-3.2% 生成保真度提升"
+    },
+    {
+      "title": "Tiny-vLLM: C++/CUDA LLM 推理引擎",
+      "url": "https://github.com/jmaczan/tiny-vllm",
+      "type": "project",
+      "topic": "AI 推理基础设施",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "194 points HN，C++/CUDA 原生实现，毫秒级启动，无 Python 依赖"
+    },
+    {
+      "title": "Bonsai Image 4B: 1-bit 本地图像生成",
+      "url": "https://prismml.com/news/bonsai-image-4b",
+      "type": "project",
+      "topic": "边缘 AI",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "302 points HN，1-bit 量化，4B 参数，消费级设备部署"
+    },
+    {
+      "title": "Komi-learn: Agent 连续记忆与自改进",
+      "url": "https://github.com/kurikomi-labs/komi-learn",
+      "type": "project",
+      "topic": "Agent 学习",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "从记忆检索到持续学习的范式转变，在线学习机制"
+    },
+    {
+      "title": "Codex sudo 绕过: Agent 安全边界突破",
+      "url": "https://twitter.com/i/status/2060746160558543217",
+      "type": "project",
+      "topic": "Agent 安全",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "395 points HN，AI 编码代理权限管理风险"
+    },
+    {
+      "title": "What Breaks When LLMs Code? 操作安全分类学",
+      "url": "https://arxiv.org/abs/2605.30777",
+      "type": "paper",
+      "topic": "Agent 安全",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "547 个真实安全失败，33 类风险分类，60% 高/关键严重性"
+    },
+    {
+      "title": "BlueFin: 金融电子表格 LLM Agent 基准",
+      "url": "https://arxiv.org/abs/2605.30907",
+      "type": "paper",
+      "topic": "AI 评估",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "131 个金融电子表格任务，前沿 LLM <50% 得分，动态正确性最弱"
+    },
+    {
+      "title": "PowerCodeBench: 知识边界探测与干预",
+      "url": "https://arxiv.org/abs/2605.31478",
+      "type": "paper",
+      "topic": "代码生成",
+      "firstSeen": "2026-06-01",
+      "lastDeepDive": "2026-06-01",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "API 知识边界错误是主要失败原因，边界感知干预 41% token 成本实现 32-56 点提升"
     }
   ],
   "items": [
