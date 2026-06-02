@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-02T09:19:19+08:00",
+    "lastUpdated": "2026-06-02T11:03:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-02T09:19:19+08:00"
+    "lastRun": "2026-06-02T11:03:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -1388,6 +1388,56 @@
         "topic": "智能制造AI路线图2026",
         "reason": "48位作者权威路线图 工业AI方向参考",
         "priority": "medium"
+      },
+      {
+        "topic": "凭证泄露三分类检测",
+        "reason": "ICSME 2026 CNN-CodeBERT 三分类框架 MCC 0.86 跨语言泛化强",
+        "priority": "medium"
+      },
+      {
+        "topic": "RLVR小模型代码生成",
+        "reason": "Qwen3-0.6B/Llama3.2-1B + RLVR pass@1 +13pp 奖励设计敏感性",
+        "priority": "medium"
+      },
+      {
+        "topic": "治理-架构对应框架",
+        "reason": "首次桥接MSP治理原则和架构决策空间",
+        "priority": "medium"
+      },
+      {
+        "topic": "ASP抽象RL",
+        "reason": "ICLP 2026 CARCASS从Prolog迁移到ASP 完全声明式",
+        "priority": "medium"
+      },
+      {
+        "topic": "CDAF上下文依赖论证",
+        "reason": "FLoC 2026 扩展Dung理论 策略性操纵形式化",
+        "priority": "medium"
+      },
+      {
+        "topic": "SCALE自改进Web Agent",
+        "reason": "三对抗角色自主探索 无需专家轨迹 SCALE-20k数据集",
+        "priority": "medium"
+      },
+      {
+        "topic": "FAM-Bench食物即药物推理",
+        "reason": "2500实例13健康状况 填补医疗AI评估空白",
+        "priority": "medium"
+      },
+      {
+        "topic": "生化过程地质特征",
+        "reason": "Quanta Magazine HN 198分 挑战生命起源理解",
+        "priority": "medium"
+      },
+      {
+        "topic": "顺序堆叠硅扩展摩尔定律",
+        "reason": "UIUC三维集成 直接影响AI推理成本",
+        "priority": "medium"
+      },
+      {
+        "topic": "CoSee共享状态协作失败",
+        "reason": "更多计算≠更好性能 噪声强化+策略崩溃",
+        "priority": "medium"
       }
     ]
   },
@@ -1505,6 +1555,21 @@
     {
       "name": "形式化验证 × RL",
       "reason": "已在 W23 充分覆盖 (Dafny/Lean RLVR/ASP-RL)，降权",
+      "date": "2026-06-02"
+    },
+    {
+      "name": "Agent 记忆系统",
+      "reason": "已有 TraceGraph/GLIDE/COLLEAGUE.SKILL 覆盖",
+      "date": "2026-06-02"
+    },
+    {
+      "name": "知识图谱推理",
+      "reason": "HypoAgent 已在 09:10 报告覆盖",
+      "date": "2026-06-02"
+    },
+    {
+      "name": "形式化验证 × RL",
+      "reason": "已在 W23 充分覆盖",
       "date": "2026-06-02"
     }
   ]
