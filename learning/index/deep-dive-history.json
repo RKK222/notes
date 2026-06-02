@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-01T19:00:00+08:00",
+    "lastUpdated": "2026-06-02T09:19:19+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-06-01T19:00:00+08:00",
+    "lastRun": "2026-06-02T09:19:19+08:00",
     "totalItems": 370
   },
   "deepDives": [
@@ -4630,6 +4630,46 @@
       "topic": "逆向工程基准 REBench",
       "firstRecorded": "2026-05-03",
       "lastDeepDive": "2026-05-03"
+    },
+    {
+      "title": "MAVEN: Improving Generalization in Agentic Tool Calling",
+      "url": "https://arxiv.org/abs/2605.30738",
+      "type": "paper",
+      "topic": "Agent 工具调用泛化",
+      "firstSeen": "2026-06-02",
+      "lastDeepDive": "2026-06-02"
+    },
+    {
+      "title": "PReMISE: Policy Rubrics as Measurement Specifications for LLM Judges",
+      "url": "https://arxiv.org/abs/2605.30803",
+      "type": "paper",
+      "topic": "策略级 Rubric 审计",
+      "firstSeen": "2026-06-02",
+      "lastDeepDive": "2026-06-02"
+    },
+    {
+      "title": "AdaCoM: Adaptive Context Management for Long-Horizon Tasks",
+      "url": "https://arxiv.org/abs/2605.30785",
+      "type": "paper",
+      "topic": "外部上下文管理器",
+      "firstSeen": "2026-06-02",
+      "lastDeepDive": "2026-06-02"
+    },
+    {
+      "title": "supermemory: Memory Engine for the AI Era",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "type": "project",
+      "topic": "supermemory 记忆引擎",
+      "firstSeen": "2026-06-02",
+      "lastDeepDive": "2026-06-02"
+    },
+    {
+      "title": "Scrapling: Adaptive Web Scraping Framework",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "type": "project",
+      "topic": "Scrapling 自适应 Web 抓取",
+      "firstSeen": "2026-06-02",
+      "lastDeepDive": "2026-06-02"
     }
   ]
 }

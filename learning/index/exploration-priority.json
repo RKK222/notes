@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-01T19:00:00+08:00",
+    "lastUpdated": "2026-06-02T09:19:19+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-01T19:00:00+08:00"
+    "lastRun": "2026-06-02T09:19:19+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -102,7 +102,10 @@
         "Agent 评估基础设施化",
         "专家知识蒸馏技能包",
         "形式化验证 RL 融合",
-        "Agent 推理显式树结构"
+        "Agent 推理显式树结构",
+        "Agent 工具调用泛化",
+        "LLM 评估 rubric 审计",
+        "推理效率段级优化"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域 + 新兴高价值方向 + Agent 评估动态化 + LLM 供应链治理 + 多模态代码生成可信度"
@@ -1470,5 +1473,39 @@
     "Agent 记忆系统",
     "边缘 AI/EdgeLLM",
     "代码生成偏见"
+  ],
+  "new_explorations": [
+    {
+      "name": "医疗 AI 评估基础设施",
+      "reason": "EHRBench (KDD 2026 Oral) 和 Healthcare Mechanism Design 同时出现",
+      "added": "2026-06-02"
+    },
+    {
+      "name": "物理推理与具身 AI",
+      "reason": "BilliardPhys-Bench、PhyDrawGen、查询条件世界模型三条独立工作",
+      "added": "2026-06-02"
+    },
+    {
+      "name": "知识图谱推理扩散模型化",
+      "reason": "GRiD 和 HypoAgent 代表从符号到生成的范式转变",
+      "added": "2026-06-02"
+    }
+  ],
+  "downgraded": [
+    {
+      "name": "Agent 记忆系统",
+      "reason": "已有 Komi-learn/Memanto/Stash/AutoSci 覆盖，降权",
+      "date": "2026-06-02"
+    },
+    {
+      "name": "边缘 AI/EdgeLLM",
+      "reason": "已成熟，降权",
+      "date": "2026-06-02"
+    },
+    {
+      "name": "形式化验证 × RL",
+      "reason": "已在 W23 充分覆盖 (Dafny/Lean RLVR/ASP-RL)，降权",
+      "date": "2026-06-02"
+    }
   ]
 }
