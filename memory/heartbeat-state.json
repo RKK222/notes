@@ -1,7 +1,7 @@
 {
   "lastChecks": {
     "news": 1748671260,
-    "calendar": 1746134760,
+    "calendar": 1748846160,
     "email": 1744344060,
     "memory": 1748671260,
     "heartbeat": 1748671260,
@@ -13,7 +13,7 @@
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-05-31 17:41",
+    "lastUpdate": "2026-06-02 08:16",
     "newsBlocker": "Brave Search API 未配置",
     "newsTaskDisabled": "2026-04-08 13:45 - 临时禁用直到 API 配置",
     "pushMethod": "web_fetch (Brave API 未配置)",
