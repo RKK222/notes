@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-03T09:10:00+08:00",
+    "lastUpdated": "2026-06-03T11:04:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-03T09:10:00+08:00"
+    "lastRun": "2026-06-03T11:04:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -1521,6 +1521,36 @@
         "topic": "ClinEnv 临床代理过程评估",
         "reason": "首个评估信息收集过程 过程质量≠结果质量",
         "priority": "medium",
+        "added": "2026-06-03"
+      },
+      {
+        "topic": "AI 编码模型效率竞争",
+        "reason": "MAI-Code-1-Flash 代表价值/Token成为核心竞争力，HN 403 points",
+        "priority": "high",
+        "added": "2026-06-03"
+      },
+      {
+        "topic": "LLM 推理图拓扑分析",
+        "reason": "ICML 2026 将推理转化为可测量图结构，超越 token 计数",
+        "priority": "high",
+        "added": "2026-06-03"
+      },
+      {
+        "topic": "代理-仪器协议",
+        "reason": "LAP 填补 MCP/A2A 之间物理世界空白，自主科学基础设施",
+        "priority": "high",
+        "added": "2026-06-03"
+      },
+      {
+        "topic": "AI 保险损失重建",
+        "reason": "CER 框架连接技术安全、工程证据和金融保险",
+        "priority": "high",
+        "added": "2026-06-03"
+      },
+      {
+        "topic": "视觉推理 RL 优化",
+        "reason": "VEPO 揭示视觉敏感 token 在 RLVR 中的关键作用",
+        "priority": "high",
         "added": "2026-06-03"
       }
     ]

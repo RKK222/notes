@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-03T09:10:00+08:00",
+    "lastUpdated": "2026-06-03T11:04:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-06-03T09:10:00+08:00",
+    "lastRun": "2026-06-03T11:04:00+08:00",
     "totalItems": 381
   },
   "deepDives": [
@@ -4205,6 +4205,61 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "第三设计轴 单一SDPA调用 NIAH 7x加速 RLC2026潜力"
+    },
+    {
+      "title": "MAI-Code-1-Flash: Microsoft Coding Model",
+      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+      "type": "project",
+      "topic": "AI Coding Model",
+      "firstSeen": "2026-06-03",
+      "lastDeepDive": "2026-06-03",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "超越 Claude Haiku 4.5 SWE-Bench Pro +16pp token -60% 生产 harness 训练"
+    },
+    {
+      "title": "Flare: Fine-Grained Diagnostic Feedback for LLM Code Refinement",
+      "url": "https://arxiv.org/abs/2606.03852",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-06-03",
+      "lastDeepDive": "2026-06-03",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "行级可疑度定位 LiveCodeBench +8.50% 轻量级诊断模型"
+    },
+    {
+      "title": "VEPO: Vision-Anchored Token Selection for Visual Reasoning RL",
+      "url": "https://arxiv.org/abs/2606.03937",
+      "type": "paper",
+      "topic": "AI / RL",
+      "firstSeen": "2026-06-03",
+      "lastDeepDive": "2026-06-03",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "视觉敏感 token 在 RLVR 中关键作用 7B +2.28 3B +3.15"
+    },
+    {
+      "title": "Hedge-Bench: Financial Reasoning Benchmark",
+      "url": "https://arxiv.org/abs/2606.03918",
+      "type": "paper",
+      "topic": "AI Evaluation",
+      "firstSeen": "2026-06-03",
+      "lastDeepDive": "2026-06-03",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "102 真实对冲基金任务 确定性分级 前沿 <16%"
+    },
+    {
+      "title": "CER Framework: AI Loss Reconstruction and Insurance",
+      "url": "https://arxiv.org/abs/2606.03777",
+      "type": "paper",
+      "topic": "AI Security",
+      "firstSeen": "2026-06-03",
+      "lastDeepDive": "2026-06-03",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "控制边界+证据重建+保险响应 连接技术安全和金融保险"
     }
   ],
   "items": [
