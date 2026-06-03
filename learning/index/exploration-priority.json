@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-02T11:03:00+08:00",
+    "lastUpdated": "2026-06-03T09:10:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-02T19:00:00+08:00"
+    "lastRun": "2026-06-03T09:10:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -105,7 +105,19 @@
         "Agent 推理显式树结构",
         "Agent 工具调用泛化",
         "LLM 评估 rubric 审计",
-        "推理效率段级优化"
+        "推理效率段级优化",
+        "headroom LLM token压缩",
+        "SISA SSM-Attention分数级融合",
+        "COMAP 世界模型协同进化",
+        "SIRI 自内部化RL技能",
+        "SafeSteer 局部安全对齐",
+        "HLL CAPTCHA代理验证",
+        "AgentCL 持续学习评估",
+        "POIROT 代理自检",
+        "TEL-DRIFT 轨迹span级诊断",
+        "Iteris 计算数学研究代理",
+        "AgentPLM 推理增强蛋白质设计",
+        "ClinEnv 临床代理过程评估"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域 + 新兴高价值方向 + Agent 评估动态化 + LLM 供应链治理 + 多模态代码生成可信度"
@@ -1438,6 +1450,78 @@
         "topic": "CoSee共享状态协作失败",
         "reason": "更多计算≠更好性能 噪声强化+策略崩溃",
         "priority": "medium"
+      },
+      {
+        "topic": "headroom LLM token压缩",
+        "reason": "日增1265 stars 代理效率优化新方向 与8v/DeepClaude互补",
+        "priority": "high",
+        "added": "2026-06-03"
+      },
+      {
+        "topic": "SISA SSM-Attention分数级融合",
+        "reason": "第三设计轴定义 单一SDPA调用 工程友好",
+        "priority": "high",
+        "added": "2026-06-03"
+      },
+      {
+        "topic": "COMAP 世界模型协同进化",
+        "reason": "解决固定世界模型无法适应演化代理问题",
+        "priority": "high",
+        "added": "2026-06-03"
+      },
+      {
+        "topic": "SIRI 自内部化RL技能",
+        "reason": "技能内部化而非检索 推理时零额外开销",
+        "priority": "high",
+        "added": "2026-06-03"
+      },
+      {
+        "topic": "SafeSteer 局部安全对齐",
+        "reason": "100样本对齐 对齐成本-100x 安全特征稀疏性",
+        "priority": "high",
+        "added": "2026-06-03"
+      },
+      {
+        "topic": "HLL CAPTCHA代理验证",
+        "reason": "人类最后验证线 多模态代理能力测试",
+        "priority": "high",
+        "added": "2026-06-03"
+      },
+      {
+        "topic": "AgentCL 持续学习评估",
+        "reason": "首个rigorously评估框架 揭示朴素流局限",
+        "priority": "high",
+        "added": "2026-06-03"
+      },
+      {
+        "topic": "POIROT 代理自检",
+        "reason": "代理审计代理 开源+BLAME基准 EU AI Act合规",
+        "priority": "high",
+        "added": "2026-06-03"
+      },
+      {
+        "topic": "TEL-DRIFT 轨迹span级诊断",
+        "reason": "过程导向评估 与TraceGraph互补 +30pp提升",
+        "priority": "high",
+        "added": "2026-06-03"
+      },
+      {
+        "topic": "Iteris 计算数学研究代理",
+        "reason": "代理从解题到发现 人类验证仍必需 43页论文",
+        "priority": "medium",
+        "added": "2026-06-03"
+      },
+      {
+        "topic": "AgentPLM 推理增强蛋白质设计",
+        "reason": "PLM从被动到主动 ICML2026 Workshop",
+        "priority": "medium",
+        "added": "2026-06-03"
+      },
+      {
+        "topic": "ClinEnv 临床代理过程评估",
+        "reason": "首个评估信息收集过程 过程质量≠结果质量",
+        "priority": "medium",
+        "added": "2026-06-03"
       }
     ]
   },

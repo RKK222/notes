@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-02T19:00:00+08:00",
+    "lastUpdated": "2026-06-03T09:10:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-06-02T19:00:00+08:00",
-    "totalItems": 379
+    "lastRun": "2026-06-03T09:10:00+08:00",
+    "totalItems": 381
   },
   "deepDives": [
     {
@@ -4139,6 +4139,72 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "三对抗角色自主探索, SCALE-20k数据集"
+    },
+    {
+      "title": "headroom: LLM Token Compression Proxy",
+      "url": "https://github.com/chopratejas/headroom",
+      "type": "project",
+      "topic": "Agent效率优化",
+      "firstSeen": "2026-06-03",
+      "lastDeepDive": "2026-06-03",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "60-95% token压缩 Library/Proxy/MCP三模式 日增1265 stars 与8v/DeepClaude互补"
+    },
+    {
+      "title": "ECC: Agent Harness Performance Optimization",
+      "url": "https://github.com/affaan-m/ECC",
+      "type": "project",
+      "topic": "Agent Harness",
+      "firstSeen": "2026-06-03",
+      "lastDeepDive": "2026-06-03",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Skills+Instincts+Memory+Security+Research-First 多平台兼容"
+    },
+    {
+      "title": "Paseo: Open-Source Coding Agent Interface",
+      "url": "https://github.com/getpaseo/paseo",
+      "type": "project",
+      "topic": "Agent UI",
+      "firstSeen": "2026-06-03",
+      "lastDeepDive": "2026-06-03",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Show HN 编码代理GUI界面"
+    },
+    {
+      "title": "TEL-DRIFT: Span-Level Error Localization in Agent Trajectories",
+      "url": "https://arxiv.org/abs/2606.02060",
+      "type": "paper",
+      "topic": "Agent评估",
+      "firstSeen": "2026-06-03",
+      "lastDeepDive": "2026-06-03",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "2790轨迹 span级错误定位 +30pp 过程导向评估"
+    },
+    {
+      "title": "POIROT: Self-Auditing Multi-Agent Failure Detection",
+      "url": "https://arxiv.org/abs/2606.02282",
+      "type": "paper",
+      "topic": "多代理安全",
+      "firstSeen": "2026-06-03",
+      "lastDeepDive": "2026-06-03",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "代理审计代理 开源+BLAME基准 OR=1.60"
+    },
+    {
+      "title": "SISA: SSM-Informed Softmax Attention",
+      "url": "https://arxiv.org/abs/2606.02332",
+      "type": "paper",
+      "topic": "LLM架构",
+      "firstSeen": "2026-06-03",
+      "lastDeepDive": "2026-06-03",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "第三设计轴 单一SDPA调用 NIAH 7x加速 RLC2026潜力"
     }
   ],
   "items": [
