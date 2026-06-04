@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-04T11:04:00+08:00",
+    "lastUpdated": "2026-06-04T19:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-06-04T11:04:00+08:00",
-    "totalItems": 408
+    "lastRun": "2026-06-04T19:00:00+08:00",
+    "totalItems": 426
   },
   "deepDives": [
     {
@@ -4612,6 +4612,94 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": ""
+    },
+    {
+      "title": "AutoLab: Ultra Long-Horizon Closed-Loop Optimization",
+      "url": "https://arxiv.org/abs/2606.05080",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "36项专家策划任务，4领域，超长期闭环优化评估空白"
+    },
+    {
+      "title": "Strabo: Declarative Agentic Interaction Protocols",
+      "url": "https://arxiv.org/abs/2606.05043",
+      "type": "paper",
+      "topic": "Agent Infrastructure",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "AAMAS 2026，UCP建模为Langshaw协议，Peach代理互操作"
+    },
+    {
+      "title": "VRPCoder: Constraint Injection for LLM-Based Optimization",
+      "url": "https://arxiv.org/abs/2606.04816",
+      "type": "paper",
+      "topic": "Software Testing",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "双验证器，8B模型93% Pass@1，超越Gemini-3.1-Pro"
+    },
+    {
+      "title": "Gooey: GPU-Accelerated UI Framework for Zig",
+      "url": "https://github.com/duanebester/gooey",
+      "type": "project",
+      "topic": "New Domain",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Metal/Vulkan/WebGPU三平台，零外部依赖，纯状态模式"
+    },
+    {
+      "title": "herdr: Agent Multiplexer for Terminal",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "type": "project",
+      "topic": "Agent Infrastructure",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Rust实现，终端内代理复用器，代理时代的tmux"
+    },
+    {
+      "title": "AICompanionBench: AI Companion Safety Benchmark",
+      "url": "https://arxiv.org/abs/2606.04867",
+      "type": "paper",
+      "topic": "AI Safety",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "2123条Replika对话，9类安全风险，20模型评估"
+    },
+    {
+      "title": "R-APS: Reflective Adversarial Pareto Search",
+      "url": "https://arxiv.org/abs/2606.04823",
+      "type": "paper",
+      "topic": "AI/LLM",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "三时间尺度推理分解，4B竞争70B，3.5x鲁棒性证书"
+    },
+    {
+      "title": "BiasGRPO: Stabilizing Bias Mitigation via GRPO",
+      "url": "https://arxiv.org/abs/2606.04807",
+      "type": "paper",
+      "topic": "AI Safety",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ACL Findings，组相对策略优化，高方差奖励景观"
     }
   ],
   "items": [
