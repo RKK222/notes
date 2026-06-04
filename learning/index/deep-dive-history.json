@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-03T19:13:18+08:00",
+    "lastUpdated": "2026-06-04T09:10:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-06-03T19:13:18+08:00",
-    "totalItems": 392
+    "lastRun": "2026-06-04T09:10:00+08:00",
+    "totalItems": 400
   },
   "deepDives": [
     {
@@ -4326,6 +4326,94 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "分布偏移+规模约束, 59%正确率"
+    },
+    {
+      "title": "headroom: LLM Token Compression Proxy",
+      "url": "https://github.com/chopratejas/headroom",
+      "type": "project",
+      "topic": "Token效率优化",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "60-95% token压缩 Library/Proxy/MCP三模式 日增3530 stars"
+    },
+    {
+      "title": "ECC: Agent Harness Performance Optimization",
+      "url": "https://github.com/affaan-m/ECC",
+      "type": "project",
+      "topic": "Agent Harness",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "Skills+Instincts+Memory+Security+Research-First 多平台兼容"
+    },
+    {
+      "title": "Open-LLM-VTuber: Voice AI Agent Interface",
+      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+      "type": "project",
+      "topic": "Voice AI",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "8966 stars 日增693 免手语音交互+Live2D"
+    },
+    {
+      "title": "Reasoning Structure of LLMs (ICML 2026)",
+      "url": "https://arxiv.org/abs/2606.03883",
+      "type": "paper",
+      "topic": "LLM Evaluation",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "推理图拓扑分析 超越token计数 ICML 2026"
+    },
+    {
+      "title": "VEPO: Vision-Anchored RL for Visual Reasoning",
+      "url": "https://arxiv.org/abs/2606.03937",
+      "type": "paper",
+      "topic": "AI / RL",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "视觉敏感token在RLVR中的关键作用 7B+2.28 3B+3.15"
+    },
+    {
+      "title": "Hedge-Bench: Financial Reasoning Benchmark",
+      "url": "https://arxiv.org/abs/2606.03918",
+      "type": "paper",
+      "topic": "AI Evaluation",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "102真实对冲基金任务 确定性分级 前沿<16%"
+    },
+    {
+      "title": "DDOR: Delta Debugging for Overrefusal Testing",
+      "url": "https://arxiv.org/abs/2606.03601",
+      "type": "paper",
+      "topic": "AI Testing",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "经典delta debugging引入LLM安全测试 每模型1K案例"
+    },
+    {
+      "title": "SPOQ: Specialist Orchestrated Queuing",
+      "url": "https://arxiv.org/abs/2606.03115",
+      "type": "paper",
+      "topic": "Multi-Agent SE",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "17仓库8589commits 99.87%测试通过率 波次调度接近关键路径下限"
     }
   ],
   "items": [

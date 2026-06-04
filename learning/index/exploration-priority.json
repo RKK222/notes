@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-03T19:13:18+08:00",
+    "lastUpdated": "2026-06-04T09:10:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-03T19:13:18+08:00"
+    "lastRun": "2026-06-04T09:10:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -1552,6 +1552,30 @@
         "reason": "VEPO 揭示视觉敏感 token 在 RLVR 中的关键作用",
         "priority": "high",
         "added": "2026-06-03"
+      },
+      {
+        "topic": "机器心智理论 (Machine ToM)",
+        "reason": "首次严格形式定义Machine ToM 基于认知心理学/神经科学/AI证据",
+        "priority": "medium",
+        "added": "2026-06-04"
+      },
+      {
+        "topic": "社会化代理进化 (SAGE)",
+        "reason": "群体历史vs自我进化 社会收益取决于抽象而非暴露量",
+        "priority": "medium",
+        "added": "2026-06-04"
+      },
+      {
+        "topic": "确定性记忆框架 (DMF)",
+        "reason": "零token记忆管理 5-242x token减少 确定性NLP替代LLM生成",
+        "priority": "medium",
+        "added": "2026-06-04"
+      },
+      {
+        "topic": "代理-仪器协议 (LAP)",
+        "reason": "填补MCP/A2A之间物理世界空白 四个物理世界原语",
+        "priority": "high",
+        "added": "2026-06-04"
       }
     ]
   },
@@ -1685,12 +1709,31 @@
       "name": "形式化验证 × RL",
       "reason": "已在 W23 充分覆盖",
       "date": "2026-06-02"
+    },
+    {
+      "name": "Agent 记忆系统",
+      "reason": "已有 Komi-learn/Memanto/Stash/DMF 覆盖 降权",
+      "date": "2026-06-04"
+    },
+    {
+      "name": "边缘 AI/EdgeLLM",
+      "reason": "已成熟 降为周跟踪",
+      "date": "2026-06-04"
+    },
+    {
+      "name": "形式化验证 × RL",
+      "reason": "已在 W23 充分覆盖 降权",
+      "date": "2026-06-04"
     }
   ],
   "newHighPriority": [
     "推理效率优化（ThoughtFold内省冗余识别）",
     "代理过程级评估（NovelAPIBench/StepFinder）",
     "形式化数学代理（LEAP）",
-    "医疗AI代理（MedCUA-Bench/ClinicalMC）"
+    "医疗AI代理（MedCUA-Bench/ClinicalMC）",
+    "推理效率优化（ThoughtFold内省冗余识别）",
+    "代理过程级评估（StepFinder/Reasoning Structure）",
+    "形式化验证嵌入式扩展（Encore! Rocq→MCU）",
+    "Token效率优化栈（headroom/8v/DeepClaude）"
   ]
 }
