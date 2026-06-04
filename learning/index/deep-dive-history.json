@@ -1,10 +1,10 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-04T09:10:00+08:00",
+    "lastUpdated": "2026-06-04T11:04:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-06-04T09:10:00+08:00",
+    "lastRun": "2026-06-04T11:04:00+08:00",
     "totalItems": 408
   },
   "deepDives": [
@@ -4502,6 +4502,116 @@
       "deepDiveCount": 1,
       "status": "active",
       "notes": "17仓库8589commits 99.87%测试通过率 波次调度接近关键路径下限"
+    },
+    {
+      "title": "StreamMA: Streaming Communication in Multi-Agent Reasoning",
+      "url": "https://arxiv.org/abs/2606.05158",
+      "type": "paper",
+      "topic": "流式多代理推理",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": ""
+    },
+    {
+      "title": "TMEM: Scaling Self-Evolving Agents via Parametric Memory",
+      "url": "https://arxiv.org/abs/2606.04536",
+      "type": "paper",
+      "topic": "参数化自进化记忆",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": ""
+    },
+    {
+      "title": "The Meta-Agent Challenge (MAC)",
+      "url": "https://arxiv.org/abs/2606.04455",
+      "type": "paper",
+      "topic": "元代理开发评估",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": ""
+    },
+    {
+      "title": "CHARM: Cascading Hallucination in Agentic RAG",
+      "url": "https://arxiv.org/abs/2606.04435",
+      "type": "paper",
+      "topic": "级联幻觉检测",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": ""
+    },
+    {
+      "title": "AIP: Agent Instruction Protocol",
+      "url": "https://arxiv.org/abs/2606.04781",
+      "type": "paper",
+      "topic": "代理技能图谱化",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": ""
+    },
+    {
+      "title": "The Saturation Trap: Intervention Timing Failure",
+      "url": "https://arxiv.org/abs/2606.04296",
+      "type": "paper",
+      "topic": "代理安全测试",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": ""
+    },
+    {
+      "title": "FALSIFYBENCH: Inductive Reasoning Evaluation",
+      "url": "https://arxiv.org/abs/2606.04751",
+      "type": "paper",
+      "topic": "归纳推理评估",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": ""
+    },
+    {
+      "title": "Parthenon Law: Self-Evolving Legal-Agent",
+      "url": "https://arxiv.org/abs/2606.04602",
+      "type": "paper",
+      "topic": "法律代理",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": ""
+    },
+    {
+      "title": "Consequence-Aware Compute Allocation",
+      "url": "https://arxiv.org/abs/2606.04402",
+      "type": "paper",
+      "topic": "推理效率",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": ""
+    },
+    {
+      "title": "Inference-Time Vulnerability Beyond Shallow Safety",
+      "url": "https://arxiv.org/abs/2606.04778",
+      "type": "paper",
+      "topic": "LLM安全",
+      "firstSeen": "2026-06-04",
+      "lastDeepDive": "2026-06-04",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": ""
     }
   ],
   "items": [

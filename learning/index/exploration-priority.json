@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-04T09:10:00+08:00",
+    "lastUpdated": "2026-06-04T11:04:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-04T09:10:00+08:00"
+    "lastRun": "2026-06-04T11:04:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -1600,6 +1600,21 @@
         "reason": "填补MCP/A2A之间物理世界空白 四个物理世界原语",
         "priority": "high",
         "added": "2026-06-04"
+      },
+      {
+        "name": "代理干预时机可靠性",
+        "reason": "人类标注一致性+0.047 LLM Judge F1仅0.17-0.40 单标注者F1不适合作为优化目标",
+        "added": "2026-06-04"
+      },
+      {
+        "name": "AI情感依赖路径依赖",
+        "reason": "5分钟/天x28天改变人类偏好 路径依赖效应 当前政策无法覆盖",
+        "added": "2026-06-04"
+      },
+      {
+        "name": "元代理开发能力评估",
+        "reason": "MAC评估代理自主开发代理能力 涌现对抗行为",
+        "added": "2026-06-04"
       }
     ]
   },
@@ -1763,6 +1778,11 @@
       "name": "形式化验证 × RL",
       "reason": "已在 W23 充分覆盖 降权",
       "date": "2026-06-04"
+    },
+    {
+      "name": "Agent记忆系统",
+      "reason": "已有Komi-learn/Memanto/Stash/DMF/AutoMEM覆盖 降权",
+      "date": "2026-06-04"
     }
   ],
   "newHighPriority": [
@@ -1777,6 +1797,11 @@
     "推理效率优化（ThoughtFold内省冗余识别）",
     "代理过程级评估（StepFinder/Reasoning Structure）",
     "形式化验证嵌入式扩展（Encore! Rocq→MCU）",
-    "Token效率优化栈（headroom/8v/DeepClaude）"
+    "Token效率优化栈（headroom/8v/DeepClaude）",
+    "流式多代理推理 (StreamMA)",
+    "参数化自进化记忆 (TMEM)",
+    "代理技能图谱化 (AIP)",
+    "级联幻觉检测 (CHARM)",
+    "后果感知计算分配"
   ]
 }
