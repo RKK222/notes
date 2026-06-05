@@ -5,7 +5,7 @@
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-04T19:00:00+08:00"
+    "lastRun": "2026-06-05T09:10:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -1790,6 +1790,16 @@
       "name": "Agent记忆系统",
       "reason": "已有Komi-learn/Memanto/Stash/DMF/AutoMEM覆盖 降权",
       "date": "2026-06-04"
+    },
+    {
+      "name": "Agent记忆系统",
+      "reason": "已有Komi-learn/Memanto/Stash/DMF/AutoMEM/InfoMem覆盖 降权",
+      "date": "2026-06-05"
+    },
+    {
+      "name": "headroom token压缩",
+      "reason": "连续3天深度覆盖 边际收益递减",
+      "date": "2026-06-05"
     }
   ],
   "newHighPriority": [
@@ -1809,6 +1819,44 @@
     "参数化自进化记忆 (TMEM)",
     "代理技能图谱化 (AIP)",
     "级联幻觉检测 (CHARM)",
-    "后果感知计算分配"
+    "后果感知计算分配",
+    "Self-Reflective APIs 结构化恢复",
+    "MCP描述-代码不一致检测",
+    "LLM推理静默错误诊断",
+    "Agent预算超支实证",
+    "代码生存期行级分析",
+    "PCAA运行时中立治理",
+    "AEI Agent认知完整性",
+    "FAOS企业代理预部署验证",
+    "Invisible Lottery算法选择偏差",
+    "Unpredictable Safety领域依赖合规",
+    "CodegenBench跨架构代码生成"
+  ],
+  "newExplorations": [
+    {
+      "name": "MCP安全生态",
+      "reason": "DCIChecker揭示9.93%描述-代码不一致，MCP安全盲区",
+      "added": "2026-06-05"
+    },
+    {
+      "name": "Agent预算控制",
+      "reason": "63起事故揭示委托扇出竞赛是主要失败模式",
+      "added": "2026-06-05"
+    },
+    {
+      "name": "LLM推理基础设施质量",
+      "reason": "Ekka静默错误诊断+Vul-RAG可复现性，推理框架从能用走向可验证",
+      "added": "2026-06-05"
+    },
+    {
+      "name": "Software 4.0仿生架构",
+      "reason": "Recognitive语言提出自调节代谢网络，编程范式根本性重新思考",
+      "added": "2026-06-05"
+    },
+    {
+      "name": "HighTide VLSI AI策展",
+      "reason": "AI策展硬件基准新方向，12代理技能覆盖设计生命周期",
+      "added": "2026-06-05"
+    }
   ]
 }
