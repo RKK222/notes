@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-04T19:00:00+08:00",
+    "lastUpdated": "2026-06-05T19:00:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-05T09:10:00+08:00"
+    "lastRun": "2026-06-05T19:00:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -120,7 +120,16 @@
         "评估审计工具链",
         "跨架构知识蒸馏",
         "零服务器代码智能",
-        "高保真代码验证"
+        "高保真代码验证",
+        "Hermes Agent 自学习闭环",
+        "Tangram 非均匀 KV 缓存",
+        "CodeGraph 代码知识图谱",
+        "Agent-as-a-Service 范式",
+        "oh-my-pi 终端编码代理",
+        "MicroSkill 架构",
+        "Code2LoRA 超网络适配器",
+        "MCP 运行时故障分类学",
+        "DeployBench 研究工件部署"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域 + 新兴高价值方向 + Agent 评估动态化 + LLM 供应链治理 + 多模态代码生成可信度"
@@ -442,7 +451,9 @@
         "数据库",
         "编译器",
         "量子软件测试",
-        "Agent Skill 生态治理"
+        "Agent Skill 生态治理",
+        "Agent 记忆系统",
+        "headroom token 压缩"
       ],
       "allocationPercent": 5,
       "rationale": "重复覆盖，降低优先级避免冗余；量子软件测试实用化尚早"
