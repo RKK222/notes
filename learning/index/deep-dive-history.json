@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-04T19:00:00+08:00",
+    "lastUpdated": "2026-06-05T09:10:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-06-04T19:00:00+08:00",
-    "totalItems": 426
+    "lastRun": "2026-06-05T09:10:00+08:00",
+    "totalItems": 85
   },
   "deepDives": [
     {
@@ -5286,6 +5286,138 @@
       "topic": "Scrapling 自适应 Web 抓取",
       "firstSeen": "2026-06-02",
       "lastDeepDive": "2026-06-02"
+    },
+    {
+      "title": "DCIChecker: Description-Code Inconsistency in MCP Servers",
+      "url": "https://arxiv.org/abs/2606.04769",
+      "type": "paper",
+      "topic": "MCP安全/Agent Security",
+      "firstSeen": "2026-06-05",
+      "lastDeepDive": "2026-06-05",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "19,200描述-代码对9.93%不一致，功能不一致+未声明副作用分类学，静态分析+提示交叉验证"
+    },
+    {
+      "title": "Ekka: Automated Diagnosis of Silent Errors in LLM Inference",
+      "url": "https://arxiv.org/abs/2606.04594",
+      "type": "paper",
+      "topic": "AI Testing/LLM Infrastructure",
+      "firstSeen": "2026-06-05",
+      "lastDeepDive": "2026-06-05",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "ICML 2026，差分调试静默错误，80% pass@1，发现4个新静默错误"
+    },
+    {
+      "title": "Self-Reflective APIs: Structure Beats Verbosity for AI Agent Recovery",
+      "url": "https://arxiv.org/abs/2606.05037",
+      "type": "paper",
+      "topic": "AI Testing/API Design",
+      "firstSeen": "2026-06-05",
+      "lastDeepDive": "2026-06-05",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "结构化恢复建议替代自然语言诊断，任务完成率+36.7~40.0pp，泄漏审计发现两类未文档化答案泄漏"
+    },
+    {
+      "title": "The Invisible Lottery: Algorithm Choice Steering in LLM Code Generation",
+      "url": "https://arxiv.org/abs/2606.04057",
+      "type": "paper",
+      "topic": "Software Testing/LLM Code Generation",
+      "firstSeen": "2026-06-05",
+      "lastDeepDive": "2026-06-05",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "46,535实验揭示提示意外上下文导致算法选择偏移100pp，功能正确性≠代码质量"
+    },
+    {
+      "title": "PCAA: Proof-Carrying Agent Actions",
+      "url": "https://arxiv.org/abs/2606.04104",
+      "type": "paper",
+      "topic": "Agent Security/Runtime Governance",
+      "firstSeen": "2026-06-05",
+      "lastDeepDive": "2026-06-05",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "运行时中立治理模型，行动证书替代供应商记录，5检查点+可移植信封"
+    },
+    {
+      "title": "63 LLM-Agent Budget-Overrun Incidents Catalog",
+      "url": "https://arxiv.org/abs/2606.04056",
+      "type": "paper",
+      "topic": "AI Testing/Agent Reliability",
+      "firstSeen": "2026-06-05",
+      "lastDeepDive": "2026-06-05",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "21框架63起事故8类分类学，委托扇出竞赛是主要失败模式，Rust affine缓解"
+    },
+    {
+      "title": "headroom: LLM Token Compression Proxy",
+      "url": "https://github.com/chopratejas/headroom",
+      "type": "project",
+      "topic": "Agent效率优化",
+      "firstSeen": "2026-06-03",
+      "lastDeepDive": "2026-06-05",
+      "deepDiveCount": 3,
+      "status": "active",
+      "notes": "60-95% token压缩，Library/Proxy/MCP三模式，12,543 stars"
+    },
+    {
+      "title": "ECC: Agent Harness Performance Optimization",
+      "url": "https://github.com/affaan-m/ECC",
+      "type": "project",
+      "topic": "Agent Harness",
+      "firstSeen": "2026-06-03",
+      "lastDeepDive": "2026-06-05",
+      "deepDiveCount": 3,
+      "status": "active",
+      "notes": "Skills+Instincts+Memory+Security五层架构，207K stars"
+    },
+    {
+      "title": "TeleSWEBench: Telecom SWE Agent Benchmark",
+      "url": "https://arxiv.org/abs/2606.05001",
+      "type": "paper",
+      "topic": "AI Testing/Domain-Specific",
+      "firstSeen": "2026-06-05",
+      "lastDeepDive": "2026-06-05",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "734问题srsRAN 5G，TeleJudge分层评估，最强工具仅25%可交付"
+    },
+    {
+      "title": "Code Lifespan Survival Analysis (CLSA)",
+      "url": "https://arxiv.org/abs/2606.04993",
+      "type": "paper",
+      "topic": "Software Testing/Code Quality",
+      "firstSeen": "2026-06-05",
+      "lastDeepDive": "2026-06-05",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "3250万行120仓库，AST结构+行熵预测删除风险，中位寿命95.7天"
+    },
+    {
+      "title": "FAOS: Pre-Deployment Assurance for Enterprise AI Agents",
+      "url": "https://arxiv.org/abs/2606.04037",
+      "type": "paper",
+      "topic": "AI Testing/Enterprise",
+      "firstSeen": "2026-06-05",
+      "lastDeepDive": "2026-06-05",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "本体驱动4行业1,800场景125监管要求，本体生成超越persona 48.3% vs 33.1%"
+    },
+    {
+      "title": "CodegenBench: Cross-Architecture Code Generation",
+      "url": "https://arxiv.org/abs/2606.04023",
+      "type": "paper",
+      "topic": "AI Testing/Cross-Platform",
+      "firstSeen": "2026-06-05",
+      "lastDeepDive": "2026-06-05",
+      "deepDiveCount": 1,
+      "status": "active",
+      "notes": "106 BLAS+20内核×3架构，SOTA在受限架构显著退化"
     }
   ]
 }
