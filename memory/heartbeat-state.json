@@ -4,7 +4,7 @@
     "calendar": 1749072120,
     "email": 1744344060,
     "memory": 1748671260,
-    "heartbeat": 1749072120,
+    "heartbeat": 1749110520,
     "flightMonitor": 1746406380
   },
   "lastNewsPush": 1742910540,
@@ -13,7 +13,7 @@
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-06-05 08:02",
+    "lastUpdate": "2026-06-05 14:02",
     "newsBlocker": "Brave Search API 未配置",
     "newsTaskDisabled": "2026-04-08 13:45 - 临时禁用直到 API 配置",
     "pushMethod": "web_fetch (Brave API 未配置)",
