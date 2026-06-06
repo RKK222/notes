@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-05T19:00:00+08:00",
+    "lastUpdated": "2026-06-06T11:03:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
@@ -1841,7 +1841,14 @@
     "FAOS企业代理预部署验证",
     "Invisible Lottery算法选择偏差",
     "Unpredictable Safety领域依赖合规",
-    "CodegenBench跨架构代码生成"
+    "CodegenBench跨架构代码生成",
+    "Code2LoRA 超网络代码适配器",
+    "HarnessFix Agent Harness 故障诊断",
+    "RedKnot 头部感知 KV 缓存",
+    "ReLAT 闭环潜推理",
+    "CMTF 因果工具过滤",
+    "ANCHOR 自进化系统人类监督",
+    "奖励黑客到 Agent 风险状态"
   ],
   "newExplorations": [
     {
@@ -1868,6 +1875,26 @@
       "name": "HighTide VLSI AI策展",
       "reason": "AI策展硬件基准新方向，12代理技能覆盖设计生命周期",
       "added": "2026-06-05"
+    },
+    {
+      "name": "Agent Harness 故障诊断学",
+      "reason": "HarnessFix 揭示 HTIR 中间表示和 ETCLOVG 七层分类法，Agent 调试从行为级到架构级",
+      "added": "2026-06-06"
+    },
+    {
+      "name": "头部感知 KV 缓存管理",
+      "reason": "RedKnot 打破单体 KV 缓存抽象，头级分解为结构化内存对象",
+      "added": "2026-06-06"
+    },
+    {
+      "name": "闭环潜推理",
+      "reason": "ReLAT 用查询重建关闭潜推理循环，信息守恒定律",
+      "added": "2026-06-06"
+    },
+    {
+      "name": "因果工具选择",
+      "reason": "CMTF 从语义相关性到因果充分性，token 减少 90%",
+      "added": "2026-06-06"
     }
   ]
 }
