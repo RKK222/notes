@@ -47,10 +47,50 @@
       "topic": "DeployBench 研究工件部署",
       "firstRecorded": "2026-06-05",
       "lastDeepDive": "2026-06-05"
+    },
+    {
+      "title": "Code2LoRA - 超网络生成的代码模型适配器",
+      "url": "https://arxiv.org/abs/2606.06492",
+      "type": "paper",
+      "topic": "Code2LoRA 超网络代码适配器",
+      "firstRecorded": "2026-06-06",
+      "lastDeepDive": "2026-06-06"
+    },
+    {
+      "title": "HarnessFix - 从失败轨迹诊断修复 Agent Harness",
+      "url": "https://arxiv.org/abs/2606.06324",
+      "type": "paper",
+      "topic": "HarnessFix Agent Harness 故障诊断",
+      "firstRecorded": "2026-06-06",
+      "lastDeepDive": "2026-06-06"
+    },
+    {
+      "title": "Goedel-Architect - 蓝图生成与精炼的形式化定理证明",
+      "url": "https://arxiv.org/abs/2606.06468",
+      "type": "paper",
+      "topic": "Goedel-Architect 蓝图定理证明",
+      "firstRecorded": "2026-06-06",
+      "lastDeepDive": "2026-06-06"
+    },
+    {
+      "title": "RedKnot - 头部感知 KV 缓存管理系统",
+      "url": "https://arxiv.org/abs/2606.06256",
+      "type": "paper",
+      "topic": "RedKnot 头部感知 KV 缓存",
+      "firstRecorded": "2026-06-06",
+      "lastDeepDive": "2026-06-06"
+    },
+    {
+      "title": "ReLAT - 测试时重建引导的潜推理闭环",
+      "url": "https://arxiv.org/abs/2606.06252",
+      "type": "paper",
+      "topic": "ReLAT 闭环潜推理",
+      "firstRecorded": "2026-06-06",
+      "lastDeepDive": "2026-06-06"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-05T19:00:00+08:00",
-    "totalEntries": 6
+    "lastUpdated": "2026-06-06T11:03:00+08:00",
+    "totalEntries": 11
   }
 }
