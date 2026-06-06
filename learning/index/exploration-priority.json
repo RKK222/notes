@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-06T11:03:00+08:00",
+    "lastUpdated": "2026-06-06T19:00:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-05T19:00:00+08:00"
+    "lastRun": "2026-06-06T19:00:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -129,7 +129,13 @@
         "MicroSkill 架构",
         "Code2LoRA 超网络适配器",
         "MCP 运行时故障分类学",
-        "DeployBench 研究工件部署"
+        "DeployBench 研究工件部署",
+        "扩散模型RAG（SARDI）",
+        "潜推理归一化流（NF-CoT）",
+        "代码重构质量评估（SmellBench）",
+        "Agent沙箱基础设施（Sandboxes）",
+        "Agent自愿退出信号（Recusal Signal）",
+        "跨层稀疏注意力（CLSA）"
       ],
       "allocationPercent": 40,
       "rationale": "核心研究领域 + 新兴高价值方向 + Agent 评估动态化 + LLM 供应链治理 + 多模态代码生成可信度"
@@ -537,6 +543,24 @@
         "Agent Skill生态(browserbase/cocoindex/ruflo)",
         "Agent记忆系统(MemCoE/Memanto/Stash)",
         "代码生成偏见(SocialBias-Bench)"
+      ]
+    },
+    "tier3_emerging": {
+      "name": "新兴探索方向（值得持续观察）",
+      "description": "低频但技术价值高，建议每周关注",
+      "topics": [
+        "无线JEPA基础模型（LatentWave）",
+        "音频统一分词器（F3-Tokenizer）",
+        "Agent自愿退出信号（Recusal Signal）",
+        "人形机器人全身控制（HANDOFF）",
+        "VLA速度控制（TempoVLA）",
+        "自动驾驶场景生成（RiskFlow）",
+        "3D场景生成（HomeWorld）",
+        "多玩家博弈均衡（DNQ）",
+        "曲率分层评估（CurvBench）",
+        "放射学比较推理（MedReCo）",
+        "因果图谱（Causal Atlases）",
+        "逆向工程Agent（Ghidra RPC）"
       ]
     }
   },
