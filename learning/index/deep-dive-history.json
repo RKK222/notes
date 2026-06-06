@@ -87,10 +87,50 @@
       "topic": "ReLAT 闭环潜推理",
       "firstRecorded": "2026-06-06",
       "lastDeepDive": "2026-06-06"
+    },
+    {
+      "title": "SARDI: Self-Augmenting Retrieval for Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2606.06474",
+      "type": "paper",
+      "topic": "SARDI 扩散模型渐进式RAG",
+      "firstRecorded": "2026-06-06",
+      "lastDeepDive": "2026-06-06"
+    },
+    {
+      "title": "NF-CoT: Latent Reasoning with Normalizing Flows",
+      "url": "https://arxiv.org/abs/2606.06447",
+      "type": "paper",
+      "topic": "NF-CoT 潜推理归一化流",
+      "firstRecorded": "2026-06-06",
+      "lastDeepDive": "2026-06-06"
+    },
+    {
+      "title": "SmellBench: Fine-Grained Evaluation of Code Agents on Refactoring",
+      "url": "https://arxiv.org/abs/2606.05574",
+      "type": "paper",
+      "topic": "SmellBench 代码重构质量评估",
+      "firstRecorded": "2026-06-06",
+      "lastDeepDive": "2026-06-06"
+    },
+    {
+      "title": "Sandboxes - Self-Hosted Dev Sandboxes for Coding Agents",
+      "url": "https://github.com/tastyeffectco/sandboxes",
+      "type": "project",
+      "topic": "Sandboxes Agent沙箱基础设施",
+      "firstRecorded": "2026-06-06",
+      "lastDeepDive": "2026-06-06"
+    },
+    {
+      "title": "Ghidra RPC - Agentic Reverse Engineering Skill",
+      "url": "https://github.com/celebbrite-labs/ghidra-rpc",
+      "type": "project",
+      "topic": "Ghidra RPC 逆向工程Agent",
+      "firstRecorded": "2026-06-06",
+      "lastDeepDive": "2026-06-06"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-06T11:03:00+08:00",
-    "totalEntries": 11
+    "lastUpdated": "2026-06-06T19:00:00+08:00",
+    "totalEntries": 16
   }
 }
