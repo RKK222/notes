@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-06T19:00:00+08:00",
+    "lastUpdated": "2026-06-07T09:10:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-06-06T19:00:00+08:00",
-    "totalTopics": 1011,
+    "lastRun": "2026-06-07T09:10:00+08:00",
+    "totalTopics": 1014,
     "totalItems": 19
   },
   "topics": [
@@ -13297,10 +13297,10 @@
     {
       "name": "RedKnot 头部感知 KV 缓存",
       "category": "ai",
-      "lastSeen": "2026-06-06",
+      "lastSeen": "2026-06-07",
       "lastDeepDive": "2026-06-06",
-      "repeatCount7d": 2,
-      "repeatCount30d": 2,
+      "repeatCount7d": 3,
+      "repeatCount30d": 3,
       "priority": "high",
       "isCore": true,
       "shouldDowngrade": false,
@@ -13967,6 +13967,48 @@
       "representativeItem": "Ghidra RPC Agent自主二进制安全分析",
       "trend": "new",
       "notes": "专业逆向工程工具暴露给AI Agent"
+    },
+    {
+      "name": "因果工具选择",
+      "category": "emerging",
+      "lastSeen": "2026-06-07",
+      "lastDeepDive": "2026-06-07",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "CMTF 因果最小工具过滤 token-90%",
+      "trend": "new",
+      "notes": "从语义相关性到因果充分性的工具选择范式转变，Agent 工具治理关键突破"
+    },
+    {
+      "name": "Head 级 KV 缓存管理",
+      "category": "emerging",
+      "lastSeen": "2026-06-07",
+      "lastDeepDive": "2026-06-07",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "RedKnot 头部感知 KV 缓存管理系统",
+      "trend": "new",
+      "notes": "打破单体 KV 缓存抽象，head 级分解为结构化内存对象，长上下文推理关键优化方向"
+    },
+    {
+      "name": "Agent 工具治理",
+      "category": "emerging",
+      "lastSeen": "2026-06-07",
+      "lastDeepDive": "2026-06-07",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "CMTF 因果最小工具过滤",
+      "trend": "new",
+      "notes": "工具选择从暴露所有到因果最小是必然趋势，Agent 工具治理成为独立研究方向"
     }
   ],
   "items": [

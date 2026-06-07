@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-06T19:00:00+08:00",
+    "lastUpdated": "2026-06-07T09:10:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-06T19:00:00+08:00"
+    "lastRun": "2026-06-07T09:10:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -1872,7 +1872,11 @@
     "ReLAT 闭环潜推理",
     "CMTF 因果工具过滤",
     "ANCHOR 自进化系统人类监督",
-    "奖励黑客到 Agent 风险状态"
+    "奖励黑客到 Agent 风险状态",
+    "因果工具选择（CMTF）",
+    "Head 级 KV 缓存管理（RedKnot）",
+    "Agent 工具治理",
+    "稀疏注意力服务（Vortex）"
   ],
   "newExplorations": [
     {
@@ -1919,6 +1923,16 @@
       "name": "因果工具选择",
       "reason": "CMTF 从语义相关性到因果充分性，token 减少 90%",
       "added": "2026-06-06"
+    },
+    {
+      "name": "Head 级 KV 缓存管理",
+      "reason": "RedKnot 打破单体 KV 缓存抽象，head 级分解为结构化内存对象",
+      "added": "2026-06-07"
+    },
+    {
+      "name": "Agent 工具治理",
+      "reason": "工具选择从暴露所有到因果最小是必然趋势，Agent 工具治理成为独立研究方向",
+      "added": "2026-06-07"
     }
   ]
 }
