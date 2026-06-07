@@ -143,10 +143,58 @@
       "topic": "稀疏注意力服务",
       "firstRecorded": "2026-06-07",
       "lastDeepDive": "2026-06-07"
+    },
+    {
+      "title": "DragOn: A Benchmark and Dataset for Drag-Based GUI Interactions",
+      "url": "https://arxiv.org/abs/2606.06322",
+      "type": "paper",
+      "topic": "DragOn GUI拖拽基准",
+      "firstRecorded": "2026-06-07",
+      "lastDeepDive": "2026-06-07"
+    },
+    {
+      "title": "SASA: Subspace-Aware Sparse Autoencoders for Mechanistic Interpretability",
+      "url": "https://arxiv.org/abs/2606.06333",
+      "type": "paper",
+      "topic": "SASA 子空间稀疏自编码器",
+      "firstRecorded": "2026-06-07",
+      "lastDeepDive": "2026-06-07"
+    },
+    {
+      "title": "ATWU: Learning What to Forget via Token-Level Importance",
+      "url": "https://arxiv.org/abs/2606.06320",
+      "type": "paper",
+      "topic": "ATWU Token级遗忘学习",
+      "firstRecorded": "2026-06-07",
+      "lastDeepDive": "2026-06-07"
+    },
+    {
+      "title": "goose - Swift Proof-of-Concept Agent Framework",
+      "url": "https://github.com/b-nnett/goose",
+      "type": "project",
+      "topic": "Goose Swift Agent框架",
+      "firstRecorded": "2026-06-07",
+      "lastDeepDive": "2026-06-07"
+    },
+    {
+      "title": "Will the Agent Recuse Itself? Measuring LLM-Agent Compliance",
+      "url": "https://arxiv.org/abs/2606.06460",
+      "type": "paper",
+      "topic": "Recuse Signal Agent合规治理",
+      "firstRecorded": "2026-06-07",
+      "lastDeepDive": "2026-06-07"
+    },
+    {
+      "title": "DataCOPE: Unsupervised Skill Discovery for Agentic Data Analysis",
+      "url": "https://arxiv.org/abs/2606.06416",
+      "type": "paper",
+      "topic": "DataCOPE 无监督技能发现",
+      "firstRecorded": "2026-06-07",
+      "lastDeepDive": "2026-06-07"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-07T09:10:00+08:00",
-    "totalEntries": 18
+    "lastUpdated": "2026-06-07T11:02:00+08:00",
+    "totalEntries": 24
   }
 }
