@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-07T09:10:00+08:00",
+    "lastUpdated": "2026-06-07T11:02:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-07T09:10:00+08:00"
+    "lastRun": "2026-06-07T11:02:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -1934,5 +1934,27 @@
       "reason": "工具选择从暴露所有到因果最小是必然趋势，Agent 工具治理成为独立研究方向",
       "added": "2026-06-07"
     }
-  ]
+  ],
+  "tier2_emerging": {
+    "name": "新兴关注",
+    "topics": [
+      "Agent 合规治理 (Recuse Signal)",
+      "GUI 拖拽基准 (DragOn)",
+      "LLM 遗忘学习 (ATWU)",
+      "SASA 子空间稀疏自编码器",
+      "SARDI 扩散模型RAG",
+      "LatentWave JEPA无线基础模型",
+      "量子稀有事件采样",
+      "涌现语言与意识AI",
+      "DataCOPE 无监督技能发现"
+    ]
+  },
+  "tier4_downgraded": {
+    "name": "已降权",
+    "topics": [
+      "Agent 记忆系统 (已充分覆盖 TokenMizer/InfoMem/DMF/AutoMEM/MemOp/Agent Memory)",
+      "形式化验证 × RL (W23 已充分覆盖 TLA-Prover/Goedel-Architect)",
+      "Agent Harness 优化 (HarnessFix 已深度研究)"
+    ]
+  }
 }
