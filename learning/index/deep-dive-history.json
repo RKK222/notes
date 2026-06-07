@@ -191,10 +191,42 @@
       "topic": "DataCOPE 无监督技能发现",
       "firstRecorded": "2026-06-07",
       "lastDeepDive": "2026-06-07"
+    },
+    {
+      "title": "headroom: Compress Tool Outputs Before They Reach the LLM",
+      "url": "https://github.com/chopratejas/headroom",
+      "type": "project",
+      "topic": "Token压缩代理基础设施",
+      "firstRecorded": "2026-06-07",
+      "lastDeepDive": "2026-06-07"
+    },
+    {
+      "title": "MXC: Microsoft Execution Containers",
+      "url": "https://github.com/microsoft/mxc",
+      "type": "project",
+      "topic": "Agent沙箱企业化",
+      "firstRecorded": "2026-06-07",
+      "lastDeepDive": "2026-06-07"
+    },
+    {
+      "title": "Superpowers: Agentic Skills Framework & SDLC Methodology",
+      "url": "https://github.com/obra/superpowers",
+      "type": "project",
+      "topic": "Agent软件开发方法论",
+      "firstRecorded": "2026-06-07",
+      "lastDeepDive": "2026-06-07"
+    },
+    {
+      "title": "CogManip: Benchmarking Manipulative Behavior in Multi-Turn Interactions",
+      "url": "https://arxiv.org/abs/2606.06099",
+      "type": "paper",
+      "topic": "认知操纵检测",
+      "firstRecorded": "2026-06-07",
+      "lastDeepDive": "2026-06-07"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-07T11:02:00+08:00",
-    "totalEntries": 24
+    "lastUpdated": "2026-06-07T19:00:00+08:00",
+    "totalEntries": 28
   }
 }
