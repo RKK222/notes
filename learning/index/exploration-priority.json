@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-08T11:08:00+08:00",
+    "lastUpdated": "2026-06-08T19:00:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-08T11:08:00+08:00"
+    "lastRun": "2026-06-08T19:00:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -99,9 +99,9 @@
   },
   "weeklySummary": {
     "week": "W24",
-    "totalScans": 2,
-    "totalItems": 67,
-    "totalDeepDives": 10,
+    "totalScans": 3,
+    "totalItems": 99,
+    "totalDeepDives": 15,
     "newHighValueDirections": [
       "Socratic-SWE 自我进化编码Agent（轨迹蒸馏技能，50.40% SWE-bench）",
       "OpenSkill 开放世界自我进化（无监督技能构建）",
@@ -112,7 +112,12 @@
       "AEGIS 物理AI备份反射（激活探针早期警告）",
       "AFSAT GPU SAT求解器（JAX大规模并行）",
       "CARVE-Q 量子提议+经典认证自动驾驶",
-      "COMPACT-VA 规划对齐token压缩"
+      "COMPACT-VA 规划对齐token压缩",
+      "MemDreamer 分层图记忆+Agent检索长视频理解（推理上下文仅2% 精度+12.5pp）",
+      "LLM概率推理基准（反直觉问题仅59% 非真正概率推理器）",
+      "DeepSeek-R1推理拓扑分析（拓扑模仿 人类紧凑交替vsR1浅层循环）",
+      "SETA持续学习（稀疏子空间分解解决可塑性-稳定性困境）",
+      "Agent技能生态标准化（google/skills 12K stars + CopilotKit AG-UI Protocol）"
     ],
     "saturatedDirections": [
       "Agent记忆系统（传统语义检索方向）",
@@ -126,7 +131,12 @@
       "Glassbox AI在金融/医疗高风险场景的落地",
       "DyCon训练-free推理控制在其他LRM上的泛化",
       "物理AI备份反射（AEGIS）扩展到更多机器人平台",
-      "GPU SAT求解器（AFSAT）在硬件验证等实际场景的应用"
+      "GPU SAT求解器（AFSAT）在硬件验证等实际场景的应用",
+      "MemDreamer分层图记忆扩展到长文档/长音频的可行性",
+      "LLM概率推理系统性缺陷对Agent决策的影响",
+      "DeepSeek-R1拓扑模仿是否在其他模型（GPT-5/Claude）上存在",
+      "Agent Skills标准化进展（agentskills.io生态）",
+      "SETA持续学习在多领域基准上的扩展"
     ]
   }
 }

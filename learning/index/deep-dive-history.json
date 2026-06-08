@@ -303,10 +303,50 @@
       "topic": "Glassbox AI架构",
       "firstRecorded": "2026-06-08",
       "lastDeepDive": "2026-06-08"
+    },
+    {
+      "title": "MemDreamer: Hierarchical Graph Memory for Long Video Understanding",
+      "url": "https://arxiv.org/abs/2606.07512",
+      "type": "paper",
+      "topic": "MemDreamer长视频理解",
+      "firstRecorded": "2026-06-08",
+      "lastDeepDive": "2026-06-08"
+    },
+    {
+      "title": "A Comprehensive Anatomy of Human and DeepSeek-R1 Mathematical Reasoning",
+      "url": "https://arxiv.org/abs/2606.07410",
+      "type": "paper",
+      "topic": "DeepSeek-R1推理拓扑分析",
+      "firstRecorded": "2026-06-08",
+      "lastDeepDive": "2026-06-08"
+    },
+    {
+      "title": "google/skills: Agent Skills for Google products and technologies",
+      "url": "https://github.com/google/skills",
+      "type": "project",
+      "topic": "Agent技能生态标准化",
+      "firstRecorded": "2026-06-08",
+      "lastDeepDive": "2026-06-08"
+    },
+    {
+      "title": "CopilotKit: The Frontend Stack for Agents & Generative UI",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "type": "project",
+      "topic": "Agent技能生态标准化",
+      "firstRecorded": "2026-06-08",
+      "lastDeepDive": "2026-06-08"
+    },
+    {
+      "title": "How reliable are LLMs when it comes to playing dice? Probabilistic Reasoning Benchmark",
+      "url": "https://arxiv.org/abs/2606.07515",
+      "type": "paper",
+      "topic": "LLM概率推理基准",
+      "firstRecorded": "2026-06-08",
+      "lastDeepDive": "2026-06-08"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-08T11:08:00+08:00",
-    "totalEntries": 38
+    "lastUpdated": "2026-06-08T19:00:00+08:00",
+    "totalEntries": 43
   }
 }
