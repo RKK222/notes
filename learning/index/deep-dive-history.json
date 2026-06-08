@@ -263,10 +263,50 @@
       "topic": "记忆可信边界",
       "firstRecorded": "2026-06-08",
       "lastDeepDive": "2026-06-08"
+    },
+    {
+      "title": "Socratic-SWE: Self-Evolving Coding Agents via Trace-Derived Agent Skills",
+      "url": "https://arxiv.org/abs/2606.07412",
+      "type": "paper",
+      "topic": "Agent自我进化闭环",
+      "firstRecorded": "2026-06-08",
+      "lastDeepDive": "2026-06-08"
+    },
+    {
+      "title": "Lean4Agent: Formal Modeling and Verification for Agent Workflow",
+      "url": "https://arxiv.org/abs/2606.06523",
+      "type": "paper",
+      "topic": "Lean4Agent形式化验证",
+      "firstRecorded": "2026-06-08",
+      "lastDeepDive": "2026-06-08"
+    },
+    {
+      "title": "DyCon: Dynamic Reasoning Control via Evolving Difficulty Modeling",
+      "url": "https://arxiv.org/abs/2606.07108",
+      "type": "paper",
+      "topic": "DyCon动态推理控制",
+      "firstRecorded": "2026-06-08",
+      "lastDeepDive": "2026-06-08"
+    },
+    {
+      "title": "Attack Selection in Agentic AI Control Evaluations",
+      "url": "https://arxiv.org/abs/2606.06529",
+      "type": "paper",
+      "topic": "Attack Selection策略性攻击",
+      "firstRecorded": "2026-06-08",
+      "lastDeepDive": "2026-06-08"
+    },
+    {
+      "title": "Glassbox AI via Probabilistic Mediation",
+      "url": "https://arxiv.org/abs/2606.07113",
+      "type": "paper",
+      "topic": "Glassbox AI架构",
+      "firstRecorded": "2026-06-08",
+      "lastDeepDive": "2026-06-08"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-08T09:10:00+08:00",
-    "totalEntries": 33
+    "lastUpdated": "2026-06-08T11:08:00+08:00",
+    "totalEntries": 38
   }
 }

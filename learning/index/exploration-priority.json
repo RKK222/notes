@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-08T09:10:00+08:00",
+    "lastUpdated": "2026-06-08T11:08:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-08T09:10:00+08:00"
+    "lastRun": "2026-06-08T11:08:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -36,7 +36,12 @@
         "LLM自我修正机制",
         "TurboQuant向量索引",
         "Agent OS",
-        "记忆可信边界"
+        "记忆可信边界",
+        "Agent自我进化闭环（Socratic-SWE/OpenSkill）",
+        "Attack Selection策略性攻击评估",
+        "Glassbox AI架构（贝叶斯网络前摄调解）",
+        "形式化Agent验证（Lean4Agent）",
+        "动态推理控制（DyCon）"
       ]
     },
     "tier2_emerging": {
@@ -52,7 +57,12 @@
         "世界模型扩展",
         "知识注入分层框架",
         "世界模型具身化",
-        "PostgreSQL持久执行"
+        "PostgreSQL持久执行",
+        "物理AI备份反射（AEGIS）",
+        "GPU SAT求解器（AFSAT）",
+        "量子经典混合自动驾驶（CARVE-Q）",
+        "规划对齐token压缩（COMPACT-VA）",
+        "ISO 26262自动驾驶安全重构"
       ]
     },
     "tier3_exploration": {
@@ -89,32 +99,34 @@
   },
   "weeklySummary": {
     "week": "W24",
-    "totalScans": 1,
-    "totalItems": 32,
-    "totalDeepDives": 5,
+    "totalScans": 2,
+    "totalItems": 67,
+    "totalDeepDives": 10,
     "newHighValueDirections": [
-      "MAGE 执行状态管理记忆范式（分层状态树主动管理）",
-      "Self-Correction Illusion LLM自我修正是chat-template artifact",
-      "turbovec TurboQuant向量索引（10M文档31GB→4GB超越FAISS）",
-      "ironclaw Agent OS（NearAI隐私安全操作系统）",
-      "MemGate/RBI-Eval 记忆可信边界（9M参数门控+8x模型差异）",
-      "WorldFly/PLAN-S 世界模型具身化（UAV导航+自动驾驶）",
-      "VibeVoice Microsoft开源前沿语音AI",
-      "pg_durable PostgreSQL数据库内持久执行"
+      "Socratic-SWE 自我进化编码Agent（轨迹蒸馏技能，50.40% SWE-bench）",
+      "OpenSkill 开放世界自我进化（无监督技能构建）",
+      "Attack Selection 策略性攻击（安全评估下降20-28pp）",
+      "DyCon 动态推理控制（ICML2026，训练-free难度建模）",
+      "Lean4Agent 形式化Agent验证（Lean4依赖类型）",
+      "Glassbox AI 贝叶斯网络前摄调解",
+      "AEGIS 物理AI备份反射（激活探针早期警告）",
+      "AFSAT GPU SAT求解器（JAX大规模并行）",
+      "CARVE-Q 量子提议+经典认证自动驾驶",
+      "COMPACT-VA 规划对齐token压缩"
     ],
     "saturatedDirections": [
-      "Agent记忆系统（传统语义检索方向：TokenMizer/MemOp/InfoMem/DMF/MemPalace）",
-      "形式化验证 × RL（TLA-Prover/Goedel-Architect）",
-      "Agent Harness优化（HarnessFix/ECC）"
+      "Agent记忆系统（传统语义检索方向）",
+      "形式化验证 × RL",
+      "Agent Harness优化"
     ],
     "nextWeekPriorities": [
-      "Agent记忆系统四条路线后续发展（MAGE/TokenMizer/MRAgent/MemGate）",
-      "Self-Correction Illusion 后续验证和干预方案推广",
-      "turbovec 实际RAG系统部署效果评估",
-      "Agent OS（ironclaw）与企业级沙箱（MXC）协同可能",
-      "世界模型在具身AI中的扩展（UAV→地面机器人→通用具身）",
-      "语音AI统一架构开源生态发展",
-      "PostgreSQL持久执行工作流引擎应用"
+      "Agent自我进化后续发展（Socratic-SWE/OpenSkill在多基准上的扩展）",
+      "Attack Selection对AI控制基准的影响（是否需要重构评估框架）",
+      "Lean4Agent FormalAgentLib生态发展",
+      "Glassbox AI在金融/医疗高风险场景的落地",
+      "DyCon训练-free推理控制在其他LRM上的泛化",
+      "物理AI备份反射（AEGIS）扩展到更多机器人平台",
+      "GPU SAT求解器（AFSAT）在硬件验证等实际场景的应用"
     ]
   }
 }
