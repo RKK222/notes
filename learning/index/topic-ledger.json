@@ -1,12 +1,12 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-08T11:08:00+08:00",
+    "lastUpdated": "2026-06-08T19:00:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-06-08T11:08:00+08:00",
+    "lastRun": "2026-06-08T19:00:00+08:00",
     "totalTopics": 1086,
-    "totalItems": 38
+    "totalItems": 70
   },
   "topics": [
     {
@@ -456,6 +456,132 @@
       "representativeItem": "量子提议+经典认证的信任有界模式",
       "trend": "new",
       "notes": "量子计算用于搜索最优修复，安全认证由经典验证器完成"
+    },
+    {
+      "name": "MemDreamer长视频理解",
+      "category": "emerging",
+      "lastSeen": "2026-06-08",
+      "lastDeepDive": "2026-06-08",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "分层图记忆+Agent检索 推理上下文仅2%",
+      "trend": "new",
+      "notes": "解耦感知和推理 长视频理解SOTA"
+    },
+    {
+      "name": "LLM概率推理基准",
+      "category": "emerging",
+      "lastSeen": "2026-06-08",
+      "lastDeepDive": "2026-06-08",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "LLMs playing dice 反直觉概率仅59%",
+      "trend": "new",
+      "notes": "LLM非真正概率推理器 对Agent决策有重要影响"
+    },
+    {
+      "name": "DeepSeek-R1推理拓扑分析",
+      "category": "emerging",
+      "lastSeen": "2026-06-08",
+      "lastDeepDive": "2026-06-08",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "拓扑模仿 人类紧凑交替vsR1浅层循环",
+      "trend": "new",
+      "notes": "LLM学习推理形状而非逻辑 对Agent评估有深远影响"
+    },
+    {
+      "name": "SETA持续学习",
+      "category": "emerging",
+      "lastSeen": "2026-06-08",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "稀疏子空间分解解决可塑性-稳定性困境",
+      "trend": "new",
+      "notes": "从均匀参数更新到稀疏专家分离"
+    },
+    {
+      "name": "PaperFlow论文推荐",
+      "category": "exploration",
+      "lastSeen": "2026-06-08",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "纵向日常论文流推荐框架",
+      "trend": "new",
+      "notes": "从静态排名到纵向论文流"
+    },
+    {
+      "name": "HPC AI工作流设计",
+      "category": "exploration",
+      "lastSeen": "2026-06-08",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "12条AI驱动HPC工作流指南",
+      "trend": "new",
+      "notes": "从刚性执行管线到自适应智能计算环境"
+    },
+    {
+      "name": "Agent技能生态标准化",
+      "category": "emerging",
+      "lastSeen": "2026-06-08",
+      "lastDeepDive": "2026-06-08",
+      "repeatCount7d": 2,
+      "repeatCount30d": 2,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "google/skills 12K stars + CopilotKit AG-UI Protocol",
+      "trend": "growing",
+      "notes": "Agent Skills成为云服务新API 标准化基础设施"
+    },
+    {
+      "name": "Advanced Memory统一框架",
+      "category": "mature",
+      "lastSeen": "2026-06-08",
+      "lastDeepDive": null,
+      "repeatCount7d": 5,
+      "repeatCount30d": 15,
+      "priority": "low",
+      "isCore": false,
+      "shouldDowngrade": true,
+      "representativeItem": "语义+情景+程序记忆双层设计",
+      "trend": "saturated",
+      "notes": "已充分覆盖 维持降权"
+    },
+    {
+      "name": "激活引导几何解释",
+      "category": "emerging",
+      "lastSeen": "2026-06-08",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "角度-范数分解 7个语言模型实证",
+      "trend": "new",
+      "notes": "为激活引导提供几何解释框架"
     }
   ]
 }
