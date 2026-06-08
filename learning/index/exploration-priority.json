@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-07T19:00:00+08:00",
+    "lastUpdated": "2026-06-08T09:10:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-07T19:00:00+08:00"
+    "lastRun": "2026-06-08T09:10:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -31,7 +31,12 @@
         "Agent软件开发方法论",
         "认知操纵检测",
         "企业级Agent沙箱",
-        "稀疏注意力Agent化"
+        "稀疏注意力Agent化",
+        "执行状态管理记忆范式",
+        "LLM自我修正机制",
+        "TurboQuant向量索引",
+        "Agent OS",
+        "记忆可信边界"
       ]
     },
     "tier2_emerging": {
@@ -45,7 +50,9 @@
         "语音AI统一架构",
         "Agent安全内生化",
         "世界模型扩展",
-        "知识注入分层框架"
+        "知识注入分层框架",
+        "世界模型具身化",
+        "PostgreSQL持久执行"
       ]
     },
     "tier3_exploration": {
@@ -72,7 +79,7 @@
       "name": "已重复过多应降低优先级",
       "description": "近7天出现3次+或30天持续高频无新突破",
       "topics": [
-        "Agent记忆系统",
+        "Agent记忆系统（传统语义检索方向）",
         "形式化验证 × RL",
         "Agent Harness优化",
         "边缘AI/EdgeLLM",
@@ -81,34 +88,33 @@
     }
   },
   "weeklySummary": {
-    "week": "W23",
-    "totalScans": 13,
-    "totalItems": 425,
-    "totalDeepDives": 37,
+    "week": "W24",
+    "totalScans": 1,
+    "totalItems": 32,
+    "totalDeepDives": 5,
     "newHighValueDirections": [
-      "headroom Token压缩代理基础设施（周增13K star）",
-      "Superpowers Agent软件开发方法论",
-      "MXC 企业级Agent沙箱（Microsoft 9种后端）",
-      "Agent-Reach Agent互联网接入中间件（15+平台）",
-      "CogManip 认知操纵检测基准",
-      "Vortex 稀疏注意力Agent化（3.46x吞吐）",
-      "markitdown 文档处理基础设施（146K stars）",
-      "HyperLoRA 联邦学习超网络驱动LoRA"
+      "MAGE 执行状态管理记忆范式（分层状态树主动管理）",
+      "Self-Correction Illusion LLM自我修正是chat-template artifact",
+      "turbovec TurboQuant向量索引（10M文档31GB→4GB超越FAISS）",
+      "ironclaw Agent OS（NearAI隐私安全操作系统）",
+      "MemGate/RBI-Eval 记忆可信边界（9M参数门控+8x模型差异）",
+      "WorldFly/PLAN-S 世界模型具身化（UAV导航+自动驾驶）",
+      "VibeVoice Microsoft开源前沿语音AI",
+      "pg_durable PostgreSQL数据库内持久执行"
     ],
     "saturatedDirections": [
-      "Agent记忆系统（TokenMizer/MemOp/InfoMem/DMF/MemPalace）",
+      "Agent记忆系统（传统语义检索方向：TokenMizer/MemOp/InfoMem/DMF/MemPalace）",
       "形式化验证 × RL（TLA-Prover/Goedel-Architect）",
       "Agent Harness优化（HarnessFix/ECC）"
     ],
     "nextWeekPriorities": [
-      "Agent互联网中间件生态发展",
-      "Token压缩策略效果评估",
-      "认知操纵防御工程",
-      "Agent SDLC方法论采用效果",
-      "企业级Agent沙箱后续发展",
-      "稀疏注意力Agent生成机制",
-      "联邦学习HyperLoRA扩展应用",
-      "脑信号解码零样本研究"
+      "Agent记忆系统四条路线后续发展（MAGE/TokenMizer/MRAgent/MemGate）",
+      "Self-Correction Illusion 后续验证和干预方案推广",
+      "turbovec 实际RAG系统部署效果评估",
+      "Agent OS（ironclaw）与企业级沙箱（MXC）协同可能",
+      "世界模型在具身AI中的扩展（UAV→地面机器人→通用具身）",
+      "语音AI统一架构开源生态发展",
+      "PostgreSQL持久执行工作流引擎应用"
     ]
   }
 }
