@@ -223,10 +223,50 @@
       "topic": "认知操纵检测",
       "firstRecorded": "2026-06-07",
       "lastDeepDive": "2026-06-07"
+    },
+    {
+      "title": "turbovec: Vector Index Built on TurboQuant",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "type": "project",
+      "topic": "TurboQuant向量索引",
+      "firstRecorded": "2026-06-08",
+      "lastDeepDive": "2026-06-08"
+    },
+    {
+      "title": "ironclaw: Agent OS for Privacy & Security",
+      "url": "https://github.com/nearai/ironclaw",
+      "type": "project",
+      "topic": "Agent OS",
+      "firstRecorded": "2026-06-08",
+      "lastDeepDive": "2026-06-08"
+    },
+    {
+      "title": "The Self-Correction Illusion: LLMs Correct Others but Not Themselves",
+      "url": "https://arxiv.org/abs/2606.05976",
+      "type": "paper",
+      "topic": "LLM自我修正机制",
+      "firstRecorded": "2026-06-08",
+      "lastDeepDive": "2026-06-08"
+    },
+    {
+      "title": "MAGE: Memory as Agent-Guided Exploration",
+      "url": "https://arxiv.org/abs/2606.06090",
+      "type": "paper",
+      "topic": "执行状态管理记忆范式",
+      "firstRecorded": "2026-06-08",
+      "lastDeepDive": "2026-06-08"
+    },
+    {
+      "title": "RBI-Eval: When Should Memory Stay Silent",
+      "url": "https://arxiv.org/abs/2606.06055",
+      "type": "paper",
+      "topic": "记忆可信边界",
+      "firstRecorded": "2026-06-08",
+      "lastDeepDive": "2026-06-08"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-07T19:00:00+08:00",
-    "totalEntries": 28
+    "lastUpdated": "2026-06-08T09:10:00+08:00",
+    "totalEntries": 33
   }
 }
