@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-09T09:11:00+08:00",
+    "lastUpdated": "2026-06-09T11:04:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-09T09:11:00+08:00"
+    "lastRun": "2026-06-09T11:04:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -99,9 +99,9 @@
   },
   "weeklySummary": {
     "week": "W24",
-    "totalScans": 4,
-    "totalItems": 132,
-    "totalDeepDives": 20,
+    "totalScans": 5,
+    "totalItems": 167,
+    "totalDeepDives": 25,
     "newHighValueDirections": [
       "Socratic-SWE 自我进化编码Agent（轨迹蒸馏技能，50.40% SWE-bench）",
       "OpenSkill 开放世界自我进化（无监督技能构建）",
@@ -126,7 +126,26 @@
       "Gitdot 开源Rust GitHub替代",
       "OpenAI S-1 IPO（向SEC提交招股书）",
       "xAI 数据中心REIT商业模式",
-      "Postgres 19 Query Hints（首次引入查询提示）"
+      "Postgres 19 Query Hints（首次引入查询提示）",
+      "训练动态科学（ICML2026 Oral 从固定模型到训练过程）",
+      "DuMate-DeepResearch 可审计多Agent深度研究（Core/Ecosystem解耦）",
+      "知识工作Agent化（Perplexity Computer 时间成本降低87-94%）",
+      "AARRI-Bench AI研究能力评估（最佳仅68.3%）",
+      "SWE-Explore 仓库探索能力基准（848问题10语言203仓库）",
+      "StainFlow GUI Agent过程奖励（实体污渍流追踪）",
+      "Agent Sim-to-Real差距（KDD2026 统一MDP视角）",
+      "PTD-PO 多模态RLVR特权辅导（不暴露答案的密集指导）",
+      "TRUST Agent工具调用不确定性（不确定性分离作为排斥力）",
+      "SafeGene 可复用安全适配器（跨任务复用）",
+      "CrowdMath 协作数学推理（164条专家标注进展链）",
+      "DiBS 扩散模型引导分支选择（学习型引导+精确求解）",
+      "公平性对称性操作（偏差=对称性破坏 90%+违规减少）",
+      "策略行为OPE（博弈论引入策略评估）",
+      "量子软件调试QBugLM（单次重试Pass@1从<25%到>80%）",
+      "AI辅助开发实证研究（35K注释分析 AI演变为协作支持）",
+      "API替换重构AKIRA（召回率从21%提升到81%）",
+      "逆向工程可读性QRS（Agent优化度量意外行为）",
+      "AI产业泡沫分析（需要3万亿美元收入维持）"
     ],
     "saturatedDirections": [
       "Agent记忆系统（传统语义检索方向）",
@@ -134,24 +153,24 @@
       "Agent Harness优化"
     ],
     "nextWeekPriorities": [
-      "Agent自我进化后续发展（Socratic-SWE/OpenSkill在多基准上的扩展）",
+      "Socratic-SWE自我进化机制深入（轨迹蒸馏算法+技能表示）",
+      "训练动态科学理论框架（ICML2026 Oral追踪）",
       "Attack Selection对AI控制基准的影响（是否需要重构评估框架）",
-      "Lean4Agent FormalAgentLib生态发展",
-      "Glassbox AI在金融/医疗高风险场景的落地",
-      "DyCon训练-free推理控制在其他LRM上的泛化",
-      "物理AI备份反射（AEGIS）扩展到更多机器人平台",
-      "GPU SAT求解器（AFSAT）在硬件验证等实际场景的应用",
-      "MemDreamer分层图记忆扩展到长文档/长音频的可行性",
-      "LLM概率推理系统性缺陷对Agent决策的影响",
-      "DeepSeek-R1拓扑模仿是否在其他模型（GPT-5/Claude）上存在",
-      "Agent Skills标准化进展（agentskills.io生态）",
-      "SETA持续学习在多领域基准上的扩展",
-      "FrontierCode任务集扩展和评分方法改进",
-      "MiMo 1000TPS在实际应用中的表现验证",
-      "Apple Core AI框架开发者生态adopt情况",
-      "No-CoT推理能力对AI安全框架的影响评估",
-      "Agent基础设施层竞争格局（ECC/supermemory/impeccable）",
-      "Gitdot开源代码托管进展"
+      "DuMate可审计深度研究生态发展",
+      "DiBS扩散模型引导搜索泛化性",
+      "公平性对称性操作框架扩展",
+      "AFSAT GPU SAT求解器实际应用",
+      "知识工作Agent化生产数据验证扩展",
+      "AARRI-Bench研究能力评估基准扩展",
+      "Agent Sim-to-Real差距标准化压力测试",
+      "PTD-PO多模态RLVR在其他LVLM上的泛化",
+      "SafeGene安全适配器跨模型迁移能力",
+      "CrowdMath协作数学推理评估任务扩展",
+      "策略行为OPE在真实AI决策系统上的验证",
+      "量子软件调试QBugLM更多LLM基准",
+      "AI辅助开发实证研究后续跟踪",
+      "API替换重构AKIRA工具化",
+      "逆向工程可读性QRS框架扩展"
     ]
   }
 }
