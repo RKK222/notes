@@ -383,10 +383,34 @@
       "topic": "激活引导几何解释",
       "firstRecorded": "2026-06-09",
       "lastDeepDive": "2026-06-09"
+    },
+    {
+      "title": "DuMate-DeepResearch: Auditable Multi-Agent System for Deep Research",
+      "url": "https://arxiv.org/abs/2606.07299",
+      "type": "paper",
+      "topic": "多Agent深度研究可审计",
+      "firstRecorded": "2026-06-09",
+      "lastDeepDive": "2026-06-09"
+    },
+    {
+      "title": "AFSAT: Fully Realising a GPU-based Symmetric Pseudo-Boolean SAT Solver",
+      "url": "https://arxiv.org/abs/2606.06641",
+      "type": "paper",
+      "topic": "AFSAT GPU SAT求解器",
+      "firstRecorded": "2026-06-09",
+      "lastDeepDive": "2026-06-09"
+    },
+    {
+      "title": "Don't Just Fix it in Post: A Science of AI Must Study Training Dynamics",
+      "url": "https://arxiv.org/abs/2606.06533",
+      "type": "paper",
+      "topic": "训练动态科学",
+      "firstRecorded": "2026-06-09",
+      "lastDeepDive": "2026-06-09"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-09T09:11:00+08:00",
-    "totalEntries": 48
+    "lastUpdated": "2026-06-09T11:04:00+08:00",
+    "totalEntries": 51
   }
 }
