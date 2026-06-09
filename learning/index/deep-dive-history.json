@@ -407,10 +407,74 @@
       "topic": "训练动态科学",
       "firstRecorded": "2026-06-09",
       "lastDeepDive": "2026-06-09"
+    },
+    {
+      "title": "FASE: Fast Adaptive Semantic Entropy for Code Quality",
+      "url": "https://arxiv.org/abs/2606.09800",
+      "type": "paper",
+      "topic": "FASE快速自适应语义熵",
+      "firstRecorded": "2026-06-09",
+      "lastDeepDive": "2026-06-09"
+    },
+    {
+      "title": "CHAP: Collaborative Human-Agent Protocol",
+      "url": "https://arxiv.org/abs/2606.09751",
+      "type": "paper",
+      "topic": "CHAP人类-Agent协作协议",
+      "firstRecorded": "2026-06-09",
+      "lastDeepDive": "2026-06-09"
+    },
+    {
+      "title": "PRIME: Proxy Reward Internalization and Mechanistic Exploitation",
+      "url": "https://arxiv.org/abs/2606.09711",
+      "type": "paper",
+      "topic": "PRIME奖励黑客早期预警",
+      "firstRecorded": "2026-06-09",
+      "lastDeepDive": "2026-06-09"
+    },
+    {
+      "title": "AliyunConsoleAgent: Training Web Agents in Real-World Cloud Environments",
+      "url": "https://arxiv.org/abs/2606.09447",
+      "type": "paper",
+      "topic": "AliyunConsoleAgent云Agent训练",
+      "firstRecorded": "2026-06-09",
+      "lastDeepDive": "2026-06-09"
+    },
+    {
+      "title": "WeaveBench: Long-Horizon Benchmark for Computer-Use Agents with Hybrid Interfaces",
+      "url": "https://arxiv.org/abs/2606.09426",
+      "type": "paper",
+      "topic": "WeaveBench混合接口CUA基准",
+      "firstRecorded": "2026-06-09",
+      "lastDeepDive": "2026-06-09"
+    },
+    {
+      "title": "last30days-skill: 跨平台AI研究技能",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "type": "project",
+      "topic": "last30days-skill跨平台研究",
+      "firstRecorded": "2026-06-09",
+      "lastDeepDive": "2026-06-09"
+    },
+    {
+      "title": "whichllm: 硬件感知本地LLM选择器",
+      "url": "https://github.com/Andyyyy64/whichllm",
+      "type": "project",
+      "topic": "whichllm硬件感知LLM选择",
+      "firstRecorded": "2026-06-09",
+      "lastDeepDive": "2026-06-09"
+    },
+    {
+      "title": "claude-howto: Claude Code可视化学习指南",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "type": "project",
+      "topic": "Claude-Howto可视化学习指南",
+      "firstRecorded": "2026-06-09",
+      "lastDeepDive": "2026-06-09"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-09T11:04:00+08:00",
-    "totalEntries": 51
+    "lastUpdated": "2026-06-09T19:00:00+08:00",
+    "totalEntries": 60
   }
 }
