@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-08T19:00:00+08:00",
+    "lastUpdated": "2026-06-09T09:11:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-08T19:00:00+08:00"
+    "lastRun": "2026-06-09T09:11:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -99,9 +99,9 @@
   },
   "weeklySummary": {
     "week": "W24",
-    "totalScans": 3,
-    "totalItems": 99,
-    "totalDeepDives": 15,
+    "totalScans": 4,
+    "totalItems": 132,
+    "totalDeepDives": 20,
     "newHighValueDirections": [
       "Socratic-SWE 自我进化编码Agent（轨迹蒸馏技能，50.40% SWE-bench）",
       "OpenSkill 开放世界自我进化（无监督技能构建）",
@@ -117,7 +117,16 @@
       "LLM概率推理基准（反直觉问题仅59% 非真正概率推理器）",
       "DeepSeek-R1推理拓扑分析（拓扑模仿 人类紧凑交替vsR1浅层循环）",
       "SETA持续学习（稀疏子空间分解解决可塑性-稳定性困境）",
-      "Agent技能生态标准化（google/skills 12K stars + CopilotKit AG-UI Protocol）"
+      "Agent技能生态标准化（google/skills 12K stars + CopilotKit AG-UI Protocol）",
+      "FrontierCode 代码质量基准（Cognition AI 首个可合并性基准 13.4% Diamond通过率）",
+      "MiMo-V2.5-Pro-UltraSpeed 1T模型1000TPS（速度即智能范式）",
+      "Apple Core AI 端侧系统框架（基于Google Gemini）",
+      "ECC Agent性能优化全栈（210K stars 技能+本能+记忆+安全）",
+      "No-CoT推理能力测量（43基准30K+问题 AI安全影响深远）",
+      "Gitdot 开源Rust GitHub替代",
+      "OpenAI S-1 IPO（向SEC提交招股书）",
+      "xAI 数据中心REIT商业模式",
+      "Postgres 19 Query Hints（首次引入查询提示）"
     ],
     "saturatedDirections": [
       "Agent记忆系统（传统语义检索方向）",
@@ -136,7 +145,13 @@
       "LLM概率推理系统性缺陷对Agent决策的影响",
       "DeepSeek-R1拓扑模仿是否在其他模型（GPT-5/Claude）上存在",
       "Agent Skills标准化进展（agentskills.io生态）",
-      "SETA持续学习在多领域基准上的扩展"
+      "SETA持续学习在多领域基准上的扩展",
+      "FrontierCode任务集扩展和评分方法改进",
+      "MiMo 1000TPS在实际应用中的表现验证",
+      "Apple Core AI框架开发者生态adopt情况",
+      "No-CoT推理能力对AI安全框架的影响评估",
+      "Agent基础设施层竞争格局（ECC/supermemory/impeccable）",
+      "Gitdot开源代码托管进展"
     ]
   }
 }
