@@ -543,10 +543,58 @@
       "topic": "ABC-Bench生物安全能力基准",
       "firstRecorded": "2026-06-10",
       "lastDeepDive": "2026-06-10"
+    },
+    {
+      "title": "DeNovoSWE: Scaling Long-Horizon Environments for Generating Entire Repositories from Scratch",
+      "url": "https://arxiv.org/abs/2606.10728",
+      "type": "paper",
+      "topic": "DeNovoSWE 全仓库生成",
+      "firstRecorded": "2026-06-10",
+      "lastDeepDive": "2026-06-10"
+    },
+    {
+      "title": "GapFuzz: Cross-Plane Divergence Fuzzing for Distributed SDN Controllers",
+      "url": "https://arxiv.org/abs/2606.11035",
+      "type": "paper",
+      "topic": "GapFuzz 跨平面SDN模糊测试",
+      "firstRecorded": "2026-06-10",
+      "lastDeepDive": "2026-06-10"
+    },
+    {
+      "title": "TestMap: Evidence Infrastructure for Foundation-Model-Assisted Test Generation",
+      "url": "https://arxiv.org/abs/2606.10211",
+      "type": "paper",
+      "topic": "TestMap 测试生成基础设施",
+      "firstRecorded": "2026-06-10",
+      "lastDeepDive": "2026-06-10"
+    },
+    {
+      "title": "Frontier Coding Agents Use Metaprogramming to Adapt to Unfamiliar Programming Languages",
+      "url": "https://arxiv.org/abs/2606.10933",
+      "type": "paper",
+      "topic": "元编程编码Agent语言适应",
+      "firstRecorded": "2026-06-10",
+      "lastDeepDive": "2026-06-10"
+    },
+    {
+      "title": "A World Model is the Coupling Kernel of Admissible Possible Worlds",
+      "url": "https://arxiv.org/abs/2606.10934",
+      "type": "paper",
+      "topic": "世界模型耦合核理论",
+      "firstRecorded": "2026-06-10",
+      "lastDeepDive": "2026-06-10"
+    },
+    {
+      "title": "The Arbiter: Continually Monitoring Multi-Agent Conversations to Detect Emergent Misalignment",
+      "url": "https://arxiv.org/abs/2606.10747",
+      "type": "paper",
+      "topic": "The Arbiter 多Agent监控",
+      "firstRecorded": "2026-06-10",
+      "lastDeepDive": "2026-06-10"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-10T11:08:00+08:00",
-    "totalEntries": 68
+    "lastUpdated": "2026-06-10T19:00:00+08:00",
+    "totalEntries": 74
   }
 }

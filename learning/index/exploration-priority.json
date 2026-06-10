@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-10T11:08:00+08:00",
+    "lastUpdated": "2026-06-10T19:00:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-10T11:08:00+08:00"
+    "lastRun": "2026-06-10T19:00:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -52,7 +52,13 @@
         "EvalCards评估报告标准化",
         "AliyunConsoleAgent云Agent训练",
         "WeaveBench混合接口CUA基准",
-        "last30days-skill跨平台研究"
+        "last30days-skill跨平台研究",
+        "DeNovoSWE 全仓库生成（4818实例 BeyondSWE 5.8%→47.2%）",
+        "GapFuzz 跨平面SDN模糊测试（81.7%发散检测率）",
+        "TestMap 测试生成基础设施（全生命周期验证）",
+        "元编程编码Agent语言适应（强Agent用Python生成器适应esoteric语言）",
+        "世界模型耦合核理论（半正定耦合核 预测无法表示反事实耦合）",
+        "The Arbiter 多Agent对话监控（AITC2026 预算感知实时检测）"
       ]
     },
     "tier2_emerging": {
@@ -93,7 +99,11 @@
         "算法研究",
         "量子计算",
         "脑机接口",
-        "无线通信AI"
+        "无线通信AI",
+        "体育AI反事实评估（MCPS MCTS式足球传球评估）",
+        "可持续AI交互设计（UI干预能源意识）",
+        "供应链世界模型（REFLECTICHAIN 6维图潜在空间）",
+        "神经符号AI工程实践（NeurASP加速 多个数量级）"
       ]
     },
     "tier4_downgrade": {
@@ -110,9 +120,9 @@
   },
   "weeklySummary": {
     "week": "W24",
-    "totalScans": 7,
-    "totalItems": 237,
-    "totalDeepDives": 34,
+    "totalScans": 9,
+    "totalItems": 271,
+    "totalDeepDives": 40,
     "newHighValueDirections": [
       "Socratic-SWE 自我进化编码Agent（轨迹蒸馏技能，50.40% SWE-bench）",
       "OpenSkill 开放世界自我进化（无监督技能构建）",
