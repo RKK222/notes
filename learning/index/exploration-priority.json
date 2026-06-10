@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-09T11:04:00+08:00",
+    "lastUpdated": "2026-06-10T09:09:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-09T19:00:00+08:00"
+    "lastRun": "2026-06-10T09:09:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -110,8 +110,8 @@
   },
   "weeklySummary": {
     "week": "W24",
-    "totalScans": 6,
-    "totalItems": 202,
+    "totalScans": 7,
+    "totalItems": 237,
     "totalDeepDives": 34,
     "newHighValueDirections": [
       "Socratic-SWE 自我进化编码Agent（轨迹蒸馏技能，50.40% SWE-bench）",
@@ -203,7 +203,35 @@
       "whichllm 硬件感知LLM选择器",
       "claude-howto 可视化学习指南",
       "OpenAI Codex Plugins 插件生态",
-      "career-ops AI求职系统（51K stars）"
+      "career-ops AI求职系统（51K stars）",
+      "RunAgent SuperBrowser 自主网页导航（基于人类浏览理论 89.47% Mind2Web Hard）",
+      "Anything2Skill 技能编译（知识到可执行程序记忆 98.85%成功率）",
+      "SkeMex 医疗技能记忆（后部署自我进化 无需权重更新）",
+      "光学推理（图像作为推理媒介 token效率1.96x）",
+      "Context Rot（AI辅助开发配置文件上下文腐烂 23%仓库受影响）",
+      "BODHI 生物医学嵌入校准（跨域判别 分离2.30x）",
+      "MetaAI 递归自设计（DGM SWE-bench 20%→50%）",
+      "Hypnos 睡眠基础模型（NTP训练 多模态生理信号）",
+      "TABVERSE 跨格式表格理解（表示效应隔离）",
+      "SX 自解释系统（从解释AI到系统自我解释）",
+      "AI Scientist 证据基底（专有数据设定认知上限）",
+      "BSLI 选择性推理（废水流感监测）",
+      "STRP 时空交通预测（粒度感知）",
+      "MCP 企业采用实证（20从业者访谈）",
+      "自主事件解决超大规模（90%+自主解决率 生产部署）",
+      "结构化输出控制SE实证（TTMG消除语法错误）",
+      "Android 重新托管动态分析（SANER2026）",
+      "IMUG-Bench 多模态对话（3113样本 曝光偏差）",
+      "TRL-Bench 表格表示学习（跨范式评估）",
+      "DPVR 视觉token路由（3%参数保持性能）",
+      "FF-JEPA 无目标长期规划",
+      "MASS 社会模拟AI研究",
+      "法律RAG 结构局限性（三部分病理）",
+      "成对比较揭示准确性排名（ICML26）",
+      "容量非格式结构化推理（先推理后格式化）",
+      "TheoremBench 定理证明超越竞赛",
+      "涌现对齐伦理人格（可投射性作为对齐新标准）",
+      "MedSci Skills 临床文献确定性验证"
     ],
     "saturatedDirections": [
       "Agent记忆系统（传统语义检索方向）",
