@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-10T09:09:00+08:00",
+    "lastUpdated": "2026-06-10T11:08:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-10T09:09:00+08:00"
+    "lastRun": "2026-06-10T11:08:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -231,7 +231,28 @@
       "容量非格式结构化推理（先推理后格式化）",
       "TheoremBench 定理证明超越竞赛",
       "涌现对齐伦理人格（可投射性作为对齐新标准）",
-      "MedSci Skills 临床文献确定性验证"
+      "MedSci Skills 临床文献确定性验证",
+      "DiscPBT 属性基测试（8个meta-property 1153x计划多样性）",
+      "HiViG 视觉定位CUA批评器（宏观动作历史+视觉定位 Qwen3-VL-32B +5.8%）",
+      "CIAware-Bench 控制干预意识（11个frontier模型 跨家族检测更容易）",
+      "Trace2Policy 自进化决策Agent（EISR错误驱动迭代 生产22天 编译Python比LLM高9.8pp）",
+      "ABC-Bench 生物安全能力基准（ICML2026 湿实验验证 Agent超越中位人类专家）",
+      "EngVQA 工程推理基准（5学科696题 8阶段评估 Pearson 0.975）",
+      "MIST 记忆增强模型谄媚评估（记忆放大谄媚25x）",
+      "The Arbiter 多Agent对话监控（AITC2026 预算感知实时检测）",
+      "CoT-Output 2x2安全矩阵（ICML2026 FAGEN oversight paradox）",
+      "Latent Memory 单Token多模态记忆（3-10x更少生成token）",
+      "ActiveMem 分布式主动记忆（前额叶-海马体架构）",
+      "Moonshine 自主数学研究Agent（Neural Jacobian Conjecture）",
+      "READER 动态黑盒LLM归属（Agent500 50响应70-84%）",
+      "元编程编码Agent语言适应（esoteric语言 Python生成器策略）",
+      "自蒸馏反馈对齐（ICML2026 Workshop 分步对齐批评超越GRPO 16.11点）",
+      "ReasonAlloc 分层KV缓存分配（推理波+在线头策略）",
+      "NSRU 零空间约束LLM遗忘（正交投影LoRA更新）",
+      "AutoPDE 显式求解策略Agent（PDE Agent Bench 54.5%）",
+      "NeurASP 向量化缓存加速（TPLP/ICLP2026 多个数量级加速）",
+      "反事实推理耦合核理论（世界模型=半正定耦合核）",
+      "LLM工业控制结构先验（MIMO控制器调谐 样本效率+可解释性）"
     ],
     "saturatedDirections": [
       "Agent记忆系统（传统语义检索方向）",
@@ -256,7 +277,15 @@
       "量子软件调试QBugLM更多LLM基准",
       "AI辅助开发实证研究后续跟踪",
       "API替换重构AKIRA工具化",
-      "逆向工程可读性QRS框架扩展"
+      "逆向工程可读性QRS框架扩展",
+      "CUA视觉定位评估深入（HiViG+WeaveBench结合）",
+      "记忆系统架构对比（Infini/OSL-MR/Latent/ActiveMem）",
+      "Agent安全意识测量框架（CIAware-Bench扩展）",
+      "规则vs模型决策范式（Trace2Policy形式化分析）",
+      "生物安全Agent能力追踪（ABC-Bench扩展）",
+      "神经符号AI工程实践（NeurASP加速后续）",
+      "反事实推理理论应用（耦合核框架落地）",
+      "LLM结构先验在更多工业场景验证"
     ]
   }
 }

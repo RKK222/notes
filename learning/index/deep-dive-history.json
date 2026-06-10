@@ -503,10 +503,50 @@
       "topic": "SIFT RAG预填充加速",
       "firstRecorded": "2026-06-10",
       "lastDeepDive": "2026-06-10"
+    },
+    {
+      "title": "DiscPBT: Property-Based Testing for Data-Intensive Scalable Computing",
+      "url": "https://arxiv.org/abs/2606.11132",
+      "type": "paper",
+      "topic": "DiscPBT属性基测试",
+      "firstRecorded": "2026-06-10",
+      "lastDeepDive": "2026-06-10"
+    },
+    {
+      "title": "HiViG: History-aware Visually Grounded Critic for Computer Use Agents",
+      "url": "https://arxiv.org/abs/2606.11078",
+      "type": "paper",
+      "topic": "HiViG视觉定位CUA批评器",
+      "firstRecorded": "2026-06-10",
+      "lastDeepDive": "2026-06-10"
+    },
+    {
+      "title": "CIAware-Bench: Benchmarking Control Intervention Awareness Across Frontier LLMs",
+      "url": "https://arxiv.org/abs/2606.11063",
+      "type": "paper",
+      "topic": "CIAware-Bench控制干预意识",
+      "firstRecorded": "2026-06-10",
+      "lastDeepDive": "2026-06-10"
+    },
+    {
+      "title": "Trace2Policy: From Expert Behavior Traces to Self-Evolving Decision Agents",
+      "url": "https://arxiv.org/abs/2606.10457",
+      "type": "paper",
+      "topic": "Trace2Policy自进化决策Agent",
+      "firstRecorded": "2026-06-10",
+      "lastDeepDive": "2026-06-10"
+    },
+    {
+      "title": "ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity",
+      "url": "https://arxiv.org/abs/2606.11150",
+      "type": "paper",
+      "topic": "ABC-Bench生物安全能力基准",
+      "firstRecorded": "2026-06-10",
+      "lastDeepDive": "2026-06-10"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-10T09:09:00+08:00",
-    "totalEntries": 63
+    "lastUpdated": "2026-06-10T11:08:00+08:00",
+    "totalEntries": 68
   }
 }
