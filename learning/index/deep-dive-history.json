@@ -422,7 +422,7 @@
       "type": "paper",
       "topic": "CHAP人类-Agent协作协议",
       "firstRecorded": "2026-06-09",
-      "lastDeepDive": "2026-06-09"
+      "lastDeepDive": "2026-06-10"
     },
     {
       "title": "PRIME: Proxy Reward Internalization and Mechanistic Exploitation",
@@ -430,7 +430,7 @@
       "type": "paper",
       "topic": "PRIME奖励黑客早期预警",
       "firstRecorded": "2026-06-09",
-      "lastDeepDive": "2026-06-09"
+      "lastDeepDive": "2026-06-10"
     },
     {
       "title": "AliyunConsoleAgent: Training Web Agents in Real-World Cloud Environments",
@@ -471,10 +471,42 @@
       "topic": "Claude-Howto可视化学习指南",
       "firstRecorded": "2026-06-09",
       "lastDeepDive": "2026-06-09"
+    },
+    {
+      "title": "RunAgent SuperBrowser: A Theory of Autonomous Web Navigation",
+      "url": "https://arxiv.org/abs/2606.09399",
+      "type": "paper",
+      "topic": "RunAgent SuperBrowser自主网页导航",
+      "firstRecorded": "2026-06-10",
+      "lastDeepDive": "2026-06-10"
+    },
+    {
+      "title": "Anything2Skill: Compiling External Knowledge into Reusable Skills for Agents",
+      "url": "https://arxiv.org/abs/2606.09316",
+      "type": "paper",
+      "topic": "Anything2Skill技能编译",
+      "firstRecorded": "2026-06-10",
+      "lastDeepDive": "2026-06-10"
+    },
+    {
+      "title": "SkeMex: Enabling Generalizable Medical Agent Reasoning via Self-Evolving Skill Memory",
+      "url": "https://arxiv.org/abs/2606.09365",
+      "type": "paper",
+      "topic": "SkeMex医疗技能记忆",
+      "firstRecorded": "2026-06-10",
+      "lastDeepDive": "2026-06-10"
+    },
+    {
+      "title": "SIFT: Selective-Index For Fast Compute of RAG Prefill",
+      "url": "https://arxiv.org/abs/2606.09441",
+      "type": "paper",
+      "topic": "SIFT RAG预填充加速",
+      "firstRecorded": "2026-06-10",
+      "lastDeepDive": "2026-06-10"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-09T19:00:00+08:00",
-    "totalEntries": 60
+    "lastUpdated": "2026-06-10T09:09:00+08:00",
+    "totalEntries": 63
   }
 }
