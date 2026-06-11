@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-10T19:00:00+08:00",
+    "lastUpdated": "2026-06-11T09:10:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-10T19:00:00+08:00"
+    "lastRun": "2026-06-11T09:10:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -58,7 +58,15 @@
         "TestMap 测试生成基础设施（全生命周期验证）",
         "元编程编码Agent语言适应（强Agent用Python生成器适应esoteric语言）",
         "世界模型耦合核理论（半正定耦合核 预测无法表示反事实耦合）",
-        "The Arbiter 多Agent对话监控（AITC2026 预算感知实时检测）"
+        "The Arbiter 多Agent对话监控（AITC2026 预算感知实时检测）",
+        "Business World Model（BWM 商业语义中心世界模型 自主决策+反事实推理）",
+        "Exploratory Responsiveness AI认知影响（AI辅助优化下探索性适应动态理论 探索崩溃+迟滞）",
+        "Regimes可审计改进循环（事件源Agent运行时+held-out门控 完全可审计改进）",
+        "RealMath-Eval评估差距（LLM Judge在真实人类推理评估中MSE 2.96 vs合成1.17）",
+        "Deployment-Time Memorization（Agent记忆隐私-效用前沿面 PR/AER/FRS三维度量）",
+        "Moonshine自主数学研究（Neural Jacobian Conjecture GPT-5.5-pro+DeepSeek-V4-pro独立证明）",
+        "READER动态黑盒LLM归属（Agent500 50响应70-84% 更强LLM暴露更多作者结构）",
+        "严格逐步数学证明验证（FirstProof挑战 演绎约束不可或缺 暴露基准隐含歧义）"
       ]
     },
     "tier2_emerging": {
@@ -103,7 +111,18 @@
         "体育AI反事实评估（MCPS MCTS式足球传球评估）",
         "可持续AI交互设计（UI干预能源意识）",
         "供应链世界模型（REFLECTICHAIN 6维图潜在空间）",
-        "神经符号AI工程实践（NeurASP加速 多个数量级）"
+        "神经符号AI工程实践（NeurASP加速 多个数量级）",
+        "商业世界模型（BWM 从物理世界到商业世界的模型扩展）",
+        "AI辅助认知影响理论（Exploratory Responsiveness 探索崩溃+迟滞）",
+        "LLM Judge真实数据评估（RealMath-Eval 合成vs真实评估差距）",
+        "AVLLM信息流路由（音视频多模态LLM内部信息流路径）",
+        "Minimalist Genetic Programming（MGP 从进化到语法推导）",
+        "LLM作为MIMO结构先验（工业控制中样本高效可解释结构先验）",
+        "NSRU零空间LLM遗忘（正交投影LoRA更新限制在保留子空间零空间）",
+        "Bellman-Taylor MDP求解（策略学习从离散动作空间移动到连续分数空间）",
+        "NCRE Office Agent基准（200实操任务 最强Agent仅68.8%）",
+        "Architect-Ant建筑AI（AntPlan-270数据集 DSL表示）",
+        "Learner Agency语义映射（14000+出版物 三维度景观）"
       ]
     },
     "tier4_downgrade": {
@@ -120,9 +139,9 @@
   },
   "weeklySummary": {
     "week": "W24",
-    "totalScans": 9,
-    "totalItems": 271,
-    "totalDeepDives": 40,
+    "totalScans": 10,
+    "totalItems": 296,
+    "totalDeepDives": 44,
     "newHighValueDirections": [
       "Socratic-SWE 自我进化编码Agent（轨迹蒸馏技能，50.40% SWE-bench）",
       "OpenSkill 开放世界自我进化（无监督技能构建）",
@@ -262,7 +281,28 @@
       "AutoPDE 显式求解策略Agent（PDE Agent Bench 54.5%）",
       "NeurASP 向量化缓存加速（TPLP/ICLP2026 多个数量级加速）",
       "反事实推理耦合核理论（世界模型=半正定耦合核）",
-      "LLM工业控制结构先验（MIMO控制器调谐 样本效率+可解释性）"
+      "LLM工业控制结构先验（MIMO控制器调谐 样本效率+可解释性）",
+      "Business World Model（BWM 商业语义中心世界模型 自主决策+反事实推理）",
+      "Exploratory Responsiveness（AI辅助优化下探索性适应动态理论 探索崩溃+迟滞）",
+      "Predictive Assistance（几何动力学框架 外源探索压缩 迟滞+延迟恢复）",
+      "Regimes可审计改进循环（事件源Agent运行时+held-out门控 完全可审计改进）",
+      "RealMath-Eval评估差距（LLM Judge在真实人类推理评估中MSE 2.96 vs合成1.17 合成错误结构崩溃）",
+      "Deployment-Time Memorization（Agent记忆隐私-效用前沿面 删除保真度是关键盲区）",
+      "Moonshine自主数学研究（Neural Jacobian Conjecture GPT-5.5-pro+DeepSeek-V4-pro独立证明）",
+      "READER动态黑盒LLM归属（Agent500 50响应70-84% 更强LLM暴露更多作者结构）",
+      "严格逐步数学证明验证（FirstProof挑战 演绎约束不可或缺 暴露基准隐含歧义）",
+      "AutoPDE显式求解策略Agent（PDE Agent Bench 54.5% +14.2pp 求解策略从代码解耦）",
+      "NeurASP向量化缓存加速（TPLP/ICLP2026 多个数量级加速）",
+      "Superficial Beliefs（LLM决策结构化但言语访问不完美）",
+      "LLM作为MIMO结构先验（18次评估达全局最优 不是优化器而是结构先验）",
+      "NSRU零空间LLM遗忘（正交投影LoRA更新限制在保留子空间零空间）",
+      "Bellman-Taylor MDP求解（状态依赖可行动作集 连续分数空间）",
+      "NCRE Office Agent基准（200实操任务 7118评分标准 最强仅68.8%）",
+      "Architect-Ant建筑AI（AntPlan-270 DSL表示 可编辑自动furnishing）",
+      "AVLLM信息流路由（音视频多模态LLM内部信息流 顺序/并行路由）",
+      "Minimalist Genetic Programming（MGP 从进化到语法推导 解决GP膨胀）",
+      "Learner Agency语义映射（14000+出版物 8954定义 三维度景观）",
+      "Making Software Meaningful（Daniel Jackson 软件意义统一框架）"
     ],
     "saturatedDirections": [
       "Agent记忆系统（传统语义检索方向）",
@@ -295,7 +335,12 @@
       "生物安全Agent能力追踪（ABC-Bench扩展）",
       "神经符号AI工程实践（NeurASP加速后续）",
       "反事实推理理论应用（耦合核框架落地）",
-      "LLM结构先验在更多工业场景验证"
+      "LLM结构先验在更多工业场景验证",
+      "Agent记忆系统架构对比（Infini/OSL-MR/Latent/ActiveMem四种新范式）",
+      "AI辅助认知影响实证验证（Exploratory Responsiveness理论框架）",
+      "LLM Judge真实数据评估管线设计（基于RealMath-Eval发现）",
+      "Business World Model实现路径（BWM概念框架到可执行系统）",
+      "Regimes事件源架构推广（ActiveGraph在更多Agent改进场景）"
     ]
   }
 }
