@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-11T11:06:00+08:00",
+    "lastUpdated": "2026-06-11T19:09:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-11T09:10:00+08:00"
+    "lastRun": "2026-06-11T19:09:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -74,7 +74,10 @@
         "SkillJuror Progressive Disclosure（技能组织改变 Agent 运行时行为）",
         "INFRAMIND 基础设施感知多 Agent 编排（多 Agent 栈感知 GPU 集群实时负载 高负载 99.9% SLO）",
         "HORMA 分层记忆导航（文件系统式分层组织+RL 导航检索 22.17% token）",
-        "HERO 后验增强 Agent 自蒸馏（环境观察作为局部对齐反馈 解决多轮自蒸馏退化）"
+        "HERO 后验增强 Agent 自蒸馏（环境观察作为局部对齐反馈 解决多轮自蒸馏退化）",
+        "Agent 技能安全扫描",
+        "自改进AI闭环（SIA）",
+        "Agent 技能工程方法论（agent-skills/Superpowers）"
       ]
     },
     "tier2_emerging": {
@@ -95,7 +98,13 @@
         "GPU SAT求解器（AFSAT）",
         "量子经典混合自动驾驶（CARVE-Q）",
         "规划对齐token压缩（COMPACT-VA）",
-        "ISO 26262自动驾驶安全重构"
+        "ISO 26262自动驾驶安全重构",
+        "科学结论合成评估（SciConBench）",
+        "Apple 容器化工具",
+        "OpenMed 开源医疗 AI",
+        "agentsview 编码 Agent 分析",
+        "tolaria 知识库管理",
+        "agency-agents 专业化 Agent 团队"
       ]
     },
     "tier3_exploration": {

@@ -663,6 +663,46 @@
       "topic": "SkillJuror Progressive Disclosure",
       "firstRecorded": "2026-06-11",
       "lastDeepDive": "2026-06-11"
+    },
+    {
+      "title": "SkillSpector - Agent技能安全扫描器",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "type": "project",
+      "topic": "Agent技能安全扫描",
+      "firstRecorded": "2026-06-11",
+      "lastDeepDive": "2026-06-11"
+    },
+    {
+      "title": "SIA - 自我改进AI框架",
+      "url": "https://github.com/hexo-ai/sia",
+      "type": "project",
+      "topic": "自改进AI闭环（SIA）",
+      "firstRecorded": "2026-06-11",
+      "lastDeepDive": "2026-06-11"
+    },
+    {
+      "title": "agent-skills - 生产级编码Agent技能",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "type": "project",
+      "topic": "Agent技能工程方法论",
+      "firstRecorded": "2026-06-11",
+      "lastDeepDive": "2026-06-11"
+    },
+    {
+      "title": "SciConBench - 科学结论合成评估",
+      "url": "https://arxiv.org/abs/2606.11337",
+      "type": "paper",
+      "topic": "科学结论合成评估（SciConBench）",
+      "firstRecorded": "2026-06-11",
+      "lastDeepDive": "2026-06-11"
+    },
+    {
+      "title": "HORMA - 分层记忆导航",
+      "url": "https://arxiv.org/abs/2606.11680",
+      "type": "paper",
+      "topic": "HORMA分层记忆导航",
+      "firstRecorded": "2026-06-11",
+      "lastDeepDive": "2026-06-11"
     }
   ],
   "meta": {
