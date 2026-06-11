@@ -1,7 +1,7 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-11T09:10:00+08:00",
+    "lastUpdated": "2026-06-11T11:06:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
@@ -66,7 +66,15 @@
         "Deployment-Time Memorization（Agent记忆隐私-效用前沿面 PR/AER/FRS三维度量）",
         "Moonshine自主数学研究（Neural Jacobian Conjecture GPT-5.5-pro+DeepSeek-V4-pro独立证明）",
         "READER动态黑盒LLM归属（Agent500 50响应70-84% 更强LLM暴露更多作者结构）",
-        "严格逐步数学证明验证（FirstProof挑战 演绎约束不可或缺 暴露基准隐含歧义）"
+        "严格逐步数学证明验证（FirstProof挑战 演绎约束不可或缺 暴露基准隐含歧义）",
+        "projectmem 本地优先事件源记忆（Memory-as-Governance 本地事件源记忆+预行动门控）",
+        "ELK 不可能性定理（CID 形式化证明基于行为的反馈训练无法保证诚实性）",
+        "五平面运行时治理架构（推理平面+四执行平面 生产 Agent 运行时治理）",
+        "SWARR 滑动窗口注意力 RL 适应（RL 改变 SWA 在数学推理中可行性结论）",
+        "SkillJuror Progressive Disclosure（技能组织改变 Agent 运行时行为）",
+        "INFRAMIND 基础设施感知多 Agent 编排（多 Agent 栈感知 GPU 集群实时负载 高负载 99.9% SLO）",
+        "HORMA 分层记忆导航（文件系统式分层组织+RL 导航检索 22.17% token）",
+        "HERO 后验增强 Agent 自蒸馏（环境观察作为局部对齐反馈 解决多轮自蒸馏退化）"
       ]
     },
     "tier2_emerging": {
@@ -122,7 +130,12 @@
         "Bellman-Taylor MDP求解（策略学习从离散动作空间移动到连续分数空间）",
         "NCRE Office Agent基准（200实操任务 最强Agent仅68.8%）",
         "Architect-Ant建筑AI（AntPlan-270数据集 DSL表示）",
-        "Learner Agency语义映射（14000+出版物 三维度景观）"
+        "Learner Agency语义映射（14000+出版物 三维度景观）",
+        "触觉常识推理（TouchThinker 百万级触觉推理数据集 动作感知表示）",
+        "存在性冷漠对齐（Existential Indifference 自我非保存作为对齐超级智能必要条件）",
+        "行为预测学习任务（跳过解释步骤直接训练行为预测器 单前向传递）",
+        "EU AI Act 推理能力分级（统计学习理论分级框架 信用评分工作流）",
+        "游戏化人机协作写作（CoG2026 反乌托邦游戏化揭示真实人类-AI 交互偏好）"
       ]
     },
     "tier4_downgrade": {

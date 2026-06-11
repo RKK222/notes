@@ -623,10 +623,50 @@
       "topic": "Exploratory Responsiveness AI认知影响",
       "firstRecorded": "2026-06-11",
       "lastDeepDive": "2026-06-11"
+    },
+    {
+      "title": "projectmem: Local-First Event-Sourced Memory for AI Coding Agents",
+      "url": "https://github.com/riponcm/projectmem",
+      "type": "project",
+      "topic": "projectmem 本地优先事件源记忆",
+      "firstRecorded": "2026-06-11",
+      "lastDeepDive": "2026-06-11"
+    },
+    {
+      "title": "INFRAMIND: Infrastructure-Aware Multi-Agent Orchestration",
+      "url": "https://arxiv.org/abs/2606.11440",
+      "type": "paper",
+      "topic": "INFRAMIND 基础设施感知多 Agent 编排",
+      "firstRecorded": "2026-06-11",
+      "lastDeepDive": "2026-06-11"
+    },
+    {
+      "title": "The Impossibility of Eliciting Latent Knowledge (ELK)",
+      "url": "https://arxiv.org/abs/2606.12268",
+      "type": "paper",
+      "topic": "ELK 不可能性定理",
+      "firstRecorded": "2026-06-11",
+      "lastDeepDive": "2026-06-11"
+    },
+    {
+      "title": "SWARR: Architecture-Aware RL for Sliding-Window Attention in Math Reasoning",
+      "url": "https://arxiv.org/abs/2606.11634",
+      "type": "paper",
+      "topic": "SWARR 滑动窗口注意力 RL 适应",
+      "firstRecorded": "2026-06-11",
+      "lastDeepDive": "2026-06-11"
+    },
+    {
+      "title": "SkillJuror: Measuring How Agent Skill Organization Changes Runtime Behavior",
+      "url": "https://arxiv.org/abs/2606.11543",
+      "type": "paper",
+      "topic": "SkillJuror Progressive Disclosure",
+      "firstRecorded": "2026-06-11",
+      "lastDeepDive": "2026-06-11"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-11T09:10:00+08:00",
-    "totalEntries": 78
+    "lastUpdated": "2026-06-11T11:06:00+08:00",
+    "totalEntries": 83
   }
 }
