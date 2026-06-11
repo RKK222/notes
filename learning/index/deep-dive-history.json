@@ -591,10 +591,42 @@
       "topic": "The Arbiter 多Agent监控",
       "firstRecorded": "2026-06-10",
       "lastDeepDive": "2026-06-10"
+    },
+    {
+      "title": "Regimes: An Auditable, Held-Out-Gated Improvement Loop",
+      "url": "https://arxiv.org/abs/2606.10241",
+      "type": "project",
+      "topic": "Regimes可审计改进循环",
+      "firstRecorded": "2026-06-11",
+      "lastDeepDive": "2026-06-11"
+    },
+    {
+      "title": "Business World Model: 从物理世界到商业世界的模型扩展",
+      "url": "https://arxiv.org/abs/2606.10044",
+      "type": "paper",
+      "topic": "Business World Model",
+      "firstRecorded": "2026-06-11",
+      "lastDeepDive": "2026-06-11"
+    },
+    {
+      "title": "RealMath-Eval: Why SOTA Judges Struggle with Real Human Reasoning",
+      "url": "https://arxiv.org/abs/2606.10254",
+      "type": "paper",
+      "topic": "RealMath-Eval评估差距",
+      "firstRecorded": "2026-06-11",
+      "lastDeepDive": "2026-06-11"
+    },
+    {
+      "title": "Exploratory Responsiveness and Adaptive Rigidity under AI-Assisted Optimization",
+      "url": "https://arxiv.org/abs/2606.10086",
+      "type": "paper",
+      "topic": "Exploratory Responsiveness AI认知影响",
+      "firstRecorded": "2026-06-11",
+      "lastDeepDive": "2026-06-11"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-10T19:00:00+08:00",
-    "totalEntries": 74
+    "lastUpdated": "2026-06-11T09:10:00+08:00",
+    "totalEntries": 78
   }
 }
