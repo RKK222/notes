@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-12T11:06:00+08:00",
+    "lastUpdated": "2026-06-12T19:06:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-12T11:06:00+08:00"
+    "lastRun": "2026-06-12T19:06:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -94,7 +94,41 @@
         "部署型 Agent AI 框架级安全差距",
         "自主渗透能力评估",
         "AgentBeats Agent 评估标准化",
-        "agent-skills 生产级 Agent 技能工程爆发式增长"
+        "agent-skills 生产级 Agent 技能工程爆发式增长",
+        "Agent 评估标准化（AgentBeats）",
+        "KV 缓存经济模型（Agent-Native Prefill CDN）",
+        "AI 科学发现三层框架（Layer 2 模型形成）",
+        "认知殖民理论（System 0）",
+        "MiniMax 稀疏注意力（MSA）",
+        "ARMOR-MAD 异构多 Agent 辩论",
+        "LLM-as-an-Investigator 证据优先推理",
+        "Brick 多模型空间能力路由",
+        "ReSum RLVR 自我总结推理",
+        "ProFact Agentic RL 事实验证",
+        "Shield Synthesis 防御性分析",
+        "评估主权（Evaluation Sovereignty）",
+        "Sampling≠Choosing LLM 意图性哲学分析",
+        "Neuro-Symbolic Agents 合规构建",
+        "EpiBench 表观基因组 Agent 基准",
+        "UMG-RAG 不确定性感知混合检索",
+        "CloudCons 云资源合并端到端基准",
+        "ERTS 伦理 AI 对抗测试",
+        "MOSAIC 模态增量持续学习",
+        "UXBench 移动端 UX 推理基准",
+        "CRPO 心理健康评估 RL",
+        "TerraBench 地球系统 Agent 推理",
+        "V-RAGBench 长视频 RAG",
+        "Nous 认知单培养问题",
+        "Zed DeltaDB",
+        "Homebrew 6.0.0",
+        "Claude Fable 5 独立编码评估",
+        "Anthropic Fable Guardrails 道歉",
+        "Reasoning as Pattern Matching 人类与 LLM 共享推理机制",
+        "Training Dynamics 计算约束训练动态",
+        "IterCAD 迭代多模态 CAD 生成",
+        "Hallucination 医疗影像 AI 跨模态框架",
+        "Multi-Agent 聚合置信度协议",
+        "AAbAAC 自身免疫信息提取语料库"
       ]
     },
     "tier2_emerging": {
@@ -220,9 +254,9 @@
   },
   "weeklySummary": {
     "week": "W24",
-    "totalScans": 13,
-    "totalItems": 328,
-    "totalDeepDives": 49,
+    "totalScans": 15,
+    "totalItems": 495,
+    "totalDeepDives": 66,
     "newHighValueDirections": [
       "Socratic-SWE 自我进化编码Agent（轨迹蒸馏技能，50.40% SWE-bench）",
       "OpenSkill 开放世界自我进化（无监督技能构建）",
@@ -383,12 +417,46 @@
       "AVLLM信息流路由（音视频多模态LLM内部信息流 顺序/并行路由）",
       "Minimalist Genetic Programming（MGP 从进化到语法推导 解决GP膨胀）",
       "Learner Agency语义映射（14000+出版物 8954定义 三维度景观）",
-      "Making Software Meaningful（Daniel Jackson 软件意义统一框架）"
+      "Making Software Meaningful（Daniel Jackson 软件意义统一框架）",
+      "Agent 评估标准化（AgentBeats 开放性标准化可复现性框架）",
+      "KV 缓存经济模型（Can I Buy Your KV Cache? 49.7x 成本差异 Agent 原生预填充 CDN）",
+      "AI 科学发现三层框架（Layer 2 定性推理最重要且最不发 三个历史案例相同结构签名）",
+      "认知殖民理论（System 0 AI 作为先于思考的认知基础设施 架构级利益嵌入）",
+      "MiniMax 稀疏注意力 MSA（109B 模型 1M 上下文 28.4x 注意力计算减少 简洁可扩展设计）",
+      "ARMOR-MAD 异构多 Agent 辩论（训练-free 条件计算 PAR+EASE+SOD MATH 65.5%）",
+      "LLM-as-an-Investigator 证据优先推理（对抗用户驱动谄媚 证据优先协议）",
+      "Brick 多模型空间能力路由（6 维度能力评分+成本惩罚几何路由 4.71x 成本降低）",
+      "ReSum RLVR 自我总结推理（4% 性能提升+18.6% 轨迹缩短 总结感知自适应）",
+      "ProFact Agentic RL 事实验证（过程感知奖励多阶段事实验证 端到端优化）",
+      "Shield Synthesis 防御性分析（从运行时执行到设计时分析 防御性裁决+指纹）",
+      "评估主权（性能度量独立于标签权威 多轨道评估 Micro-F1 从0.54降至0.03）",
+      "Sampling≠Choosing（采样≠选择 概率映射≠承诺承载代理 清晰界定 LLM 代理边界）",
+      "Neuro-Symbolic 合规构建（符号结构作为核心架构组件 NILA@IJCAI2026）",
+      "EpiBench 表观基因组基准（106 评估 16 模型-harness 对 无系统多数通过）",
+      "UMG-RAG 不确定性感知混合检索（训练-free 多粒度融合+父节点提升）",
+      "CloudCons 云资源合并基准（KDD 2026 预测精度≠决策效用 三分位数校准）",
+      "ERTS 伦理 AI 对抗测试（22 维伦理后果空间+17 语义扰动 仅33%模型通过）",
+      "MOSAIC 模态增量持续学习（毒性教师现象+统计解耦 MSBN）",
+      "UXBench 移动端 UX 推理（2000 VQA 样本 8 任务 主流 MLLM 根本受限）",
+      "CRPO 心理健康评估 RL（阶段依赖不确定性建模 10.4pp F1 提升）",
+      "TerraBench 地球系统推理（403 任务 24500 验证执行步骤 异构工作流）",
+      "V-RAGBench 长视频 RAG（chunk-adaptive reranking 多模态多粒度）",
+      "Nous 认知单培养（预测市场 LLM 代理认知多样性 提示级注入无效）",
+      "Zed DeltaDB（commits 之间的软件开发数据库 过程导向）",
+      "Homebrew 6.0.0（macOS 包管理器重大更新 1256 HN points）",
+      "Claude Fable 5 独立评估（Endor Labs mid-tier 结果 揭示炒作差距）",
+      "Anthropic Fable Guardrails 道歉（不可见蒸馏护栏争议 433 HN points）",
+      "Reasoning as Pattern Matching（人和 LLM 共享推理机制 模式匹配而非抽象世界模型）",
+      "Training Dynamics 计算约束（验证损失先降后升 额外 token 不产生成比例增益）",
+      "IterCAD 迭代多模态 CAD（闭环交互式 CAD 生成编辑 渐进 SFT+几何感知 RL）",
+      "Hallucination 医疗影像跨模态（通用基础模型超越医疗专用模型 FDA 生命周期映射）",
+      "Multi-Agent 聚合置信度（首个多 Agent 系统聚合置信度 贝叶斯融合）",
+      "AAbAAC 自身免疫语料库（BioNLP 2026 115 PubMed 摘要手动标注）"
     ],
     "saturatedDirections": [
-      "Agent记忆系统（传统语义检索方向）",
+      "Agent 记忆系统（传统语义检索方向）",
       "形式化验证 × RL",
-      "Agent Harness优化"
+      "Agent Harness 优化（基础层面）"
     ],
     "nextWeekPriorities": [
       "Socratic-SWE自我进化机制深入（轨迹蒸馏算法+技能表示）",
@@ -421,7 +489,17 @@
       "AI辅助认知影响实证验证（Exploratory Responsiveness理论框架）",
       "LLM Judge真实数据评估管线设计（基于RealMath-Eval发现）",
       "Business World Model实现路径（BWM概念框架到可执行系统）",
-      "Regimes事件源架构推广（ActiveGraph在更多Agent改进场景）"
+      "Regimes事件源架构推广（ActiveGraph在更多Agent改进场景）",
+      "Agent 评估标准化实施路径（AgentBeats 框架行业采纳和工具化）",
+      "KV 缓存 CDN 技术实现（无损 KV 压缩+跨方支付层）",
+      "Layer 2 模型形成计算框架（定性推理的可计算实现和基准）",
+      "认知殖民实证研究设计（AI 对人类认知架构影响的实验验证）",
+      "MSA 稀疏注意力部署实践（超长上下文场景真实部署效果）",
+      "ProFact 事实验证扩展（过程感知奖励在其他多阶段任务的应用）",
+      "认知单培养缓解方案（超越提示级注入的深层方法：微调/激活引导）",
+      "评估主权审计工具（多轨道评估框架的自动化实现）",
+      "Neuro-Symbolic 合规构建实践（受监管行业 Agent 自动化落地）",
+      "ERTS 伦理测试管线扩展（更多部署域和模型覆盖）"
     ]
   }
 }
