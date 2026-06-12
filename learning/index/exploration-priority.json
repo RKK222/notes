@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-11T19:09:00+08:00",
+    "lastUpdated": "2026-06-12T11:06:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-12T09:06:00+08:00"
+    "lastRun": "2026-06-12T11:06:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -84,7 +84,17 @@
         "LLMKeyLens iOS LLM API 凭证泄露（444 应用 282 暴露 72% 未修复）",
         "DIRECT 具身规划测试时计算分配（多模态场景上下文路由 65% 延迟降低）",
         "MPI MoE 路由器设计（流形幂迭代对齐专家主奇异方向）",
-        "ATLAS 主动理论学习（稀疏神经网络假设生成+实验设计 5-10x 样本效率）"
+        "ATLAS 主动理论学习（稀疏神经网络假设生成+实验设计 5-10x 样本效率）",
+        "Agent 技能安全扫描（SkillSpector）",
+        "环境工程驱动自主研究（EurekAgent）",
+        "Agent 原生知识图谱（Agents-K1）",
+        "编排级奖励建模（OrchRM）",
+        "Agent 编码质量分层评估",
+        "AI 科学发现三层框架",
+        "部署型 Agent AI 框架级安全差距",
+        "自主渗透能力评估",
+        "AgentBeats Agent 评估标准化",
+        "agent-skills 生产级 Agent 技能工程爆发式增长"
       ]
     },
     "tier2_emerging": {
@@ -124,7 +134,32 @@
         "自动驾驶场景挖掘冠军 AutoMine（CVPR 2026 冠军 LLM+VLM 自精炼）",
         "证据校准科学发现 StatefulDiscovery（40 真实数据任务）",
         "技能增强医疗研究人类评估（NSCLC 转录组 6 模型）",
-        "NEXT 机器人外部力感知（1 分钟训练 10 分钟数据 无需专用力传感器）"
+        "NEXT 机器人外部力感知（1 分钟训练 10 分钟数据 无需专用力传感器）",
+        "评估主权（Evaluation Sovereignty）",
+        "AI 研究主题相变早期预警",
+        "Instructions-as-Code 指令文件工程化",
+        "Agent AI 采纳对架构质量因果影响",
+        "LLM 可复现性自动化评估",
+        "UMG-RAG 不确定性感知混合检索",
+        "CloudCons 云资源合并端到端基准",
+        "SkillCAT 对比评估+拓扑感知技能进化",
+        "RogueAI 反向图灵测试",
+        "LLM-as-an-Investigator 证据优先推理",
+        "Runtime Skill Audit 运行时技能审计",
+        "MPC-Patch-Bench MPC 软件 LLM 代码修复基准",
+        "EvoBrowseComp 演化知识搜索 Agent 基准",
+        "apple/container Mac 官方 Linux 容器",
+        "hivemind 多 Agent 统一大脑",
+        "agentsview Agent 会话智能分析",
+        "CyberStrikeAI AI 原生安全测试平台",
+        "context-mode Agent 上下文窗口 98% 缩减",
+        "hatchet Agent 编排引擎",
+        "基因组锚定个性化健康 AI",
+        "TAHOE Text-to-SQL 自动提示优化",
+        "ATLAS 主动理论学习",
+        "PROJECTMEM 事件源记忆层",
+        "社会模拟决策策略对比",
+        "LLM 意图性与道德责任哲学分析"
       ]
     },
     "tier3_exploration": {
