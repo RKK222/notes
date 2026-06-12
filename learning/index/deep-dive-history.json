@@ -743,6 +743,38 @@
       "topic": "DIRECT 具身规划测试时计算分配",
       "firstRecorded": "2026-06-12",
       "lastDeepDive": "2026-06-12"
+    },
+    {
+      "title": "apple/container - Mac 上 Linux 容器（Apple 官方 Swift 工具）",
+      "url": "https://github.com/apple/container",
+      "type": "project",
+      "topic": "apple container Mac Linux 容器",
+      "firstRecorded": "2026-06-12",
+      "lastDeepDive": "2026-06-12"
+    },
+    {
+      "title": "EurekAgent - 环境工程驱动自主科学发现（<$11 发现新 26 圆包装结果）",
+      "url": "https://arxiv.org/abs/2606.13662",
+      "type": "paper",
+      "topic": "EurekAgent 环境工程自主研究",
+      "firstRecorded": "2026-06-12",
+      "lastDeepDive": "2026-06-12"
+    },
+    {
+      "title": "Agents-K1 - Agent 原生知识图谱（246 万论文×6 学科）",
+      "url": "https://arxiv.org/abs/2606.13669",
+      "type": "paper",
+      "topic": "Agents-K1 Agent 原生知识图谱",
+      "firstRecorded": "2026-06-12",
+      "lastDeepDive": "2026-06-12"
+    },
+    {
+      "title": "OrchRM - 多 Agent 编排奖励建模（10x 效率+8% 精度）",
+      "url": "https://arxiv.org/abs/2606.13598",
+      "type": "paper",
+      "topic": "OrchRM 编排级奖励建模",
+      "firstRecorded": "2026-06-12",
+      "lastDeepDive": "2026-06-12"
     }
   ],
   "meta": {
