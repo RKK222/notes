@@ -775,10 +775,58 @@
       "topic": "OrchRM 编排级奖励建模",
       "firstRecorded": "2026-06-12",
       "lastDeepDive": "2026-06-12"
+    },
+    {
+      "title": "Zed DeltaDB — Software is Made Between Commits",
+      "url": "https://zed.dev/blog/introducing-deltadb",
+      "type": "project",
+      "topic": "Zed DeltaDB 软件开发过程数据库",
+      "firstRecorded": "2026-06-12",
+      "lastDeepDive": "2026-06-12"
+    },
+    {
+      "title": "MiniMax Sparse Attention (MSA) — 块状稀疏注意力",
+      "url": "https://arxiv.org/abs/2606.13392",
+      "type": "paper",
+      "topic": "MiniMax 稀疏注意力（MSA）",
+      "firstRecorded": "2026-06-12",
+      "lastDeepDive": "2026-06-12"
+    },
+    {
+      "title": "Can I Buy Your KV Cache? — Agent-Native Prefill CDN",
+      "url": "https://arxiv.org/abs/2606.13361",
+      "type": "paper",
+      "topic": "KV 缓存经济模型（Agent-Native Prefill CDN）",
+      "firstRecorded": "2026-06-12",
+      "lastDeepDive": "2026-06-12"
+    },
+    {
+      "title": "A Three-Layer Framework for AI in Scientific Discovery — Layer 2 模型形成",
+      "url": "https://arxiv.org/abs/2606.13566",
+      "type": "paper",
+      "topic": "AI 科学发现三层框架（Layer 2 模型形成）",
+      "firstRecorded": "2026-06-12",
+      "lastDeepDive": "2026-06-12"
+    },
+    {
+      "title": "ProFact — Agentic RL for Multi-Stage Fact Verification",
+      "url": "https://arxiv.org/abs/2606.13262",
+      "type": "paper",
+      "topic": "ProFact Agentic RL 事实验证",
+      "firstRecorded": "2026-06-12",
+      "lastDeepDive": "2026-06-12"
+    },
+    {
+      "title": "Before You Think: System 0, AI-Mediated Cognition and Cognitive Colonization",
+      "url": "https://arxiv.org/abs/2606.13658",
+      "type": "paper",
+      "topic": "认知殖民理论（System 0）",
+      "firstRecorded": "2026-06-12",
+      "lastDeepDive": "2026-06-12"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-12T09:06:00+08:00",
-    "totalEntries": 93
+    "lastUpdated": "2026-06-12T19:06:00+08:00",
+    "totalEntries": 103
   }
 }
