@@ -5,7 +5,7 @@
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-11T19:09:00+08:00"
+    "lastRun": "2026-06-12T09:06:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -77,7 +77,14 @@
         "HERO 后验增强 Agent 自蒸馏（环境观察作为局部对齐反馈 解决多轮自蒸馏退化）",
         "Agent 技能安全扫描",
         "自改进AI闭环（SIA）",
-        "Agent 技能工程方法论（agent-skills/Superpowers）"
+        "Agent 技能工程方法论（agent-skills/Superpowers）",
+        "APPO 代理过程策略优化（细粒度决策点分支和信用分配 13 基准 +4 点）",
+        "Reroute 视觉 Token 可恢复路由（替代不可逆删除 训练-free 插件提升 grounding）",
+        "Tahoe Text-to-SQL 提示优化（错误驱动提示学习 Spider 2.0-Snow 61.95%→79.42%）",
+        "LLMKeyLens iOS LLM API 凭证泄露（444 应用 282 暴露 72% 未修复）",
+        "DIRECT 具身规划测试时计算分配（多模态场景上下文路由 65% 延迟降低）",
+        "MPI MoE 路由器设计（流形幂迭代对齐专家主奇异方向）",
+        "ATLAS 主动理论学习（稀疏神经网络假设生成+实验设计 5-10x 样本效率）"
       ]
     },
     "tier2_emerging": {
@@ -104,7 +111,20 @@
         "OpenMed 开源医疗 AI",
         "agentsview 编码 Agent 分析",
         "tolaria 知识库管理",
-        "agency-agents 专业化 Agent 团队"
+        "agency-agents 专业化 Agent 团队",
+        "GPU LLM 服务软件老化（216 小时实验所有部署存在内存老化）",
+        "ScaleLens 分布式系统可扩展性故障（444 issue 分析 4.2x 检测率）",
+        "Acoda 对抗性代码混淆（遗传算法 ASR 70% 跨模型迁移）",
+        "SentTrack GitHub Issue 情感瓶颈（9000 issue 49% 停滞 13% 解决）",
+        "Defeater Cards 安全保证案例（5W1H 框架跨域案例研究）",
+        "Multisage 代码翻译多语义增强（数据流图+类型约束 HumanEval-X 2.22x）",
+        "递归心智理论推理 RecToM（KD45 分析 Hi-ToM 100% 准确率）",
+        "空间推理一致性放大事实性 OT-GRPO（自监督 RL 无需标注）",
+        "具身空间智能基准自主构建（五阶段管线 三 Agent 协调）",
+        "自动驾驶场景挖掘冠军 AutoMine（CVPR 2026 冠军 LLM+VLM 自精炼）",
+        "证据校准科学发现 StatefulDiscovery（40 真实数据任务）",
+        "技能增强医疗研究人类评估（NSCLC 转录组 6 模型）",
+        "NEXT 机器人外部力感知（1 分钟训练 10 分钟数据 无需专用力传感器）"
       ]
     },
     "tier3_exploration": {
@@ -144,7 +164,11 @@
         "存在性冷漠对齐（Existential Indifference 自我非保存作为对齐超级智能必要条件）",
         "行为预测学习任务（跳过解释步骤直接训练行为预测器 单前向传递）",
         "EU AI Act 推理能力分级（统计学习理论分级框架 信用评分工作流）",
-        "游戏化人机协作写作（CoG2026 反乌托邦游戏化揭示真实人类-AI 交互偏好）"
+        "游戏化人机协作写作（CoG2026 反乌托邦游戏化揭示真实人类-AI 交互偏好）",
+        "存在性冷漠对齐理论（自我非保存作为对齐必要条件）",
+        "C/C++ UB 桌面实验（59 任务 11000+ UB Mesa 为主要来源）",
+        "多文件变更探索结构（非线性并行 vs 线性 SWE-bench Pro）",
+        "需求质量与追溯链接恢复（28 种缺陷 5 种 TLR 方法实证）"
       ]
     },
     "tier4_downgrade": {
@@ -161,9 +185,9 @@
   },
   "weeklySummary": {
     "week": "W24",
-    "totalScans": 10,
-    "totalItems": 296,
-    "totalDeepDives": 44,
+    "totalScans": 13,
+    "totalItems": 328,
+    "totalDeepDives": 49,
     "newHighValueDirections": [
       "Socratic-SWE 自我进化编码Agent（轨迹蒸馏技能，50.40% SWE-bench）",
       "OpenSkill 开放世界自我进化（无监督技能构建）",

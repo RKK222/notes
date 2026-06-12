@@ -703,10 +703,50 @@
       "topic": "HORMA分层记忆导航",
       "firstRecorded": "2026-06-11",
       "lastDeepDive": "2026-06-11"
+    },
+    {
+      "title": "MiMo Code - 小米开源编码模型",
+      "url": "https://github.com/xiaomi/MiMo-Codes",
+      "type": "project",
+      "topic": "MiMo Code 小米开源编码模型",
+      "firstRecorded": "2026-06-12",
+      "lastDeepDive": "2026-06-12"
+    },
+    {
+      "title": "APPO - Agentic Procedural Policy Optimization",
+      "url": "https://arxiv.org/abs/2606.12384",
+      "type": "paper",
+      "topic": "APPO 代理过程策略优化",
+      "firstRecorded": "2026-06-12",
+      "lastDeepDive": "2026-06-12"
+    },
+    {
+      "title": "Tahoe - Text-to-SQL 提示优化系统",
+      "url": "https://arxiv.org/abs/2606.12387",
+      "type": "paper",
+      "topic": "Tahoe Text-to-SQL 提示优化",
+      "firstRecorded": "2026-06-12",
+      "lastDeepDive": "2026-06-12"
+    },
+    {
+      "title": "LLMKeyLens - LLM API 凭证泄露检测",
+      "url": "https://arxiv.org/abs/2606.12212",
+      "type": "paper",
+      "topic": "LLMKeyLens iOS LLM API 凭证泄露",
+      "firstRecorded": "2026-06-12",
+      "lastDeepDive": "2026-06-12"
+    },
+    {
+      "title": "DIRECT - 具身规划测试时计算分配",
+      "url": "https://arxiv.org/abs/2606.12402",
+      "type": "paper",
+      "topic": "DIRECT 具身规划测试时计算分配",
+      "firstRecorded": "2026-06-12",
+      "lastDeepDive": "2026-06-12"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-11T11:06:00+08:00",
-    "totalEntries": 83
+    "lastUpdated": "2026-06-12T09:06:00+08:00",
+    "totalEntries": 93
   }
 }
