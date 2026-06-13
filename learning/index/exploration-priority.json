@@ -268,9 +268,9 @@
   },
   "weeklySummary": {
     "week": "W24",
-    "totalScans": 15,
+    "totalScans": 16,
     "totalItems": 495,
-    "totalDeepDives": 66,
+    "totalDeepDives": 65,
     "newHighValueDirections": [
       "Socratic-SWE 自我进化编码Agent（轨迹蒸馏技能，50.40% SWE-bench）",
       "OpenSkill 开放世界自我进化（无监督技能构建）",
