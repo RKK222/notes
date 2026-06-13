@@ -670,7 +670,7 @@
       "type": "project",
       "topic": "Agent技能安全扫描",
       "firstRecorded": "2026-06-11",
-      "lastDeepDive": "2026-06-11"
+      "lastDeepDive": "2026-06-13"
     },
     {
       "title": "SIA - 自我改进AI框架",
@@ -951,10 +951,50 @@
       "topic": "DoorDash 世界反馈 RL",
       "firstRecorded": "2026-06-13",
       "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "MaxProof - 群体级测试时扩展数学证明",
+      "url": "https://arxiv.org/abs/2606.13473",
+      "type": "paper",
+      "topic": "群体级测试时扩展",
+      "firstRecorded": "2026-06-13",
+      "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "COM-as-Action - 专业软件操控新范式",
+      "url": "https://arxiv.org/abs/2606.13239",
+      "type": "paper",
+      "topic": "COM-as-Action 专业软件操控",
+      "firstRecorded": "2026-06-13",
+      "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "The End of Code Review - 编码Agent超越人类审查",
+      "url": "https://arxiv.org/abs/2606.13175",
+      "type": "paper",
+      "topic": "AI原生软件工程",
+      "firstRecorded": "2026-06-13",
+      "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "DIG - Oracle引导的零日漏洞定向生成",
+      "url": "https://arxiv.org/abs/2606.13037",
+      "type": "paper",
+      "topic": "零日漏洞定向生成",
+      "firstRecorded": "2026-06-13",
+      "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "Paca - 轻量级人机协作项目管理",
+      "url": "https://github.com/Paca-AI/paca",
+      "type": "project",
+      "topic": "本地编码Agent部署",
+      "firstRecorded": "2026-06-13",
+      "lastDeepDive": "2026-06-13"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-13T11:03:00+08:00",
+    "lastUpdated": "2026-06-13T19:00:00+08:00",
     "totalEntries": 119
   }
 }

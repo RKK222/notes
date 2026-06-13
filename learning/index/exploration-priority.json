@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-13T11:03:00+08:00",
+    "lastUpdated": "2026-06-13T19:00:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-13T11:03:00+08:00"
+    "lastRun": "2026-06-13T19:00:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -137,7 +137,12 @@
         "MiniMax Sparse Attention (MSA) 块稀疏注意力",
         "多 Agent 聚合置信度协议",
         "DoorDash 世界反馈 RL 真实部署",
-        "FrontierCode 代码可合并性评估基准"
+        "FrontierCode 代码可合并性评估基准",
+        "Agentic PR 质量治理",
+        "COM-as-Action 专业软件操控",
+        "群体级测试时扩展",
+        "零日漏洞定向生成",
+        "AI原生软件工程"
       ]
     },
     "tier2_emerging": {
@@ -206,7 +211,8 @@
         "FFmpeg 零日漏洞安全测试",
         "结构化测试台生成（STG）",
         "多模态 Agent 工业检测",
-        "可控科学推理基准（SciR）"
+        "可控科学推理基准（SciR）",
+        "本地编码Agent部署"
       ]
     },
     "tier3_exploration": {
@@ -275,7 +281,9 @@
         "形式化验证 × RL",
         "Agent Harness优化",
         "边缘AI/EdgeLLM",
-        "知识图谱推理"
+        "知识图谱推理",
+        "Agent 记忆系统",
+        "Agent 技能生态"
       ]
     }
   },
