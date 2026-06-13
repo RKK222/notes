@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-13T09:06:00+08:00",
+    "lastUpdated": "2026-06-13T11:03:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-13T09:06:00+08:00"
+    "lastRun": "2026-06-13T11:03:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -132,7 +132,12 @@
         "Agent 编码工作流分工模式（/architect）",
         "Agent 分析工作空间（BitBoard）",
         "世界反馈 RL（DoorDash）",
-        "LLM 自动化可复现性评估"
+        "LLM 自动化可复现性评估",
+        "The Illusion of Multi-Agent Advantage（自动 MAS 架构膨胀问题）",
+        "MiniMax Sparse Attention (MSA) 块稀疏注意力",
+        "多 Agent 聚合置信度协议",
+        "DoorDash 世界反馈 RL 真实部署",
+        "FrontierCode 代码可合并性评估基准"
       ]
     },
     "tier2_emerging": {
@@ -251,7 +256,15 @@
         "Optical Spiking Transformer",
         "APCyc 环肽设计（KDD 2026）",
         "数学论坛平台",
-        "视频监控多光谱增强"
+        "视频监控多光谱增强",
+        "光脉冲神经网络 (Otters++) - 将硬件缺陷转化为计算优势",
+        "预测市场认知多样性 (Nous) - LLM Agent 认知单 culture 问题",
+        "环肽 AI 设计 (APCyc) - KDD 2026 目标感知环肽生成",
+        "SciR 可控科学推理基准 - 多范式+可控渲染",
+        "STG 结构化测试台生成 - HDL 验证数据策展",
+        "多模态 Agent 电力配网缺陷检测 - 工业多模态 Agent",
+        "本地编码 Agent 部署 - macOS 本地编码 Agent 设置指南",
+        "FFmpeg 21 零日漏洞 - 开源基础设施安全测试"
       ]
     },
     "tier4_downgrade": {
