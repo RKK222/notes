@@ -863,10 +863,98 @@
       "topic": "DoorDash 世界反馈 RL",
       "firstRecorded": "2026-06-13",
       "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "FrontierCode - 代码可合并性评估基准",
+      "url": "https://cognition.ai/blog/frontier-code",
+      "type": "project",
+      "topic": "FrontierCode代码质量基准",
+      "firstRecorded": "2026-06-13",
+      "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "The Illusion of Multi-Agent Advantage",
+      "url": "https://arxiv.org/abs/2606.13003",
+      "type": "paper",
+      "topic": "The Illusion of Multi-Agent Advantage",
+      "firstRecorded": "2026-06-13",
+      "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "MiniMax Sparse Attention (MSA) - 块稀疏注意力",
+      "url": "https://arxiv.org/abs/2606.13392",
+      "type": "paper",
+      "topic": "MiniMax 稀疏注意力（MSA）",
+      "firstRecorded": "2026-06-13",
+      "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "Can I Buy Your KV Cache? - Agent-Native Prefill CDN",
+      "url": "https://arxiv.org/abs/2606.13361",
+      "type": "paper",
+      "topic": "KV 缓存经济模型（Agent-Native Prefill CDN）",
+      "firstRecorded": "2026-06-13",
+      "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "LMCache - LLM KV 缓存加速层",
+      "url": "https://github.com/LMCache/LMCache",
+      "type": "project",
+      "topic": "KV 缓存经济模型（Agent-Native Prefill CDN）",
+      "firstRecorded": "2026-06-13",
+      "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "apple/container - Mac 上 Linux 容器",
+      "url": "https://github.com/apple/container",
+      "type": "project",
+      "topic": "apple container Mac Linux 容器",
+      "firstRecorded": "2026-06-13",
+      "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "ReSum - RLVR 自我总结推理",
+      "url": "https://arxiv.org/abs/2606.13316",
+      "type": "paper",
+      "topic": "ReSum RLVR 自我总结推理",
+      "firstRecorded": "2026-06-13",
+      "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "Reasoning as Pattern Matching - 人类与 LLM 共享推理机制",
+      "url": "https://arxiv.org/abs/2606.13607",
+      "type": "paper",
+      "topic": "Reasoning as Pattern Matching 人类与 LLM 共享推理机制",
+      "firstRecorded": "2026-06-13",
+      "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "多 Agent 聚合置信度协议",
+      "url": "https://arxiv.org/abs/2606.13591",
+      "type": "paper",
+      "topic": "多 Agent 聚合置信度协议",
+      "firstRecorded": "2026-06-13",
+      "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "LLM 自动化可复现性评估",
+      "url": "https://arxiv.org/abs/2606.13670",
+      "type": "paper",
+      "topic": "LLM 自动化可复现性评估",
+      "firstRecorded": "2026-06-13",
+      "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "DoorDash 世界反馈 RL",
+      "url": "https://arxiv.org/abs/2606.13604",
+      "type": "paper",
+      "topic": "DoorDash 世界反馈 RL",
+      "firstRecorded": "2026-06-13",
+      "lastDeepDive": "2026-06-13"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-13T09:06:00+08:00",
-    "totalEntries": 108
+    "lastUpdated": "2026-06-13T11:03:00+08:00",
+    "totalEntries": 119
   }
 }
