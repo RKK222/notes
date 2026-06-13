@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-12T19:06:00+08:00",
+    "lastUpdated": "2026-06-13T09:06:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-12T19:06:00+08:00"
+    "lastRun": "2026-06-13T09:06:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -128,7 +128,11 @@
         "IterCAD 迭代多模态 CAD 生成",
         "Hallucination 医疗影像 AI 跨模态框架",
         "Multi-Agent 聚合置信度协议",
-        "AAbAAC 自身免疫信息提取语料库"
+        "AAbAAC 自身免疫信息提取语料库",
+        "Agent 编码工作流分工模式（/architect）",
+        "Agent 分析工作空间（BitBoard）",
+        "世界反馈 RL（DoorDash）",
+        "LLM 自动化可复现性评估"
       ]
     },
     "tier2_emerging": {
@@ -193,7 +197,11 @@
         "ATLAS 主动理论学习",
         "PROJECTMEM 事件源记忆层",
         "社会模拟决策策略对比",
-        "LLM 意图性与道德责任哲学分析"
+        "LLM 意图性与道德责任哲学分析",
+        "FFmpeg 零日漏洞安全测试",
+        "结构化测试台生成（STG）",
+        "多模态 Agent 工业检测",
+        "可控科学推理基准（SciR）"
       ]
     },
     "tier3_exploration": {
@@ -237,7 +245,13 @@
         "存在性冷漠对齐理论（自我非保存作为对齐必要条件）",
         "C/C++ UB 桌面实验（59 任务 11000+ UB Mesa 为主要来源）",
         "多文件变更探索结构（非线性并行 vs 线性 SWE-bench Pro）",
-        "需求质量与追溯链接恢复（28 种缺陷 5 种 TLR 方法实证）"
+        "需求质量与追溯链接恢复（28 种缺陷 5 种 TLR 方法实证）",
+        "Swift TrueType 迁移",
+        "本地编码 Agent 部署",
+        "Optical Spiking Transformer",
+        "APCyc 环肽设计（KDD 2026）",
+        "数学论坛平台",
+        "视频监控多光谱增强"
       ]
     },
     "tier4_downgrade": {
@@ -499,7 +513,14 @@
       "认知单培养缓解方案（超越提示级注入的深层方法：微调/激活引导）",
       "评估主权审计工具（多轨道评估框架的自动化实现）",
       "Neuro-Symbolic 合规构建实践（受监管行业 Agent 自动化落地）",
-      "ERTS 伦理测试管线扩展（更多部署域和模型覆盖）"
+      "ERTS 伦理测试管线扩展（更多部署域和模型覆盖）",
+      "Agent 编码工作流分工模式社区采用情况",
+      "BitBoard 等 Agent 分析工作空间产品发展",
+      "世界反馈 RL 在其他市场平台的应用",
+      "LLM 可复现性评估管线在更多科学领域的验证",
+      "自动 MAS 架构设计改进（基于 Illusion 发现）",
+      "The Illusion of Multi-Agent Advantage 后续研究和反驳",
+      "/architect 模式变体和优化"
     ]
   }
 }
