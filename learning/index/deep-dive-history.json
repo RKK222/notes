@@ -1103,10 +1103,162 @@
       "topic": "LLM谎言检测评估",
       "firstRecorded": "2026-06-14",
       "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "Project Brain 2.0 - 项目记忆管理工具",
+      "url": "https://github.com",
+      "type": "project",
+      "topic": "Project Brain 2.0 项目记忆",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "Weave - 基于语言结构的代码合并",
+      "url": "https://ataraxy-labs.github.io/weave/",
+      "type": "project",
+      "topic": "Weave 语义代码合并",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "Genomically-Anchored Personalized Health AI",
+      "url": "https://arxiv.org/abs/2606.13556",
+      "type": "paper",
+      "topic": "基因组锚定个性化健康 AI",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "ERTS - 伦理 AI 对抗测试系统",
+      "url": "https://arxiv.org/abs/2606.13282",
+      "type": "paper",
+      "topic": "ERTS 伦理 AI 对抗测试",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "Why Sampling Is Not Choosing - LLM 意图性哲学分析",
+      "url": "https://arxiv.org/abs/2606.13441",
+      "type": "paper",
+      "topic": "LLM 意图性与道德责任哲学分析",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "Neuro-Symbolic Agents for Regulated Process Automation",
+      "url": "https://arxiv.org/abs/2606.13405",
+      "type": "paper",
+      "topic": "神经符号 Agent 合规构建",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "MOSAIC - 模态增量持续学习",
+      "url": "https://arxiv.org/abs/2606.13258",
+      "type": "paper",
+      "topic": "MOSAIC 模态增量持续学习",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "Hallucination in Medical Imaging AI - 跨模态框架",
+      "url": "https://arxiv.org/abs/2606.13211",
+      "type": "paper",
+      "topic": "医疗影像 AI 幻觉跨模态框架",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "ARMOR-MAD - 自适应多 Agent 辩论",
+      "url": "https://arxiv.org/abs/2606.13197",
+      "type": "paper",
+      "topic": "ARMOR-MAD 自适应多 Agent 辩论",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "UXBench - 移动端 UX 推理基准",
+      "url": "https://arxiv.org/abs/2606.13192",
+      "type": "paper",
+      "topic": "UXBench 移动端 UX 推理",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "TerraBench - 地球系统 Agent 推理",
+      "url": "https://arxiv.org/abs/2606.13148",
+      "type": "paper",
+      "topic": "TerraBench 地球系统 Agent 推理",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "V-RAGBench - 长视频 RAG",
+      "url": "https://arxiv.org/abs/2606.13141",
+      "type": "paper",
+      "topic": "V-RAGBench 长视频 RAG",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "Nous - 预测市场认知单培养",
+      "url": "https://arxiv.org/abs/2606.13038",
+      "type": "paper",
+      "topic": "Nous 认知单培养",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "SciR - 可控科学推理基准",
+      "url": "https://arxiv.org/abs/2606.13020",
+      "type": "paper",
+      "topic": "SciR 可控科学推理基准",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "Otters++ - 光学突触 Transformer",
+      "url": "https://arxiv.org/abs/2606.13016",
+      "type": "paper",
+      "topic": "Otters++ 光学突触计算",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "APCyc - 目标感知环肽设计",
+      "url": "https://arxiv.org/abs/2606.12991",
+      "type": "paper",
+      "topic": "APCyc 环肽 AI 设计",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "STG - 结构化测试台生成",
+      "url": "https://arxiv.org/abs/2606.12983",
+      "type": "paper",
+      "topic": "STG 结构化测试台生成",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "Multi-Modal Agents for Power Distribution Defect Detection",
+      "url": "https://arxiv.org/abs/2606.12969",
+      "type": "paper",
+      "topic": "多模态 Agent 电力配网检测",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "Evaluation Sovereignty - 评估主权多轨道框架",
+      "url": "https://arxiv.org/abs/2606.13436",
+      "type": "paper",
+      "topic": "评估主权多轨道框架",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-14T09:10:00+08:00",
-    "totalEntries": 134
+    "lastUpdated": "2026-06-14T19:00:00+08:00",
+    "totalEntries": 157
   }
 }
