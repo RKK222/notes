@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-14T11:03:00+08:00",
+    "lastUpdated": "2026-06-14T19:00:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-14T11:03:00+08:00"
+    "lastRun": "2026-06-14T19:00:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -229,7 +229,11 @@
         "Pyodide 314.0 WASM wheels（Python包可发布WASM到PyPI）",
         "NVIDIA Cosmos 物理AI平台（开源世界模型 10K stars）",
         "Goose by Codeium 可扩展AI Agent（49K stars Rust）",
-        "Open Notebook Notebook LM开源实现（30K stars）"
+        "Open Notebook Notebook LM开源实现（30K stars）",
+        "自适应多 Agent 辩论 ARMOR-MAD（训练-free条件计算 PAR+EASE+SOD）",
+        "移动端 UX 推理 UXBench（2000 VQA样本 主流MLLM根本受限）",
+        "多模态 Agent 电力配网检测（感知+推理+工具使用三维度评估）",
+        "Project Brain 2.0 项目记忆管理（策展式记忆 选择性保留）"
       ]
     },
     "tier3_exploration": {
@@ -303,7 +307,23 @@
         "Human Routers of Machine Words（人类作为机器语言路由器）",
         "Exif元数据技术深度（图像取证应用）",
         "阿拉伯语排版技术债务（185 HN points）",
-        "Every Frame Perfect（Nikita Tonsky技术博客 541 HN points）"
+        "Every Frame Perfect（Nikita Tonsky技术博客 541 HN points）",
+        "基因组锚定个性化健康 AI（GWAS效应量初始化贝叶斯信念状态 冷启动问题解决）",
+        "光学突触计算 Otters++（硬件bug转计算优势 TTFS编码 GLUE 84.17%）",
+        "预测市场认知单培养 Nous（提示级注入无效 需深层注入方法）",
+        "环肽 AI 设计 APCyc（KDD 2026 目标感知环肽生成 贝叶斯后验引导）",
+        "语义代码合并 Weave（基于语言结构而非行的合并 AST层面操作）",
+        "车辆网络安全 Honda Civic（代客模式安全漏洞）",
+        "伦理 AI 对抗测试 ERTS（22维伦理后果空间+17语义扰动）",
+        "模态增量持续学习 MOSAIC（毒性教师现象+统计解耦MSBN）",
+        "医疗影像 AI 幻觉跨模态框架（五模态统一分类法 通用基础模型超越医疗专用）",
+        "地球系统 Agent 推理 TerraBench（403任务 24500验证执行步骤）",
+        "长视频 RAG V-RAGBench（chunk-adaptive reranking 多模态多粒度）",
+        "可控科学推理基准 SciR（三范式+双难度轴 参数化控制）",
+        "结构化测试台生成 STG（HDL验证数据策展 720x快于LLM）",
+        "评估主权多轨道框架（性能度量独立于标签权威 Micro-F1从0.54降至0.03）",
+        "LLM 意图性哲学分析（采样≠选择 概率映射≠承诺承载代理）",
+        "神经符号 Agent 合规构建（从护栏监控到合规构建 NILA@IJCAI2026）"
       ]
     },
     "tier4_downgrade": {
