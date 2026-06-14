@@ -991,10 +991,90 @@
       "topic": "本地编码Agent部署",
       "firstRecorded": "2026-06-13",
       "lastDeepDive": "2026-06-13"
+    },
+    {
+      "title": "GLM-5.2 智谱开源前沿模型（1M上下文、开放权重）",
+      "url": "https://x.com/jietang/status/2065784751345287314",
+      "type": "project",
+      "topic": "GLM-5.2 开源前沿模型",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "AI 供应链安全：软件供应链的新故障模式",
+      "url": "https://blog.r-lopes.com/newsletter/2026-06-03",
+      "type": "paper",
+      "topic": "AI 供应链安全",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "Amazon CEO通话触发Anthropic模型限制",
+      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models",
+      "type": "paper",
+      "topic": "AI 监管执行化",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "OpenEnv — HuggingFace RL后训练环境库",
+      "url": "https://github.com/huggingface/OpenEnv",
+      "type": "project",
+      "topic": "OpenEnv RL后训练环境库",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "Taste-Skill — AI品味提升技能（43K stars）",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "type": "project",
+      "topic": "Taste-Skill AI品味提升",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "统计产品中的噪声禁令（Census Bureau）",
+      "url": "https://desfontain.es/blog/banning-noise.html",
+      "type": "paper",
+      "topic": "差分隐私政策转折",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "RTX 5080+3090本地LLM部署：80 Tok/s Qwen 3.6 27B",
+      "url": "https://imil.net/blog/posts/2026/rtx-5080-+-rtx-3090-setup-80-+-tok-s-on-qwen-3.6-27b-q8/",
+      "type": "project",
+      "topic": "本地 LLM 硬件部署",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "NVIDIA Cosmos — 物理AI世界模型平台",
+      "url": "https://github.com/NVIDIA/cosmos",
+      "type": "project",
+      "topic": "NVIDIA Cosmos 物理AI平台",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "OpenAI Codex for Open Source",
+      "url": "https://openai.com/form/codex-for-oss/",
+      "type": "project",
+      "topic": "Codex for Open Source",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "Goose by Codeium — 可扩展AI Agent",
+      "url": "https://github.com/aaif-goose/goose",
+      "type": "project",
+      "topic": "Goose by Codeium 可扩展AI Agent",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-13T19:00:00+08:00",
-    "totalEntries": 119
+    "lastUpdated": "2026-06-14T09:10:00+08:00",
+    "totalEntries": 134
   }
 }
