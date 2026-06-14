@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-13T19:00:00+08:00",
+    "lastUpdated": "2026-06-14T09:10:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-13T19:00:00+08:00"
+    "lastRun": "2026-06-14T09:10:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -212,7 +212,20 @@
         "结构化测试台生成（STG）",
         "多模态 Agent 工业检测",
         "可控科学推理基准（SciR）",
-        "本地编码Agent部署"
+        "本地编码Agent部署",
+        "GLM-5.2 开源前沿模型（智谱 1M上下文 开放权重 编码能力）",
+        "AI 供应链安全（模型工件保护 数据投毒检测 模型溯源）",
+        "AI 监管执行化（Amazon CEO通话触发Anthropic限制 白宫Mythos级监管）",
+        "本地 LLM 硬件部署（RTX 5080+3090 80 Tok/s Qwen 3.6 27B）",
+        "AI 证据篡改（英国警察用AI伪造证据被调查）",
+        "OpenEnv RL后训练环境库（HuggingFace）",
+        "Taste-Skill AI品味提升（43K stars +8K/week）",
+        "Codex for Open Source（OpenAI 6个月免费给OSS维护者）",
+        "Anthropic 经济政策框架 + AI Exponential 政策",
+        "Pyodide 314.0 WASM wheels（Python包可发布WASM到PyPI）",
+        "NVIDIA Cosmos 物理AI平台（开源世界模型 10K stars）",
+        "Goose by Codeium 可扩展AI Agent（49K stars Rust）",
+        "Open Notebook Notebook LM开源实现（30K stars）"
       ]
     },
     "tier3_exploration": {
@@ -270,7 +283,23 @@
         "STG 结构化测试台生成 - HDL 验证数据策展",
         "多模态 Agent 电力配网缺陷检测 - 工业多模态 Agent",
         "本地编码 Agent 部署 - macOS 本地编码 Agent 设置指南",
-        "FFmpeg 21 零日漏洞 - 开源基础设施安全测试"
+        "FFmpeg 21 零日漏洞 - 开源基础设施安全测试",
+        "差分隐私政策转折（Census Bureau禁止噪声注入 711 HN points）",
+        "ReactOS 3D加速（开源Windows在真实硬件运行Half-Life）",
+        "专业音频设备可修改性（Behringer DDX3216运行DOS）",
+        "Intel 8087 加法器逆向工程",
+        "古基因组重复与复杂大脑进化",
+        "胰腺肿瘤治疗揭示癌症主控开关",
+        "退役手机低碳计算平台（Google Research）",
+        "SpaceX IPO（Goldman/Morgan Stanley各获1亿美元费用）",
+        "Honda Civic AOSP测试密钥签名安全问题",
+        "Google打击AI诈骗综合策略",
+        "AI不存在艺术家（哲学论证）",
+        "Fable 5时间线故事（AI出口控制按护照分类）",
+        "Human Routers of Machine Words（人类作为机器语言路由器）",
+        "Exif元数据技术深度（图像取证应用）",
+        "阿拉伯语排版技术债务（185 HN points）",
+        "Every Frame Perfect（Nikita Tonsky技术博客 541 HN points）"
       ]
     },
     "tier4_downgrade": {
@@ -289,9 +318,9 @@
   },
   "weeklySummary": {
     "week": "W24",
-    "totalScans": 16,
-    "totalItems": 495,
-    "totalDeepDives": 65,
+    "totalScans": 17,
+    "totalItems": 527,
+    "totalDeepDives": 75,
     "newHighValueDirections": [
       "Socratic-SWE 自我进化编码Agent（轨迹蒸馏技能，50.40% SWE-bench）",
       "OpenSkill 开放世界自我进化（无监督技能构建）",
@@ -486,7 +515,21 @@
       "IterCAD 迭代多模态 CAD（闭环交互式 CAD 生成编辑 渐进 SFT+几何感知 RL）",
       "Hallucination 医疗影像跨模态（通用基础模型超越医疗专用模型 FDA 生命周期映射）",
       "Multi-Agent 聚合置信度（首个多 Agent 系统聚合置信度 贝叶斯融合）",
-      "AAbAAC 自身免疫语料库（BioNLP 2026 115 PubMed 摘要手动标注）"
+      "AAbAAC 自身免疫语料库（BioNLP 2026 115 PubMed 摘要手动标注）",
+      "GLM-5.2 智谱开源前沿模型（1M上下文 开放权重 编码能力 直接对标GPT-5.5）",
+      "AI 供应链安全（模型工件=软件供应链 信任边界上移到数据集/特征存储/模型注册表）",
+      "AI 监管执行化（Amazon CEO通话触发Anthropic限制 白宫Mythos级监管意向）",
+      "本地 LLM 硬件部署（RTX 5080+3090 80 Tok/s Qwen 3.6 27B Q8 隐私敏感场景新选择）",
+      "AI 证据篡改（英国警察用AI伪造证据 司法系统AI滥用首个公开案例）",
+      "OpenEnv RL后训练环境库（HuggingFace TRL/PEFT生态集成）",
+      "Taste-Skill AI品味提升（43K stars 从功能性到审美性范式转变）",
+      "Codex for Open Source（OpenAI 6个月免费 社区反应复杂 训练数据伦理争议）",
+      "Anthropic 经济政策框架 + AI Exponential 政策（Frontier AI公司官方立场）",
+      "NVIDIA Cosmos 物理AI平台（世界模型从学术研究到工程实践）",
+      "Goose by Codeium 可扩展AI Agent（49K stars Rust 任何LLM支持）",
+      "Open Notebook Notebook LM开源实现（30K stars AI知识管理开源替代）",
+      "Pyodide 314.0 WASM wheels（Python生态与WebAssembly深度融合）",
+      "差分隐私政策转折（Census Bureau禁止噪声注入 可能影响全球统计机构）"
     ],
     "saturatedDirections": [
       "Agent 记忆系统（传统语义检索方向）",
@@ -541,7 +584,17 @@
       "LLM 可复现性评估管线在更多科学领域的验证",
       "自动 MAS 架构设计改进（基于 Illusion 发现）",
       "The Illusion of Multi-Agent Advantage 后续研究和反驳",
-      "/architect 模式变体和优化"
+      "/architect 模式变体和优化",
+      "GLM-5.2 API上线后实际性能评估",
+      "Anthropic模型限制政策后续发展",
+      "AI供应链安全框架实施路径",
+      "本地LLM部署在隐私敏感场景的可行性",
+      "HuggingFace OpenEnv环境覆盖扩展",
+      "Taste-Skill等质量导向AI技能生态发展",
+      "Codex for Open Source社区采纳情况",
+      "差分隐私政策全球影响追踪",
+      "NVIDIA Cosmos物理AI平台实际应用",
+      "AI证据验证工具开发紧迫性"
     ]
   }
 }
