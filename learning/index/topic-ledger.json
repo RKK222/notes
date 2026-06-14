@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-14T09:10:00+08:00",
+    "lastUpdated": "2026-06-14T11:03:00+08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-06-14T09:10:00+08:00",
-    "totalTopics": 427,
+    "lastRun": "2026-06-14T11:03:00+08:00",
+    "totalTopics": 435,
     "totalItems": 295
   },
   "topics": [
@@ -5986,6 +5986,118 @@
       "representativeItem": "ReactOS在真实硬件上3D加速运行Half-Life",
       "trend": "new",
       "notes": "开源操作系统在3D图形支持上的突破"
+    },
+    {
+      "name": "参数化工具知识审计",
+      "category": "emerging",
+      "lastSeen": "2026-06-14",
+      "lastDeepDive": "2026-06-14",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "ToolSense 知识-检索分离现象 50-64pp下降",
+      "trend": "new",
+      "notes": "Agent工具评估从基准分数到深度诊断，首次揭示知识-检索分离"
+    },
+    {
+      "name": "树搜索认知层",
+      "category": "emerging",
+      "lastSeen": "2026-06-14",
+      "lastDeepDive": "2026-06-14",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Arbor 树搜索作为Agent认知层 193%性能提升",
+      "trend": "new",
+      "notes": "Agent认知架构从反应式到结构化搜索，多Agent协作优化"
+    },
+    {
+      "name": "高效形式化证明",
+      "category": "emerging",
+      "lastSeen": "2026-06-14",
+      "lastDeepDive": "2026-06-14",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Pythagoras-Prover 4B超越671B 扩散式证明器",
+      "trend": "growing",
+      "notes": "效率优于规模，扩散式证明器可能成为形式化验证新范式"
+    },
+    {
+      "name": "LLM谎言检测评估",
+      "category": "emerging",
+      "lastSeen": "2026-06-14",
+      "lastDeepDive": "2026-06-14",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "DidYouLie 13种推理模型生物 激活探针失效",
+      "trend": "new",
+      "notes": "当前主流谎言检测器在真实模型生物上几乎失效"
+    },
+    {
+      "name": "Agent战略决策支持",
+      "category": "emerging",
+      "lastSeen": "2026-06-14",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Strategic Decision Support 最小化支持调用+控制错失误差",
+      "trend": "new",
+      "notes": "经典决策支持理论反应用于Agent中心场景"
+    },
+    {
+      "name": "人类风格VLA驾驶",
+      "category": "emerging",
+      "lastSeen": "2026-06-14",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "PersonaDrive 检索增强VLA驾驶仿真 风格条件化",
+      "trend": "new",
+      "notes": "首次使用显式风格指令的人类驾驶数据作为VLA条件化信号"
+    },
+    {
+      "name": "Census Bureau噪声注入禁令",
+      "category": "policy",
+      "lastSeen": "2026-06-14",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Census Bureau禁止统计产品噪声注入 HN 754 points",
+      "trend": "new",
+      "notes": "政府统计机构对隐私保护技术的政策转向"
+    },
+    {
+      "name": "Anthropic出口管制",
+      "category": "policy",
+      "lastSeen": "2026-06-14",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "24小时内实施出口管制 Politico深度报道",
+      "trend": "growing",
+      "notes": "AI监管从政策讨论进入执行加速期"
     }
   ]
 }

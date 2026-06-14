@@ -1071,6 +1071,38 @@
       "topic": "Goose by Codeium 可扩展AI Agent",
       "firstRecorded": "2026-06-14",
       "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "Arbor - 树搜索作为自主Agent认知层",
+      "url": "https://arxiv.org/abs/2606.12563",
+      "type": "paper",
+      "topic": "Arbor 树搜索认知层",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "Pythagoras-Prover - 高效形式化证明（4B超越671B）",
+      "url": "https://arxiv.org/abs/2606.12594",
+      "type": "paper",
+      "topic": "Pythagoras-Prover 高效形式化证明",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "ToolSense - 参数化工具知识审计诊断框架",
+      "url": "https://arxiv.org/abs/2606.12451",
+      "type": "paper",
+      "topic": "ToolSense 参数化工具知识审计",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "Did You Lie - LLM谎言检测评估",
+      "url": "https://arxiv.org/abs/2606.12618",
+      "type": "paper",
+      "topic": "LLM谎言检测评估",
+      "firstRecorded": "2026-06-14",
+      "lastDeepDive": "2026-06-14"
     }
   ],
   "meta": {
