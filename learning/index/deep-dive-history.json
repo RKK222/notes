@@ -1351,11 +1351,171 @@
       "topic": "VISTA GUI Grounding视图一致性训练",
       "firstRecorded": "2026-06-15",
       "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "WorkBench Revisited: Workplace Agents Two Years On",
+      "url": "https://arxiv.org/abs/2606.13715",
+      "type": "paper",
+      "topic": "WorkBench 两年回顾 Agent 能力进展",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "NVIDIA SkillSpector - Agent 技能安全扫描器",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "type": "project",
+      "topic": "Agent 技能安全扫描基础设施",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "trycua/cua - Computer-Use Agent 基础设施",
+      "url": "https://github.com/trycua/cua",
+      "type": "project",
+      "topic": "Computer-Use Agent 开源基础设施",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "Kronos - 金融市场语言基础模型",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "type": "project",
+      "topic": "金融语言基础模型",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "Parallel-Synthesis: Direct Latent-Space Synthesis for Parallel Branches",
+      "url": "https://arxiv.org/abs/2606.14672",
+      "type": "paper",
+      "topic": "Parallel-Synthesis KV缓存直接合成",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "GitOfThoughts: Version-Controlled Reasoning and Agent Memory",
+      "url": "https://arxiv.org/abs/2606.14470",
+      "type": "paper",
+      "topic": "GitOfThoughts 版本控制推理",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "VISTA: View-Consistent Self-Verified Training for GUI Grounding",
+      "url": "https://arxiv.org/abs/2606.14579",
+      "type": "paper",
+      "topic": "VISTA GUI Grounding视图一致性训练",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "When Should Agent Trust Be Conditional? Skill-Conditional Reputation",
+      "url": "https://arxiv.org/abs/2606.14200",
+      "type": "paper",
+      "topic": "Agent Swarm 技能条件化声誉攻击",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "ClinHallu: 医疗 MLLM 分阶段幻觉诊断基准",
+      "url": "https://arxiv.org/abs/2606.14697",
+      "type": "paper",
+      "topic": "ClinHallu 医疗MLLM分阶段幻觉诊断",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "When Good Verifiers Go Bad: Self-Improving VLMs Can Regress",
+      "url": "https://arxiv.org/abs/2606.14629",
+      "type": "paper",
+      "topic": "验证器驱动自改进 VLM 退化",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "StreamMemBench: Streaming Evaluation of Agent Memory",
+      "url": "https://arxiv.org/abs/2606.14571",
+      "type": "paper",
+      "topic": "StreamMemBench 流式记忆评估",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "Orchestra-o1: Omnimodal Agent Orchestration",
+      "url": "https://arxiv.org/abs/2606.13707",
+      "type": "paper",
+      "topic": "Orchestra-o1 全模态 Agent 编排",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "Hybrid Open-Ended Tri-Evolution (HOTE)",
+      "url": "https://arxiv.org/abs/2606.13710",
+      "type": "paper",
+      "topic": "HOTE 混合开放 ended 三进化",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "Capability Minimization: Risk-Aware Causal Gating",
+      "url": "https://arxiv.org/abs/2606.13884",
+      "type": "paper",
+      "topic": "RACG 风险感知因果门控",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "MINIM: Privacy-Aware Minimal View for Agents",
+      "url": "https://arxiv.org/abs/2606.13949",
+      "type": "paper",
+      "topic": "MINIM 隐私感知 Agent 视图",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "Adversarial Concept Search: Predicting Compositional Errors",
+      "url": "https://arxiv.org/abs/2606.13934",
+      "type": "paper",
+      "topic": "Adversarial Concept Search 组合错误预测",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "From Chatbot to Digital Colleague",
+      "url": "https://arxiv.org/abs/2606.14502",
+      "type": "paper",
+      "topic": "From Chatbot to Digital Colleague 范式转变",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "LLM Agents Defer Blindly to GNN Tools",
+      "url": "https://arxiv.org/abs/2606.14476",
+      "type": "paper",
+      "topic": "LLM Agents 对 GNN 工具盲目服从",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "CSPO: Constraint-Sensitive Policy Optimization",
+      "url": "https://arxiv.org/abs/2606.14415",
+      "type": "paper",
+      "topic": "CSPO 安全 RL 约束敏感策略优化",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "COMET: Causal Object-Centric Models for MCTS Planning",
+      "url": "https://arxiv.org/abs/2606.14418",
+      "type": "paper",
+      "topic": "COMET 因果对象中心 MCTS 规划",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-15T11:07:00+08:00",
-    "totalEntries": 169,
-    "lastRun": "2026-06-15T11:07:00+08:00"
+    "lastUpdated": "2026-06-15T19:04:00+08:00",
+    "totalEntries": 189,
+    "lastRun": "2026-06-15T19:04:00+08:00"
   }
 }
