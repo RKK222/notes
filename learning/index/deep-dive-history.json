@@ -1303,11 +1303,59 @@
       "topic": "Making Claude a Chemist",
       "firstRecorded": "2026-06-15",
       "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "Parallel-Synthesis - Agent并行分支KV缓存直接合成",
+      "url": "https://arxiv.org/abs/2606.14672",
+      "type": "paper",
+      "topic": "Parallel-Synthesis KV缓存直接合成",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "HarnessX - 可组合自适应进化Agent Harness锻造厂",
+      "url": "https://arxiv.org/abs/2606.14249",
+      "type": "paper",
+      "topic": "HarnessX 可组合自适应Agent Harness",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "SkillAudit - 无ground-truth技能进化配对轨迹审计",
+      "url": "https://arxiv.org/abs/2606.14239",
+      "type": "paper",
+      "topic": "SkillAudit 无ground-truth技能进化",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "GitOfThoughts - 版本控制的Agent推理与记忆",
+      "url": "https://arxiv.org/abs/2606.14470",
+      "type": "paper",
+      "topic": "GitOfThoughts 版本控制推理",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "RefGRPO - Agentic RL免费校准奖励",
+      "url": "https://arxiv.org/abs/2606.14211",
+      "type": "paper",
+      "topic": "RefGRPO Agentic RL免费校准",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "VISTA - GUI Grounding视图一致性自验证训练",
+      "url": "https://arxiv.org/abs/2606.14579",
+      "type": "paper",
+      "topic": "VISTA GUI Grounding视图一致性训练",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-15T09:10:00+08:00",
-    "totalEntries": 157,
-    "lastRun": "2026-06-15T09:10:00+08:00"
+    "lastUpdated": "2026-06-15T11:07:00+08:00",
+    "totalEntries": 169,
+    "lastRun": "2026-06-15T11:07:00+08:00"
   }
 }
