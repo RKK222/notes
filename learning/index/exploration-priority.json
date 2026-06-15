@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-14T19:00:00+08:00",
+    "lastUpdated": "2026-06-15T09:10:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-14T19:00:00+08:00"
+    "lastRun": "2026-06-15T09:10:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -323,7 +323,16 @@
         "结构化测试台生成 STG（HDL验证数据策展 720x快于LLM）",
         "评估主权多轨道框架（性能度量独立于标签权威 Micro-F1从0.54降至0.03）",
         "LLM 意图性哲学分析（采样≠选择 概率映射≠承诺承载代理）",
-        "神经符号 Agent 合规构建（从护栏监控到合规构建 NILA@IJCAI2026）"
+        "神经符号 Agent 合规构建（从护栏监控到合规构建 NILA@IJCAI2026）",
+        "AI Agent 技能安全扫描基础设施（SkillSpector）",
+        "形式化方法在Agentic编码中的复兴（Jane Street）",
+        "AI编码效率启发式（Ponytail懒开发者范式）",
+        "上下文窗口信任危机（100K smart zone）",
+        "Claude行为退化与对齐过度矫正",
+        "AI出口管制与本地部署策略（Home Opus）",
+        "LR(1)解析器算法进步（APLR(1)）",
+        "Rust系统编程全面渗透（Yserver/Zinnia）",
+        "细菌无脑学习与记忆（卡内基梅隆）"
       ]
     },
     "tier4_downgrade": {

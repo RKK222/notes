@@ -1255,10 +1255,59 @@
       "topic": "评估主权多轨道框架",
       "firstRecorded": "2026-06-14",
       "lastDeepDive": "2026-06-14"
+    },
+    {
+      "title": "SkillSpector - AI Agent 技能安全扫描基础设施",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "type": "project",
+      "topic": "AI Agent 技能安全扫描基础设施",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "Ponytail - 懒开发者启发式编码优化",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "type": "project",
+      "topic": "懒开发者启发式编码优化",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "Jane Street 正式方法团队 - Agentic编码驱动的形式化验证复兴",
+      "url": "https://blog.janestreet.com/formal-methods-at-jane-street-index/",
+      "type": "project",
+      "topic": "形式化方法在Agentic编码中的复兴",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "Don't trust large context windows - 上下文窗口信任危机",
+      "url": "https://garrit.xyz/posts/2026-05-06-dont-trust-large-context-windows",
+      "type": "paper",
+      "topic": "上下文窗口信任危机",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "Why Is Claude Turning Into an Asshole? - LLM对齐过度矫正分析",
+      "url": "https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
+      "type": "paper",
+      "topic": "Claude行为退化与对齐过度矫正",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "Making Claude a Chemist - Frontier LLM在专业科学领域的应用",
+      "url": "https://www.anthropic.com/research/making-claude-a-chemist",
+      "type": "paper",
+      "topic": "Making Claude a Chemist",
+      "firstRecorded": "2026-06-15",
+      "lastDeepDive": "2026-06-15"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-14T19:00:00+08:00",
-    "totalEntries": 157
+    "lastUpdated": "2026-06-15T09:10:00+08:00",
+    "totalEntries": 157,
+    "lastRun": "2026-06-15T09:10:00+08:00"
   }
 }
