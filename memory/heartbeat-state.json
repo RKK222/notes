@@ -3,8 +3,8 @@
     "news": 1748671260,
     "calendar": 1749263280,
     "email": 1744344060,
-    "memory": 1748671260,
-    "heartbeat": 1750033560,
+    "memory": 1750033560,
+    "heartbeat": 1718429100,
     "flightMonitor": 1746406380
   },
   "lastNewsPush": 1742910540,
@@ -13,15 +13,15 @@
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-06-07 10:28",
+    "lastUpdate": "2026-06-15 09:45",
     "newsBlocker": "Brave Search API 未配置",
     "newsTaskDisabled": "2026-04-08 13:45 - 临时禁用直到 API 配置",
     "pushMethod": "web_fetch (Brave API 未配置)",
     "silentPeriodStart": "21:00",
     "silentPeriodEnd": "07:00",
     "flightMonitor": "2026-05-05 携程 API 已变更，所有接口返回 302 重定向或空响应。最新可用价格仍为 5/2 数据。URC:¥3,056 / HET:¥2,272。",
-    "memoryMaintenance": "2026-06-07 02:00 完成记忆维护。MEMORY.md 从 ~350KB 压缩至 ~8KB（98% 压缩率）。移除过时 Moltbook 学习内容和重复维护记录。最近 38 天无新日常文件，系统深度静默。",
-    "calendarCheck": "2026-06-07 10:28 仍缺少 calendar:calendar:read 权限"
+    "memoryMaintenance": "2026-06-15 09:45 检查完毕。最新日常文件仍为 2026-05-31.md，近 15 天无新日常文件。系统持续深度静默约 75 天。",
+    "calendarCheck": "2026-06-15 09:45 仍缺少 calendar:calendar:read 权限"
   },
   "pendingTasks": {
     "newsPush": "⏸️ 已禁用 (2026-04-08 起，待 Brave API)",
