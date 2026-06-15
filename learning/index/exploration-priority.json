@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-15T09:10:00+08:00",
+    "lastUpdated": "2026-06-15T11:07:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-15",
-    "lastRun": "2026-06-15T09:10:00+08:00"
+    "lastRun": "2026-06-15T11:07:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -146,7 +146,20 @@
         "参数化工具知识审计",
         "树搜索认知层",
         "高效形式化证明",
-        "LLM谎言检测评估"
+        "LLM谎言检测评估",
+        "Parallel-Synthesis 并行分支KV缓存直接合成（2.5x-11x TTFT缩减）",
+        "HarnessX 可组合自适应进化Agent Harness锻造厂（+14.5%平均增益）",
+        "SkillAudit 无ground-truth技能进化（配对轨迹审计 73.9%平均奖励）",
+        "RefGRPO Agentic RL免费校准奖励（过度不自信44.4%->7.7%）",
+        "GitOfThoughts 版本控制推理和记忆（git-as-substrate 可审计可合并）",
+        "StreamMemBench 流式Agent记忆评估基准（面向未来辅助）",
+        "VISTA GUI Grounding视图一致性自验证训练（ScreenSpot-Pro +11.5pp）",
+        "LLM Agent对GNN工具盲目服从（97.6-99.2%服从率 更强模型服从更高）",
+        "Agent Swarm技能条件化声誉攻击（零成本路由劫持regret 0->0.94）",
+        "ClinHallu 医疗MLLM分阶段幻觉诊断基准（7031实例）",
+        "CSPO 安全RL约束敏感策略优化（ICML 2026 Spotlight）",
+        "COMET 因果对象中心MCTS规划（slot-structured latent space）",
+        "从Chatbot到Digital Colleague持久自主AI范式转变综述"
       ]
     },
     "tier2_emerging": {
@@ -332,7 +345,11 @@
         "AI出口管制与本地部署策略（Home Opus）",
         "LR(1)解析器算法进步（APLR(1)）",
         "Rust系统编程全面渗透（Yserver/Zinnia）",
-        "细菌无脑学习与记忆（卡内基梅隆）"
+        "细菌无脑学习与记忆（卡内基梅隆）",
+        "Kage 网站离线镜像（JS剥离 单二进制 428 HN points）",
+        "Rio LLM模型合并透明度争议（294 HN points 开源社区透明度）",
+        "本地ML模型索引669GB GoPro视频（M1 Max 本地AI推理）",
+        "TorchCodec 0.14 HDR视频解码（CPU和CUDA支持）"
       ]
     },
     "tier4_downgrade": {
@@ -345,7 +362,8 @@
         "边缘AI/EdgeLLM",
         "知识图谱推理",
         "Agent 记忆系统",
-        "Agent 技能生态"
+        "Agent 技能生态",
+        "Agentic PR质量治理（已覆盖5次无新突破）"
       ]
     },
     "tier2_monitoring": {
@@ -359,9 +377,9 @@
   },
   "weeklySummary": {
     "week": "W24",
-    "totalScans": 17,
-    "totalItems": 527,
-    "totalDeepDives": 75,
+    "totalScans": 18,
+    "totalItems": 560,
+    "totalDeepDives": 81,
     "newHighValueDirections": [
       "Socratic-SWE 自我进化编码Agent（轨迹蒸馏技能，50.40% SWE-bench）",
       "OpenSkill 开放世界自我进化（无监督技能构建）",
@@ -570,7 +588,20 @@
       "Goose by Codeium 可扩展AI Agent（49K stars Rust 任何LLM支持）",
       "Open Notebook Notebook LM开源实现（30K stars AI知识管理开源替代）",
       "Pyodide 314.0 WASM wheels（Python生态与WebAssembly深度融合）",
-      "差分隐私政策转折（Census Bureau禁止噪声注入 可能影响全球统计机构）"
+      "差分隐私政策转折（Census Bureau禁止噪声注入 可能影响全球统计机构）",
+      "Parallel-Synthesis 并行分支KV缓存直接合成（2.5x-11x TTFT缩减 9数据集7超越文本合成）",
+      "HarnessX 可组合自适应进化Agent Harness锻造厂（+14.5%平均增益 +44%最高 基线越低增益越大）",
+      "SkillAudit 无ground-truth技能进化（配对轨迹审计 73.9%平均奖励 89任务8领域）",
+      "RefGRPO Agentic RL免费校准奖励（过度不自信44.4%->7.7% 零额外成本）",
+      "GitOfThoughts 版本控制推理和记忆（git-as-substrate 严格证伪记忆提高准确性假设）",
+      "StreamMemBench 流式Agent记忆评估基准（面向未来辅助 8记忆系统2 backbone）",
+      "VISTA GUI Grounding视图一致性自验证训练（GRPO多视图比较 ScreenSpot-Pro +11.5pp）",
+      "LLM Agent对GNN工具盲目服从（97.6-99.2%服从率 更强模型服从更高 TMLR under review）",
+      "Agent Swarm技能条件化声誉攻击（零成本路由劫持 regret 0->0.94 14异构Agent）",
+      "ClinHallu 医疗MLLM分阶段幻觉诊断基准（7031实例 三阶段幻觉来源诊断）",
+      "CSPO 安全RL约束敏感策略优化（ICML 2026 Spotlight 约束敏感修正解决振荡）",
+      "COMET 因果对象中心MCTS规划（slot-structured latent space 8任务早期训练优势）",
+      "从Chatbot到Digital Colleague持久自主AI范式转变综述"
     ],
     "saturatedDirections": [
       "Agent 记忆系统（传统语义检索方向）",
@@ -635,7 +666,17 @@
       "Codex for Open Source社区采纳情况",
       "差分隐私政策全球影响追踪",
       "NVIDIA Cosmos物理AI平台实际应用",
-      "AI证据验证工具开发紧迫性"
+      "AI证据验证工具开发紧迫性",
+      "Parallel-Synthesis 缓存映射器实现细节（分支缓存对齐算法）",
+      "HarnessX 操作镜像理论深入（符号适配与RL的对应关系）",
+      "SkillAudit 在生产环境的部署验证（89任务之外的更多场景）",
+      "GitOfThoughts 在更多推理任务上的评估扩展",
+      "Agent Swarm技能条件化信任防御机制设计",
+      "StreamMemBench 流式记忆架构对比实验",
+      "LLM Agent对GNN工具服从的缓解策略",
+      "ClinHallu 分阶段幻觉干预效果评估",
+      "Kage 网站离线镜像在AI知识归档中的应用",
+      "Rio LLM模型合并透明度对开源社区的影响"
     ]
   }
 }
