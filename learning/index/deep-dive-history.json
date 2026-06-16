@@ -1815,11 +1815,59 @@
       "topic": "第一性原理LLM策略优化",
       "firstRecorded": "2026-06-16",
       "lastDeepDive": "2026-06-16"
+    },
+    {
+      "title": "Looking Is Not Picking: Attention-Segment Tool Selection Diagnosis",
+      "url": "https://arxiv.org/abs/2606.16364",
+      "type": "paper",
+      "topic": "Agent工具选择失败诊断",
+      "firstRecorded": "2026-06-16",
+      "lastDeepDive": "2026-06-16"
+    },
+    {
+      "title": "AgentFairBench: Behavioral Fairness in LLM Agents",
+      "url": "https://arxiv.org/abs/2606.16723",
+      "type": "paper",
+      "topic": "AgentFairBench行为公平性评估",
+      "firstRecorded": "2026-06-16",
+      "lastDeepDive": "2026-06-16"
+    },
+    {
+      "title": "BPF: Bidirectional Provability Fingerprinting",
+      "url": "https://arxiv.org/abs/2606.16541",
+      "type": "paper",
+      "topic": "BPF双向可证明性指纹",
+      "firstRecorded": "2026-06-16",
+      "lastDeepDive": "2026-06-16"
+    },
+    {
+      "title": "TNODEV: Neural ODE Verification Toolbox",
+      "url": "https://arxiv.org/abs/2606.16567",
+      "type": "paper",
+      "topic": "TNODEV Neural ODE形式化验证",
+      "firstRecorded": "2026-06-16",
+      "lastDeepDive": "2026-06-16"
+    },
+    {
+      "title": "Trace-Economic Underwriting: AI Agent Risk Insurance",
+      "url": "https://arxiv.org/abs/2606.16465",
+      "type": "paper",
+      "topic": "追踪经济承保Agent风险保险",
+      "firstRecorded": "2026-06-16",
+      "lastDeepDive": "2026-06-16"
+    },
+    {
+      "title": "Kairos: Native World Model Stack for Physical AI",
+      "url": "https://arxiv.org/abs/2606.16533",
+      "type": "paper",
+      "topic": "Kairos原生世界模型栈",
+      "firstRecorded": "2026-06-16",
+      "lastDeepDive": "2026-06-16"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-16T11:08:00+08:00",
-    "totalEntries": 227,
-    "lastRun": "2026-06-16T11:08:00+08:00"
+    "lastUpdated": "2026-06-16T19:03:00+08:00",
+    "totalEntries": 233,
+    "lastRun": "2026-06-16T19:03:00+08:00"
   }
 }
