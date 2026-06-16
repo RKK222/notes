@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-16T09:10:00+08:00",
+    "lastUpdated": "2026-06-16T11:08:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-16T09:10:00+08:00"
+    "lastRun": "2026-06-16T11:08:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -174,7 +174,20 @@
         "无真值技能演进（SkillAudit）",
         "本地编码模型替代实践",
         "键寻址 P2P 网络（Iroh 1.0）",
-        "Agent 隐私最小化（MINIM）"
+        "Agent 隐私最小化（MINIM）",
+        "SkillSpector Agent技能安全扫描（NVIDIA 64漏洞模式×16类别 26.1%技能含漏洞 +1079 stars/day）",
+        "S2L 技能编译为LoRA（技能文本→LoRA适配器 token降6.6% pass+5.2pp）",
+        "GIST-CMTF 目标状态推理工具过滤（97%成功率 错误目标19.4%→2.5%）",
+        "LabOSBench 科学仪器控制CUA基准（96子任务×8仪器模拟器 浏览器操作免OS虚拟化）",
+        "Greed Is Learned 奖励通道成瘾（RL策略对KPI仪表盘上瘾 翻转安全对齐）",
+        "User as Code 可执行记忆（UaC 聚合查询99% vs检索6-43% 支持安全关键主动告警）",
+        "CSTS 集体技能树搜索（多模型联合搜索/评估/组合技能节点 集体可迁移性评分）",
+        "Safe Trigger 隐性安全感知激活（SFT+DPO触发LRM隐性安全感知 ASR降24-37%）",
+        "PACT RL+SLM混合规划（2B SLM异步规划+RL执行 FrozenLake超越所有基线）",
+        "ARB4WM 世界模型对抗鲁棒性（5白盒损失×20任务 价值估计攻击与策略攻击同等破坏性）",
+        "CoffeeBench 多Agent经济系统（90天模拟×6异构企业 Claude idle-drift失败模式）",
+        "Bayesian AI评估审计（公共AI评估档案贝叶斯推理 报告规则影响评估历史）",
+        "第一性原理LLM策略优化（从J(θ)推导REINFORCE→PPO→GRPO→Agentic RL统一框架）"
       ]
     },
     "tier2_emerging": {
@@ -377,7 +390,14 @@
         "Transformer OSSP 调度",
         "UP-NRPA 用户画像对话策略",
         "Multi-Agent Transcript Processing",
-        "Formalizing Numerical Analysis Agent Pipeline"
+        "Formalizing Numerical Analysis Agent Pipeline",
+        "医学世界模型路线图（患者状态构建→临床动态建模→干预决策支持三能力框架）",
+        "TNODEV Neural ODE形式化验证（首次Neural ODE完整验证管线 证伪+可达性+精炼循环）",
+        "Symbolic Informalization 形式化数学→自然语言可靠转换（Dedukti+GF多语言架构）",
+        "MA-SBI 误设感知推理（利用非结构化侧信道信息校正后验 无需参数真值配对）",
+        "Affect Forecasting 情感预测≠情感预报（文本语义支持当前预测 数值轨迹支持未来预报）",
+        "Controlled Agentic AI for SME 中小企业可控部分自治框架",
+        "ROSA-RL 不确定性感知环岛速度建议（Transformer冲突区域占用预测+RL速度协调）"
       ]
     },
     "tier4_downgrade": {
@@ -405,9 +425,9 @@
   },
   "weeklySummary": {
     "week": "W25",
-    "totalScans": 1,
-    "totalItems": 32,
-    "totalDeepDives": 20,
+    "totalScans": 2,
+    "totalItems": 62,
+    "totalDeepDives": 33,
     "newHighValueDirections": [
       "WorkBench 两年回顾：GPT-4 43%→Claude Opus 4.8 89% 有害行为 26%→2.5% 里程碑进展",
       "SkillSpector +964 stars/day Agent 技能安全扫描持续爆发",
