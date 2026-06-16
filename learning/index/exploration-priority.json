@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-15T19:04:00+08:00",
+    "lastUpdated": "2026-06-16T09:10:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-15T19:04:00+08:00"
+    "lastRun": "2026-06-16T09:10:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -169,7 +169,12 @@
         "HOTE 混合开放 ended 三进化",
         "LLM Agents 对 GNN 工具盲目服从",
         "Adversarial Concept Search 组合错误预测",
-        "From Chatbot to Digital Colleague 范式转变"
+        "From Chatbot to Digital Colleague 范式转变",
+        "Agent Harness 可组合进化（HarnessX）",
+        "无真值技能演进（SkillAudit）",
+        "本地编码模型替代实践",
+        "键寻址 P2P 网络（Iroh 1.0）",
+        "Agent 隐私最小化（MINIM）"
       ]
     },
     "tier2_emerging": {

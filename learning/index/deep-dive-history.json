@@ -1671,6 +1671,54 @@
       "topic": "COMET 因果对象中心 MCTS 规划",
       "firstRecorded": "2026-06-15",
       "lastDeepDive": "2026-06-15"
+    },
+    {
+      "title": "HarnessX - 可组合自适应可进化 Agent Harness 铸造厂",
+      "url": "https://arxiv.org/abs/2606.14249",
+      "type": "paper",
+      "topic": "Agent Harness 可组合进化（HarnessX）",
+      "firstRecorded": "2026-06-16",
+      "lastDeepDive": "2026-06-16"
+    },
+    {
+      "title": "SkillAudit - 无真值反馈的技能进化（配对轨迹审计）",
+      "url": "https://arxiv.org/abs/2606.14239",
+      "type": "paper",
+      "topic": "无真值技能演进（SkillAudit）",
+      "firstRecorded": "2026-06-16",
+      "lastDeepDive": "2026-06-16"
+    },
+    {
+      "title": "GitOfThoughts - 版本控制推理与 Agent 记忆",
+      "url": "https://arxiv.org/abs/2606.14470",
+      "type": "paper",
+      "topic": "Agent 记忆可审计性",
+      "firstRecorded": "2026-06-16",
+      "lastDeepDive": "2026-06-16"
+    },
+    {
+      "title": "StreamMemBench - Agent 记忆流式评估基准",
+      "url": "https://arxiv.org/abs/2606.14571",
+      "type": "paper",
+      "topic": "Agent 记忆流式评估",
+      "firstRecorded": "2026-06-16",
+      "lastDeepDive": "2026-06-16"
+    },
+    {
+      "title": "VISTA - 视图一致性自验证训练用于 GUI Grounding",
+      "url": "https://arxiv.org/abs/2606.14579",
+      "type": "paper",
+      "topic": "GUI Agent 训练",
+      "firstRecorded": "2026-06-16",
+      "lastDeepDive": "2026-06-16"
+    },
+    {
+      "title": "RefGRPO - Agent RL 中的免费校准奖励",
+      "url": "https://arxiv.org/abs/2606.14211",
+      "type": "paper",
+      "topic": "Agent 反射校准",
+      "firstRecorded": "2026-06-16",
+      "lastDeepDive": "2026-06-16"
     }
   ],
   "meta": {
