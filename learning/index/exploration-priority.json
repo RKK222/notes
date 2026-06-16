@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-16T11:08:00+08:00",
+    "lastUpdated": "2026-06-16T19:03:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-16T11:08:00+08:00"
+    "lastRun": "2026-06-16T19:03:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -187,7 +187,16 @@
         "ARB4WM 世界模型对抗鲁棒性（5白盒损失×20任务 价值估计攻击与策略攻击同等破坏性）",
         "CoffeeBench 多Agent经济系统（90天模拟×6异构企业 Claude idle-drift失败模式）",
         "Bayesian AI评估审计（公共AI评估档案贝叶斯推理 报告规则影响评估历史）",
-        "第一性原理LLM策略优化（从J(θ)推导REINFORCE→PPO→GRPO→Agentic RL统一框架）"
+        "第一性原理LLM策略优化（从J(θ)推导REINFORCE→PPO→GRPO→Agentic RL统一框架）",
+        "Agent工具选择失败诊断（Looking Is Not Picking 注意力段分析 80%注意力在正确工具上但仍选错 决策读取端失败）",
+        "AgentFairBench 行为公平性评估（多领域行为公平性基准 arity匹配零假设 揭示统计arity陷阱）",
+        "贝叶斯AI评估审计（公共评估档案纵向审计 终端结果兼容多个演化轨迹）",
+        "BPF双向可证明性指纹（自动形式化忠实度认证 89.6%漂移检测率 3.0%误报 PAC-忠实度理论保证）",
+        "TNODEV Neural ODE形式化验证工具箱（首个sound Neural ODE验证器 证伪+可达性+精炼循环）",
+        "追踪经济承保Agent风险保险（工具使用轨迹到经济损失映射 MAE从17.7K降至569 CVaR95降72%）",
+        "Kairos原生世界模型栈（物理AI原生世界模型栈 知识获取+状态持久化+高效执行）",
+        "METIS many-shot模型合并（ICML2026 loss-gap加权+共识掩码 缓解信息擦除）",
+        "PACT RL+SLM混合规划架构（2B SLM异步规划+RL执行 FrozenLake超越所有基线）"
       ]
     },
     "tier2_emerging": {
@@ -281,7 +290,17 @@
         "TwinBI BI 仪表板数字孪生",
         "WorkflowView 跨域动作序列抽象",
         "Refusal DiM vs INLP 比较",
-        "Provable Necessity of Trivia 数学生成理论"
+        "Provable Necessity of Trivia 数学生成理论",
+        "Tensor-Coord多Agent代数规划（三阶张量CP/Tucker分解 协调复杂度可计算度量）",
+        "AdaSTORM动态图推理扩展（千节点图推理 准确率超90% 首个动态图多Agent框架）",
+        "MA-SBI误设感知SBI（侧信道文本信息转化为后验校正 无需参数真值配对）",
+        "RAID冷启动时序预测（元数据驱动语义检索+图条件扩散 零样本跨语言迁移）",
+        "后验孪生企业决策模拟（记忆驱动数字孪生 分布保真度W1=1.16）",
+        "符号非形式化多语言（Dedukti+GF多语言架构 形式数学→自然语言可靠转换）",
+        "医疗世界模型路线图（患者状态构建→临床动态建模→干预决策支持三能力框架）",
+        "MR-GVNO几何感知神经算子（边界点云表示不规则几何 毫秒级全场推理）",
+        "EC-Script情感控制叙事（分层情感轨迹控制 艺术治疗叙事生成）",
+        "MGIL知识图谱全局建模（模型图聚类+GNN 从局部邻域到全局结构）"
       ]
     },
     "tier3_exploration": {
@@ -397,7 +416,16 @@
         "MA-SBI 误设感知推理（利用非结构化侧信道信息校正后验 无需参数真值配对）",
         "Affect Forecasting 情感预测≠情感预报（文本语义支持当前预测 数值轨迹支持未来预报）",
         "Controlled Agentic AI for SME 中小企业可控部分自治框架",
-        "ROSA-RL 不确定性感知环岛速度建议（Transformer冲突区域占用预测+RL速度协调）"
+        "ROSA-RL 不确定性感知环岛速度建议（Transformer冲突区域占用预测+RL速度协调）",
+        "ROSA-RL环岛RL导航（Transformer冲突预测+RL速度协调 IEEE ITSC 2026）",
+        "语义酒店推荐审计（预注册算法审计 列表位置因果影响推荐值12/晚）",
+        "MHL临床决策规则（LLM驱动可解释临床决策规则 版本化纯Python）",
+        "装配线RL调度优化（相位感知引导注入 RMAPPO IEEE CASE 2026）",
+        "ToM因果模型冲突AI（DAG结构化因果模型 三因果路径 资源理性心理化）",
+        "开放科学AI研究十年（56800篇论文 可复现性28%→64%）",
+        "情感预测vs预测信息源（文本语义支持当前预测 数值轨迹支持未来预报）",
+        "HTS代码Agentic分类（多Agent信息检索+共识验证 RTD 2026）",
+        "SME可控Agent框架（受控部分自主 中小企业AI自动化集成框架）"
       ]
     },
     "tier4_downgrade": {
@@ -420,6 +448,36 @@
       "topics": [
         "Agent战略决策支持",
         "人类风格VLA驾驶"
+      ]
+    },
+    "weeklySummary": {
+      "week": "W25",
+      "totalScans": 3,
+      "totalItems": 70,
+      "totalDeepDives": 41,
+      "newHighValueDirections": [
+        "Looking Is Not Picking: 颠覆拥挤工具集假设 将工具选择失败诊断从Harness设计推进到模型决策读取端",
+        "AgentFairBench: 首个行为公平性基准 揭示统计arity陷阱 六组分数扩散高估差异2.4x",
+        "贝叶斯AI评估审计: 将评估从静态排行榜推进到纵向审计 终端结果兼容多个演化轨迹",
+        "BPF双向可证明性指纹: 自动形式化忠实度认证 89.6%漂移检测率 PAC-忠实度理论保证",
+        "TNODEV Neural ODE验证: 首个sound Neural ODE验证器 形式化验证从离散扩展到连续时间",
+        "追踪经济承保: 将Agent风险与保险转移机制结合 Agent安全从技术问题扩展为经济问题",
+        "Kairos原生世界模型栈: 世界模型从被动视觉生成推进到主动知识获取和运营基础设施",
+        "METIS many-shot模型合并: ICML2026 挑战一次合并足够假设 迭代合并缓解信息擦除",
+        "PACT RL+SLM混合规划: deliberative planning和reactive execution协同优于各自独立"
+      ],
+      "saturatedDirections": [
+        "Agentic PR质量治理（已覆盖5次无新突破）"
+      ],
+      "nextWeekPriorities": [
+        "Looking Is Not Picking 多轮循环场景验证",
+        "AgentFairBench 公开leaderboard和外部模型提交",
+        "Kairos世界模型栈完整技术细节和开源进展",
+        "BPF在Coq/Isabelle等其他形式化系统的泛化",
+        "贝叶斯评估审计在更多公共档案上的应用",
+        "追踪经济承保在实际Agent部署中的验证",
+        "METIS在其他模型合并场景上的泛化能力",
+        "TNODEV在更多Neural ODE架构上的验证"
       ]
     }
   },
