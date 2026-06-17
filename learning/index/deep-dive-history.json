@@ -1863,11 +1863,43 @@
       "topic": "Kairos原生世界模型栈",
       "firstRecorded": "2026-06-16",
       "lastDeepDive": "2026-06-16"
+    },
+    {
+      "title": "TokenPilot: Cache-Efficient Context Management for LLM Agents",
+      "url": "https://arxiv.org/abs/2606.17016",
+      "type": "paper",
+      "topic": "TokenPilot缓存感知上下文管理",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "LLM-as-Code Agentic Programming for Agent Harness",
+      "url": "https://arxiv.org/abs/2606.15874",
+      "type": "paper",
+      "topic": "LLM-as-Code Agentic Programming",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "Agent Trajectories as Programs: Fingerprinting Coding-Agent Behavior (ProcGrep)",
+      "url": "https://arxiv.org/abs/2606.16988",
+      "type": "paper",
+      "topic": "ProcGrep Agent行为指纹",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "Compositional Reasoning Depth Predicts Clinical AI Failure in EHR QA",
+      "url": "https://arxiv.org/abs/2606.16883",
+      "type": "paper",
+      "topic": "组合推理深度预测临床AI失败",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-16T19:03:00+08:00",
-    "totalEntries": 233,
-    "lastRun": "2026-06-16T19:03:00+08:00"
+    "lastUpdated": "2026-06-17T09:10:00+08:00",
+    "totalEntries": 237,
+    "lastRun": "2026-06-17T09:10:00+08:00"
   }
 }
