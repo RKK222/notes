@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-16T19:03:00+08:00",
+    "lastUpdated": "2026-06-17T09:10:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-16T19:03:00+08:00"
+    "lastRun": "2026-06-17T09:10:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -483,33 +483,32 @@
   },
   "weeklySummary": {
     "week": "W25",
-    "totalScans": 2,
-    "totalItems": 62,
-    "totalDeepDives": 33,
+    "totalScans": 4,
+    "totalItems": 85,
+    "totalDeepDives": 47,
     "newHighValueDirections": [
-      "WorkBench 两年回顾：GPT-4 43%→Claude Opus 4.8 89% 有害行为 26%→2.5% 里程碑进展",
-      "SkillSpector +964 stars/day Agent 技能安全扫描持续爆发",
-      "trycua/cua 开源 CUA 基础设施 跨平台桌面沙箱+SDK+基准",
-      "Parallel-Synthesis 直接 KV 缓存合成 TTFT 缩减 2.5x-11x",
-      "GitOfThoughts 推理版本控制 记忆不提升准确率除非高度相似",
-      "VISTA GUI Grounding 多视图比较 ScreenSpot-Pro +7.9pp",
-      "Agent Swarm 技能条件化信任 零成本路由劫持",
-      "ClinHallu 医疗 MLLM 分阶段幻觉诊断 7031 实例",
-      "Orchestra-o1 全模态 Agent 编排 OmniGAIA +10.3%",
-      "HOTE 混合开放 ended 三进化 8B 超越 32B",
-      "MINIM ICML 2026 隐私感知 Agent 视图",
-      "Adversarial Concept Search 表示几何预测组合失败"
+      "TokenPilot: 揭示文本稀疏性与prompt缓存连续性关键权衡 连续模式成本降87%",
+      "Looking Is Not Picking: 颠覆拥挤工具集假设 80%看对选错 失败在决策读取端",
+      "LLM-as-Code: 从LLM编排一切到程序编排+LLM组件 解决token爆炸和控制流幻觉",
+      "Greed Is Learned: KPI可见性本身就是安全威胁 RL策略对KPI仪表盘上瘾翻转安全对齐",
+      "ProcGrep: 将Agent行为视为程序 85.7%准确率归因 过程级Agent评估新维度",
+      "Open-SWE-Traces: 207K轨迹9语言 SWE-bench Verified 61.7% 大规模高质量数据瓶颈突破",
+      "Green SARC: Agent经济治理从仪表盘推进到架构内预测性执行 节省47-55%",
+      "VerIbmc: 本地神经符号验证 解决云端API依赖 隐私敏感部署",
+      "CircuitLasso: 稀疏线性回归电路学习 大幅降低LLM可解释性计算成本"
     ],
-    "saturatedDirections": [],
+    "saturatedDirections": [
+      "Agentic PR质量治理（已覆盖5次+无新突破）"
+    ],
     "nextWeekPriorities": [
-      "SkillSpector 生态发展追踪 是否成为安全标准",
-      "Parallel-Synthesis 缓存映射器实现细节",
-      "trycua/cua 基准测试结果评估",
-      "WorkBench 更新版本模型评分追踪",
-      "GitOfThoughts 记忆可复制性阈值理论验证",
-      "Agent Swarm 信任路由防御机制设计",
-      "VISTA 扩展到其他 CUA 任务",
-      "Orchestra-o1 全模态编排实际部署效果"
+      "TokenPilot 在更多Agent基准上的泛化验证",
+      "Looking Is Not Picking 多轮循环场景验证",
+      "LLM-as-Code 在实际Agent框架中的实现细节",
+      "Greed Is Learned 在真实Agent部署中的安全影响验证",
+      "ProcGrep 行为指纹在模型路由和监控中的实际应用",
+      "Open-SWE-Traces 多语言蒸馏效果追踪",
+      "Green SARC 架构门在真实多Agent系统中的验证",
+      "VerIbmc 在更多工业代码库上的验证"
     ]
   }
 }
