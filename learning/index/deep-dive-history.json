@@ -2039,11 +2039,59 @@
       "topic": "VoxCPM2 tokenizer-free语音生成",
       "firstRecorded": "2026-06-17",
       "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "PreAct: Computer-Using Agents that Get Faster on Repeated Tasks",
+      "url": "https://arxiv.org/abs/2606.17929",
+      "type": "paper",
+      "topic": "PreAct CUA Agent自优化编译",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "Trust the Right Teacher: Quality-Aware Self-Distillation for GUI Grounding",
+      "url": "https://arxiv.org/abs/2606.18101",
+      "type": "paper",
+      "topic": "Trust the Right Teacher GUI自蒸馏质量门控",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "IsabeLLM: Automated Theorem Proving for Formally Verifying Consensus",
+      "url": "https://arxiv.org/abs/2606.18098",
+      "type": "paper",
+      "topic": "IsabeLLM RAG增强形式化验证",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "Agentic AI Framework for Mitigating Premature Diagnostic Handoff and Silent Hallucination",
+      "url": "https://arxiv.org/abs/2606.18068",
+      "type": "paper",
+      "topic": "医疗Agent神经符号安全门控",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "STAR: SpatioTemporal Adaptive Reward Allocation for Text-to-Image RL",
+      "url": "https://arxiv.org/abs/2606.17979",
+      "type": "paper",
+      "topic": "STAR时空自适应奖励分配",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "Fixed-Point Reasoners: Stable and Adaptive Deep Looped Transformers (FPRM)",
+      "url": "https://arxiv.org/abs/2606.18206",
+      "type": "paper",
+      "topic": "FPRM不动点推理模型",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-17T11:04:00+08:00",
-    "totalEntries": 255,
-    "lastRun": "2026-06-17T11:04:00+08:00"
+    "lastUpdated": "2026-06-17T19:04:00+08:00",
+    "totalEntries": 261,
+    "lastRun": "2026-06-17T19:04:00+08:00"
   }
 }

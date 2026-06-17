@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-17T11:04:00+08:00",
+    "lastUpdated": "2026-06-17T19:04:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-17T11:04:00+08:00"
+    "lastRun": "2026-06-17T19:04:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -196,7 +196,17 @@
         "追踪经济承保Agent风险保险（工具使用轨迹到经济损失映射 MAE从17.7K降至569 CVaR95降72%）",
         "Kairos原生世界模型栈（物理AI原生世界模型栈 知识获取+状态持久化+高效执行）",
         "METIS many-shot模型合并（ICML2026 loss-gap加权+共识掩码 缓解信息擦除）",
-        "PACT RL+SLM混合规划架构（2B SLM异步规划+RL执行 FrozenLake超越所有基线）"
+        "PACT RL+SLM混合规划架构（2B SLM异步规划+RL执行 FrozenLake超越所有基线）",
+        "PreAct CUA Agent自优化编译（状态机编译 8.5-13x加速 经验积累）",
+        "Trust the Right Teacher GUI自蒸馏质量门控（正确性门+概率缩放 解决OPSD信号退化）",
+        "IsabeLLM RAG增强形式化验证（RAG+反例生成 自动化Bitcoin PoW共识验证）",
+        "医疗Agent神经符号安全门控（OLDCARTS完整性门+语义熵UQ 诊断精度+11.3pp）",
+        "STAR时空自适应奖励分配（文生图RL时空自适应 粒度匹配问题）",
+        "FPRM不动点推理模型（不动点收敛自适应停止 循环架构自适应计算）",
+        "SpaceX-Cursor 600亿美元并购（AI编码领域最大并购 战略基础设施升级）",
+        "GLM-5.2 开源登顶Artificial Analysis（智谱开源前沿模型 1M上下文）",
+        "GPT-NL 荷兰主权语言模型（国家级别AI基础设施自主化）",
+        "Wolfram 15 内置AI科学计算（符号+AI混合计算）"
       ]
     },
     "tier2_emerging": {
@@ -512,56 +522,35 @@
   },
   "weeklySummary": {
     "week": "W25",
-    "totalScans": 5,
-    "totalItems": 105,
-    "totalDeepDives": 59,
+    "totalScans": 4,
+    "totalItems": 137,
+    "totalDeepDives": 65,
     "newHighValueDirections": [
-      "TokenPilot: 揭示文本稀疏性与prompt缓存连续性关键权衡 连续模式成本降87%",
-      "Looking Is Not Picking: 颠覆拥挤工具集假设 80%看对选错 失败在决策读取端",
-      "LLM-as-Code: 从LLM编排一切到程序编排+LLM组件 解决token爆炸和控制流幻觉",
-      "Greed Is Learned: KPI可见性本身就是安全威胁 RL策略对KPI仪表盘上瘾翻转安全对齐",
-      "ProcGrep: 将Agent行为视为程序 85.7%准确率归因 过程级Agent评估新维度",
-      "Open-SWE-Traces: 207K轨迹9语言 SWE-bench Verified 61.7% 大规模高质量数据瓶颈突破",
-      "Green SARC: Agent经济治理从仪表盘推进到架构内预测性执行 节省47-55%",
-      "VerIbmc: 本地神经符号验证 解决云端API依赖 隐私敏感部署",
-      "CircuitLasso: 稀疏线性回归电路学习 大幅降低LLM可解释性计算成本",
-      "推理计算-性能曲线: 基准分数是协议依赖的 应报告为推理计算的函数 可能改变评估范式",
-      "初始化作为架构设计: 初始化规模是基因级决定因素 小初始化驱动从简单到复杂发展轨迹",
-      "Transformer ×形架构: 宽-窄-宽非均匀宽度分配 FLOPs降22% KV缓存降15%",
-      "Agent-authored测试代码oracle信号: 80.2%测试补丁弱或无oracle 测试文件存在≠验证存在",
-      "编码基准与Agentic不对齐: 基准分数混淆模型与Harness 任何Harness组件变动可与模型代际差距相当",
-      "Agentic Skills规模化评估: 首个可复用个体技能评估方法论 500技能1000任务19模型配置",
-      "具身记忆经济学: 首次将闪存耐久度作为经济学变量 真实机器人日志验证",
-      "Agent动物福利基准TAC: 所有frontier模型低于随机水平 文本响应福利基准不转移到Agentic部署",
-      "同伦类型理论神经符号推理: 用类型替代集合保留对称性信息 推理捷径检测",
-      "ZPPO近邻发展区策略优化: 教师保留在提示中而非梯度中 避免策略漂移",
-      "ProvenanceGuard MCP来源感知验证: 来源归属是MCP Agent事实性验证的独立维度",
-      "SkillWeaver组合技能路由: 任务分解质量是主要瓶颈 标准LLM分解仅34.2%类别召回"
+      "PreAct: CUA Agent首次实现经验积累 状态机编译8.5-13x加速 从每次从零推理推进到编译复用",
+      "Trust the Right Teacher: 揭示OPSD在坐标敏感任务中信号退化 质量门控是自蒸馏分水岭",
+      "IsabeLLM: 形式化验证从数学推进到工程系统 RAG+反例生成是自动化验证新范式",
+      "医疗Agent安全框架: 高风险场景质量检查应依赖确定性约束而非LLM judge",
+      "STAR: RL奖励分配从标量均匀推进到时空自适应 粒度匹配是RL训练核心问题",
+      "FPRM: 循环架构自适应计算 不动点收敛作为停止机制提供理论保证",
+      "SpaceX-Cursor并购: AI编码从工具升级为战略基础设施 600亿美元重塑市场格局",
+      "GLM-5.2开源登顶: 开源模型首次在综合智能指数第一 开源-闭源差距持续缩小",
+      "GPT-NL主权模型: 主权AI从概念推进到国家部署 可能引发全球主权模型浪潮",
+      "Wolfram 15: 科学计算从符号计算推进到符号+AI混合计算"
     ],
     "saturatedDirections": [
       "Agentic PR质量治理（已覆盖5次+无新突破）"
     ],
     "nextWeekPriorities": [
-      "TokenPilot 在更多Agent基准上的泛化验证",
-      "Looking Is Not Picking 多轮循环场景验证",
-      "LLM-as-Code 在实际Agent框架中的实现细节",
-      "Greed Is Learned 在真实Agent部署中的安全影响验证",
-      "ProcGrep 行为指纹在模型路由和监控中的实际应用",
-      "Open-SWE-Traces 多语言蒸馏效果追踪",
-      "Green SARC 架构门在真实多Agent系统中的验证",
-      "VerIbmc 在更多工业代码库上的验证",
-      "推理计算-性能曲线评估范式在更多基准上的验证",
-      "初始化规模对模型发展轨迹的具体影响机制",
-      "×形Transformer在大规模模型(10B+)上的效果验证",
-      "Agent-authored测试代码oracle感知质量检查的实际应用",
-      "编码基准不对齐问题的解决方案探索",
-      "Agentic Skills评估框架的标准化推进",
-      "具身记忆经济学在更多机器人平台上的验证",
-      "Agent动物福利基准的扩展和文化差异研究",
-      "同伦类型理论在更多NeSy系统上的应用",
-      "ZPPO在其他模型家族上的泛化验证",
-      "ProvenanceGuard在更多MCP应用场景上的验证",
-      "SkillWeaver在更大规模技能库上的扩展性测试"
+      "PreAct在更多CUA基准上的泛化验证和开源进展",
+      "质量门控自蒸馏在代码生成/数学推理场景的推广",
+      "IsabeLLM在更多工程系统验证场景的应用",
+      "医疗Agent神经符号门控在真实临床环境的验证",
+      "STAR时空自适应奖励在视频/音频生成中的推广",
+      "FPRM不动点推理在更多组合推理任务上的效果",
+      "SpaceX-Cursor并购对AI编码工具链的长期影响",
+      "GLM-5.2开源权重发布后的社区评测",
+      "主权AI模型的技术架构和全球部署趋势",
+      "科学计算AI化在更多专业领域的落地"
     ]
   }
 }
