@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-17T09:10:00+08:00",
+    "lastUpdated": "2026-06-17T11:04:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-17T09:10:00+08:00"
+    "lastRun": "2026-06-17T11:04:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -300,7 +300,36 @@
         "医疗世界模型路线图（患者状态构建→临床动态建模→干预决策支持三能力框架）",
         "MR-GVNO几何感知神经算子（边界点云表示不规则几何 毫秒级全场推理）",
         "EC-Script情感控制叙事（分层情感轨迹控制 艺术治疗叙事生成）",
-        "MGIL知识图谱全局建模（模型图聚类+GNN 从局部邻域到全局结构）"
+        "MGIL知识图谱全局建模（模型图聚类+GNN 从局部邻域到全局结构）",
+        "推理计算-性能曲线评估范式（How Inference Compute Shapes Evaluation 基准分数协议依赖）",
+        "初始化作为架构设计（Small Initialization γ初始化规则 压缩=智能）",
+        "Transformer ×形架构（XL-former 宽-窄-宽非均匀宽度 FLOPs降22%）",
+        "Agent-authored测试代码oracle信号（80.2%测试补丁弱或无oracle信号）",
+        "编码基准与Agentic不对齐（基准分数混淆模型与Harness）",
+        "Agentic Skills规模化评估（500技能1000任务19模型配置）",
+        "具身记忆经济学（Memory as Wasting Asset 闪存耐久度经济学）",
+        "Agent动物福利基准TAC（所有frontier模型低于随机水平）",
+        "伪科学抵抗基准PseudoBench（Agent自动研究接近零拒绝率）",
+        "同伦类型理论神经符号推理（用类型替代集合保留对称性信息）",
+        "GNN逻辑表达能力理论（嵌入保持→存在分级模态逻辑）",
+        "DRFLOW个性化工作流预测（100任务5领域1246参考步骤）",
+        "DiagFlowBench非程序化输入评估（映射但错误建议暴露脆弱性）",
+        "Quarry Rocq证明自动化（OOPSLA 2026 规划+执行分离）",
+        "ProvenanceGuard MCP来源感知验证（281医疗追踪 block F1 0.802）",
+        "LegalHalluLens法律AI幻觉审计（AIWILD@ICML 2026）",
+        "SkillWeaver组合技能路由（300组合查询2209技能）",
+        "ZPPO近邻发展区策略优化（31基准超越蒸馏和GRPO）",
+        "d-OPSD扩散语言模型自蒸馏（首个dLLM OPSD）",
+        "ConSA混合注意力可控稀疏（L0正则化学习FA/SWA分配）",
+        "SEFD金融长上下文语料库（152B-token SEC文件重建）",
+        "RubricsTree健康Agent可扩展评估（100+原子布尔rubrics）",
+        "WEQA可穿戴健康Agent问答（查询自适应Agent 24%提升）",
+        "ReproRepo可复现性审计规模化（1149篇ML论文 GitHub Issues）",
+        "StepGuard Web导航单步校准（DDPO双策略+CANR置信度反思）",
+        "FlowRAG频率感知多粒度图流（四级别异构图）",
+        "iroh键寻址P2P网络（9326stars +334/day 密钥替代IP）",
+        "zvec进程内向量数据库（10525stars +156/day 阿里巴巴 C++）",
+        "VoxCPM2 tokenizer-free语音生成（OpenBMB 多语言+创意声音）"
       ]
     },
     "tier3_exploration": {
@@ -483,9 +512,9 @@
   },
   "weeklySummary": {
     "week": "W25",
-    "totalScans": 4,
-    "totalItems": 85,
-    "totalDeepDives": 47,
+    "totalScans": 5,
+    "totalItems": 105,
+    "totalDeepDives": 59,
     "newHighValueDirections": [
       "TokenPilot: 揭示文本稀疏性与prompt缓存连续性关键权衡 连续模式成本降87%",
       "Looking Is Not Picking: 颠覆拥挤工具集假设 80%看对选错 失败在决策读取端",
@@ -495,7 +524,19 @@
       "Open-SWE-Traces: 207K轨迹9语言 SWE-bench Verified 61.7% 大规模高质量数据瓶颈突破",
       "Green SARC: Agent经济治理从仪表盘推进到架构内预测性执行 节省47-55%",
       "VerIbmc: 本地神经符号验证 解决云端API依赖 隐私敏感部署",
-      "CircuitLasso: 稀疏线性回归电路学习 大幅降低LLM可解释性计算成本"
+      "CircuitLasso: 稀疏线性回归电路学习 大幅降低LLM可解释性计算成本",
+      "推理计算-性能曲线: 基准分数是协议依赖的 应报告为推理计算的函数 可能改变评估范式",
+      "初始化作为架构设计: 初始化规模是基因级决定因素 小初始化驱动从简单到复杂发展轨迹",
+      "Transformer ×形架构: 宽-窄-宽非均匀宽度分配 FLOPs降22% KV缓存降15%",
+      "Agent-authored测试代码oracle信号: 80.2%测试补丁弱或无oracle 测试文件存在≠验证存在",
+      "编码基准与Agentic不对齐: 基准分数混淆模型与Harness 任何Harness组件变动可与模型代际差距相当",
+      "Agentic Skills规模化评估: 首个可复用个体技能评估方法论 500技能1000任务19模型配置",
+      "具身记忆经济学: 首次将闪存耐久度作为经济学变量 真实机器人日志验证",
+      "Agent动物福利基准TAC: 所有frontier模型低于随机水平 文本响应福利基准不转移到Agentic部署",
+      "同伦类型理论神经符号推理: 用类型替代集合保留对称性信息 推理捷径检测",
+      "ZPPO近邻发展区策略优化: 教师保留在提示中而非梯度中 避免策略漂移",
+      "ProvenanceGuard MCP来源感知验证: 来源归属是MCP Agent事实性验证的独立维度",
+      "SkillWeaver组合技能路由: 任务分解质量是主要瓶颈 标准LLM分解仅34.2%类别召回"
     ],
     "saturatedDirections": [
       "Agentic PR质量治理（已覆盖5次+无新突破）"
@@ -508,7 +549,19 @@
       "ProcGrep 行为指纹在模型路由和监控中的实际应用",
       "Open-SWE-Traces 多语言蒸馏效果追踪",
       "Green SARC 架构门在真实多Agent系统中的验证",
-      "VerIbmc 在更多工业代码库上的验证"
+      "VerIbmc 在更多工业代码库上的验证",
+      "推理计算-性能曲线评估范式在更多基准上的验证",
+      "初始化规模对模型发展轨迹的具体影响机制",
+      "×形Transformer在大规模模型(10B+)上的效果验证",
+      "Agent-authored测试代码oracle感知质量检查的实际应用",
+      "编码基准不对齐问题的解决方案探索",
+      "Agentic Skills评估框架的标准化推进",
+      "具身记忆经济学在更多机器人平台上的验证",
+      "Agent动物福利基准的扩展和文化差异研究",
+      "同伦类型理论在更多NeSy系统上的应用",
+      "ZPPO在其他模型家族上的泛化验证",
+      "ProvenanceGuard在更多MCP应用场景上的验证",
+      "SkillWeaver在更大规模技能库上的扩展性测试"
     ]
   }
 }

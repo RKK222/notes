@@ -1895,11 +1895,155 @@
       "topic": "组合推理深度预测临床AI失败",
       "firstRecorded": "2026-06-17",
       "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "All Smoke, No Alarm: Oracle Signals in Agent-Authored Test Code",
+      "url": "https://arxiv.org/abs/2606.18168",
+      "type": "paper",
+      "topic": "Agent-authored测试代码oracle信号",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "Coding Benchmarks Are Misaligned with Agentic Software Engineering",
+      "url": "https://arxiv.org/abs/2606.17799",
+      "type": "paper",
+      "topic": "编码基准与Agentic不对齐",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "A Framework for Evaluating Agentic Skills at Scale",
+      "url": "https://arxiv.org/abs/2606.17819",
+      "type": "paper",
+      "topic": "Agentic Skills规模化评估",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "Variable-Width Transformers (XL-former)",
+      "url": "https://arxiv.org/abs/2606.18246",
+      "type": "paper",
+      "topic": "Transformer ×形架构",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "Small Initialization Matters for Large Language Models",
+      "url": "https://arxiv.org/abs/2606.17945",
+      "type": "paper",
+      "topic": "初始化作为架构设计",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "How Inference Compute Shapes Frontier LLM Evaluation",
+      "url": "https://arxiv.org/abs/2606.17930",
+      "type": "paper",
+      "topic": "推理计算-性能曲线",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "Memory as a Wasting Asset: Pricing Flash Endurance for Embodied Agents",
+      "url": "https://arxiv.org/abs/2606.18144",
+      "type": "paper",
+      "topic": "具身记忆经济学",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "TAC: Travel Agent Compassion - Implicit Animal Welfare Benchmark",
+      "url": "https://arxiv.org/abs/2606.18142",
+      "type": "paper",
+      "topic": "Agent动物福利基准TAC",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "PseudoBench: Measuring How Agentic Auto-Research Fuels Pseudoscience",
+      "url": "https://arxiv.org/abs/2606.18060",
+      "type": "paper",
+      "topic": "伪科学抵抗基准PseudoBench",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "Homotopy Type Theory Generalization of Neurosymbolic Inference",
+      "url": "https://arxiv.org/abs/2606.17851",
+      "type": "paper",
+      "topic": "同伦类型理论神经符号推理",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "ZPPO: Zone of Proximal Policy Optimization",
+      "url": "https://arxiv.org/abs/2606.18216",
+      "type": "paper",
+      "topic": "ZPPO近邻发展区策略优化",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "ProvenanceGuard: Source-Aware Factuality Verification for MCP Agents",
+      "url": "https://arxiv.org/abs/2606.18037",
+      "type": "paper",
+      "topic": "ProvenanceGuard MCP来源感知验证",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "SkillWeaver: Compositional Skill Routing for LLM Agents",
+      "url": "https://arxiv.org/abs/2606.18051",
+      "type": "paper",
+      "topic": "SkillWeaver组合技能路由",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "Quarry: Difficulty-Aware Decomposition for Automating Rocq Proofs",
+      "url": "https://arxiv.org/abs/2606.17981",
+      "type": "paper",
+      "topic": "Quarry Rocq证明自动化",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "ReproRepo: Scaling Reproducibility Audits with GitHub Issues",
+      "url": "https://arxiv.org/abs/2606.18237",
+      "type": "paper",
+      "topic": "ReproRepo可复现性审计规模化",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "iroh: 键寻址P2P网络栈",
+      "url": "https://github.com/n0-computer/iroh",
+      "type": "project",
+      "topic": "iroh键寻址P2P网络",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "alibaba/zvec: 进程内向量数据库",
+      "url": "https://github.com/alibaba/zvec",
+      "type": "project",
+      "topic": "zvec进程内向量数据库",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
+    },
+    {
+      "title": "OpenBMB/VoxCPM: Tokenizer-Free多语言语音生成",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "type": "project",
+      "topic": "VoxCPM2 tokenizer-free语音生成",
+      "firstRecorded": "2026-06-17",
+      "lastDeepDive": "2026-06-17"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-17T09:10:00+08:00",
-    "totalEntries": 237,
-    "lastRun": "2026-06-17T09:10:00+08:00"
+    "lastUpdated": "2026-06-17T11:04:00+08:00",
+    "totalEntries": 255,
+    "lastRun": "2026-06-17T11:04:00+08:00"
   }
 }
