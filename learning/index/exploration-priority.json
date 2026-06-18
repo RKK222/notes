@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-17T19:04:00+08:00",
+    "lastUpdated": "2026-06-18T09:10:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-17T19:04:00+08:00"
+    "lastRun": "2026-06-18T09:10:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -206,7 +206,15 @@
         "SpaceX-Cursor 600亿美元并购（AI编码领域最大并购 战略基础设施升级）",
         "GLM-5.2 开源登顶Artificial Analysis（智谱开源前沿模型 1M上下文）",
         "GPT-NL 荷兰主权语言模型（国家级别AI基础设施自主化）",
-        "Wolfram 15 内置AI科学计算（符号+AI混合计算）"
+        "Wolfram 15 内置AI科学计算（符号+AI混合计算）",
+        "codebase-memory-mcp 代码知识图谱MCP（371 stars/day 158语言 子毫秒查询 99% token减少）",
+        "E³RL 可擦除RL打破自回归诅咒（动态认知熵编排 段级自适应阈值 自修复长序列推理）",
+        "DiagFlowBench 非程序化输入评估（50流程图1676对话 映射但错误建议暴露脆弱性）",
+        "LegalHalluLens 法律AI幻觉审计（4类声明类型化档案 RDI方向指数 辩论管线-45%伪造）",
+        "SEAGym 自进化Agent评估环境（五维度评估 揭示频繁更新可能损害held-out性能）",
+        "Code Reasoning Lifecycle LLM代码推理内部追踪（酝酿→四阶段分化）",
+        "Verbal RL反馈闭环治理（三层架构 反馈驱动策展循环 解决保留-遗忘困境）",
+        "LLM消费者行为理论（新研究领域 形式化LLM Agent消费决策聚合为市场需求）"
       ]
     },
     "tier2_emerging": {
@@ -339,7 +347,24 @@
         "FlowRAG频率感知多粒度图流（四级别异构图）",
         "iroh键寻址P2P网络（9326stars +334/day 密钥替代IP）",
         "zvec进程内向量数据库（10525stars +156/day 阿里巴巴 C++）",
-        "VoxCPM2 tokenizer-free语音生成（OpenBMB 多语言+创意声音）"
+        "VoxCPM2 tokenizer-free语音生成（OpenBMB 多语言+创意声音）",
+        "OpenMontage Agentic视频制作（12管线52工具500+技能 开源视频制作）",
+        "rlm 递归语言模型推理库（通用即插即用 支持多种沙箱）",
+        "LongWebBench 长程网页生成评估（490长网页结构+507交互任务）",
+        "DeepInsight 物理AI全栈评估（跨越3个数量级统一运行时）",
+        "EComAgentBench 电商Agent基准（662任务 隐藏意图分散）",
+        "DecoSearch Text-to-SQL复杂度路由（训练-free DAG分解+RAG引导）",
+        "FlowRAG 频率感知多粒度图流（四级异构图 摘要节点粗语义枢纽）",
+        "HyGRAG 统一Graph RAG框架（WWW'26录用 混合图聚类+社区扩展）",
+        "FinAcumen 金融多模态推理（选择性经验记忆库 校准阈值激活）",
+        "SkillMigrator Web技能跨领域复用（可转移交互模式TIP+布局结构匹配）",
+        "MathVis-Fine 多模态数学推理视觉依赖（渐进视觉增强训练）",
+        "First Proof Second Batch 研究级数学AI求解（10个真实研究问题）",
+        "认知模型改进LLM人类说服模拟（Equation-to-Behavior Prompting+RL）",
+        "FllumaOne 代码原生多模态CAD数据集（100K样本 可执行程序+内核验证）",
+        "LEADS Agent发现心脏电生理数字孪生（LLM Agent迭代推理-行动循环）",
+        "WEQA 可穿戴健康Agent问答（查询自适应Agent路由 24%提升）",
+        "Meta-RL知识复用跨实体迁移（贝叶斯非参数先验+语义幅度接口）"
       ]
     },
     "tier3_exploration": {
@@ -464,7 +489,12 @@
         "开放科学AI研究十年（56800篇论文 可复现性28%→64%）",
         "情感预测vs预测信息源（文本语义支持当前预测 数值轨迹支持未来预报）",
         "HTS代码Agentic分类（多Agent信息检索+共识验证 RTD 2026）",
-        "SME可控Agent框架（受控部分自主 中小企业AI自动化集成框架）"
+        "SME可控Agent框架（受控部分自主 中小企业AI自动化集成框架）",
+        "RFC 10008 HTTP查询方法标准化（IETF标准提案）",
+        "Adam-CAD 开源AI CAD（YC W25 AI原生CAD系统）",
+        "Full-System Timing Simulation回归（SIGARCH硬件模拟新方法）",
+        "对话思维认知科学（与人对话式思考比独自思考更有效）",
+        "ChatGPT自发生成暴力图像（frontier模型安全新维度）"
       ]
     },
     "tier4_downgrade": {
@@ -478,7 +508,8 @@
         "知识图谱推理",
         "Agent 记忆系统",
         "Agent 技能生态",
-        "Agentic PR质量治理（已覆盖5次无新突破）"
+        "Agentic PR质量治理（已覆盖5次无新突破）",
+        "Agentic PR质量治理（已覆盖7次无新突破）"
       ]
     },
     "tier2_monitoring": {
@@ -522,35 +553,33 @@
   },
   "weeklySummary": {
     "week": "W25",
-    "totalScans": 4,
-    "totalItems": 137,
-    "totalDeepDives": 65,
+    "totalScans": 5,
+    "totalItems": 172,
+    "totalDeepDives": 72,
     "newHighValueDirections": [
-      "PreAct: CUA Agent首次实现经验积累 状态机编译8.5-13x加速 从每次从零推理推进到编译复用",
-      "Trust the Right Teacher: 揭示OPSD在坐标敏感任务中信号退化 质量门控是自蒸馏分水岭",
-      "IsabeLLM: 形式化验证从数学推进到工程系统 RAG+反例生成是自动化验证新范式",
-      "医疗Agent安全框架: 高风险场景质量检查应依赖确定性约束而非LLM judge",
-      "STAR: RL奖励分配从标量均匀推进到时空自适应 粒度匹配是RL训练核心问题",
-      "FPRM: 循环架构自适应计算 不动点收敛作为停止机制提供理论保证",
-      "SpaceX-Cursor并购: AI编码从工具升级为战略基础设施 600亿美元重塑市场格局",
-      "GLM-5.2开源登顶: 开源模型首次在综合智能指数第一 开源-闭源差距持续缩小",
-      "GPT-NL主权模型: 主权AI从概念推进到国家部署 可能引发全球主权模型浪潮",
-      "Wolfram 15: 科学计算从符号计算推进到符号+AI混合计算"
+      "codebase-memory-mcp: Agent编码从代码生成到代码理解 知识图谱替代上下文窗口 99% token减少",
+      "E³RL: 自回归错误累积是LLM核心缺陷 可擦除机制提供新解决思路 内生认知熵替代外部信号",
+      "DiagFlowBench: 揭示grounding系统主要威胁不是幻觉而是过度自信应用正确知识到错误上下文",
+      "LegalHalluLens: 聚合指标掩盖关键失败模式 方向感知评估是AI安全从技术指标走向工程部署关键",
+      "SEAGym: Agent评估从静态快照推进到动态演化追踪 揭示频繁更新可能损害held-out性能",
+      "Code Reasoning Lifecycle: 酝酿阶段和四阶段分化 为early-exit和self-correction提供理论基础",
+      "Verbal RL反馈闭环治理: 从经验提取到洞察治理 三层架构解决非平稳环境保留-遗忘困境",
+      "LLM消费者行为理论: 新研究领域 形式化LLM Agent消费决策如何聚合为市场需求",
+      "DeepInsight: 物理AI评估跨越3个数量级统一框架 单trace定位跨层回归",
+      "GLM-5.2: 开源模型首次综合智能指数第一 开源-闭源差距持续缩小"
     ],
     "saturatedDirections": [
-      "Agentic PR质量治理（已覆盖5次+无新突破）"
+      "Agentic PR质量治理（已覆盖7次+无新突破）"
     ],
     "nextWeekPriorities": [
-      "PreAct在更多CUA基准上的泛化验证和开源进展",
-      "质量门控自蒸馏在代码生成/数学推理场景的推广",
-      "IsabeLLM在更多工程系统验证场景的应用",
-      "医疗Agent神经符号门控在真实临床环境的验证",
-      "STAR时空自适应奖励在视频/音频生成中的推广",
-      "FPRM不动点推理在更多组合推理任务上的效果",
-      "SpaceX-Cursor并购对AI编码工具链的长期影响",
-      "GLM-5.2开源权重发布后的社区评测",
-      "主权AI模型的技术架构和全球部署趋势",
-      "科学计算AI化在更多专业领域的落地"
+      "codebase-memory-mcp知识图谱构建算法和查询优化机制深入分析",
+      "E³RL可擦除RL在代码生成和多步规划场景的推广验证",
+      "LegalHalluLens方向感知评估在医疗和金融领域的推广",
+      "SEAGym动态评估框架在更多Agent基准上的验证",
+      "LLM消费者行为理论新研究领域的实证进展跟踪",
+      "Verbal RL反馈闭环在非平稳环境的实际部署验证",
+      "DeepInsight物理AI全栈评估在更多场景的泛化能力",
+      "Code Reasoning Lifecycle四阶段分类对harness设计的指导价值"
     ]
   }
 }
