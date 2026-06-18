@@ -2175,11 +2175,51 @@
       "topic": "在轨卫星VLM",
       "firstRecorded": "2026-06-18",
       "lastDeepDive": "2026-06-18"
+    },
+    {
+      "title": "STARE: Surprisal-Guided Token-Level Advantage Reweighting for Policy Entropy Stability",
+      "url": "https://arxiv.org/abs/2606.19236",
+      "type": "paper",
+      "topic": "STARE RL熵崩溃诊断",
+      "firstRecorded": "2026-06-18",
+      "lastDeepDive": "2026-06-18"
+    },
+    {
+      "title": "Explaining Attention with Program Synthesis",
+      "url": "https://arxiv.org/abs/2606.19317",
+      "type": "paper",
+      "topic": "程序化注意力可解释性",
+      "firstRecorded": "2026-06-18",
+      "lastDeepDive": "2026-06-18"
+    },
+    {
+      "title": "ClaMPAPP: LLM as Interface, Not Oracle for Pediatric Appendicitis",
+      "url": "https://arxiv.org/abs/2606.19183",
+      "type": "paper",
+      "topic": "LLM-as-Interface混合架构",
+      "firstRecorded": "2026-06-18",
+      "lastDeepDive": "2026-06-18"
+    },
+    {
+      "title": "Agent-Reach: AI Agent全网搜索CLI",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "type": "project",
+      "topic": "Agent-Reach全网搜索CLI",
+      "firstRecorded": "2026-06-18",
+      "lastDeepDive": "2026-06-18"
+    },
+    {
+      "title": "Lore: Open Source Version Control System for Scalability",
+      "url": "https://lore.org/",
+      "type": "project",
+      "topic": "Lore可扩展版本控制系统",
+      "firstRecorded": "2026-06-18",
+      "lastDeepDive": "2026-06-18"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-18T09:10:00+08:00",
-    "totalEntries": 268,
+    "lastUpdated": "2026-06-18T11:06:00+08:00",
+    "totalEntries": 277,
     "lastRun": "2026-06-18T09:10:00+08:00"
   }
 }
