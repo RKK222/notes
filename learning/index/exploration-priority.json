@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-18T11:06:00+08:00",
+    "lastUpdated": "2026-06-18T19:06:00+08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-18T09:10:00+08:00"
+    "lastRun": "2026-06-18T19:06:00+08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -589,33 +589,33 @@
   },
   "weeklySummary": {
     "week": "W25",
-    "totalScans": 5,
-    "totalItems": 172,
-    "totalDeepDives": 72,
+    "totalScans": 6,
+    "totalItems": 195,
+    "totalDeepDives": 78,
     "newHighValueDirections": [
-      "codebase-memory-mcp: Agent编码从代码生成到代码理解 知识图谱替代上下文窗口 99% token减少",
-      "E³RL: 自回归错误累积是LLM核心缺陷 可擦除机制提供新解决思路 内生认知熵替代外部信号",
-      "DiagFlowBench: 揭示grounding系统主要威胁不是幻觉而是过度自信应用正确知识到错误上下文",
-      "LegalHalluLens: 聚合指标掩盖关键失败模式 方向感知评估是AI安全从技术指标走向工程部署关键",
-      "SEAGym: Agent评估从静态快照推进到动态演化追踪 揭示频繁更新可能损害held-out性能",
-      "Code Reasoning Lifecycle: 酝酿阶段和四阶段分化 为early-exit和self-correction提供理论基础",
-      "Verbal RL反馈闭环治理: 从经验提取到洞察治理 三层架构解决非平稳环境保留-遗忘困境",
-      "LLM消费者行为理论: 新研究领域 形式化LLM Agent消费决策如何聚合为市场需求",
-      "DeepInsight: 物理AI评估跨越3个数量级统一框架 单trace定位跨层回归",
-      "GLM-5.2: 开源模型首次综合智能指数第一 开源-闭源差距持续缩小"
+      "STARE: 从一阶梯度分析揭示GRPO熵崩溃token级机制 advantage-surprisal四象限结构 AIME24/25 +4-8%",
+      "Agent-First Web: Web从人类消费到Agent消费的根本转变 Agent-Reach 33K stars日增1161呼应",
+      "程序化注意力可解释性: 用Python程序替代注意力头 25%替换仅16%困惑度增长 模型压缩新路径",
+      "LLM-as-Interface混合架构: ClaMPAPP LLM提取特征+XGBoost预测 医疗诊断最强性能 高风险AI标准模式",
+      "TxBench-PP: 临床前药理学100项评估 最强Claude Opus 4.8仅59.3% Agent科学决策能力差距",
+      "Agent-Reach: 33941 stars +1161/day 零API费用多平台CLI Agent互联网接入基础设施爆发",
+      "Lore VCS: HN 1156 points 为可扩展性设计的开源VCS AI辅助编码时代版本控制需求",
+      "MAST机制引导选择性遗忘: RLVR推理遗忘 注意力投影张量排序 降低附带损伤",
+      "UBP2不确定性平衡偏好规划: 偏好基RL主动探索 Meta-World样本效率提升",
+      "OneCanvas全景重投影3D理解: 等距全景画布 SOTA少10x训练计算"
     ],
     "saturatedDirections": [
       "Agentic PR质量治理（已覆盖7次+无新突破）"
     ],
     "nextWeekPriorities": [
-      "codebase-memory-mcp知识图谱构建算法和查询优化机制深入分析",
-      "E³RL可擦除RL在代码生成和多步规划场景的推广验证",
-      "LegalHalluLens方向感知评估在医疗和金融领域的推广",
-      "SEAGym动态评估框架在更多Agent基准上的验证",
-      "LLM消费者行为理论新研究领域的实证进展跟踪",
-      "Verbal RL反馈闭环在非平稳环境的实际部署验证",
-      "DeepInsight物理AI全栈评估在更多场景的泛化能力",
-      "Code Reasoning Lifecycle四阶段分类对harness设计的指导价值"
+      "STARE advantage-surprisal四象限结构在其他RLVR算法上的泛化",
+      "Agent-First Web架构完整技术细节和标准化进展",
+      "程序化注意力替代在更多模型架构上的扩展",
+      "LLM-as-Interface+ML-as-Predictor在非医疗领域的推广",
+      "TxBench-PP在更多药物发现阶段的扩展",
+      "Lore版本控制系统技术细节和与Git性能对比",
+      "Agent-Reach多平台稳定性和反爬策略应对",
+      "MAST机制引导遗忘在更多模型上的验证"
     ]
   }
 }
