@@ -2143,6 +2143,38 @@
       "topic": "Code Reasoning Lifecycle LLM代码推理内部追踪",
       "firstRecorded": "2026-06-18",
       "lastDeepDive": "2026-06-18"
+    },
+    {
+      "title": "CEO-Bench: Can Agents Play the Long Game?",
+      "url": "https://arxiv.org/abs/2606.18543",
+      "type": "paper",
+      "topic": "长期Agent能力评估",
+      "firstRecorded": "2026-06-18",
+      "lastDeepDive": "2026-06-18"
+    },
+    {
+      "title": "C-Trace: Runtime Compliance Verification for AI Agents",
+      "url": "https://arxiv.org/abs/2606.19242",
+      "type": "paper",
+      "topic": "运行时Agent合规验证",
+      "firstRecorded": "2026-06-18",
+      "lastDeepDive": "2026-06-18"
+    },
+    {
+      "title": "RODS: Reward-Driven Online Data Synthesis",
+      "url": "https://arxiv.org/abs/2606.19047",
+      "type": "paper",
+      "topic": "奖励驱动在线数据合成",
+      "firstRecorded": "2026-06-18",
+      "lastDeepDive": "2026-06-18"
+    },
+    {
+      "title": "NAVI-Orbital: 在轨卫星VLM首次演示",
+      "url": "https://arxiv.org/abs/2606.18271",
+      "type": "paper",
+      "topic": "在轨卫星VLM",
+      "firstRecorded": "2026-06-18",
+      "lastDeepDive": "2026-06-18"
     }
   ],
   "meta": {
