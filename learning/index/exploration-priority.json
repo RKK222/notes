@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-19T09:10:00",
+    "lastUpdated": "2026-06-19T11:04:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-19T09:10:00"
+    "lastRun": "2026-06-19T11:04:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -223,7 +223,19 @@
         "User as Engram（参数化记忆编辑 33000x更小footprint 5.6x推理提升）",
         "C-Trace运行时Agent合规验证（GDPR形式化策略谓词 10%噪声下ASR<=12%）",
         "Safety Reflection Pretraining（预训练安全对齐从数据过滤推进到行为塑造）",
-        "OpenAI Skills Catalog（Codex技能目录 Agent技能生态标准化）"
+        "OpenAI Skills Catalog（Codex技能目录 Agent技能生态标准化）",
+        "Multi-LCB 多语言编码基准（ICLR2026 12语言 24模型 Python过拟合）",
+        "LedgerAgent 结构化状态工具调用（独立账本+策略约束检查）",
+        "SoftSkill 行为压缩上下文适配（长度32软技能前缀 超越SkillOpt）",
+        "热力学智能度量（智能=罕见有效未来合法放大 递归自模拟必要条件）",
+        "UFP4 均匀4-bit预训练配方（识别Shrinkage Bias 124B MoE验证）",
+        "QMFOLBench 可量化逻辑推理基准（2880实例960配置 可控复杂度）",
+        "RVS 预测模型逻辑合规性度量（规则违反分数 自动SQL生成）",
+        "MACR 多Agent知识冲突解决（超越二元选择 三Agent推理）",
+        "LLM心理画像测量伪影（81-90%变异由响应偏差驱动 响应正交性）",
+        "合规演示安全机制（良性有害演示不可互换 偏好优化关键阶段）",
+        "Zero-Touch OAuth MCP（企业级零接触认证）",
+        "GitHub Trojan Malware（10k仓库 供应链安全）"
       ]
     },
     "tier2_emerging": {
@@ -408,7 +420,16 @@
         "code-review-graph代码智能图MCP（本地优先 持久化代码库映射）",
         "cocoindex-code AST代码搜索（超轻量 节省70%token）",
         "CAPRA多Agent软件架构评估（证据锚定+交叉验证 88.8%标准满足率）",
-        "Copilot认知多样性交互研究（27开发者 5种交互模式 10种需求）"
+        "Copilot认知多样性交互研究（27开发者 5种交互模式 10种需求）",
+        "MAMO 多目标约束优化多Agent（AAMAS2026 奖励权重选择作为学习问题）",
+        "FlowEdit 联想记忆终身发音适配（冻结TTS Modern Hopfield Network）",
+        "Cross-Attention TTS归因（首次语音扩散模型交叉注意力研究）",
+        "SKILL.md挖掘诊断研究（可读性高但可迁移性低）",
+        "Token Compression Illusion RTK质疑（批判性视角）",
+        "TesterArmy YC Agent测试平台（Agent测试产品化）",
+        "Google agents-cli（Google官方Agent开发CLI）",
+        "claude-bug-bounty AI漏洞赏金（自主漏洞狩猎）",
+        "Noam Shazeer加入OpenAI（Transformer发明人）"
       ]
     },
     "tier3_exploration": {
@@ -613,33 +634,37 @@
   },
   "weeklySummary": {
     "week": "W25",
-    "totalScans": 6,
-    "totalItems": 195,
-    "totalDeepDives": 78,
+    "totalScans": 7,
+    "totalItems": 225,
+    "totalDeepDives": 95,
     "newHighValueDirections": [
-      "STARE: 从一阶梯度分析揭示GRPO熵崩溃token级机制 advantage-surprisal四象限结构 AIME24/25 +4-8%",
-      "Agent-First Web: Web从人类消费到Agent消费的根本转变 Agent-Reach 33K stars日增1161呼应",
-      "程序化注意力可解释性: 用Python程序替代注意力头 25%替换仅16%困惑度增长 模型压缩新路径",
-      "LLM-as-Interface混合架构: ClaMPAPP LLM提取特征+XGBoost预测 医疗诊断最强性能 高风险AI标准模式",
-      "TxBench-PP: 临床前药理学100项评估 最强Claude Opus 4.8仅59.3% Agent科学决策能力差距",
-      "Agent-Reach: 33941 stars +1161/day 零API费用多平台CLI Agent互联网接入基础设施爆发",
-      "Lore VCS: HN 1156 points 为可扩展性设计的开源VCS AI辅助编码时代版本控制需求",
-      "MAST机制引导选择性遗忘: RLVR推理遗忘 注意力投影张量排序 降低附带损伤",
-      "UBP2不确定性平衡偏好规划: 偏好基RL主动探索 Meta-World样本效率提升",
-      "OneCanvas全景重投影3D理解: 等距全景画布 SOTA少10x训练计算"
+      "Multi-LCB: ICLR2026 将LCB扩展到12种编程语言 发现Python过拟合和语言特定污染 24模型评估",
+      "LedgerAgent: 推理时结构化状态管理 独立账本+策略约束检查 解决工具调用Agent两大失败模式",
+      "SoftSkill: 行为压缩范式 长度32软技能前缀超越SkillOpt token效率提升数十倍",
+      "热力学智能度量: 智能=罕见有效未来合法放大 递归自模拟必要条件 通用尺度可测量",
+      "UFP4: 识别E2M1 Shrinkage Bias 均匀4-bit配方 124B MoE验证",
+      "QMFOLBench: 可量化一阶逻辑推理基准 2880实例960配置 可控复杂度",
+      "RVS: 预测模型逻辑合规性度量 填补精度之外逻辑一致性评估空白",
+      "MACR: 多Agent知识冲突解决 超越二元选择 三Agent推理框架",
+      "LLM心理画像测量伪影: 56模型 81-90%变异由响应偏差驱动 响应正交性概念",
+      "合规演示安全机制: 良性和有害演示不可互换 偏好优化是关键阶段",
+      "Zero-Touch OAuth MCP: 企业级零接触认证 HN 115分",
+      "GitHub Trojan Malware: 10k仓库分发恶意软件 HN 680分今日最高",
+      "Noam Shazeer加入OpenAI: Transformer共同作者 HN 296分"
     ],
     "saturatedDirections": [
-      "Agentic PR质量治理（已覆盖7次+无新突破）"
+      "Agentic PR质量治理（已覆盖7次+无新突破）",
+      "Agent记忆系统传统语义检索方向（持续饱和）"
     ],
     "nextWeekPriorities": [
-      "STARE advantage-surprisal四象限结构在其他RLVR算法上的泛化",
-      "Agent-First Web架构完整技术细节和标准化进展",
-      "程序化注意力替代在更多模型架构上的扩展",
-      "LLM-as-Interface+ML-as-Predictor在非医疗领域的推广",
-      "TxBench-PP在更多药物发现阶段的扩展",
-      "Lore版本控制系统技术细节和与Git性能对比",
-      "Agent-Reach多平台稳定性和反爬策略应对",
-      "MAST机制引导遗忘在更多模型上的验证"
+      "Multi-LCB基准后续发展和外部模型提交",
+      "SoftSkill在agentic执行场景下的扩展能力",
+      "热力学智能度量框架的实验验证进展",
+      "LLM心理画像评估工具的重新设计方向",
+      "GitHub恶意软件生态和供应链安全",
+      "UFP4配方在其他模型架构上的泛化",
+      "QMFOLBench在更多推理模型上的评估",
+      "MACR在RAG系统中的实际应用验证"
     ]
   }
 }
