@@ -2247,11 +2247,155 @@
       "topic": "Index Sickness 概念漂移",
       "firstRecorded": "2026-06-19",
       "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages (ICLR 2026)",
+      "url": "https://arxiv.org/abs/2606.20517",
+      "type": "paper",
+      "topic": "Multi-LCB 多语言编码基准",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents",
+      "url": "https://arxiv.org/abs/2606.20529",
+      "type": "paper",
+      "topic": "LedgerAgent 结构化状态工具调用",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "SoftSkill: Behavioral Compression for Contextual Adaptation",
+      "url": "https://arxiv.org/abs/2606.20333",
+      "type": "paper",
+      "topic": "SoftSkill 行为压缩上下文适配",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "Thermodynamic Measure of Intelligence",
+      "url": "https://arxiv.org/abs/2606.20231",
+      "type": "paper",
+      "topic": "热力学智能度量",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "What Do Safety-Aligned LLMs Learn From Mixed Compliance Demonstrations?",
+      "url": "https://arxiv.org/abs/2606.20508",
+      "type": "paper",
+      "topic": "合规演示安全影响机制",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "Apparent Psychological Profiles of LLMs are Largely a Measurement Artifact",
+      "url": "https://arxiv.org/abs/2606.20205",
+      "type": "paper",
+      "topic": "LLM心理画像测量伪影",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "Rethinking Shrinkage Bias in LLM FP4 Pretraining: UFP4 Recipe",
+      "url": "https://arxiv.org/abs/2606.20381",
+      "type": "paper",
+      "topic": "UFP4 均匀4-bit预训练配方",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "QMFOLBench: Quantifiable Monadic First-Order Logic Test Case Generation",
+      "url": "https://arxiv.org/abs/2606.20227",
+      "type": "paper",
+      "topic": "QMFOLBench 可量化逻辑推理基准",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "Beyond Accuracy: Measuring Logical Compliance of Predictive Models (RVS)",
+      "url": "https://arxiv.org/abs/2606.20208",
+      "type": "paper",
+      "topic": "RVS 预测模型逻辑合规性度量",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "MACR: Explicit Knowledge Conflict Resolution for LLM Inference",
+      "url": "https://arxiv.org/abs/2606.20245",
+      "type": "paper",
+      "topic": "MACR 多Agent知识冲突解决",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "Automating SKILL.md Generation via Interaction Trajectory Mining",
+      "url": "https://arxiv.org/abs/2606.20363",
+      "type": "paper",
+      "topic": "SKILL.md挖掘诊断研究",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "Zero-Touch OAuth for MCP (Enterprise Managed Auth)",
+      "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+      "type": "project",
+      "topic": "Zero-Touch OAuth MCP",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "The Token Compression Illusion: Why Skeptical of RTK",
+      "url": "https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/",
+      "type": "paper",
+      "topic": "Token Compression Illusion RTK质疑",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "TesterArmy (YC P26) - Agents that test web and mobile apps",
+      "url": "https://tester.army",
+      "type": "project",
+      "topic": "TesterArmy YC Agent测试平台",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "Google agents-cli: Google Cloud Agent Development CLI",
+      "url": "https://github.com/google/agents-cli",
+      "type": "project",
+      "topic": "Google agents-cli",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "claude-bug-bounty: AI-powered bug bounty hunting",
+      "url": "https://github.com/shuvonsec/claude-bug-bounty",
+      "type": "project",
+      "topic": "claude-bug-bounty AI漏洞赏金",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "10k GitHub Repositories Distributing Trojan Malware",
+      "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
+      "type": "paper",
+      "topic": "GitHub Trojan Malware 10k仓库",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "Noam Shazeer Joins OpenAI",
+      "url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
+      "type": "paper",
+      "topic": "Noam Shazeer加入OpenAI",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-19T09:10:00",
-    "totalEntries": 281,
+    "lastUpdated": "2026-06-19T11:04:00",
+    "totalEntries": 299,
     "lastRun": "2026-06-19T09:10:00"
   }
 }
