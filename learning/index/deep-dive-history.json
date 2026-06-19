@@ -2215,11 +2215,43 @@
       "topic": "Lore可扩展版本控制系统",
       "firstRecorded": "2026-06-18",
       "lastDeepDive": "2026-06-18"
+    },
+    {
+      "title": "Towards an Agent-First Web: Redesigning the Web for AI Agents",
+      "url": "https://arxiv.org/abs/2606.19116",
+      "type": "paper",
+      "topic": "Agent-First Web 架构",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "User as Engram: Internalizing Per-User Memory as Local Parametric Edits",
+      "url": "https://arxiv.org/abs/2606.19172",
+      "type": "paper",
+      "topic": "User as Engram 参数化记忆编辑",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "Runtime Compliance Verification for AI Agents (C-Trace)",
+      "url": "https://arxiv.org/abs/2606.19242",
+      "type": "paper",
+      "topic": "C-Trace 运行时Agent合规验证",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "Written by AI, Managed by AI: Index Sickness Elimination",
+      "url": "https://arxiv.org/abs/2606.19121",
+      "type": "paper",
+      "topic": "Index Sickness 概念漂移",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-18T11:06:00+08:00",
-    "totalEntries": 277,
-    "lastRun": "2026-06-18T09:10:00+08:00"
+    "lastUpdated": "2026-06-19T09:10:00",
+    "totalEntries": 281,
+    "lastRun": "2026-06-19T09:10:00"
   }
 }

@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-18T19:06:00+08:00",
+    "lastUpdated": "2026-06-19T09:10:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-18T19:06:00+08:00"
+    "lastRun": "2026-06-19T09:10:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -217,7 +217,13 @@
         "LLM消费者行为理论（新研究领域 形式化LLM Agent消费决策聚合为市场需求）",
         "运行时Agent合规验证",
         "长期Agent能力评估",
-        "Agent技能安全扫描"
+        "Agent技能安全扫描",
+        "Agent-First Web架构（Web为Agent重新设计 三层重构+ATML+密码学溯源）",
+        "Index Sickness（AI辅助长期开发概念漂移 391次session行动研究）",
+        "User as Engram（参数化记忆编辑 33000x更小footprint 5.6x推理提升）",
+        "C-Trace运行时Agent合规验证（GDPR形式化策略谓词 10%噪声下ASR<=12%）",
+        "Safety Reflection Pretraining（预训练安全对齐从数据过滤推进到行为塑造）",
+        "OpenAI Skills Catalog（Codex技能目录 Agent技能生态标准化）"
       ]
     },
     "tier2_emerging": {
@@ -390,7 +396,19 @@
         "GUI技能引导延续蒸馏",
         "AI4Science风险基准",
         "神经符号范畴张量",
-        "递归语言模型推理"
+        "递归语言模型推理",
+        "Rubric-Conditioned自蒸馏（规则作为细粒度反馈 超越GRPO 1.0点）",
+        "ARIADNE无训练适配器路由（嵌入质心推理时动态选择 23任务97.44%上限）",
+        "ThinkDeception多模态欺骗检测（首个MLLM欺骗检测框架 VAC-GRPO渐进训练）",
+        "HACD-H人机协同进化动力学（14700交互轮次 统一社会智能涌现理论）",
+        "Kilo Code全栈编码平台（22K+stars 日增1345）",
+        "Withastro Flue沙箱Agent框架（5505stars）",
+        "NeSyCat Torch神经符号范畴张量（单一归纳真理定义参数化monad）",
+        "X+Slides受众条件幻灯片生成（8133探针 四指标评估）",
+        "code-review-graph代码智能图MCP（本地优先 持久化代码库映射）",
+        "cocoindex-code AST代码搜索（超轻量 节省70%token）",
+        "CAPRA多Agent软件架构评估（证据锚定+交叉验证 88.8%标准满足率）",
+        "Copilot认知多样性交互研究（27开发者 5种交互模式 10种需求）"
       ]
     },
     "tier3_exploration": {
@@ -520,7 +538,9 @@
         "Adam-CAD 开源AI CAD（YC W25 AI原生CAD系统）",
         "Full-System Timing Simulation回归（SIGARCH硬件模拟新方法）",
         "对话思维认知科学（与人对话式思考比独自思考更有效）",
-        "ChatGPT自发生成暴力图像（frontier模型安全新维度）"
+        "ChatGPT自发生成暴力图像（frontier模型安全新维度）",
+        "Google TimesFM时间序列基础模型",
+        "VbR变异性再生（Vibe Coding产品化 LLM作为派生引擎）"
       ]
     },
     "tier4_downgrade": {
@@ -548,9 +568,9 @@
     },
     "weeklySummary": {
       "week": "W25",
-      "totalScans": 3,
-      "totalItems": 70,
-      "totalDeepDives": 41,
+      "totalScans": 4,
+      "totalItems": 102,
+      "totalDeepDives": 45,
       "newHighValueDirections": [
         "Looking Is Not Picking: 颠覆拥挤工具集假设 将工具选择失败诊断从Harness设计推进到模型决策读取端",
         "AgentFairBench: 首个行为公平性基准 揭示统计arity陷阱 六组分数扩散高估差异2.4x",
@@ -560,7 +580,11 @@
         "追踪经济承保: 将Agent风险与保险转移机制结合 Agent安全从技术问题扩展为经济问题",
         "Kairos原生世界模型栈: 世界模型从被动视觉生成推进到主动知识获取和运营基础设施",
         "METIS many-shot模型合并: ICML2026 挑战一次合并足够假设 迭代合并缓解信息擦除",
-        "PACT RL+SLM混合规划: deliberative planning和reactive execution协同优于各自独立"
+        "PACT RL+SLM混合规划: deliberative planning和reactive execution协同优于各自独立",
+        "Agent-First Web: Web从人类消费到Agent消费的根本转变 三层重构+ATML+密码学溯源 10条设计原则",
+        "User as Engram: 记忆从外部检索推进到参数化编辑 33000x footprint缩减 5.6x推理提升 多用户可加性组合",
+        "Index Sickness: 391次session行动研究 符号系统超阈值后LLM放弃业务语义 Pang Principle自然语言优于符号",
+        "C-Trace: Agent安全从离线红队到运行时形式化验证 GDPR形式化策略谓词 10%噪声下ASR<=12%"
       ],
       "saturatedDirections": [
         "Agentic PR质量治理（已覆盖5次无新突破）"
