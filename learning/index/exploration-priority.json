@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-19T11:04:00",
+    "lastUpdated": "2026-06-19T19:04:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-19T11:04:00"
+    "lastRun": "2026-06-19T19:04:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -666,5 +666,37 @@
       "QMFOLBench在更多推理模型上的评估",
       "MACR在RAG系统中的实际应用验证"
     ]
-  }
+  },
+  "newExplorations": [
+    {
+      "topic": "JDK Valhalla值类型",
+      "reason": "十年工程入JDK 28，Java类型系统最大变革",
+      "priority": "medium",
+      "added": "2026-06-19"
+    },
+    {
+      "topic": "DuckDB内核架构",
+      "reason": "AI数据管道标准组件，理解内核对优化AI数据流至关重要",
+      "priority": "medium",
+      "added": "2026-06-19"
+    },
+    {
+      "topic": "MIT芯片专用操作系统",
+      "reason": "AI硬件加速时代，理解芯片行为对优化AI推理至关重要",
+      "priority": "medium",
+      "added": "2026-06-19"
+    },
+    {
+      "topic": "Talos Wasm形式化验证",
+      "reason": "AI生成代码的形式化验证产业化路径",
+      "priority": "high",
+      "added": "2026-06-19"
+    },
+    {
+      "topic": "Zero-Touch OAuth for MCP",
+      "reason": "企业Agent部署认证瓶颈解决方案",
+      "priority": "medium",
+      "added": "2026-06-19"
+    }
+  ]
 }

@@ -2391,11 +2391,19 @@
       "topic": "Noam Shazeer加入OpenAI",
       "firstRecorded": "2026-06-19",
       "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "GLM-5: 从Vibe Coding到Agentic Engineering",
+      "url": "https://github.com/zai-org/GLM-5",
+      "type": "project",
+      "topic": "GLM-5 Agentic Engineering",
+      "firstRecorded": "2026-06-19",
+      "lastDeepDive": "2026-06-19"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-19T11:04:00",
-    "totalEntries": 299,
+    "lastUpdated": "2026-06-19T19:04:00",
+    "totalEntries": 300,
     "lastRun": "2026-06-19T09:10:00"
   }
 }
