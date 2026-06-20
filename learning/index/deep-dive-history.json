@@ -2503,11 +2503,131 @@
       "topic": "RACL推理Agent控制层",
       "firstRecorded": "2026-06-20",
       "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "MetaResearcher: Scaling Deep Research via Self-Reflective RL in Adversarial Virtual Environments",
+      "url": "https://arxiv.org/abs/2606.19893",
+      "type": "paper",
+      "topic": "MetaResearcher 对抗虚拟环境RL深度研究",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "Multi-Agent Transactive Memory (MATM): Population-Level Experience Sharing",
+      "url": "https://arxiv.org/abs/2606.19911",
+      "type": "paper",
+      "topic": "MATM 群体级Agent经验共享",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "ORAgentBench: Can LLM Agents Solve Challenging OR Tasks End to End?",
+      "url": "https://arxiv.org/abs/2606.19787",
+      "type": "paper",
+      "topic": "ORAgentBench 端到端运筹学Agent评估",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "ICT: Independent Combinatorial Tokens for RLVR",
+      "url": "https://arxiv.org/abs/2606.19771",
+      "type": "paper",
+      "topic": "ICT Token级RLVR优化",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "SEVRA: Selective Verification for Budget-Aware Reasoning",
+      "url": "https://arxiv.org/abs/2606.19808",
+      "type": "paper",
+      "topic": "SEVRA 选择性验证推理预算分配",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "Black-Box Uncertainty Estimation Systematic Evaluation",
+      "url": "https://arxiv.org/abs/2606.19868",
+      "type": "paper",
+      "topic": "黑盒UE系统评估",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "CombEval: Dynamic Benchmark for Combinatorial Counting in LLMs",
+      "url": "https://arxiv.org/abs/2606.19788",
+      "type": "paper",
+      "topic": "CombEval 组合计数推理基准",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "AgentFinVQA: Deployable Multi-Agent Pipeline for Auditable Financial Chart QA",
+      "url": "https://arxiv.org/abs/2606.19782",
+      "type": "paper",
+      "topic": "AgentFinVQA 可审计金融图表QA",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "Human-on-the-Loop Orchestration for AI-Assisted Legal Discovery",
+      "url": "https://arxiv.org/abs/2606.19812",
+      "type": "paper",
+      "topic": "HOTL法律发现AI",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "Grounded Inference: Principles for Deterministically Encapsulated Generative Models",
+      "url": "https://arxiv.org/abs/2606.19753",
+      "type": "paper",
+      "topic": "Grounded Inference 确定性封装生成模型",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "TelcoAgent: Scalable 5G Multi-KPM Forecasting",
+      "url": "https://arxiv.org/abs/2606.19821",
+      "type": "paper",
+      "topic": "TelcoAgent 5G预测",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "Autotelic AI, Embedded Agency and Dissolution of the Self",
+      "url": "https://arxiv.org/abs/2606.19924",
+      "type": "paper",
+      "topic": "Autotelic AI 自主目标生成哲学",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "Calibrated MoE Under Distribution Shift (ICML 2026)",
+      "url": "https://arxiv.org/abs/2606.20544",
+      "type": "paper",
+      "topic": "MoE校准分布偏移",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "GLM-5.2幻觉率仅28% vs GPT-5.5的86%",
+      "url": "https://arrowtsx.dev/bigger-models/",
+      "type": "project",
+      "topic": "GLM-5.2幻觉率对比",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "John Jumper加入Anthropic",
+      "url": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
+      "type": "project",
+      "topic": "John Jumper Anthropic",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-20T11:00:00",
-    "totalEntries": 313,
-    "lastRun": "2026-06-20T11:00:00"
+    "lastUpdated": "2026-06-20T19:00:00",
+    "totalEntries": 328,
+    "lastRun": "2026-06-20T19:00:00"
   }
 }
