@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-20T09:10:00",
+    "lastUpdated": "2026-06-20T11:00:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-20T09:10:00"
+    "lastRun": "2026-06-20T11:00:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -237,7 +237,11 @@
         "Zero-Touch OAuth MCP（企业级零接触认证）",
         "GitHub Trojan Malware（10k仓库 供应链安全）",
         "Process-Verified RL形式化证明（Lean过程oracle 策略级验证反馈）",
-        "ScaffoldAgent深度研究结构化（效用引导大纲演化 扩展/收缩/修订）"
+        "ScaffoldAgent深度研究结构化（效用引导大纲演化 扩展/收缩/修订）",
+        "UFP4均匀4-bit训练（E1M2/INT4替代E2M1 Shrinkage Bias）",
+        "Multi-LCB多语言代码基准（12种语言暴露Python过拟合）",
+        "热力学智能度量（递归自我模拟是智能必要条件）",
+        "代码知识图谱MCP（99% token减少 158语言支持）"
       ]
     },
     "tier2_emerging": {
@@ -436,7 +440,16 @@
         "Lagrange开放词汇自动驾驶（MLF+能量场+拉格朗日最小化）",
         "Cross-Attention Attribution语音扩散可解释性（首次DAAM适配语音 25层×24步）",
         "ModSync PINNs训练冲突解决（容量诱导模块化失效 结构优化）",
-        "Reward as Agent具身世界模型验证（主动评估生成行为 DynDiff-GRPO）"
+        "Reward as Agent具身世界模型验证（主动评估生成行为 DynDiff-GRPO）",
+        "MACR知识冲突解决多Agent框架",
+        "企业级多Agent编排（200 Agent规模性能退化）",
+        "GLM-5 Agentic Engineering（智谱AI）",
+        "FlowEdit TTS终身发音适应",
+        "语音扩散交叉注意力归因",
+        "DeepSWIP反事实推理神经符号系统",
+        "HISR超图语义通信",
+        "残差空间进化优化（流式生成+进化算法）",
+        "RACL推理Agent控制层元启发式"
       ]
     },
     "tier3_exploration": {
@@ -639,7 +652,9 @@
         "RoboCup足球MARL",
         "软件架构多Agent评估",
         "开发者认知多样性Copilot",
-        "LLM MCP软件工程教育"
+        "LLM MCP软件工程教育",
+        "QMFOLBench一阶逻辑推理基准",
+        "BIM-Edit建筑信息模型编辑基准"
       ]
     }
   },
