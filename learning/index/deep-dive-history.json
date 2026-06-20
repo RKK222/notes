@@ -2399,11 +2399,59 @@
       "topic": "GLM-5 Agentic Engineering",
       "firstRecorded": "2026-06-19",
       "lastDeepDive": "2026-06-19"
+    },
+    {
+      "title": "ENPIRE: 具身机器人策略自我改进框架",
+      "url": "https://arxiv.org/abs/2606.19980",
+      "type": "paper",
+      "topic": "具身AI自我改进框架",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "ScaffoldAgent: 深度研究大纲动态优化框架",
+      "url": "https://arxiv.org/abs/2606.20122",
+      "type": "paper",
+      "topic": "ScaffoldAgent深度研究大纲优化",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "Lagrange: 开放词汇端到端自动驾驶框架",
+      "url": "https://arxiv.org/abs/2606.20274",
+      "type": "paper",
+      "topic": "Lagrange开放词汇自动驾驶",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "Process-Verified RL for Theorem Proving via Lean",
+      "url": "https://arxiv.org/abs/2606.20068",
+      "type": "paper",
+      "topic": "Process-Verified RL形式化证明",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "ModSync: 无模块化冲突感知PINNs训练",
+      "url": "https://arxiv.org/abs/2606.20156",
+      "type": "paper",
+      "topic": "ModSync PINNs训练冲突解决",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "Reward as Agent for Embodied World Models",
+      "url": "https://arxiv.org/abs/2606.19990",
+      "type": "paper",
+      "topic": "Reward as Agent具身世界模型验证",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-19T19:04:00",
-    "totalEntries": 300,
-    "lastRun": "2026-06-19T09:10:00"
+    "lastUpdated": "2026-06-20T09:10:00",
+    "totalEntries": 306,
+    "lastRun": "2026-06-20T09:10:00"
   }
 }
