@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-20T11:00:00",
+    "lastUpdated": "2026-06-20T19:00:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-20T11:00:00"
+    "lastRun": "2026-06-20T19:00:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -722,6 +722,66 @@
       "topic": "神经符号反事实推理（DeepSWIP）",
       "reason": "将反事实推理从关联推进到因果 2.14x推理加速",
       "priority": "medium",
+      "added": "2026-06-20"
+    },
+    {
+      "topic": "MetaResearcher 对抗虚拟环境RL深度研究",
+      "reason": "演化虚拟世界+自反思Meta-Reward+异构多Agent Swarm 零API成本训练 深度研究Agent训练新范式",
+      "priority": "high",
+      "added": "2026-06-20"
+    },
+    {
+      "topic": "Multi-Agent Transactive Memory (MATM)",
+      "reason": "群体级Agent经验共享 RAG从人类文档扩展到Agent轨迹 开放生态系统设计模式",
+      "priority": "high",
+      "added": "2026-06-20"
+    },
+    {
+      "topic": "ORAgentBench 端到端运筹学Agent评估",
+      "reason": "107人工审查任务 最佳Agent仅35.51% 揭示从可行代码到可靠决策的差距",
+      "priority": "high",
+      "added": "2026-06-20"
+    },
+    {
+      "topic": "ICT Token级RLVR优化",
+      "reason": "JS散度识别关键分支点 仅更新10%Token即超越GRPO RLVR进入Token分布级优化",
+      "priority": "high",
+      "added": "2026-06-20"
+    },
+    {
+      "topic": "SEVRA 选择性验证推理预算分配",
+      "reason": "部署层控制器 冻结求解器+可恢复门控 推理验证从新验证器转向部署分配",
+      "priority": "high",
+      "added": "2026-06-20"
+    },
+    {
+      "topic": "GLM-5.2幻觉率优势",
+      "reason": "28% vs GPT-5.5的86% 开源模型在不确定性校准上超越闭源 模型选择范式转变",
+      "priority": "high",
+      "added": "2026-06-20"
+    },
+    {
+      "topic": "John Jumper加入Anthropic",
+      "reason": "AlphaFold发明人离开Google AI for Science格局重大变化",
+      "priority": "high",
+      "added": "2026-06-20"
+    },
+    {
+      "topic": "Autotelic AI自主目标生成哲学",
+      "reason": "核心问题不是如何生成目标而是如何生成目标归属的自我 量子公式化",
+      "priority": "medium",
+      "added": "2026-06-20"
+    },
+    {
+      "topic": "Grounded Inference确定性封装生成模型",
+      "reason": "四原语+两反模式 AI集成传统系统基础框架 工程实践指导",
+      "priority": "high",
+      "added": "2026-06-20"
+    },
+    {
+      "topic": "黑盒UE系统评估框架",
+      "reason": "24方法×4模型×4数据集 混合方法最稳健 可信LLM部署实用指南",
+      "priority": "high",
       "added": "2026-06-20"
     }
   ]
