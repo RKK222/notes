@@ -3,9 +3,9 @@
     "news": 1748671260,
     "calendar": 1749263280,
     "email": 1744344060,
-    "memory": 1750033560,
+    "memory": 1750466400,
     "heartbeat": 1718429100,
-    "flightMonitor": 1746406380
+    "flightMonitor": 1750420800
   },
   "lastNewsPush": 1742910540,
   "nextNewsPush": 1743073200,
@@ -13,20 +13,20 @@
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
     "newsChannel": "oc_1df73fc9673b4412982efa8601317d97",
-    "lastUpdate": "2026-06-15 09:45",
+    "lastUpdate": "2026-06-21 02:00",
     "newsBlocker": "Brave Search API 未配置",
     "newsTaskDisabled": "2026-04-08 13:45 - 临时禁用直到 API 配置",
     "pushMethod": "web_fetch (Brave API 未配置)",
     "silentPeriodStart": "21:00",
     "silentPeriodEnd": "07:00",
-    "flightMonitor": "2026-05-05 携程 API 已变更，所有接口返回 302 重定向或空响应。最新可用价格仍为 5/2 数据。URC:¥3,056 / HET:¥2,272。",
-    "memoryMaintenance": "2026-06-15 09:45 检查完毕。最新日常文件仍为 2026-05-31.md，近 15 天无新日常文件。系统持续深度静默约 75 天。",
-    "calendarCheck": "2026-06-15 09:45 仍缺少 calendar:calendar:read 权限"
+    "flightMonitor": "2026-06-20 携程 API 仍失效，Trip.com 估算: URC ¥5,492 / HET ¥3,692（含机建燃油）。价格持续持平。",
+    "memoryMaintenance": "2026-06-21 02:00 检查完毕。最新日常文件仍为 2026-05-31.md，近 82 天无新日常文件。系统持续深度静默。机票监控持续运行中。",
+    "calendarCheck": "2026-06-15 仍缺少 calendar:calendar:read 权限"
   },
   "pendingTasks": {
     "newsPush": "⏸️ 已禁用 (2026-04-08 起，待 Brave API)",
     "calendarCheck": "⚠️ 飞书 API 缺少权限",
-    "flightMonitor": "⚠️ 携程 API 已变更，数据获取失败"
+    "flightMonitor": "✅ 持续运行中 (Trip.com 估算)"
   },
   "completedTasks": {
     "openclawUpgrade": "✅ 已升级到 2026.3.8 (3caab92)",
@@ -38,6 +38,6 @@
   "issues": {
     "braveApiMissing": "❌ Brave Search API 未配置，web_search 不可用",
     "feishuPermissionError": "⚠️ 飞书应用缺少 calendar:calendar:read 权限",
-    "flightMonitorApiChanged": "⚠️ 携程 API 接口已变更，无法获取实时价格数据"
+    "flightMonitorApiChanged": "⚠️ 携程 API 已变更，改用 Trip.com 估算"
   }
 }
