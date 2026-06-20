@@ -2447,11 +2447,67 @@
       "topic": "Reward as Agent具身世界模型验证",
       "firstRecorded": "2026-06-20",
       "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "Enterprise Multi-Agent Orchestration: 企业级200 Agent规模编排评估",
+      "url": "https://arxiv.org/abs/2606.20058",
+      "type": "paper",
+      "topic": "企业级多Agent编排",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "FlowEdit: 流匹配TTS终身发音适应",
+      "url": "https://arxiv.org/abs/2606.20518",
+      "type": "paper",
+      "topic": "FlowEdit TTS终身学习",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "Cross-Attention Attribution for Speech Diffusion: 语音扩散模型可解释性",
+      "url": "https://arxiv.org/abs/2606.20532",
+      "type": "paper",
+      "topic": "语音扩散交叉注意力归因",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "DeepSWIP: 神经概率逻辑程序反事实推理",
+      "url": "https://arxiv.org/abs/2606.20526",
+      "type": "paper",
+      "topic": "DeepSWIP反事实推理",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "HISR: 超图推理隐式语义通信",
+      "url": "https://arxiv.org/abs/2606.20162",
+      "type": "paper",
+      "topic": "HISR超图语义通信",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "Residual-Space Evolutionary Optimization: 流式生成+进化优化",
+      "url": "https://arxiv.org/abs/2606.20084",
+      "type": "paper",
+      "topic": "残差空间进化优化",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "RACL: 推理Agent控制层用于元启发式学习",
+      "url": "https://arxiv.org/abs/2606.20142",
+      "type": "paper",
+      "topic": "RACL推理Agent控制层",
+      "firstRecorded": "2026-06-20",
+      "lastDeepDive": "2026-06-20"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-20T09:10:00",
-    "totalEntries": 306,
-    "lastRun": "2026-06-20T09:10:00"
+    "lastUpdated": "2026-06-20T11:00:00",
+    "totalEntries": 313,
+    "lastRun": "2026-06-20T11:00:00"
   }
 }
