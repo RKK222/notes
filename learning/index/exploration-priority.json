@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-19T19:04:00",
+    "lastUpdated": "2026-06-20T09:10:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-19T19:04:00"
+    "lastRun": "2026-06-20T09:10:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -235,7 +235,9 @@
         "LLM心理画像测量伪影（81-90%变异由响应偏差驱动 响应正交性）",
         "合规演示安全机制（良性有害演示不可互换 偏好优化关键阶段）",
         "Zero-Touch OAuth MCP（企业级零接触认证）",
-        "GitHub Trojan Malware（10k仓库 供应链安全）"
+        "GitHub Trojan Malware（10k仓库 供应链安全）",
+        "Process-Verified RL形式化证明（Lean过程oracle 策略级验证反馈）",
+        "ScaffoldAgent深度研究结构化（效用引导大纲演化 扩展/收缩/修订）"
       ]
     },
     "tier2_emerging": {
@@ -429,7 +431,12 @@
         "TesterArmy YC Agent测试平台（Agent测试产品化）",
         "Google agents-cli（Google官方Agent开发CLI）",
         "claude-bug-bounty AI漏洞赏金（自主漏洞狩猎）",
-        "Noam Shazeer加入OpenAI（Transformer发明人）"
+        "Noam Shazeer加入OpenAI（Transformer发明人）",
+        "ENPIRE具身AI自我改进（伯克利/UT Austin/NVIDIA 物理世界闭环反馈）",
+        "Lagrange开放词汇自动驾驶（MLF+能量场+拉格朗日最小化）",
+        "Cross-Attention Attribution语音扩散可解释性（首次DAAM适配语音 25层×24步）",
+        "ModSync PINNs训练冲突解决（容量诱导模块化失效 结构优化）",
+        "Reward as Agent具身世界模型验证（主动评估生成行为 DynDiff-GRPO）"
       ]
     },
     "tier3_exploration": {
@@ -561,7 +568,15 @@
         "对话思维认知科学（与人对话式思考比独自思考更有效）",
         "ChatGPT自发生成暴力图像（frontier模型安全新维度）",
         "Google TimesFM时间序列基础模型",
-        "VbR变异性再生（Vibe Coding产品化 LLM作为派生引擎）"
+        "VbR变异性再生（Vibe Coding产品化 LLM作为派生引擎）",
+        "FlowEdit TTS终身发音适配（Modern Hopfield Network 内容可寻址记忆）",
+        "DeepSWIP神经符号反事实推理（DeepProbLog单世界反事实 SWIP+WMC）",
+        "RACL元启发式推理Agent控制层（推理Agent置于优化器之上）",
+        "BIM-Edit LLM编辑建筑信息模型基准（324编辑任务 最佳49.5%）",
+        "MAMO多目标约束优化多Agent（AAMAS2026 奖励权重选择作为学习问题）",
+        "HISR超图隐式语义通信（IEEE Trans Commun 超图高阶关系）",
+        "RAINbow具身对话导航数据增强（238K episodes 双策略训练）",
+        "PhysDrift人形共语音运动生成（IK-EER+PhysDrift 机器人原生生成）"
       ]
     },
     "tier4_downgrade": {
@@ -589,36 +604,32 @@
     },
     "weeklySummary": {
       "week": "W25",
-      "totalScans": 4,
-      "totalItems": 102,
-      "totalDeepDives": 45,
+      "totalScans": 8,
+      "totalItems": 240,
+      "totalDeepDives": 101,
       "newHighValueDirections": [
-        "Looking Is Not Picking: 颠覆拥挤工具集假设 将工具选择失败诊断从Harness设计推进到模型决策读取端",
-        "AgentFairBench: 首个行为公平性基准 揭示统计arity陷阱 六组分数扩散高估差异2.4x",
-        "贝叶斯AI评估审计: 将评估从静态排行榜推进到纵向审计 终端结果兼容多个演化轨迹",
-        "BPF双向可证明性指纹: 自动形式化忠实度认证 89.6%漂移检测率 PAC-忠实度理论保证",
-        "TNODEV Neural ODE验证: 首个sound Neural ODE验证器 形式化验证从离散扩展到连续时间",
-        "追踪经济承保: 将Agent风险与保险转移机制结合 Agent安全从技术问题扩展为经济问题",
-        "Kairos原生世界模型栈: 世界模型从被动视觉生成推进到主动知识获取和运营基础设施",
-        "METIS many-shot模型合并: ICML2026 挑战一次合并足够假设 迭代合并缓解信息擦除",
-        "PACT RL+SLM混合规划: deliberative planning和reactive execution协同优于各自独立",
-        "Agent-First Web: Web从人类消费到Agent消费的根本转变 三层重构+ATML+密码学溯源 10条设计原则",
-        "User as Engram: 记忆从外部检索推进到参数化编辑 33000x footprint缩减 5.6x推理提升 多用户可加性组合",
-        "Index Sickness: 391次session行动研究 符号系统超阈值后LLM放弃业务语义 Pang Principle自然语言优于符号",
-        "C-Trace: Agent安全从离线红队到运行时形式化验证 GDPR形式化策略谓词 10%噪声下ASR<=12%"
+        "ENPIRE: 伯克利/UT Austin/NVIDIA 具身AI自我改进框架 物理世界闭环反馈自动化机器人策略改进",
+        "ScaffoldAgent: 效用引导大纲演化 扩展/收缩/修订三操作 解决深度研究大纲漂移",
+        "Process-Verified RL: Lean过程oracle 策略级验证反馈 GRPO一阶错误传播 MiniF2F/ProofNet",
+        "Lagrange: MLF开放词汇感知+能量场拉格朗日最小化 统一开放词汇感知和运动学规划",
+        "ModSync: 容量诱导模块化失效 结构优化+冲突感知训练 ICASSP2026",
+        "Cross-Attention Attribution: 首次DAAM适配语音 25层×24步 层17注意力熵最小",
+        "FlowEdit: Modern Hopfield Network 内容可寻址记忆 18语系312专有名词 PER降92.7%",
+        "Reward as Agent: 主动评估生成行为 DynDiff-GRPO多样化探索 多世界模型验证"
       ],
       "saturatedDirections": [
-        "Agentic PR质量治理（已覆盖5次无新突破）"
+        "Agentic PR质量治理（已覆盖7次+无新突破）",
+        "Agent记忆系统传统语义检索方向（持续饱和）",
+        "Agent技能生态基础建设（已充分覆盖 进入稳定期）"
       ],
       "nextWeekPriorities": [
-        "Looking Is Not Picking 多轮循环场景验证",
-        "AgentFairBench 公开leaderboard和外部模型提交",
-        "Kairos世界模型栈完整技术细节和开源进展",
-        "BPF在Coq/Isabelle等其他形式化系统的泛化",
-        "贝叶斯评估审计在更多公共档案上的应用",
-        "追踪经济承保在实际Agent部署中的验证",
-        "METIS在其他模型合并场景上的泛化能力",
-        "TNODEV在更多Neural ODE架构上的验证"
+        "ENPIRE实际部署进展和更多物理世界验证",
+        "ScaffoldAgent在更多深度研究场景上的扩展",
+        "Lagrange在更多自动驾驶基准上的验证和开源进展",
+        "Process-Verified RL在Coq/Isabelle等其他形式化系统的泛化",
+        "ModSync在更多科学计算场景上的应用",
+        "语音扩散模型可解释性工具链的成熟",
+        "Reward as Agent在更多具身环境上的验证"
       ]
     },
     "tier3_observe": {
@@ -669,34 +680,34 @@
   },
   "newExplorations": [
     {
-      "topic": "JDK Valhalla值类型",
-      "reason": "十年工程入JDK 28，Java类型系统最大变革",
-      "priority": "medium",
-      "added": "2026-06-19"
-    },
-    {
-      "topic": "DuckDB内核架构",
-      "reason": "AI数据管道标准组件，理解内核对优化AI数据流至关重要",
-      "priority": "medium",
-      "added": "2026-06-19"
-    },
-    {
-      "topic": "MIT芯片专用操作系统",
-      "reason": "AI硬件加速时代，理解芯片行为对优化AI推理至关重要",
-      "priority": "medium",
-      "added": "2026-06-19"
-    },
-    {
-      "topic": "Talos Wasm形式化验证",
-      "reason": "AI生成代码的形式化验证产业化路径",
+      "topic": "具身AI自我改进（ENPIRE）",
+      "reason": "物理世界闭环反馈自动化机器人策略改进 编码Agent从数字到物理",
       "priority": "high",
-      "added": "2026-06-19"
+      "added": "2026-06-20"
     },
     {
-      "topic": "Zero-Touch OAuth for MCP",
-      "reason": "企业Agent部署认证瓶颈解决方案",
+      "topic": "开放词汇自动驾驶（Lagrange）",
+      "reason": "MLF+能量场+拉格朗日最小化 统一开放词汇感知和运动学规划",
+      "priority": "high",
+      "added": "2026-06-20"
+    },
+    {
+      "topic": "PINNs训练冲突解决（ModSync）",
+      "reason": "揭示过参数化导致功能模块化新失效模式 ICASSP2026",
+      "priority": "high",
+      "added": "2026-06-20"
+    },
+    {
+      "topic": "语音扩散模型可解释性",
+      "reason": "首次DAAM适配语音 25层×24步系统分析 语音生成从黑盒到可解释",
+      "priority": "high",
+      "added": "2026-06-20"
+    },
+    {
+      "topic": "神经符号反事实推理（DeepSWIP）",
+      "reason": "将反事实推理从关联推进到因果 2.14x推理加速",
       "priority": "medium",
-      "added": "2026-06-19"
+      "added": "2026-06-20"
     }
   ]
 }
