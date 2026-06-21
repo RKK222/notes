@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-21T11:00:00",
+    "lastUpdated": "2026-06-21T19:00:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-21T11:00:00"
+    "lastRun": "2026-06-21T19:00:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -241,7 +241,15 @@
         "UFP4均匀4-bit训练（E1M2/INT4替代E2M1 Shrinkage Bias）",
         "Multi-LCB多语言代码基准（12种语言暴露Python过拟合）",
         "热力学智能度量（递归自我模拟是智能必要条件）",
-        "代码知识图谱MCP（99% token减少 158语言支持）"
+        "代码知识图谱MCP（99% token减少 158语言支持）",
+        "AgentArmor编码Agent失败分类（Underspecification/Capability/Harness三类）",
+        "StaminaBench编码Agent耐力基准（100轮程序化变更请求）",
+        "AgenticRei义务策略治理（obligation lifecycle+dispensation）",
+        "CLI移动Agent范式（Claude Code Opus 4.7达71.8%超越GUI）",
+        "Agent运行时状态管理（OpenRath Session一等运行时值）",
+        "deer-flow长视野Agent基础设施（字节跳动沙箱+记忆+子Agent）",
+        "codebase-memory-mcp代码知识图谱（99% token减少 158语言）",
+        "headroom Token压缩基础设施（60-95% token减少 42K stars）"
       ]
     },
     "tier2_emerging": {
@@ -449,7 +457,17 @@
         "DeepSWIP反事实推理神经符号系统",
         "HISR超图语义通信",
         "残差空间进化优化（流式生成+进化算法）",
-        "RACL推理Agent控制层元启发式"
+        "RACL推理Agent控制层元启发式",
+        "Diffusion LM系统分析（8个DLM 8个基准 自适应去噪调度）",
+        "JamBench游戏引擎代码基准（8133个Godot项目 架构设计瓶颈）",
+        "ML资源泄漏碳排放（IMR+32% UTR+46% 绿色AI新维度）",
+        "LLM心理画像测量伪影（81-90%变异由响应偏差驱动）",
+        "Anthropic-Cybersecurity-Skills（754个结构化安全技能 5框架映射）",
+        "spiderfoot OSINT自动化（200+数据源 威胁情报）",
+        "cognee开源AI记忆平台（自托管知识图谱 跨会话记忆）",
+        "flue Astro沙箱Agent框架（安全隔离 工具调用隔离）",
+        "OpenMontage开源Agentic视频制作（12管线 52工具 500+技能）",
+        "palmier-pro AI原生macOS视频编辑器（Swift原生 902 stars/day）"
       ]
     },
     "tier3_exploration": {
@@ -796,5 +814,10 @@
       "priority": "high",
       "added": "2026-06-20"
     }
+  ],
+  "downgraded": [
+    "Agent记忆系统传统语义检索（持续饱和）",
+    "Agentic PR质量治理（已覆盖7次+无新突破）",
+    "Agent技能生态基础建设（已充分覆盖）"
   ]
 }
