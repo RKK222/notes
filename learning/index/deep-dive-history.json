@@ -2671,6 +2671,54 @@
       "topic": "StaminaBench编码Agent耐力",
       "firstRecorded": "2026-06-21",
       "lastDeepDive": "2026-06-21"
+    },
+    {
+      "title": "headroom - LLM Token压缩基础设施",
+      "url": "https://github.com/chopratejas/headroom",
+      "type": "project",
+      "topic": "Token压缩代理基础设施",
+      "firstRecorded": "2026-06-21",
+      "lastDeepDive": "2026-06-21"
+    },
+    {
+      "title": "codebase-memory-mcp - 代码知识图谱MCP服务器",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "type": "project",
+      "topic": "代码知识图谱Agent理解",
+      "firstRecorded": "2026-06-21",
+      "lastDeepDive": "2026-06-21"
+    },
+    {
+      "title": "deer-flow - 字节跳动长视野SuperAgent harness",
+      "url": "https://github.com/bytedance/deer-flow",
+      "type": "project",
+      "topic": "长视野Agent基础设施",
+      "firstRecorded": "2026-06-21",
+      "lastDeepDive": "2026-06-21"
+    },
+    {
+      "title": "AgentArmor: 编码Agent失败框架与缓解",
+      "url": "https://arxiv.org/abs/2606.19380",
+      "type": "paper",
+      "topic": "AgentArmor编码Agent失败分类",
+      "firstRecorded": "2026-06-21",
+      "lastDeepDive": "2026-06-21"
+    },
+    {
+      "title": "StaminaBench: 编码Agent耐力基准",
+      "url": "https://arxiv.org/abs/2606.19613",
+      "type": "paper",
+      "topic": "StaminaBench编码Agent耐力基准",
+      "firstRecorded": "2026-06-21",
+      "lastDeepDive": "2026-06-21"
+    },
+    {
+      "title": "LLM心理画像测量伪影",
+      "url": "https://arxiv.org/abs/2606.20205",
+      "type": "paper",
+      "topic": "LLM心理画像测量伪影",
+      "firstRecorded": "2026-06-21",
+      "lastDeepDive": "2026-06-21"
     }
   ],
   "meta": {

@@ -1,12 +1,12 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-21T11:00:00",
+    "lastUpdated": "2026-06-21T19:00:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-06-21T11:00:00",
-    "totalTopics": 824,
-    "totalItems": 487
+    "lastRun": "2026-06-21T19:00:00",
+    "totalTopics": 832,
+    "totalItems": 519
   },
   "topics": [
     {
@@ -11544,6 +11544,118 @@
       "representativeItem": "并行执行1.6x延迟减少+优雅降级",
       "trend": "new",
       "notes": "提供可扩展安全延迟感知的Agent部署实践蓝图"
+    },
+    {
+      "name": "AgentArmor编码Agent失败分类",
+      "category": "testing",
+      "lastSeen": "2026-06-21",
+      "lastDeepDive": "2026-06-21",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": true,
+      "shouldDowngrade": false,
+      "representativeItem": "Underspecification/Capability/Harness三类失败机制",
+      "trend": "new",
+      "notes": "编码Agent安全加固harness级方案，8种评估20个编码环境"
+    },
+    {
+      "name": "StaminaBench编码Agent耐力基准",
+      "category": "testing",
+      "lastSeen": "2026-06-21",
+      "lastDeepDive": "2026-06-21",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": true,
+      "shouldDowngrade": false,
+      "representativeItem": "100轮程序化变更请求耐力测试",
+      "trend": "new",
+      "notes": "首次提出耐力指标，测试反馈重试提升12倍通过轮次"
+    },
+    {
+      "name": "AgenticRei义务策略治理",
+      "category": "emerging",
+      "lastSeen": "2026-06-21",
+      "lastDeepDive": "2026-06-21",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "obligation lifecycle+dispensation+meta-policy",
+      "trend": "new",
+      "notes": "填补XACML/Rego/Cedar仅覆盖permit/prohibit的局限"
+    },
+    {
+      "name": "Diffusion LM系统分析",
+      "category": "ai",
+      "lastSeen": "2026-06-21",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "8个DLM在8个基准上系统评估",
+      "trend": "new",
+      "notes": "去噪步数/上下文长度/块大小影响分析，自适应去噪调度减少40%推理步数"
+    },
+    {
+      "name": "CLI移动Agent范式",
+      "category": "testing",
+      "lastSeen": "2026-06-21",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Claude Code Opus 4.7达71.8%超越GUI基线",
+      "trend": "new",
+      "notes": "挑战GUI主导范式，CLI在批量操作/跨应用工作流中显著优势"
+    },
+    {
+      "name": "JamBench游戏引擎代码基准",
+      "category": "unknown",
+      "lastSeen": "2026-06-21",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "8133个Godot项目运行时通过率5.7%(大项目)",
+      "trend": "new",
+      "notes": "揭示Agent在复杂系统设计方面的根本局限，架构设计瓶颈"
+    },
+    {
+      "name": "ML资源泄漏碳排放",
+      "category": "unknown",
+      "lastSeen": "2026-06-21",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "IMR+32% UTR+46%电力消耗",
+      "trend": "new",
+      "notes": "首次量化ML代码质量环境影响，绿色AI新维度"
+    },
+    {
+      "name": "Agent运行时状态管理",
+      "category": "emerging",
+      "lastSeen": "2026-06-21",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "OpenRath Session作为一等运行时值",
+      "trend": "new",
+      "notes": "Agent状态从隐式黑盒提升为一等运行时抽象，支持分支/检查/回放"
     }
   ]
 }
