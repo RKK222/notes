@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-20T19:00:00",
+    "lastUpdated": "2026-06-21T11:00:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-20T19:00:00"
+    "lastRun": "2026-06-21T11:00:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -655,6 +655,18 @@
         "LLM MCP软件工程教育",
         "QMFOLBench一阶逻辑推理基准",
         "BIM-Edit建筑信息模型编辑基准"
+      ]
+    },
+    "tier3_new_exploration": {
+      "topics": [
+        "AgenticRei义务策略运行时治理",
+        "Diffusion Language Models系统分析",
+        "CLI移动Agent范式",
+        "JamBench游戏引擎代码基准",
+        "ML资源泄漏碳排放",
+        "OpenRath Session运行时状态",
+        "StaminaBench编码Agent耐力",
+        "AgentArmor编码Agent安全加固"
       ]
     }
   },

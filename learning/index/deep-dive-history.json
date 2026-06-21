@@ -2623,6 +2623,54 @@
       "topic": "John Jumper Anthropic",
       "firstRecorded": "2026-06-20",
       "lastDeepDive": "2026-06-20"
+    },
+    {
+      "title": "OpenRath - Agent系统Session运行时状态管理",
+      "url": "https://arxiv.org/abs/2606.19409",
+      "type": "project",
+      "topic": "OpenRath Session运行时状态",
+      "firstRecorded": "2026-06-21",
+      "lastDeepDive": "2026-06-21"
+    },
+    {
+      "title": "DynAMO - 工业4.0拓扑多Agent调度引擎",
+      "url": "https://arxiv.org/abs/2606.19382",
+      "type": "project",
+      "topic": "DynAMO工业4.0多Agent调度",
+      "firstRecorded": "2026-06-21",
+      "lastDeepDive": "2026-06-21"
+    },
+    {
+      "title": "JamBench - 游戏引擎项目级代码基准",
+      "url": "https://arxiv.org/abs/2606.19830",
+      "type": "project",
+      "topic": "JamBench游戏引擎代码基准",
+      "firstRecorded": "2026-06-21",
+      "lastDeepDive": "2026-06-21"
+    },
+    {
+      "title": "AgenticRei - 义务策略运行时治理",
+      "url": "https://arxiv.org/abs/2606.19464",
+      "type": "paper",
+      "topic": "AgenticRei义务策略运行时治理",
+      "firstRecorded": "2026-06-21",
+      "lastDeepDive": "2026-06-21"
+    },
+    {
+      "title": "Diffusion Language Models系统分析",
+      "url": "https://arxiv.org/abs/2606.19475",
+      "type": "paper",
+      "topic": "Diffusion Language Models系统分析",
+      "firstRecorded": "2026-06-21",
+      "lastDeepDive": "2026-06-21"
+    },
+    {
+      "title": "StaminaBench - 编码Agent耐力基准",
+      "url": "https://arxiv.org/abs/2606.19613",
+      "type": "paper",
+      "topic": "StaminaBench编码Agent耐力",
+      "firstRecorded": "2026-06-21",
+      "lastDeepDive": "2026-06-21"
     }
   ],
   "meta": {
