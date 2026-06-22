@@ -2094,7 +2094,7 @@
       "type": "project",
       "topic": "codebase-memory-mcp 代码知识图谱MCP",
       "firstRecorded": "2026-06-18",
-      "lastDeepDive": "2026-06-18"
+      "lastDeepDive": "2026-06-22"
     },
     {
       "title": "OpenMontage - 开源Agentic视频制作系统",
@@ -2270,7 +2270,7 @@
       "type": "paper",
       "topic": "SoftSkill 行为压缩上下文适配",
       "firstRecorded": "2026-06-19",
-      "lastDeepDive": "2026-06-19"
+      "lastDeepDive": "2026-06-22"
     },
     {
       "title": "Thermodynamic Measure of Intelligence",
@@ -2302,7 +2302,7 @@
       "type": "paper",
       "topic": "UFP4 均匀4-bit预训练配方",
       "firstRecorded": "2026-06-19",
-      "lastDeepDive": "2026-06-19"
+      "lastDeepDive": "2026-06-22"
     },
     {
       "title": "QMFOLBench: Quantifiable Monadic First-Order Logic Test Case Generation",
@@ -2694,7 +2694,7 @@
       "type": "project",
       "topic": "长视野Agent基础设施",
       "firstRecorded": "2026-06-21",
-      "lastDeepDive": "2026-06-21"
+      "lastDeepDive": "2026-06-22"
     },
     {
       "title": "AgentArmor: 编码Agent失败框架与缓解",
@@ -2719,11 +2719,27 @@
       "topic": "LLM心理画像测量伪影",
       "firstRecorded": "2026-06-21",
       "lastDeepDive": "2026-06-21"
+    },
+    {
+      "title": "Anthropic-Cybersecurity-Skills - 754结构化网络安全技能",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "type": "project",
+      "topic": "Anthropic-Cybersecurity-Skills",
+      "firstRecorded": "2026-06-22",
+      "lastDeepDive": "2026-06-22"
+    },
+    {
+      "title": "H-RePlan + HeraBench: 跨设备Agent分层恢复",
+      "url": "https://arxiv.org/abs/2606.20487",
+      "type": "paper",
+      "topic": "H-RePlan跨设备分层恢复",
+      "firstRecorded": "2026-06-22",
+      "lastDeepDive": "2026-06-22"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-20T19:00:00",
-    "totalEntries": 328,
-    "lastRun": "2026-06-20T19:00:00"
+    "lastUpdated": "2026-06-22T09:10:00",
+    "totalEntries": 342,
+    "lastRun": "2026-06-22T09:10:00"
   }
 }
