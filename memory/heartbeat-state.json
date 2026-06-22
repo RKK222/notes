@@ -12,7 +12,7 @@
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
-    "lastUpdate": "2026-06-22 08:05",
+    "lastUpdate": "2026-06-22 09:05",
     "newsBlocker": "Brave Search API 未配置",
     "newsTaskDisabled": "2026-04-08 13:45 - 临时禁用直到 API 配置",
     "pushMethod": "web_fetch (Brave API 未配置)",
@@ -20,18 +20,12 @@
     "silentPeriodEnd": "07:00",
     "flightMonitor": "2026-06-22 搜索API全不可用（Brave + UltimateSearchSkill），价格数据沿用 6月20日估算: URC ¥5,492 / HET ¥3,692",
     "memoryMaintenance": "2026-06-21 02:00 检查完毕。最新日常文件仍为 2026-05-31.md，近 83 天无新日常文件。",
-    "calendarCheck": "2026-06-22 仍缺少 calendar:calendar:read 权限"
+    "calendarCheck": "2026-06-22 仍缺少 calendar:calendar:read 权限，caldav 工具(macOS)未安装"
   },
   "pendingTasks": {
     "newsPush": "⏸️ 已禁用 (2026-04-08 起，待 Brave API)",
     "calendarCheck": "⚠️ 飞书 API 缺少权限",
     "flightMonitor": "⚠️ 搜索API全不可用，价格数据沿用 6月20日估算"
-  },
-  "completedTasks": {
-    "openclawUpgrade": "✅ 已升级到 2026.3.8 (3caab92)",
-    "backupCreated": "✅ 备份到 /Users/kaka/.openclaw/backup/20260310_111001/",
-    "configAnalysis": "✅ 定时任务配置已分析并发送到飞书",
-    "moltbookSkillInstalled": "✅ Moltbook 技能已安装到 ~/.moltbot/skills/moltbook/"
   },
   "issues": {
     "braveApiMissing": "❌ Brave Search API 未配置，web_search 不可用",
