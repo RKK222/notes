@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-22T09:10:00",
+    "lastUpdated": "2026-06-22T19:00:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
-    "nextReview": "2026-06-22",
-    "lastRun": "2026-06-22T09:10:00"
+    "nextReview": "2026-06-29",
+    "lastRun": "2026-06-22T19:00:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -249,7 +249,16 @@
         "Agent运行时状态管理（OpenRath Session一等运行时值）",
         "deer-flow长视野Agent基础设施（字节跳动沙箱+记忆+子Agent）",
         "codebase-memory-mcp代码知识图谱（99% token减少 158语言）",
-        "headroom Token压缩基础设施（60-95% token减少 42K stars）"
+        "headroom Token压缩基础设施（60-95% token减少 42K stars）",
+        "Multi-LCB多语言代码基准",
+        "安全对齐模型混合合规演示学习",
+        "企业级事件驱动多Agent编排",
+        "热力学智能度量",
+        "Lean形式化验证RL",
+        "多Agent审议隐藏锚点",
+        "ToolPro可执行工具程序",
+        "UFP4均匀4位训练",
+        "CWE-Trace漏洞检测诊断"
       ]
     },
     "tier2_emerging": {
@@ -607,7 +616,12 @@
         "MAMO多目标约束优化多Agent（AAMAS2026 奖励权重选择作为学习问题）",
         "HISR超图隐式语义通信（IEEE Trans Commun 超图高阶关系）",
         "RAINbow具身对话导航数据增强（238K episodes 双策略训练）",
-        "PhysDrift人形共语音运动生成（IK-EER+PhysDrift 机器人原生生成）"
+        "PhysDrift人形共语音运动生成（IK-EER+PhysDrift 机器人原生生成）",
+        "Flow-based残差空间进化优化",
+        "RACL元启发式推理Agent控制",
+        "BIM-Edit建筑信息模型编辑",
+        "ModSync无模块化PINNs训练",
+        "DeXposure-Claw DeFi风险监督"
       ]
     },
     "tier4_downgrade": {
