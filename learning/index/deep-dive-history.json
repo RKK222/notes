@@ -2735,6 +2735,38 @@
       "topic": "H-RePlan跨设备分层恢复",
       "firstRecorded": "2026-06-22",
       "lastDeepDive": "2026-06-22"
+    },
+    {
+      "title": "CWE-Trace: 系统软件漏洞检测微调LLM的局限性诊断",
+      "url": "https://arxiv.org/abs/2606.20502",
+      "type": "paper",
+      "topic": "CWE-Trace漏洞检测诊断",
+      "firstRecorded": "2026-06-22",
+      "lastDeepDive": "2026-06-22"
+    },
+    {
+      "title": "ToolPro: 工具程序作为灵活Agentic Web服务接口",
+      "url": "https://arxiv.org/abs/2606.19992",
+      "type": "paper",
+      "topic": "ToolPro可执行工具程序",
+      "firstRecorded": "2026-06-22",
+      "lastDeepDive": "2026-06-22"
+    },
+    {
+      "title": "Hidden Anchors in Multi-Agent LLM Deliberation",
+      "url": "https://arxiv.org/abs/2606.19494",
+      "type": "paper",
+      "topic": "多Agent审议隐藏锚点",
+      "firstRecorded": "2026-06-22",
+      "lastDeepDive": "2026-06-22"
+    },
+    {
+      "title": "DeXposure-Claw: DeFi风险监督Agentic系统",
+      "url": "https://arxiv.org/abs/2606.19501",
+      "type": "paper",
+      "topic": "DeXposure-Claw DeFi风险监督",
+      "firstRecorded": "2026-06-22",
+      "lastDeepDive": "2026-06-22"
     }
   ],
   "meta": {
