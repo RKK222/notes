@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-21T19:00:00",
+    "lastUpdated": "2026-06-22T09:10:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-22",
-    "lastRun": "2026-06-21T19:00:00"
+    "lastRun": "2026-06-22T09:10:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -813,6 +813,54 @@
       "reason": "24方法×4模型×4数据集 混合方法最稳健 可信LLM部署实用指南",
       "priority": "high",
       "added": "2026-06-20"
+    },
+    {
+      "topic": "潜在技能表示(SoftSkill)",
+      "reason": "挑战技能=Markdown默认假设 长度32 soft prefix替代数百token LiveMath +42.1pp",
+      "priority": "high",
+      "added": "2026-06-22"
+    },
+    {
+      "topic": "跨设备分层恢复(H-RePlan)",
+      "reason": "scope-aware分层恢复替代粗粒度全局重规划 HeraBench故障注入基准",
+      "priority": "high",
+      "added": "2026-06-22"
+    },
+    {
+      "topic": "均匀FP4训练(UFP4)",
+      "reason": "从几何角度统一解释FP4训练不稳定性 E1M2/INT4替代E2M1 124B MoE验证",
+      "priority": "high",
+      "added": "2026-06-22"
+    },
+    {
+      "topic": "隐式反馈对齐(IFLLM)",
+      "reason": "鼠标轨迹+眼动数据在LLM对齐中的价值首次量化 准确率55%→64%",
+      "priority": "high",
+      "added": "2026-06-22"
+    },
+    {
+      "topic": "热力学智能度量",
+      "reason": "智能=稀有有效未来合法放大 连接信息论、统计力学和AI",
+      "priority": "medium",
+      "added": "2026-06-22"
+    },
+    {
+      "topic": "GPU内核基准缺陷",
+      "reason": "allclose-on-one-shape oracle系统性缺陷 op-schema-aware fuzzing发现10个幻觉",
+      "priority": "high",
+      "added": "2026-06-22"
+    },
+    {
+      "topic": "头级注意力混合(HydraHead)",
+      "reason": "从层间混合推进到头级混合 可解释性驱动选择 512K上下文69%+提升",
+      "priority": "high",
+      "added": "2026-06-22"
+    },
+    {
+      "topic": "N-Version编程与编码Agent",
+      "reason": "经典软件工程概念在AI时代复兴 48实现+100万测试输入验证",
+      "priority": "high",
+      "added": "2026-06-22"
     }
   ],
   "downgraded": [
