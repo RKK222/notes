@@ -2823,11 +2823,91 @@
       "topic": "PhysDrift 人形机器人共语音运动生成",
       "firstRecorded": "2026-06-23",
       "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "AOHP: OS-Level Agent Harness for Personalized, Efficient and Secure Interaction",
+      "url": "https://arxiv.org/abs/2606.23449",
+      "type": "project",
+      "topic": "AOHP Agent原生OS Harness",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "OptDetect: Source-Free Detection of Compiler Optimization Problems",
+      "url": "https://arxiv.org/abs/2606.23512",
+      "type": "project",
+      "topic": "OptDetect 编译器优化检测",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "AgentCIBench: Do Computer-Use Agents Follow Contextual Integrity?",
+      "url": "https://arxiv.org/abs/2606.23189",
+      "type": "project",
+      "topic": "AgentCIBench CUA上下文完整性",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "Litmus: Zero-Label, Code-Driven Metric Specification for Evaluating AI Systems",
+      "url": "https://arxiv.org/abs/2606.23403",
+      "type": "project",
+      "topic": "Litmus 零标签评估指标规范",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "GIF: Locally Sound Geometric Information Flow Control for LLMs",
+      "url": "https://arxiv.org/abs/2606.23277",
+      "type": "project",
+      "topic": "GIF 几何信息流控制",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "SPIRAL: Sequential-Parallel-Aggregative Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2606.23595",
+      "type": "paper",
+      "topic": "SPIRAL 序列并行聚合RL",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "DART: Draft-Agreement Routing for Training-Free Adaptive Thinking Budgets",
+      "url": "https://arxiv.org/abs/2606.23181",
+      "type": "paper",
+      "topic": "DART 训练-free自适应推理路由",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "The Topology of Ill-Posed Questions: Persistent Homology for Detection and Steering in LLMs",
+      "url": "https://arxiv.org/abs/2606.23590",
+      "type": "paper",
+      "topic": "拓扑数据分析 LLM内部状态",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "VeriEvol: Scaling Multimodal Mathematical Reasoning via Verifiable Evol-Instruct",
+      "url": "https://arxiv.org/abs/2606.23543",
+      "type": "paper",
+      "topic": "VeriEvol 可验证多模态推理扩展",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "Abstract Representational Geometry Supports Inference in LLMs",
+      "url": "https://arxiv.org/abs/2606.23345",
+      "type": "paper",
+      "topic": "抽象表征几何 LLM推理机制",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-23T11:00:00",
-    "totalEntries": 349,
-    "lastRun": "2026-06-23T11:00:00"
+    "lastUpdated": "2026-06-23T19:11:00",
+    "totalEntries": 363,
+    "lastRun": "2026-06-23T19:11:00"
   }
 }

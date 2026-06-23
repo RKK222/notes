@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-23T11:00:00",
+    "lastUpdated": "2026-06-23T19:11:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-29",
-    "lastRun": "2026-06-23T11:00:00"
+    "lastRun": "2026-06-23T19:11:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -898,11 +898,127 @@
       "reason": "经典软件工程概念在AI时代复兴 48实现+100万测试输入验证",
       "priority": "high",
       "added": "2026-06-22"
+    },
+    {
+      "topic": "Agent原生OS支持（AOHP）",
+      "reason": "首个开源Agent原生OS测试床 从应用适配推进到OS原生设计",
+      "priority": "high",
+      "added": "2026-06-23"
+    },
+    {
+      "topic": "多原语推理RL（SPIRAL）",
+      "reason": "统一序列/并行/聚合三种推理原语 比GRPO高11x扩展效率",
+      "priority": "high",
+      "added": "2026-06-23"
+    },
+    {
+      "topic": "训练-free自适应推理路由（DART）",
+      "reason": "双草稿一致性+熵预测 零训练成本自适应预算分配 数学+9.0点",
+      "priority": "high",
+      "added": "2026-06-23"
+    },
+    {
+      "topic": "几何信息流控制（GIF）",
+      "reason": "LLM Jacobian+持久同调 可证明信息流上界 Lean4机械化证明 安全监控新范式",
+      "priority": "high",
+      "added": "2026-06-23"
+    },
+    {
+      "topic": "CUA上下文完整性（AgentCIBench）",
+      "reason": "11/15 Agent >50%场景泄漏 平均67.9% 揭示CUA跨应用隐私风险",
+      "priority": "high",
+      "added": "2026-06-23"
+    },
+    {
+      "topic": "编译器优化检测（OptDetect）",
+      "reason": "source-free二进制检测 30.5%库未优化影响91.7%应用 性能优化新维度",
+      "priority": "high",
+      "added": "2026-06-23"
+    },
+    {
+      "topic": "零标签评估指标规范（Litmus）",
+      "reason": "从自动实现指标推进到自动规范指标 评估基础设施范式转变",
+      "priority": "high",
+      "added": "2026-06-23"
+    },
+    {
+      "topic": "高阶逻辑推理基准（HOLMES）",
+      "reason": "超越一阶逻辑 1379实例 最佳59.54% 高阶符号推理是关键瓶颈",
+      "priority": "high",
+      "added": "2026-06-23"
+    },
+    {
+      "topic": "可验证多模态推理扩展（VeriEvol）",
+      "reason": "解耦难度扩展和答案验证 HTV-Agent多源反证 解决RL数据扩展信任问题",
+      "priority": "high",
+      "added": "2026-06-23"
+    },
+    {
+      "topic": "医学VLM持续学习（CADRE）",
+      "reason": "从准确率转向安全属性 遗忘降7倍 医学AI部署安全优先设计",
+      "priority": "high",
+      "added": "2026-06-23"
+    },
+    {
+      "topic": "临床Agent推理基准（EHR-Complex）",
+      "reason": "MIMIC-IV 52K任务 交互式临床推理 最佳62.3%暴露Agent差距",
+      "priority": "high",
+      "added": "2026-06-23"
+    },
+    {
+      "topic": "LLM抽象表征几何",
+      "reason": "首次在LLM发现类海马体抽象几何 连接神经科学和AI",
+      "priority": "high",
+      "added": "2026-06-23"
+    },
+    {
+      "topic": "拓扑数据分析LLM内部状态",
+      "reason": "持久同调表征LLM内部状态 为歧义问题检测提供全新视角",
+      "priority": "medium",
+      "added": "2026-06-23"
+    },
+    {
+      "topic": "结构先验自适应决策（SPADE）",
+      "reason": "闭式框架决定何时施加物理先验 James-Stein收缩理论保证",
+      "priority": "medium",
+      "added": "2026-06-23"
+    },
+    {
+      "topic": "金融多Agent机制分解",
+      "reason": "120 Agent共进化 四机制近似独立控制旋钮 ABM机制级分析",
+      "priority": "medium",
+      "added": "2026-06-23"
+    },
+    {
+      "topic": "开源复制复用与许可证合规",
+      "reason": "39.4%项目潜在不合规 仅2.43%可通过依赖分析发现 供应链安全新维度",
+      "priority": "medium",
+      "added": "2026-06-23"
     }
   ],
   "downgraded": [
     "Agent记忆系统传统语义检索（持续饱和）",
     "Agentic PR质量治理（已覆盖7次+无新突破）",
     "Agent技能生态基础建设（已充分覆盖）"
-  ]
+  ],
+  "tier3_new_exploration": {
+    "topics": [
+      "AOHP Agent原生OS Harness",
+      "SPIRAL 序列并行聚合RL",
+      "DART 训练-free自适应推理路由",
+      "GIF 几何信息流控制",
+      "AgentCIBench CUA上下文完整性",
+      "OptDetect 编译器优化检测",
+      "Litmus 零标签评估指标规范",
+      "HOLMES 高阶逻辑推理基准",
+      "VeriEvol 可验证多模态推理扩展",
+      "CADRE 医学VLM持续学习",
+      "EHR-Complex 临床Agent推理基准",
+      "抽象表征几何 LLM推理机制",
+      "拓扑数据分析 LLM内部状态",
+      "SPADE 结构先验自适应决策",
+      "金融多Agent机制分解",
+      "开源复制复用与许可证合规"
+    ]
+  }
 }
