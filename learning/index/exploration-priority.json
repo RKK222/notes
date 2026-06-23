@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-22T19:00:00",
+    "lastUpdated": "2026-06-23T09:05:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-29",
-    "lastRun": "2026-06-22T19:00:00"
+    "lastRun": "2026-06-23T09:05:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -476,7 +476,11 @@
         "cognee开源AI记忆平台（自托管知识图谱 跨会话记忆）",
         "flue Astro沙箱Agent框架（安全隔离 工具调用隔离）",
         "OpenMontage开源Agentic视频制作（12管线 52工具 500+技能）",
-        "palmier-pro AI原生macOS视频编辑器（Swift原生 902 stars/day）"
+        "palmier-pro AI原生macOS视频编辑器（Swift原生 902 stars/day）",
+        "Agent原生工具链",
+        "预测模型逻辑合规",
+        "Agent安全基础设施",
+        "低精度训练理论"
       ]
     },
     "tier3_exploration": {
@@ -699,6 +703,15 @@
         "OpenRath Session运行时状态",
         "StaminaBench编码Agent耐力",
         "AgentArmor编码Agent安全加固"
+      ]
+    },
+    "tier3_downgrade": {
+      "name": "建议降权方向",
+      "description": "重复过多或缺乏新突破的方向",
+      "topics": [
+        "Agent记忆语义检索",
+        "Agentic PR治理",
+        "简单CV分类"
       ]
     }
   },

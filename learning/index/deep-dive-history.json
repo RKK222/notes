@@ -2767,11 +2767,19 @@
       "topic": "DeXposure-Claw DeFi风险监督",
       "firstRecorded": "2026-06-22",
       "lastDeepDive": "2026-06-22"
+    },
+    {
+      "title": "Oak - Agent原生版本控制系统",
+      "url": "https://oak.space",
+      "type": "project",
+      "topic": "Oak Agent原生版本控制",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-22T09:10:00",
+    "lastUpdated": "2026-06-23T09:05:00",
     "totalEntries": 342,
-    "lastRun": "2026-06-22T09:10:00"
+    "lastRun": "2026-06-23T09:05:00"
   }
 }
