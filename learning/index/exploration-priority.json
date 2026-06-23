@@ -702,7 +702,17 @@
         "ML资源泄漏碳排放",
         "OpenRath Session运行时状态",
         "StaminaBench编码Agent耐力",
-        "AgentArmor编码Agent安全加固"
+        "AgentArmor编码Agent安全加固",
+        "Probe-and-Refine Tuning仓库引导优化",
+        "ToolPrivBench过度特权工具选择",
+        "SolidityBench仓库级智能合约生成",
+        "Qiskit代码迁移LLM+RAG",
+        "Calibrated MoE分布偏移校准",
+        "RAINbow具身对话导航",
+        "PhysDrift人形机器人运动生成",
+        "eCNNTO拓扑优化加速",
+        "gstack编码配置实战",
+        "voicebox开源语音工作室"
       ]
     },
     "tier3_downgrade": {
