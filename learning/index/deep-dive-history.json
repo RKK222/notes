@@ -2775,11 +2775,59 @@
       "topic": "Oak Agent原生版本控制",
       "firstRecorded": "2026-06-23",
       "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "Probe-and-Refine Tuning: 仓库引导文件迭代优化",
+      "url": "https://arxiv.org/abs/2606.20512",
+      "type": "paper",
+      "topic": "Probe-and-Refine Tuning 仓库引导优化",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "ToolPrivBench: LLM Agent过度特权工具选择",
+      "url": "https://arxiv.org/abs/2606.20023",
+      "type": "paper",
+      "topic": "ToolPrivBench 过度特权工具选择",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "SolidityBench: 仓库级Solidity代码生成基准",
+      "url": "https://arxiv.org/abs/2606.19988",
+      "type": "paper",
+      "topic": "SolidityBench 仓库级智能合约生成",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "Calibrated MoE Under Distribution Shift (ICML 2026)",
+      "url": "https://arxiv.org/abs/2606.20544",
+      "type": "paper",
+      "topic": "Calibrated MoE Under Distribution Shift",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "RAINbow: 具身对话导航数据增强",
+      "url": "https://arxiv.org/abs/2606.19948",
+      "type": "paper",
+      "topic": "RAINbow 具身对话导航数据增强",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "PhysDrift: 人形机器人共语音运动生成",
+      "url": "https://arxiv.org/abs/2606.19935",
+      "type": "paper",
+      "topic": "PhysDrift 人形机器人共语音运动生成",
+      "firstRecorded": "2026-06-23",
+      "lastDeepDive": "2026-06-23"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-23T09:05:00",
-    "totalEntries": 342,
-    "lastRun": "2026-06-23T09:05:00"
+    "lastUpdated": "2026-06-23T11:00:00",
+    "totalEntries": 349,
+    "lastRun": "2026-06-23T11:00:00"
   }
 }
