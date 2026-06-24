@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-24T11:05:00",
+    "lastUpdated": "2026-06-24T19:00:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-29",
-    "lastRun": "2026-06-24T11:05:00"
+    "lastRun": "2026-06-24T19:00:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -1012,12 +1012,79 @@
       "reason": "39.4%项目潜在不合规 仅2.43%可通过依赖分析发现 供应链安全新维度",
       "priority": "medium",
       "added": "2026-06-23"
+    },
+    {
+      "topic": "Qwen-AgentWorld语言世界模型",
+      "reason": "阿里通义千问 语言驱动世界模型 通用Agent HN 119分",
+      "priority": "high",
+      "added": "2026-06-24"
+    },
+    {
+      "topic": "SAFARI长周期Agent故障归因",
+      "reason": "工具增强诊断循环替代线性上下文加载 目标故障超出5倍上下文仍保持0.58精度",
+      "priority": "high",
+      "added": "2026-06-24"
+    },
+    {
+      "topic": "Plasticity Loss LLM可塑性损失",
+      "reason": "首次证明LLM可塑性损失 缩放定律次线性增长 仅延迟而非消除 稳态训练也出现",
+      "priority": "high",
+      "added": "2026-06-24"
+    },
+    {
+      "topic": "BlockTrain去中心化AI训练",
+      "reason": "模型块级独立训练达到接近端到端效果 公网三主机验证 挑战AI训练中心化",
+      "priority": "high",
+      "added": "2026-06-24"
+    },
+    {
+      "topic": "LaGO隐式动作引导RL",
+      "reason": "ICML2026 Workshop LLM软引导在线策略优化 Meta-World成功率2.7%→15.2%",
+      "priority": "high",
+      "added": "2026-06-24"
+    },
+    {
+      "topic": "ScaleToT十亿级用户推理",
+      "reason": "Tree-of-Thought+OSIPO 十亿级LTV预测 LT30提升6.738% 仅覆盖7.32%人群",
+      "priority": "high",
+      "added": "2026-06-24"
+    },
+    {
+      "topic": "Bi-CFM混沌系统逆问题",
+      "reason": "双向条件流匹配解决混沌逆问题 两个数量级加速 天体物理应用",
+      "priority": "high",
+      "added": "2026-06-24"
+    },
+    {
+      "topic": "Token Economics AI经济学",
+      "reason": "首个系统性AI Token经济学框架 Token支出≠经济价值 连接技术成本与经济价值",
+      "priority": "high",
+      "added": "2026-06-24"
+    },
+    {
+      "topic": "FUTO Swipe滑动输入",
+      "reason": "HN 561分 今日最高 FUTO开源滑动输入模型 移动端AI交互突破",
+      "priority": "high",
+      "added": "2026-06-24"
+    },
+    {
+      "topic": "Rhombus编程语言1.0",
+      "reason": "Racket生态新语言 现代化语法+Lisp宏系统 HN 177分",
+      "priority": "medium",
+      "added": "2026-06-24"
+    },
+    {
+      "topic": "F* SSD直读文件系统",
+      "reason": "绕过OS内核直接SSD读取 高速文件搜索 AI数据管道潜在价值",
+      "priority": "medium",
+      "added": "2026-06-24"
     }
   ],
   "downgraded": [
     "Agent记忆系统传统语义检索（持续饱和）",
     "Agentic PR质量治理（已覆盖7次+无新突破）",
-    "Agent技能生态基础建设（已充分覆盖）"
+    "Agent技能生态基础建设（已充分覆盖）",
+    "Agent技能生态基础建设（harness/review/factory/superpowers等重复出现 已覆盖8次+）"
   ],
   "tier3_new_exploration": {
     "topics": [
@@ -1036,7 +1103,24 @@
       "拓扑数据分析 LLM内部状态",
       "SPADE 结构先验自适应决策",
       "金融多Agent机制分解",
-      "开源复制复用与许可证合规"
+      "开源复制复用与许可证合规",
+      "Qwen-AgentWorld语言世界模型（阿里通义千问 语言驱动世界建模）",
+      "SAFARI长周期Agent故障归因（工具增强诊断循环 突破上下文限制）",
+      "Plasticity Loss LLM可塑性损失（缩放定律次线性增长 无法完全防止）",
+      "BlockTrain去中心化AI训练（模型块级独立训练 公网验证）",
+      "LaGO隐式动作引导RL（LLM软引导 替代硬控制 Meta-World 2.7%→15.2%）",
+      "ScaleToT十亿级用户推理（Tree-of-Thought+OSIPO LT30提升6.738%）",
+      "Bi-CFM混沌系统逆问题（双向条件流匹配 两个数量级加速）",
+      "CineCap电影级视频描述（结构化推理+时空锚点+RL 472注释对）",
+      "Token Economics AI经济学框架（首个系统性Tokenomics 连接技术成本与经济价值）",
+      "FUTO Swipe滑动输入AI（HN 561分 今日最高）",
+      "Rhombus编程语言1.0（Racket生态现代化 保留Lisp宏系统）",
+      "F* SSD直读文件系统（绕过OS内核 高速文件搜索）",
+      "Why Eval Startups Fail评估失败分析（评估市场真实需求洞察）",
+      "BluTrain C++/CUDA AI框架（从PyTorch抽象层回归底层控制）",
+      "HAR分布偏移评估（28种域泛化方法 首个HAR系统基准）",
+      "MTO任务目标匹配框架（Encoder-decoder微调 few-shot 120%+增益）",
+      "Orca并行Agent ADE（并行Agent舰队工作ADE）"
     ]
   }
 }
