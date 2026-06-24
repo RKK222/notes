@@ -2959,6 +2959,54 @@
       "topic": "协议学习自动化字母表",
       "firstRecorded": "2026-06-24",
       "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+      "url": "https://arxiv.org/abs/2606.24855",
+      "type": "paper",
+      "topic": "OpenThoughts-Agent数据配方",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "AutoSpec: Safety Rule Evolution for LLM Agents via ILP",
+      "url": "https://arxiv.org/abs/2606.24245",
+      "type": "paper",
+      "topic": "AutoSpec安全规则ILP演化",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "BigBag: Agentic Generation of AST Transformation Rules",
+      "url": "https://arxiv.org/abs/2606.24446",
+      "type": "paper",
+      "topic": "BigBag AST转换规则跨项目迁移",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "World Models in Pieces: Structural Certification for General Agents (ICML 2026)",
+      "url": "https://arxiv.org/abs/2606.24842",
+      "type": "paper",
+      "topic": "结构认证一般Agent",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "ReM-MoA: Reasoning Memory Sustains MoA Scaling",
+      "url": "https://arxiv.org/abs/2606.24437",
+      "type": "paper",
+      "topic": "ReM-MoA推理记忆维持MoA扩展",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "Detecting AI Coding Agents in Open Source: Census of 180M Repositories",
+      "url": "https://arxiv.org/abs/2606.24429",
+      "type": "paper",
+      "topic": "AI编码Agent开源采用普查",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
     }
   ],
   "meta": {

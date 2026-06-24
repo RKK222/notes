@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-24T09:10:00",
+    "lastUpdated": "2026-06-24T11:05:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-29",
-    "lastRun": "2026-06-24T09:10:00"
+    "lastRun": "2026-06-24T11:05:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -487,7 +487,14 @@
         "低精度训练理论",
         "认知数字孪生治理",
         "科学传播军事化",
-        "代理理论形式化"
+        "代理理论形式化",
+        "Token经济学AI Tokenomics",
+        "Bi-CFM混沌系统逆问题AI求解",
+        "SP-Mind空间蛋白质组学Agent",
+        "形式化验证证书神经网络解释",
+        "Age of LLM战略博弈基准",
+        "DigenRL扩散模型RL训练",
+        "FedEPD联邦长尾图学习"
       ]
     },
     "tier3_exploration": {
@@ -730,7 +737,9 @@
         "Agentic PR治理",
         "简单CV分类",
         "Agent记忆系统传统语义检索",
-        "拓扑数据分析LLM内部状态"
+        "拓扑数据分析LLM内部状态",
+        "Agent技能生态基础建设",
+        "Agentic PR质量治理"
       ]
     }
   },
