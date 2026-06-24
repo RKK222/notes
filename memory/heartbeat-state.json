@@ -12,7 +12,7 @@
   "notes": {
     "calendar": "飞书日历 API 缺少 [calendar:calendar:read] 权限",
     "email": "no email tool configured",
-    "lastUpdate": "2026-06-24 09:05",
+    "lastUpdate": "2026-06-24 10:05",
     "newsBlocker": "Brave Search API 未配置",
     "newsTaskDisabled": "2026-04-08 13:45 - 临时禁用直到 API 配置",
     "pushMethod": "web_fetch (Brave API 未配置)",
@@ -30,7 +30,7 @@
   "issues": {
     "braveApiMissing": "❌ Brave Search API 未配置，web_search 不可用",
     "ultimateSearchSkillKeys": "❌ UltimateSearchSkill 未配置 Tavily/Grok API key",
-    "feishuPermissionError": "⚠️ 飞书应用缺少 calendar:calendar:read 权限",
+    "feishuPermissionMissing": "⚠️ 飞书应用缺少 calendar:calendar:read 权限",
     "flightMonitorApiChanged": "⚠️ 携程 API 已变更，Trip.com 估算 + 搜索API全不可用"
   }
 }
