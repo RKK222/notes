@@ -2094,7 +2094,7 @@
       "type": "project",
       "topic": "codebase-memory-mcp 代码知识图谱MCP",
       "firstRecorded": "2026-06-18",
-      "lastDeepDive": "2026-06-22"
+      "lastDeepDive": "2026-06-24"
     },
     {
       "title": "OpenMontage - 开源Agentic视频制作系统",
@@ -2102,7 +2102,7 @@
       "type": "project",
       "topic": "OpenMontage Agentic视频制作",
       "firstRecorded": "2026-06-18",
-      "lastDeepDive": "2026-06-18"
+      "lastDeepDive": "2026-06-24"
     },
     {
       "title": "DiagFlowBench: Evaluating How Language Models Handle Off-Procedure Inputs",
@@ -2726,7 +2726,7 @@
       "type": "project",
       "topic": "Anthropic-Cybersecurity-Skills",
       "firstRecorded": "2026-06-22",
-      "lastDeepDive": "2026-06-22"
+      "lastDeepDive": "2026-06-24"
     },
     {
       "title": "H-RePlan + HeraBench: 跨设备Agent分层恢复",
@@ -2903,11 +2903,67 @@
       "topic": "抽象表征几何 LLM推理机制",
       "firstRecorded": "2026-06-23",
       "lastDeepDive": "2026-06-23"
+    },
+    {
+      "title": "TriggerBench: Investigating Prospective Memory for LLMs",
+      "url": "https://arxiv.org/abs/2606.23459",
+      "type": "paper",
+      "topic": "前瞻性记忆(TriggerBench)",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "SelfCompact: Self-Compacting Language Model Agents",
+      "url": "https://arxiv.org/abs/2606.23525",
+      "type": "paper",
+      "topic": "自压缩Agent(SelfCompact)",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "WaveDetect: Machine-Generated Text Detection via Wavelet Transform",
+      "url": "https://arxiv.org/abs/2606.23336",
+      "type": "paper",
+      "topic": "信号处理AI检测(WaveDetect)",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "Tmax: A Simple Recipe for Terminal Agents",
+      "url": "https://arxiv.org/abs/2606.23321",
+      "type": "paper",
+      "topic": "终端Agent RL训练(Tmax)",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "EnterpriseClawBench: Benchmarking Agents from Real Workplace Sessions",
+      "url": "https://arxiv.org/abs/2606.23654",
+      "type": "paper",
+      "topic": "EnterpriseClawBench",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "Evaluation Awareness Is Not One Capability",
+      "url": "https://arxiv.org/abs/2606.23583",
+      "type": "paper",
+      "topic": "评估意识多维性",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "Automated Input Alphabet Construction for Stateful Protocol Learning",
+      "url": "https://arxiv.org/abs/2606.23464",
+      "type": "paper",
+      "topic": "协议学习自动化字母表",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-23T19:11:00",
+    "lastUpdated": "2026-06-24T09:10:00",
     "totalEntries": 363,
-    "lastRun": "2026-06-23T19:11:00"
+    "lastRun": "2026-06-24T09:10:00"
   }
 }

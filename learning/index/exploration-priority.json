@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-23T19:11:00",
+    "lastUpdated": "2026-06-24T09:10:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-29",
-    "lastRun": "2026-06-23T19:11:00"
+    "lastRun": "2026-06-24T09:10:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -258,7 +258,11 @@
         "多Agent审议隐藏锚点",
         "ToolPro可执行工具程序",
         "UFP4均匀4位训练",
-        "CWE-Trace漏洞检测诊断"
+        "CWE-Trace漏洞检测诊断",
+        "Agent前瞻性记忆",
+        "Agent自压缩",
+        "信号处理AI检测",
+        "终端Agent RL训练"
       ]
     },
     "tier2_emerging": {
@@ -480,7 +484,10 @@
         "Agent原生工具链",
         "预测模型逻辑合规",
         "Agent安全基础设施",
-        "低精度训练理论"
+        "低精度训练理论",
+        "认知数字孪生治理",
+        "科学传播军事化",
+        "代理理论形式化"
       ]
     },
     "tier3_exploration": {
@@ -721,7 +728,9 @@
       "topics": [
         "Agent记忆语义检索",
         "Agentic PR治理",
-        "简单CV分类"
+        "简单CV分类",
+        "Agent记忆系统传统语义检索",
+        "拓扑数据分析LLM内部状态"
       ]
     }
   },
