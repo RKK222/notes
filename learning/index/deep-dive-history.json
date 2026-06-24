@@ -3007,11 +3007,123 @@
       "topic": "AI编码Agent开源采用普查",
       "firstRecorded": "2026-06-24",
       "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "SAFARI - Scaling Long Horizon Agentic Fault Attribution",
+      "url": "https://arxiv.org/abs/2606.24626",
+      "type": "paper",
+      "topic": "SAFARI长周期Agent故障归因",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "Qwen-AgentWorld - Language World Models for General Agents",
+      "url": "https://arxiv.org/abs/2606.24597",
+      "type": "paper",
+      "topic": "Qwen-AgentWorld语言世界模型",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "design.md - Format Specification for Coding Agents Visual Identity",
+      "url": "https://github.com/google-labs-code/design.md",
+      "type": "project",
+      "topic": "design.md编码Agent视觉身份规范",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "Plasticity Loss in LLMs - Can Scale Save Us",
+      "url": "https://arxiv.org/abs/2606.24752",
+      "type": "paper",
+      "topic": "Plasticity Loss LLM可塑性损失",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "BlockTrain - Decentralised AI Training and Inference",
+      "url": "https://arxiv.org/abs/2606.24722",
+      "type": "paper",
+      "topic": "BlockTrain去中心化AI训练",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "LaGO - Latent Action Guidance for Online RL",
+      "url": "https://arxiv.org/abs/2606.24669",
+      "type": "paper",
+      "topic": "LaGO隐式动作引导RL",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "Grading the Grader - Evaluating Agentic Data Analysis",
+      "url": "https://arxiv.org/abs/2606.24839",
+      "type": "paper",
+      "topic": "Grading the Grader Agentic评估",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "Scaling Laws for Task-Specific LLM Distillation",
+      "url": "https://arxiv.org/abs/2606.24747",
+      "type": "paper",
+      "topic": "LLM蒸馏缩放定律",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "ScaleToT - Billion-Scale Low-Activity User Modeling",
+      "url": "https://arxiv.org/abs/2606.24605",
+      "type": "paper",
+      "topic": "ScaleToT十亿级用户推理",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "Bi-CFM - Chaotic Systems Inverse Problems",
+      "url": "https://arxiv.org/abs/2606.24824",
+      "type": "paper",
+      "topic": "Bi-CFM混沌系统逆问题",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "Themis - XAI-enabled RLHF Framework",
+      "url": "https://arxiv.org/abs/2606.24622",
+      "type": "paper",
+      "topic": "Themis XAI RLHF框架",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "Token Economics - Foundation Models Tokenomics",
+      "url": "https://arxiv.org/abs/2606.24616",
+      "type": "paper",
+      "topic": "Token Economics AI经济学",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "CineCap - Cinematographic Video Captioning",
+      "url": "https://arxiv.org/abs/2606.24636",
+      "type": "paper",
+      "topic": "CineCap电影级视频描述",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "harness - Meta-skill for Domain-Specific Agent Teams",
+      "url": "https://github.com/revfactory/harness",
+      "type": "project",
+      "topic": "harness元技能Agent团队",
+      "firstRecorded": "2026-06-24",
+      "lastDeepDive": "2026-06-24"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-24T09:10:00",
-    "totalEntries": 363,
-    "lastRun": "2026-06-24T09:10:00"
+    "lastUpdated": "2026-06-24T19:00:00",
+    "totalEntries": 390,
+    "lastRun": "2026-06-24T19:00:00"
   }
 }
