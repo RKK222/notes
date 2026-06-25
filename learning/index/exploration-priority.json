@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-25T09:10:00",
+    "lastUpdated": "2026-06-25T11:07:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-29",
-    "lastRun": "2026-06-25T09:10:00"
+    "lastRun": "2026-06-25T11:07:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -762,38 +762,33 @@
     }
   },
   "weeklySummary": {
-    "week": "W25",
-    "totalScans": 7,
-    "totalItems": 225,
-    "totalDeepDives": 95,
+    "week": "W26",
+    "totalScans": 2,
+    "totalItems": 67,
+    "totalDeepDives": 17,
     "newHighValueDirections": [
-      "Multi-LCB: ICLR2026 将LCB扩展到12种编程语言 发现Python过拟合和语言特定污染 24模型评估",
-      "LedgerAgent: 推理时结构化状态管理 独立账本+策略约束检查 解决工具调用Agent两大失败模式",
-      "SoftSkill: 行为压缩范式 长度32软技能前缀超越SkillOpt token效率提升数十倍",
-      "热力学智能度量: 智能=罕见有效未来合法放大 递归自模拟必要条件 通用尺度可测量",
-      "UFP4: 识别E2M1 Shrinkage Bias 均匀4-bit配方 124B MoE验证",
-      "QMFOLBench: 可量化一阶逻辑推理基准 2880实例960配置 可控复杂度",
-      "RVS: 预测模型逻辑合规性度量 填补精度之外逻辑一致性评估空白",
-      "MACR: 多Agent知识冲突解决 超越二元选择 三Agent推理框架",
-      "LLM心理画像测量伪影: 56模型 81-90%变异由响应偏差驱动 响应正交性概念",
-      "合规演示安全机制: 良性和有害演示不可互换 偏好优化是关键阶段",
-      "Zero-Touch OAuth MCP: 企业级零接触认证 HN 115分",
-      "GitHub Trojan Malware: 10k仓库分发恶意软件 HN 680分今日最高",
-      "Noam Shazeer加入OpenAI: Transformer共同作者 HN 296分"
+      "Omnigent: 开源元级Agent Harness Harness本身可被Agent配置和扩展 可组合测试基础设施",
+      "医疗AI隐式数据泄漏: 医疗诊断AI推理行为泄漏训练数据来源 行为层面隐私保护新维度",
+      "AI安全哲学转向: Big AI Labs雇佣哲学家 安全从工程方法向跨学科方法范式转变",
+      "AI编码基础设施成本: Codex bombard SSDs数百万美元硬件损耗 隐藏成本被低估",
+      "科学代码可复现性: 微软量子飞跃被指基本Python错误 前沿研究代码质量危机",
+      "PR垃圾邮件: AI编码Agent时代开源项目面临PR spam如同2000年代email spam",
+      "CAPTCHA进化: 从扭曲文本到浏览器身份识别 AI驱动反自动化军备竞赛",
+      "Slop Paralysis: AI生成内容导致决策瘫痪 内容质量控制新挑战"
     ],
     "saturatedDirections": [
-      "Agentic PR质量治理（已覆盖7次+无新突破）",
-      "Agent记忆系统传统语义检索方向（持续饱和）"
+      "Agent记忆系统传统语义检索（持续饱和）",
+      "Agentic PR质量治理（已覆盖8次+无新突破）",
+      "Agent技能生态基础建设（已充分覆盖）"
     ],
     "nextWeekPriorities": [
-      "Multi-LCB基准后续发展和外部模型提交",
-      "SoftSkill在agentic执行场景下的扩展能力",
-      "热力学智能度量框架的实验验证进展",
-      "LLM心理画像评估工具的重新设计方向",
-      "GitHub恶意软件生态和供应链安全",
-      "UFP4配方在其他模型架构上的泛化",
-      "QMFOLBench在更多推理模型上的评估",
-      "MACR在RAG系统中的实际应用验证"
+      "Omnigent元级Harness框架生态发展和标准化进展",
+      "医疗AI隐私保护技术更新 针对隐式数据泄漏的防御方案",
+      "AI安全跨学科方法发展 哲学在AI安全中的实际应用",
+      "AI编码Agent基础设施优化 文件操作效率改进",
+      "科学计算代码质量检查工具的发展",
+      "开源PR垃圾邮件自动识别和过滤工具",
+      "CAPTCHA对抗技术的演进和对AI Agent的影响"
     ]
   },
   "newExplorations": [
@@ -1138,7 +1133,18 @@
       "BluTrain C++/CUDA AI框架（从PyTorch抽象层回归底层控制）",
       "HAR分布偏移评估（28种域泛化方法 首个HAR系统基准）",
       "MTO任务目标匹配框架（Encoder-decoder微调 few-shot 120%+增益）",
-      "Orca并行Agent ADE（并行Agent舰队工作ADE）"
+      "Orca并行Agent ADE（并行Agent舰队工作ADE）",
+      "Omnigent 元级Agent Harness（Harness可被Agent自配置）",
+      "医疗AI隐式数据泄漏（行为层面泄漏通道）",
+      "AI安全哲学转向（Big AI Labs雇佣哲学家）",
+      "AI编码基础设施成本（Codex SSD写入灾难）",
+      "科学代码可复现性（微软量子计算Python错误）",
+      "PR垃圾邮件AI编码副作用（Greptile分析）",
+      "CAPTCHA身份验证进化（浏览器指纹军备竞赛）",
+      "Slop Paralysis垃圾内容瘫痪（AI内容泛滥心理影响）",
+      "内存市场爆发（Micron收入翻四倍 AI硬件瓶颈）",
+      "量子计算验证争议（科学代码质量审查）",
+      "RubyLLM统一AI框架（Ruby生态HN 351分）"
     ]
   }
 }

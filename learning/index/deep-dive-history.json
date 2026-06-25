@@ -3279,11 +3279,67 @@
       "topic": "Agent工作区管理",
       "firstRecorded": "2026-06-25",
       "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "Omnigent - Open-Source Meta Harness for Agents",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "type": "project",
+      "topic": "元级Agent Harness",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "InterviewStreet Hiring Agent - AI简历评估Agent",
+      "url": "https://github.com/interviewstreet/hiring-agent",
+      "type": "project",
+      "topic": "垂直领域AI Agent",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "RubyLLM - Ruby统一AI提供商框架",
+      "url": "https://rubyllm.com/",
+      "type": "project",
+      "topic": "RubyLLM统一AI框架",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "Medical Diagnosis AI Data Leakage - 医疗AI隐式数据泄漏",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/24/medical-diagnosis-ais-can-be-tricked-into-telling-whose-data-trained-them/5261501",
+      "type": "paper",
+      "topic": "医疗AI隐式数据泄漏",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "Big AI Labs Hiring Philosophers - AI安全哲学转向",
+      "url": "https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers",
+      "type": "paper",
+      "topic": "AI安全哲学转向",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "OpenAI Codex SSD Write Bombardment - AI编码基础设施成本",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/23/openai-codex-bombards-ssds-with-needless-write-operations-costing-millions/5260402",
+      "type": "paper",
+      "topic": "AI编码基础设施成本",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "Microsoft Quantum Leap Python Errors - 科学代码可复现性",
+      "url": "https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489",
+      "type": "paper",
+      "topic": "科学代码可复现性",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-24T19:00:00",
-    "totalEntries": 390,
-    "lastRun": "2026-06-24T19:00:00"
+    "lastUpdated": "2026-06-25T11:07:00",
+    "totalEntries": 417,
+    "lastRun": "2026-06-25T11:07:00"
   }
 }
