@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-25T11:07:00",
+    "lastUpdated": "2026-06-25T19:00:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-29",
-    "lastRun": "2026-06-25T11:07:00"
+    "lastRun": "2026-06-25T19:00:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -275,7 +275,25 @@
         "LLM可塑性损失缩放定律",
         "潜桥慢快通道实时Agent",
         "DigenRL扩散模型解耦RL",
-        "MemClaw多Agent记忆治理"
+        "MemClaw多Agent记忆治理",
+        "OpenMontage Agentic视频制作",
+        "Apple Container Mac容器运行时",
+        "AWS Agent Toolkit",
+        "SAFARI长周期Agent故障归因",
+        "ReM-MoA结构化跨层推理记忆",
+        "CompressKV语义检索KV缓存压缩",
+        "Bayesian编码Agent控制",
+        "Agent GUI前端化",
+        "网络安全技能标准化",
+        "PHANTOM大规模VLM对抗数据集",
+        "Computer-Use Agent GUI vs CLI执行瓶颈",
+        "RL自主评估Computer-Use Agent",
+        "LemonHarness Agent工作空间边界",
+        "Task-Specific LLM Distillation缩放定律",
+        "OpenThoughts-Agent Agentic数据配方",
+        "MemClaw多Agent共享记忆治理",
+        "因果谨慎性抑制与恢复",
+        "Structural Certification通用Agent认证"
       ]
     },
     "tier2_emerging": {
@@ -744,7 +762,19 @@
         "PhysDrift人形机器人运动生成",
         "eCNNTO拓扑优化加速",
         "gstack编码配置实战",
-        "voicebox开源语音工作室"
+        "voicebox开源语音工作室",
+        "形式化验证证书可解释性",
+        "混沌系统AI逆问题求解",
+        "AI Token经济学",
+        "Age of LLM战略1v1基准",
+        "ATRIA迭代多Agent ECG报告",
+        "LaGO潜动作引导在线RL",
+        "去中心化AI训练BlockTrain",
+        "持续学习可塑性损失",
+        "LLM缩放指数过小能源可持续性",
+        "NFR评估LLM对话质量",
+        "LLM法律上下文过度拒绝",
+        "ScaleToT十亿级用户结构化推理"
       ]
     },
     "tier3_downgrade": {
