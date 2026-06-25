@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-24T19:00:00",
+    "lastUpdated": "2026-06-25T09:10:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-29",
-    "lastRun": "2026-06-24T19:00:00"
+    "lastRun": "2026-06-25T09:10:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -262,7 +262,20 @@
         "Agent前瞻性记忆",
         "Agent自压缩",
         "信号处理AI检测",
-        "终端Agent RL训练"
+        "终端Agent RL训练",
+        "OpenAI Jalapeño推理芯片全栈化",
+        "Qualcomm-Modular AI编译器整合",
+        "Gemini Computer Use内置化",
+        "因果谨慎性抑制与治理",
+        "CUA执行瓶颈GUI/CLI分化",
+        "贝叶斯Agent编排框架",
+        "ReM-MoA推理记忆扩展",
+        "CompressKV极致KV压缩",
+        "内部探针不对齐检测",
+        "LLM可塑性损失缩放定律",
+        "潜桥慢快通道实时Agent",
+        "DigenRL扩散模型解耦RL",
+        "MemClaw多Agent记忆治理"
       ]
     },
     "tier2_emerging": {
@@ -639,7 +652,12 @@
         "RACL元启发式推理Agent控制",
         "BIM-Edit建筑信息模型编辑",
         "ModSync无模块化PINNs训练",
-        "DeXposure-Claw DeFi风险监督"
+        "DeXposure-Claw DeFi风险监督",
+        "AI芯片自研战略",
+        "开放AI编译器生态竞争",
+        "LLM缩放可持续性",
+        "形式化验证可解释性",
+        "战略博弈LLM推理"
       ]
     },
     "tier4_downgrade": {

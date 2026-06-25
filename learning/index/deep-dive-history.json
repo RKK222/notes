@@ -3119,6 +3119,166 @@
       "topic": "harness元技能Agent团队",
       "firstRecorded": "2026-06-24",
       "lastDeepDive": "2026-06-24"
+    },
+    {
+      "title": "OpenAI Jalapeño推理芯片",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+      "type": "project",
+      "topic": "AI推理芯片全栈化",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "Qualcomm收购Modular",
+      "url": "https://www.modular.com/blog/qualcomm-to-acquire-modular",
+      "type": "project",
+      "topic": "AI编译器基础设施整合",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "Gemini 3.5 Flash Computer Use",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "type": "project",
+      "topic": "Computer Use内置化",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "Execution Bottlenecks in Computer-Use Agents",
+      "url": "https://arxiv.org/abs/2606.24551",
+      "type": "paper",
+      "topic": "CUA执行瓶颈对比",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "Bayesian Control for Coding Agents",
+      "url": "https://arxiv.org/abs/2606.24453",
+      "type": "paper",
+      "topic": "贝叶斯Agent编排",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "When Helpfulness Overrides Causal Caution",
+      "url": "https://arxiv.org/abs/2606.24370",
+      "type": "paper",
+      "topic": "因果谨慎性抑制",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "CompressKV语义检索KV压缩",
+      "url": "https://arxiv.org/abs/2606.24467",
+      "type": "paper",
+      "topic": "KV缓存压缩",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "AdversaBench多法官红队",
+      "url": "https://arxiv.org/abs/2606.24589",
+      "type": "paper",
+      "topic": "自动化LLM红队",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "潜桥慢快通道实时Agent",
+      "url": "https://arxiv.org/abs/2606.24470",
+      "type": "paper",
+      "topic": "实时Agent慢快耦合",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "内部探针不对齐检测",
+      "url": "https://arxiv.org/abs/2606.24251",
+      "type": "paper",
+      "topic": "LLM内部表征不对齐",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "MemClaw多Agent记忆治理",
+      "url": "https://arxiv.org/abs/2606.24535",
+      "type": "paper",
+      "topic": "多Agent记忆系统",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "DigenRL扩散模型解耦RL",
+      "url": "https://arxiv.org/abs/2606.24369",
+      "type": "paper",
+      "topic": "扩散模型RL基础设施",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "LLM缩放指数可持续性",
+      "url": "https://arxiv.org/abs/2606.24504",
+      "type": "paper",
+      "topic": "LLM缩放定律理论",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "Cycle-Consistent形式化验证证书解释",
+      "url": "https://arxiv.org/abs/2606.24414",
+      "type": "paper",
+      "topic": "形式化验证可解释性",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "ASALT多Agent迁移学习",
+      "url": "https://arxiv.org/abs/2606.24601",
+      "type": "paper",
+      "topic": "MARL迁移学习",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "Age of LLM战略博弈基准",
+      "url": "https://arxiv.org/abs/2606.24391",
+      "type": "paper",
+      "topic": "LLM战略推理",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "PHANTOM VLM对抗数据集",
+      "url": "https://arxiv.org/abs/2606.24388",
+      "type": "paper",
+      "topic": "VLM安全评估",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "RL Autonomous Evaluation for CUA",
+      "url": "https://arxiv.org/abs/2606.24515",
+      "type": "paper",
+      "topic": "CUA RL训练",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "ATRIA迭代式ECG报告Agent",
+      "url": "https://arxiv.org/abs/2606.24392",
+      "type": "paper",
+      "topic": "医疗Agent系统",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "LemonHarness工作区状态管理",
+      "url": "https://arxiv.org/abs/2606.24311",
+      "type": "paper",
+      "topic": "Agent工作区管理",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
     }
   ],
   "meta": {
