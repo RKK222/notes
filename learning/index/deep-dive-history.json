@@ -3335,6 +3335,30 @@
       "topic": "科学代码可复现性",
       "firstRecorded": "2026-06-25",
       "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "AWS Agent Toolkit - 官方AI Agent云工具包",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "type": "project",
+      "topic": "AWS Agent Toolkit",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "NFR评估LLM对话质量 SIGDIAL2026",
+      "url": "https://arxiv.org/abs/2606.24834",
+      "type": "paper",
+      "topic": "NFR评估LLM对话质量",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "LLM法律上下文过度拒绝",
+      "url": "https://arxiv.org/abs/2606.24585",
+      "type": "paper",
+      "topic": "LLM法律上下文过度拒绝",
+      "firstRecorded": "2026-06-25",
+      "lastDeepDive": "2026-06-25"
     }
   ],
   "meta": {
