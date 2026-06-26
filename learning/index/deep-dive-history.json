@@ -3631,11 +3631,67 @@
       "topic": "Socratic自主科学发现Agent",
       "firstRecorded": "2026-06-26",
       "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "BuilderIO Agent-Native — Agent原生应用框架",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "type": "project",
+      "topic": "BuilderIO Agent-Native框架",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "Scroll Prize — AI首次完整读取2000年碳化卷轴",
+      "url": "https://scrollprize.org/firstscroll",
+      "type": "project",
+      "topic": "Scroll Prize赫库兰尼姆卷轴AI解码",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "Un-0 — 耦合振荡器物理计算生成图像",
+      "url": "https://unconv.ai/blog/introducing-un-0-generating-images-with-coupled-oscillators/",
+      "type": "project",
+      "topic": "Un-0物理振荡器生成模型",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "HackMyClaw — 2000人AI助手安全实验",
+      "url": "https://www.fernandoi.cl/posts/hackmyclaw/",
+      "type": "project",
+      "topic": "HackMyClaw AI安全实战",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "Diagnosing Task Insensitivity in Language Agents",
+      "url": "https://arxiv.org/abs/2606.26918",
+      "type": "paper",
+      "topic": "Task Insensitivity Agent OOD诊断",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "Semantic Early-Stopping for Iterative LLM Agent Loops",
+      "url": "https://arxiv.org/abs/2606.27009",
+      "type": "paper",
+      "topic": "Semantic Early-Stopping Agent循环效率",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "IBM亚1纳米芯片技术",
+      "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+      "type": "project",
+      "topic": "IBM亚1纳米芯片技术",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-26T09:10:00",
-    "totalEntries": 446,
-    "lastRun": "2026-06-26T09:10:00"
+    "lastUpdated": "2026-06-26T19:10:00",
+    "totalEntries": 461,
+    "lastRun": "2026-06-26T19:10:00"
   }
 }
