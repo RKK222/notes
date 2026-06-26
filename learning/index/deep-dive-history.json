@@ -3583,6 +3583,54 @@
       "topic": "MAGR-BB 多Agent目标识别",
       "firstRecorded": "2026-06-26",
       "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "Capability Frontier: Benchmarks Miss 82% of Model Performance",
+      "url": "https://arxiv.org/abs/2606.26836",
+      "type": "paper",
+      "topic": "Capability Frontier Pareto前沿评估",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "Einstein World Models - LLM中的视觉思维实验",
+      "url": "https://arxiv.org/abs/2606.26969",
+      "type": "paper",
+      "topic": "Einstein World Models视觉思维实验",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "Memory Depth Not Memory Access - EVAF选择参数化巩固",
+      "url": "https://arxiv.org/abs/2606.26806",
+      "type": "paper",
+      "topic": "Memory Depth参数化记忆巩固",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "When Does Combining Language Models Help? - Co-Failure Ceiling",
+      "url": "https://arxiv.org/abs/2606.27288",
+      "type": "paper",
+      "topic": "Co-Failure Ceiling多模型组合上限",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "Scientific Discovery as Meta-Optimization - 共识目标聚合",
+      "url": "https://arxiv.org/abs/2606.26728",
+      "type": "paper",
+      "topic": "科学发现元优化共识目标聚合",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "AHOIS - Socratic自主科学发现Agent",
+      "url": "https://arxiv.org/abs/2606.26722",
+      "type": "paper",
+      "topic": "Socratic自主科学发现Agent",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
     }
   ],
   "meta": {
