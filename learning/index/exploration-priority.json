@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-26T11:03:00",
+    "lastUpdated": "2026-06-26T19:10:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-29",
-    "lastRun": "2026-06-26T11:03:00"
+    "lastRun": "2026-06-26T19:10:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -823,18 +823,17 @@
   },
   "weeklySummary": {
     "week": "W26",
-    "totalScans": 2,
-    "totalItems": 67,
-    "totalDeepDives": 17,
+    "totalScans": 9,
+    "totalItems": 275,
+    "totalDeepDives": 108,
     "newHighValueDirections": [
-      "Omnigent: 开源元级Agent Harness Harness本身可被Agent配置和扩展 可组合测试基础设施",
-      "医疗AI隐式数据泄漏: 医疗诊断AI推理行为泄漏训练数据来源 行为层面隐私保护新维度",
-      "AI安全哲学转向: Big AI Labs雇佣哲学家 安全从工程方法向跨学科方法范式转变",
-      "AI编码基础设施成本: Codex bombard SSDs数百万美元硬件损耗 隐藏成本被低估",
-      "科学代码可复现性: 微软量子飞跃被指基本Python错误 前沿研究代码质量危机",
-      "PR垃圾邮件: AI编码Agent时代开源项目面临PR spam如同2000年代email spam",
-      "CAPTCHA进化: 从扭曲文本到浏览器身份识别 AI驱动反自动化军备竞赛",
-      "Slop Paralysis: AI生成内容导致决策瘫痪 内容质量控制新挑战"
+      "BuilderIO Agent-Native: Agent原生应用框架 Actions一次定义多端复用 Agent与UI平等公民 定义新范式",
+      "Scroll Prize赫库兰尼姆卷轴: AI+X射线首次完整读取2000年碳化卷轴 文化遗产数字化里程碑",
+      "Un-0物理振荡器生成: 耦合振荡器物理计算生成图像 FID 6.74 挑战GPU主导范式 目标1000x能效",
+      "HackMyClaw AI安全实战: 2000人6000+次攻击AI助手 零泄漏 证明prompt injection防御可行",
+      "IBM亚1纳米芯片: 全球首个亚1纳米晶体管技术 半导体物理极限突破",
+      "Task Insensitivity诊断: 首次系统性诊断Agent OOD泛化失败原因 注意力漂移机制",
+      "Semantic Early-Stopping: 多Agent循环语义终止 HotpotQA 38%token减少 机器检查理论保证"
     ],
     "saturatedDirections": [
       "Agent记忆系统传统语义检索（持续饱和）",
@@ -842,13 +841,15 @@
       "Agent技能生态基础建设（已充分覆盖）"
     ],
     "nextWeekPriorities": [
-      "Omnigent元级Harness框架生态发展和标准化进展",
-      "医疗AI隐私保护技术更新 针对隐式数据泄漏的防御方案",
-      "AI安全跨学科方法发展 哲学在AI安全中的实际应用",
-      "AI编码Agent基础设施优化 文件操作效率改进",
-      "科学计算代码质量检查工具的发展",
-      "开源PR垃圾邮件自动识别和过滤工具",
-      "CAPTCHA对抗技术的演进和对AI Agent的影响"
+      "BuilderIO Agent-Native生态发展 是否成为Agent原生应用标准框架",
+      "Scroll Prize方法扩展到其他碳化文献 可能重写古代哲学史",
+      "Un-0物理计算后续进展 物理计算硬件的实际部署",
+      "HackMyClaw实验框架扩展到其他模型和攻击场景",
+      "IBM亚1纳米技术对AI芯片性能/能效/成本的具体影响",
+      "Capability Frontier评估方法论对AI Testing基础设施的影响",
+      "Einstein World Models视觉思维实验在科学推理中的应用",
+      "EVAF记忆深度机制与现有Agent记忆系统的整合",
+      "AHOIS苏格拉底自主科学发现在其他科学领域的扩展"
     ]
   },
   "newExplorations": [
@@ -1232,7 +1233,19 @@
       "COMAD离线多Agent持续协作（ICML2026 技能分区+复用 理论最优近似）",
       "InvestPhilBench投资哲学程序推理（8认知层级 BASP五指标 GRA暴露缺陷）",
       "Agentic BKT金融素养隐蔽评估（IEEE CoG2026 四阶段管道 三倍效度）",
-      "MAGR-BB多Agent目标识别（共享条件策略+分解分支限界 组合爆炸解决）"
+      "MAGR-BB多Agent目标识别（共享条件策略+分解分支限界 组合爆炸解决）",
+      "BuilderIO Agent-Native框架 (Actions一次定义多端复用 Agent与UI平等公民)",
+      "Scroll Prize赫库兰尼姆卷轴AI解码 (X射线+ML非破坏性阅读)",
+      "Un-0物理振荡器生成模型 (耦合振荡器物理计算 1000x能效目标)",
+      "HackMyClaw AI安全实战 (2000人6000+攻击 零泄漏)",
+      "IBM亚1纳米芯片技术 (半导体物理极限突破)",
+      "Task Insensitivity Agent OOD诊断 (注意力漂移机制)",
+      "Semantic Early-Stopping Agent循环效率 (38%token减少)",
+      "MinerU复杂文档转LLM格式 (Agent数据管道基础设施)",
+      "Zig bitCast语义和LLVM改进 (系统编程安全性)",
+      "互联网身份验证PapersPlease时代 (AI身份识别对匿名性挑战)",
+      "no-mistakes Git Push安全守卫 (AI编码时代代码安全)",
+      "OpenKnowledge AI集成Markdown编辑器 (Agent与创作工具融合)"
     ]
   }
 }
