@@ -3359,11 +3359,235 @@
       "topic": "LLM法律上下文过度拒绝",
       "firstRecorded": "2026-06-25",
       "lastDeepDive": "2026-06-25"
+    },
+    {
+      "title": "Unfireable Safety Kernel - 执行时AI对齐框架",
+      "url": "https://arxiv.org/abs/2606.26057",
+      "type": "paper",
+      "topic": "Unfireable Safety Kernel 执行时AI对齐",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "Cliff Token - LLM数学推理单token失败触发器",
+      "url": "https://arxiv.org/abs/2606.25524",
+      "type": "paper",
+      "topic": "Cliff Token 单token失败触发器",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "Progress Advantage - RL后训练免费步骤级评估信号",
+      "url": "https://arxiv.org/abs/2606.26080",
+      "type": "paper",
+      "topic": "Progress Advantage RL免费步骤级评估",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "Heuresis - 自主AI研究搜索策略系统评估",
+      "url": "https://arxiv.org/abs/2606.25198",
+      "type": "paper",
+      "topic": "Heuresis 自主AI研究搜索策略评估",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "Token Inflation - 低比特推理模型隐藏成本",
+      "url": "https://arxiv.org/abs/2606.25519",
+      "type": "paper",
+      "topic": "Token Inflation 低比特推理隐藏成本",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "Natural Ungrokkings - 预训练规则存活的不对称控制",
+      "url": "https://arxiv.org/abs/2606.26050",
+      "type": "paper",
+      "topic": "Natural Ungrokkings 预训练规则不对称控制",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "WinDOM - 小型模型GUI Grounding自家族蒸馏",
+      "url": "https://arxiv.org/abs/2606.25964",
+      "type": "paper",
+      "topic": "WinDOM 小型GUI模型自家族蒸馏",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "SurveilBench - Agent监控能力评估基准",
+      "url": "https://arxiv.org/abs/2606.25836",
+      "type": "paper",
+      "topic": "SurveilBench Agent监控评估基准",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "ERC-8004去中心化Agent信任协议实证研究",
+      "url": "https://arxiv.org/abs/2606.26028",
+      "type": "paper",
+      "topic": "ERC-8004去中心化Agent信任协议",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "TSJ - AI伴侣长期认知发展风险模拟",
+      "url": "https://arxiv.org/abs/2606.25396",
+      "type": "paper",
+      "topic": "TSJ AI伴侣长期认知发展风险",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "FORCE - VLA强化微调价值校准",
+      "url": "https://arxiv.org/abs/2606.26006",
+      "type": "paper",
+      "topic": "FORCE VLA强化微调价值校准",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "注意力层隐私漏洞 - 表格基础模型",
+      "url": "https://arxiv.org/abs/2606.26021",
+      "type": "paper",
+      "topic": "注意力层隐私漏洞 表格基础模型",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "On-Policy Self-Distillation多样性退化",
+      "url": "https://arxiv.org/abs/2606.26091",
+      "type": "paper",
+      "topic": "On-Policy Self-Distillation多样性退化",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "WoFT - 形式化思维编织",
+      "url": "https://arxiv.org/abs/2606.25987",
+      "type": "paper",
+      "topic": "WoFT 形式化思维编织",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "TAC - 多域RLVR可转移性感知课程学习",
+      "url": "https://arxiv.org/abs/2606.25178",
+      "type": "paper",
+      "topic": "TAC 多域RLVR可转移性感知课程",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "BrainAgent - 自主脑信号理解多Agent框架",
+      "url": "https://arxiv.org/abs/2606.25400",
+      "type": "paper",
+      "topic": "BrainAgent 自主脑信号理解",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "SpeechEQ - 语音对话模型情感智商基准",
+      "url": "https://arxiv.org/abs/2606.25990",
+      "type": "paper",
+      "topic": "SpeechEQ 语音对话情感智商",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "物理约束基础模型agentic进化",
+      "url": "https://arxiv.org/abs/2606.25532",
+      "type": "paper",
+      "topic": "物理约束基础模型agentic进化",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "跨embodiment机器人动作先验学习",
+      "url": "https://arxiv.org/abs/2606.26095",
+      "type": "paper",
+      "topic": "跨embodiment动作先验学习",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "航天器容错控制诚实基准",
+      "url": "https://arxiv.org/abs/2606.25374",
+      "type": "paper",
+      "topic": "航天器容错控制诚实基准",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "HiReLC - 分层RL神经网络压缩",
+      "url": "https://arxiv.org/abs/2606.26002",
+      "type": "paper",
+      "topic": "HiReLC 分层RL神经网络压缩",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "OPPO - 多模态情感推理全感知策略优化",
+      "url": "https://arxiv.org/abs/2606.25325",
+      "type": "paper",
+      "topic": "OPPO 多模态情感推理全感知优化",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "MADARA - 模型自适应多Agent RAG评估路由",
+      "url": "https://arxiv.org/abs/2606.25191",
+      "type": "paper",
+      "topic": "MADARA 模型自适应多Agent RAG路由",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "TriViewBench - 多视图结构推理复杂度控制基准",
+      "url": "https://arxiv.org/abs/2606.26029",
+      "type": "paper",
+      "topic": "TriViewBench 多视图结构推理",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "COMAD - 离线多Agent持续协作技能分区与复用",
+      "url": "https://arxiv.org/abs/2606.25389",
+      "type": "paper",
+      "topic": "COMAD 离线多Agent持续协作",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "InvestPhilBench - 投资哲学程序推理多层动态基准",
+      "url": "https://arxiv.org/abs/2606.25984",
+      "type": "paper",
+      "topic": "InvestPhilBench 投资哲学程序推理",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "Agentic BKT - 多Agent金融素养隐蔽评估",
+      "url": "https://arxiv.org/abs/2606.25358",
+      "type": "paper",
+      "topic": "Agentic BKT 金融素养隐蔽评估",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "MAGR-BB - 多Agent目标识别分支限界",
+      "url": "https://arxiv.org/abs/2606.25978",
+      "type": "paper",
+      "topic": "MAGR-BB 多Agent目标识别",
+      "firstRecorded": "2026-06-26",
+      "lastDeepDive": "2026-06-26"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-25T11:07:00",
-    "totalEntries": 417,
-    "lastRun": "2026-06-25T11:07:00"
+    "lastUpdated": "2026-06-26T09:10:00",
+    "totalEntries": 446,
+    "lastRun": "2026-06-26T09:10:00"
   }
 }
