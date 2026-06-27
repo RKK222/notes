@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-27T11:03:00",
+    "lastUpdated": "2026-06-27T19:03:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-29",
-    "lastRun": "2026-06-27T11:03:00"
+    "lastRun": "2026-06-27T19:03:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -823,9 +823,9 @@
   },
   "weeklySummary": {
     "week": "W26",
-    "totalScans": 9,
-    "totalItems": 275,
-    "totalDeepDives": 108,
+    "totalScans": 10,
+    "totalItems": 307,
+    "totalDeepDives": 114,
     "newHighValueDirections": [
       "BuilderIO Agent-Native: Agent原生应用框架 Actions一次定义多端复用 Agent与UI平等公民 定义新范式",
       "Scroll Prize赫库兰尼姆卷轴: AI+X射线首次完整读取2000年碳化卷轴 文化遗产数字化里程碑",
@@ -833,7 +833,15 @@
       "HackMyClaw AI安全实战: 2000人6000+次攻击AI助手 零泄漏 证明prompt injection防御可行",
       "IBM亚1纳米芯片: 全球首个亚1纳米晶体管技术 半导体物理极限突破",
       "Task Insensitivity诊断: 首次系统性诊断Agent OOD泛化失败原因 注意力漂移机制",
-      "Semantic Early-Stopping: 多Agent循环语义终止 HotpotQA 38%token减少 机器检查理论保证"
+      "Semantic Early-Stopping: 多Agent循环语义终止 HotpotQA 38%token减少 机器检查理论保证",
+      "GPT-5.6政府管控: 美国政府前置审查frontier模型 METR独立评估 1050HN分 AI治理政治化里程碑",
+      "开源vs闭源差距分析: Doubleword深度分析 open weights与closed source模型差距 218HN分",
+      "Scaling Laws批判性反思: Lilian Weng(OpenAI)指出缩放定律研究系统性偏差 对AI测试资源分配有指导意义",
+      "AgentKits生产级蓝图: 60个生产级Agent蓝图 安全护栏一等公民 可能成为Agent开发npm",
+      "SedonaDB GPU空间查询: 消费级GPU RT cores击败H100 挑战专业硬件假设 对边缘AI测试有直接价值",
+      "Gossamer系统编程语言: Rust安全性+Go并发+无暂停GC 82HN分 可能成为AI推理服务新语言",
+      "人类vsLRM推理行为差异: 推理长度≠推理深度 要求重新设计推理测试评估指标",
+      "激进解释AI可解释性: Cambridge Element哲学框架 归因AI系统信念/欲望/意义 联合约束holism"
     ],
     "saturatedDirections": [
       "Agent记忆系统传统语义检索（持续饱和）",
@@ -1224,6 +1232,78 @@
       "reason": "诊断CoT训练在Agent中的真实落点 改善提示动作非CoT推理本身",
       "priority": "high",
       "added": "2026-06-27"
+    },
+    {
+      "topic": "GPT-5.6政府管控",
+      "reason": "美国政府前置审查frontier模型 METR独立评估 对AI测试基础设施有深远影响",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "开源vs闭源差距量化分析",
+      "reason": "Doubleword深度分析 open weights与closed source模型在编码/推理/多模态的具体差距",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "Scaling Laws批判性反思",
+      "reason": "Lilian Weng(OpenAI)指出当前缩放定律研究的系统性偏差和过度乐观",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "AgentKits生产级蓝图",
+      "reason": "60个生产级Agent蓝图 安全护栏一等公民 可能成为Agent开发的npm",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "GPU空间查询数据库",
+      "reason": "SedonaDB消费级GPU RT cores击败H100 挑战专业硬件假设 对边缘AI测试有直接价值",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "Gossamer系统编程语言",
+      "reason": "Rust安全性+Go并发+无暂停GC 可能成为AI推理服务新基础设施语言",
+      "priority": "medium",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "AI替代工程师实际效果",
+      "reason": "Ford高管承认用AI替代人类工程师是错误 揭示AI编码工具局限性",
+      "priority": "medium",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "AI数学基础问题",
+      "reason": "IEEE Spectrum AI在数学领域进展迫使重新思考证明和发现 对AI推理测试有根本影响",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "激进解释AI可解释性",
+      "reason": "Cambridge Element 哲学框架归因AI系统信念/欲望/意义 为AI心理测试提供理论基础",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "人类vsLRM推理行为差异",
+      "reason": "推理长度≠推理深度 要求重新设计推理测试评估指标",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "地球观测物理信息世界模型",
+      "reason": "EO-WM视频DiT 物理信息条件框架 科学AI测试需要物理一致性指标",
+      "priority": "medium",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "合成临床笔记管道",
+      "reason": "70合成患者×20-50临床笔记 解决医疗AI数据隐私瓶颈",
+      "priority": "medium",
+      "added": "2026-06-27"
     }
   ],
   "downgraded": [
@@ -1329,7 +1409,19 @@
       "TOPS视觉Token剪枝",
       "OpenRCA 2.0因果过程监督",
       "CoT训练收益诊断",
-      "EEG Agent认知负载分析"
+      "EEG Agent认知负载分析",
+      "GPT-5.6政府管控",
+      "开源vs闭源差距量化分析",
+      "Scaling Laws批判性反思",
+      "AgentKits生产级蓝图",
+      "GPU空间查询数据库",
+      "Gossamer系统编程语言",
+      "AI替代工程师实际效果",
+      "AI数学基础问题",
+      "激进解释AI可解释性",
+      "人类vsLRM推理行为差异",
+      "地球观测物理信息世界模型",
+      "合成临床笔记管道"
     ]
   }
 }
