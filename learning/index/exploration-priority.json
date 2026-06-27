@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-26T19:10:00",
+    "lastUpdated": "2026-06-27T09:08:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-29",
-    "lastRun": "2026-06-26T19:10:00"
+    "lastRun": "2026-06-27T09:08:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -1152,6 +1152,54 @@
       "reason": "绕过OS内核直接SSD读取 高速文件搜索 AI数据管道潜在价值",
       "priority": "medium",
       "added": "2026-06-24"
+    },
+    {
+      "topic": "Prompt Injection简历筛选安全",
+      "reason": "AI招聘系统安全漏洞首次系统评估 对AI部署伦理有实际影响",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "Ask Don't Judge二元问题评估",
+      "reason": "LLM评估从黑盒评分走向可诊断二元问题 评估范式根本转变",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "SKILL-DISCO Agent轨迹技能编译",
+      "reason": "从Agent执行轨迹自动蒸馏可复用技能 可能成为Agent技能生态基础设施",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "Autoformalization策略代码化",
+      "reason": "Agent指令自动形式化为策略代码 实现安全策略自动验证和执行",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "Murmur Agent通信总线",
+      "reason": "多Agent协作专用通信基础设施 解决Agent间信息传递瓶颈",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "认知数字孪生老年辅助",
+      "reason": "数字孪生从工业扩展到人类认知辅助 新兴交叉领域",
+      "priority": "medium",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "物理振荡器生成模型Un-0",
+      "reason": "挑战GPU主导生成模型范式 物理计算1000x能效目标",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "EEG Agent认知负载分析",
+      "reason": "Agent技术引入脑机接口 开源EEG工作流降低BCI技术门槛",
+      "priority": "medium",
+      "added": "2026-06-27"
     }
   ],
   "downgraded": [
@@ -1245,7 +1293,19 @@
       "Zig bitCast语义和LLVM改进 (系统编程安全性)",
       "互联网身份验证PapersPlease时代 (AI身份识别对匿名性挑战)",
       "no-mistakes Git Push安全守卫 (AI编码时代代码安全)",
-      "OpenKnowledge AI集成Markdown编辑器 (Agent与创作工具融合)"
+      "OpenKnowledge AI集成Markdown编辑器 (Agent与创作工具融合)",
+      "Prompt Injection简历筛选安全",
+      "Ask Don't Judge二元问题评估",
+      "SKILL-DISCO Agent轨迹技能编译",
+      "Autoformalization Agent指令策略代码化",
+      "Murmur Agent通信总线",
+      "no-mistakes Git Push安全守卫",
+      "认知数字孪生老年辅助",
+      "物理振荡器生成模型Un-0",
+      "TOPS视觉Token剪枝",
+      "OpenRCA 2.0因果过程监督",
+      "CoT训练收益诊断",
+      "EEG Agent认知负载分析"
     ]
   }
 }

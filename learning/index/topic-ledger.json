@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-26T19:10:00",
+    "lastUpdated": "2026-06-27T09:08:00",
     "version": "1.0",
     "initializedFrom": "14 天日报数据 (2026-03-07 至 2026-03-10)",
-    "lastRun": "2026-06-26T19:10:00",
-    "totalTopics": 273,
+    "lastRun": "2026-06-27T09:08:00",
+    "totalTopics": 284,
     "totalItems": 772
   },
   "topics": [
@@ -3744,7 +3744,7 @@
     {
       "name": "no-mistakes Git Push安全守卫",
       "category": "emerging",
-      "lastSeen": "2026-06-26",
+      "lastSeen": "2026-06-27",
       "lastDeepDive": "2026-06-26",
       "repeatCount7d": 1,
       "repeatCount30d": 1,
@@ -3768,6 +3768,149 @@
       "representativeItem": "OpenKnowledge WYSIWYG Markdown编辑器 直接集成Claude/Codex Agent 288HN分",
       "trend": "new",
       "notes": "Agent与创作工具深度融合 AI原生编辑器新方向"
+    },
+    {
+      "name": "Prompt Injection简历筛选安全",
+      "category": "testing",
+      "lastSeen": "2026-06-27",
+      "lastDeepDive": "2026-06-27",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Prompt Injection in Automated Résumé Screening 单/多注入场景系统评估",
+      "trend": "new"
+    },
+    {
+      "name": "Ask Don't Judge二元问题评估",
+      "category": "testing",
+      "lastSeen": "2026-06-27",
+      "lastDeepDive": "2026-06-27",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Ask Don't Judge 二元问题替代黑盒评分 可解释LLM评估",
+      "trend": "new"
+    },
+    {
+      "name": "SKILL-DISCO Agent轨迹技能编译",
+      "category": "agent",
+      "lastSeen": "2026-06-27",
+      "lastDeepDive": "2026-06-27",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "SKILL-DISCO 从Agent轨迹蒸馏编译可复用程序技能",
+      "trend": "new"
+    },
+    {
+      "name": "Autoformalization Agent指令策略代码化",
+      "category": "security",
+      "lastSeen": "2026-06-27",
+      "lastDeepDive": "2026-06-27",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Autoformalization Agent指令自动形式化为策略代码 安全验证新路径",
+      "trend": "new"
+    },
+    {
+      "name": "Murmur Agent通信总线",
+      "category": "agent",
+      "lastSeen": "2026-06-27",
+      "lastDeepDive": "2026-06-27",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Murmur 编码Agent共享通信总线 多Agent协作信息传递",
+      "trend": "new"
+    },
+    {
+      "name": "认知数字孪生老年辅助",
+      "category": "exploration",
+      "lastSeen": "2026-06-27",
+      "lastDeepDive": "2026-06-27",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Language-Based Digital Twins for Elderly Cognitive Assistance",
+      "trend": "new"
+    },
+    {
+      "name": "物理振荡器生成模型Un-0",
+      "category": "exploration",
+      "lastSeen": "2026-06-27",
+      "lastDeepDive": "2026-06-27",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Un-0 耦合振荡器物理计算生成图像 挑战GPU范式 HN 188分",
+      "trend": "new"
+    },
+    {
+      "name": "TOPS视觉Token剪枝",
+      "category": "optimization",
+      "lastSeen": "2026-06-27",
+      "lastDeepDive": "2026-06-27",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "TOPS 第一性原理视觉Token剪枝 三原则构建最优保留集",
+      "trend": "new"
+    },
+    {
+      "name": "OpenRCA 2.0因果过程监督",
+      "category": "testing",
+      "lastSeen": "2026-06-27",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "OpenRCA 2.0 从结果标签推进到因果过程监督 根因分析",
+      "trend": "new"
+    },
+    {
+      "name": "CoT训练收益诊断",
+      "category": "testing",
+      "lastSeen": "2026-06-27",
+      "lastDeepDive": null,
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "high",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Where Do CoT Training Gains Land 诊断CoT训练在Agent中的真实落点",
+      "trend": "new"
+    },
+    {
+      "name": "EEG Agent认知负载分析",
+      "category": "exploration",
+      "lastSeen": "2026-06-27",
+      "lastDeepDive": "2026-06-27",
+      "repeatCount7d": 1,
+      "repeatCount30d": 1,
+      "priority": "medium",
+      "isCore": false,
+      "shouldDowngrade": false,
+      "representativeItem": "Boundary-Aware Context Grounding for Low-Channel EEG Agent + NeuraDock开源EEG工作流",
+      "trend": "new"
     }
   ]
 }

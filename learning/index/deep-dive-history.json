@@ -3687,11 +3687,59 @@
       "topic": "IBM亚1纳米芯片技术",
       "firstRecorded": "2026-06-26",
       "lastDeepDive": "2026-06-26"
+    },
+    {
+      "title": "Murmur - Shared Communication Bus for Coding Agents",
+      "url": "https://github.com/instavm/murmur",
+      "type": "project",
+      "topic": "Agent通信总线",
+      "firstRecorded": "2026-06-27",
+      "lastDeepDive": "2026-06-27"
+    },
+    {
+      "title": "no-mistakes - Git Push安全守卫",
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "type": "project",
+      "topic": "AI编码安全守卫",
+      "firstRecorded": "2026-06-27",
+      "lastDeepDive": "2026-06-27"
+    },
+    {
+      "title": "ai-berkshire - 价值投资研究框架",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "type": "project",
+      "topic": "AI价值投资研究",
+      "firstRecorded": "2026-06-27",
+      "lastDeepDive": "2026-06-27"
+    },
+    {
+      "title": "SKILL-DISCO: Distilling Agent Traces into Reusable Procedural Skills",
+      "url": "https://arxiv.org/abs/2606.26669",
+      "type": "paper",
+      "topic": "Agent技能编译",
+      "firstRecorded": "2026-06-27",
+      "lastDeepDive": "2026-06-27"
+    },
+    {
+      "title": "Ask Don't Judge: Binary Questions for Interpretable LLM Evaluation",
+      "url": "https://arxiv.org/abs/2606.27226",
+      "type": "paper",
+      "topic": "二元问题可解释评估",
+      "firstRecorded": "2026-06-27",
+      "lastDeepDive": "2026-06-27"
+    },
+    {
+      "title": "Autoformalization of Agent Instructions into Policy-as-Code",
+      "url": "https://arxiv.org/abs/2606.26649",
+      "type": "paper",
+      "topic": "Agent指令策略代码化",
+      "firstRecorded": "2026-06-27",
+      "lastDeepDive": "2026-06-27"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-26T19:10:00",
-    "totalEntries": 461,
-    "lastRun": "2026-06-26T19:10:00"
+    "lastUpdated": "2026-06-27T09:08:00",
+    "totalEntries": 467,
+    "lastRun": "2026-06-27T09:08:00"
   }
 }
