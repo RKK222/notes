@@ -19,7 +19,7 @@
     "silentPeriodStart": "23:00",
     "silentPeriodEnd": "07:00",
     "flightMonitor": "2026-06-24 搜索API全不可用（Brave API key缺失），价格数据沿用 6月20日估算: URC ¥5,492 / HET ¥3,692",
-    "memoryMaintenance": "2026-06-21 02:00 检查完毕。最新日常文件仍为 2026-05-31.md，近 83 天无新日常文件。",
+    "memoryMaintenance": "2026-06-28 02:00 检查完毕。最新日常文件仍为 2026-05-31.md，近 89 天无新日常文件。携程 API 已恢复，机票监控数据已切换为实时查询。",
     "calendarCheck": "2026-06-22 仍缺少 calendar:calendar:read 权限，caldav 工具(macOS)未安装"
   },
   "pendingTasks": {
