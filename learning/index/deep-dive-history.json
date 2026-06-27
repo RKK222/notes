@@ -3735,11 +3735,59 @@
       "topic": "Agent指令策略代码化",
       "firstRecorded": "2026-06-27",
       "lastDeepDive": "2026-06-27"
+    },
+    {
+      "title": "AgentKits – 60 Production-Ready AI Agent Blueprints",
+      "url": "https://www.agent-kits.com",
+      "type": "project",
+      "topic": "AgentKits生产级蓝图",
+      "firstRecorded": "2026-06-27",
+      "lastDeepDive": "2026-06-27"
+    },
+    {
+      "title": "SedonaDB GPU-Accelerated Spatial Joins",
+      "url": "https://sedona.apache.org/latest/blog/2026/06/26/sedonadb-04-gpu-accelerated-spatial-joins/",
+      "type": "project",
+      "topic": "GPU空间查询数据库",
+      "firstRecorded": "2026-06-27",
+      "lastDeepDive": "2026-06-27"
+    },
+    {
+      "title": "Gossamer: Rust-flavoured Language with Real Goroutines",
+      "url": "https://gossamer-lang.org/",
+      "type": "project",
+      "topic": "Gossamer系统编程语言",
+      "firstRecorded": "2026-06-27",
+      "lastDeepDive": "2026-06-27"
+    },
+    {
+      "title": "Humans Disengage, Reasoning Models Persist: Separating Difficulty Registration from Deliberation Allocation",
+      "url": "https://arxiv.org/abs/2606.26502",
+      "type": "paper",
+      "topic": "人类vsLRM推理行为差异",
+      "firstRecorded": "2026-06-27",
+      "lastDeepDive": "2026-06-27"
+    },
+    {
+      "title": "Radical AI Interpretability",
+      "url": "https://arxiv.org/abs/2606.26523",
+      "type": "paper",
+      "topic": "激进解释AI可解释性",
+      "firstRecorded": "2026-06-27",
+      "lastDeepDive": "2026-06-27"
+    },
+    {
+      "title": "A Physically Informed World Model for Probabilistic Earth Observation Forecasting",
+      "url": "https://arxiv.org/abs/2606.27277",
+      "type": "paper",
+      "topic": "地球观测物理信息世界模型",
+      "firstRecorded": "2026-06-27",
+      "lastDeepDive": "2026-06-27"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-27T11:03:00",
-    "totalEntries": 467,
-    "lastRun": "2026-06-27T11:03:00"
+    "lastUpdated": "2026-06-27T19:03:00",
+    "totalEntries": 473,
+    "lastRun": "2026-06-27T19:03:00"
   }
 }
