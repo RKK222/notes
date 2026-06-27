@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-27T09:08:00",
+    "lastUpdated": "2026-06-27T11:03:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-29",
-    "lastRun": "2026-06-27T09:08:00"
+    "lastRun": "2026-06-27T11:03:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -1199,6 +1199,30 @@
       "topic": "EEG Agent认知负载分析",
       "reason": "Agent技术引入脑机接口 开源EEG工作流降低BCI技术门槛",
       "priority": "medium",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "SKILL-DISCO Agent技能编译",
+      "reason": "从Agent轨迹蒸馏编译可复用程序技能 可能成为Agent技能生态基础设施",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "TOPS视觉Token剪枝",
+      "reason": "第一性原理视觉Token剪枝 三原则构建最优保留集 无训练模型无关方案",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "OpenRCA 2.0因果过程监督",
+      "reason": "从结果标签推进到因果过程监督 根因分析新范式",
+      "priority": "high",
+      "added": "2026-06-27"
+    },
+    {
+      "topic": "CoT训练收益诊断",
+      "reason": "诊断CoT训练在Agent中的真实落点 改善提示动作非CoT推理本身",
+      "priority": "high",
       "added": "2026-06-27"
     }
   ],
