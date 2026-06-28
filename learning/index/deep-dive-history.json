@@ -3783,11 +3783,155 @@
       "topic": "地球观测物理信息世界模型",
       "firstRecorded": "2026-06-27",
       "lastDeepDive": "2026-06-27"
+    },
+    {
+      "title": "Rel(AI)Build: A Deterministic Control Plane for LLM Coding Agents",
+      "url": "https://arxiv.org/abs/2606.26924",
+      "type": "paper",
+      "topic": "Rel(AI)Build 确定性控制平面",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "ConcoLixir: Reactive LLM Discovery Oracles for Python Concolic Testing",
+      "url": "https://arxiv.org/abs/2606.26545",
+      "type": "paper",
+      "topic": "ConcoLixir LLM+Concolic混合测试",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "CLIR: Liveness-Driven and Structure-Aware Fuzzing for the Cranelift Compiler",
+      "url": "https://arxiv.org/abs/2606.26977",
+      "type": "paper",
+      "topic": "CLIR Cranelift编译器差分测试",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "Knowledge-Based Pull Requests: A Trusted Workflow for Agent-Mediated Knowledge Collaboration",
+      "url": "https://arxiv.org/abs/2606.26721",
+      "type": "paper",
+      "topic": "KPR 知识驱动PR协作",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "How Much Static Structure Do Code Agents Need? A Study of Deterministic Anchoring",
+      "url": "https://arxiv.org/abs/2606.26979",
+      "type": "paper",
+      "topic": "确定性锚定效应 静态结构对Agent导航",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "To Run or Not to Run: Analyzing the Cost-Effectiveness of Code Execution in LLM-Based Program Repair",
+      "url": "https://arxiv.org/abs/2606.26978",
+      "type": "paper",
+      "topic": "代码执行成本效益 LLM程序修复",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "Spec-Anchored, Code-Coupled, Drift-Enforced Architecture for AI-Assisted Software Development",
+      "url": "https://arxiv.org/abs/2606.27045",
+      "type": "paper",
+      "topic": "Spec Growth Engine 规范驱动AI辅助开发",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "Trade-offs in LLM Quantization for Automated Program Repair",
+      "url": "https://arxiv.org/abs/2606.27205",
+      "type": "paper",
+      "topic": "LLM量化APR权衡 ICSME2026",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "Are LLMs Ready for Anti-Pattern Detection in Microservice Architectures?",
+      "url": "https://arxiv.org/abs/2606.26927",
+      "type": "paper",
+      "topic": "微服务架构反模式检测LLM评估",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "Evaluation-Strategy Gap in Fault Diagnosis of Deep Learning Programs",
+      "url": "https://arxiv.org/abs/2606.26492",
+      "type": "paper",
+      "topic": "DL程序故障诊断评估策略差距",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "An Empirical Study of LLM-Generated Specifications for VeriFast",
+      "url": "https://arxiv.org/abs/2606.26490",
+      "type": "paper",
+      "topic": "LLM生成VeriFast分离逻辑规范",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "Same Scrutiny, More Time: Eye Tracking Insights into Reviewing LLM-Labelled Code",
+      "url": "https://arxiv.org/abs/2606.26505",
+      "type": "paper",
+      "topic": "眼动追踪审查LLM标注代码",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "Towards Safety-Aware Mutation Testing for Autonomous Driving Systems",
+      "url": "https://arxiv.org/abs/2606.26456",
+      "type": "paper",
+      "topic": "自动驾驶系统安全感知突变测试SAMT",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "On the Reproducibility of Quantum Software Defect Datasets: A Case Study of Bugs4Q",
+      "url": "https://arxiv.org/abs/2606.27124",
+      "type": "paper",
+      "topic": "量子软件缺陷数据集可复现性Bugs4Q",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "Feature-Assisted Graph Learning for Activity Transition Graph Construction with Seed Supervision",
+      "url": "https://arxiv.org/abs/2606.27080",
+      "type": "paper",
+      "topic": "活动转换图构建ATGBuilder LLM辅助",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "Cleaning Logs for Downstream Tasks (LogPurifier)",
+      "url": "https://arxiv.org/abs/2606.27000",
+      "type": "paper",
+      "topic": "日志清理LogPurifier下游任务",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "Quantum Mutant Equivalence via Transpilation (TBE)",
+      "url": "https://arxiv.org/abs/2606.26604",
+      "type": "paper",
+      "topic": "量子突变等价性TBE转译方法",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "Beyond Objects",
+      "url": "https://arxiv.org/abs/2606.27258",
+      "type": "paper",
+      "topic": "Beyond Objects Daniel Jackson OOP批判",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-27T19:03:00",
-    "totalEntries": 473,
-    "lastRun": "2026-06-27T19:03:00"
+    "lastUpdated": "2026-06-28T11:03:00",
+    "totalEntries": 492,
+    "lastRun": "2026-06-28T11:03:00"
   }
 }
