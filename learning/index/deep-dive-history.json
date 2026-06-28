@@ -3590,7 +3590,7 @@
       "type": "paper",
       "topic": "Capability Frontier Pareto前沿评估",
       "firstRecorded": "2026-06-26",
-      "lastDeepDive": "2026-06-26"
+      "lastDeepDive": "2026-06-28"
     },
     {
       "title": "Einstein World Models - LLM中的视觉思维实验",
@@ -3606,7 +3606,7 @@
       "type": "paper",
       "topic": "Memory Depth参数化记忆巩固",
       "firstRecorded": "2026-06-26",
-      "lastDeepDive": "2026-06-26"
+      "lastDeepDive": "2026-06-28"
     },
     {
       "title": "When Does Combining Language Models Help? - Co-Failure Ceiling",
@@ -3614,7 +3614,7 @@
       "type": "paper",
       "topic": "Co-Failure Ceiling多模型组合上限",
       "firstRecorded": "2026-06-26",
-      "lastDeepDive": "2026-06-26"
+      "lastDeepDive": "2026-06-28"
     },
     {
       "title": "Scientific Discovery as Meta-Optimization - 共识目标聚合",
@@ -3630,7 +3630,7 @@
       "type": "paper",
       "topic": "Socratic自主科学发现Agent",
       "firstRecorded": "2026-06-26",
-      "lastDeepDive": "2026-06-26"
+      "lastDeepDive": "2026-06-28"
     },
     {
       "title": "BuilderIO Agent-Native — Agent原生应用框架",
@@ -3726,7 +3726,7 @@
       "type": "paper",
       "topic": "二元问题可解释评估",
       "firstRecorded": "2026-06-27",
-      "lastDeepDive": "2026-06-27"
+      "lastDeepDive": "2026-06-28"
     },
     {
       "title": "Autoformalization of Agent Instructions into Policy-as-Code",
@@ -3925,6 +3925,14 @@
       "url": "https://arxiv.org/abs/2606.27258",
       "type": "paper",
       "topic": "Beyond Objects Daniel Jackson OOP批判",
+      "firstRecorded": "2026-06-28",
+      "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "OpenRCA 2.0: From Outcome Labels to Causal Process Supervision",
+      "url": "https://arxiv.org/abs/2606.27154",
+      "type": "paper",
+      "topic": "OpenRCA 2.0 因果过程监督",
       "firstRecorded": "2026-06-28",
       "lastDeepDive": "2026-06-28"
     }

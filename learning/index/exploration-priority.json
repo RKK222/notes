@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-27T19:03:00",
+    "lastUpdated": "2026-06-28T19:00:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-29",
-    "lastRun": "2026-06-27T19:03:00"
+    "lastRun": "2026-06-28T19:00:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -301,7 +301,14 @@
         "Memory Depth参数化记忆巩固",
         "Co-Failure Ceiling多模型组合上限",
         "design.md视觉身份规范",
-        "OpenMontage开源Agentic视频制作"
+        "OpenMontage开源Agentic视频制作",
+        "Capability Frontier Pareto 前沿评估（基准遗漏82%性能）",
+        "Co-Failure Ceiling 多模型组合理论上限",
+        "BINEVAL 可解释二元评估框架（ICML 2026）",
+        "OpenRCA 2.0 因果过程监督（Agent可观测性）",
+        "EVAF 选择参数化巩固（记忆深度vs检索）",
+        "AHOIS 苏格拉底自主科学发现",
+        "Einstein World Models 视觉思维实验"
       ]
     },
     "tier2_emerging": {
@@ -782,7 +789,15 @@
         "LLM缩放指数过小能源可持续性",
         "NFR评估LLM对话质量",
         "LLM法律上下文过度拒绝",
-        "ScaleToT十亿级用户结构化推理"
+        "ScaleToT十亿级用户结构化推理",
+        "物理信息世界模型（LithoDreamer/EO-WM）",
+        "Process Harness 确定性工作流+代理自主性融合",
+        "EGG 专家引导Agent内核生成",
+        "ReTeX 合并模型恢复任务专家",
+        "TOPS 视觉Token剪枝第一性原理",
+        "LeanGuard 轻量安全护栏（CoT非必需）",
+        "SkillDisCo Agent轨迹编译程序技能",
+        "NebulaExp 完全透明后训练管道"
       ]
     },
     "tier3_downgrade": {
