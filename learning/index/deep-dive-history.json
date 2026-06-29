@@ -3983,11 +3983,67 @@
       "topic": "任务特定知识库表示",
       "firstRecorded": "2026-06-29",
       "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "GLM-5.2 beats Claude in Semgrep Cyber Benchmarks",
+      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "type": "project",
+      "topic": "GLM-5.2 Semgrep安全基准超越Claude",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+      "url": "https://deep-reinforce.com/ornith_1_0.html",
+      "type": "project",
+      "topic": "Ornith-1.0自脚手架Agentic编码",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "Wayfinder Router: Deterministic routing between local and hosted LLM",
+      "url": "https://github.com/itsthelore/wayfinder-router",
+      "type": "project",
+      "topic": "Wayfinder Router确定性LLM路由",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "Programmable Probabilistic Computer with 1M p-bits",
+      "url": "https://arxiv.org/abs/2606.25313",
+      "type": "paper",
+      "topic": "可编程概率计算机1M p-bits",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "I used Claude Code to get a second opinion on my MRI",
+      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "type": "project",
+      "topic": "AI医疗诊断伦理边界",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "Professor denounces mass AI fraud at Brown",
+      "url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
+      "type": "project",
+      "topic": "Brown大学AI考试欺诈",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "AI boom risks global financial crash",
+      "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/",
+      "type": "project",
+      "topic": "AI金融泡沫央行预警",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-29T09:10:00",
-    "totalEntries": 498,
-    "lastRun": "2026-06-29T09:10:00"
+    "lastUpdated": "2026-06-29T11:05:00",
+    "totalEntries": 505,
+    "lastRun": "2026-06-29T11:05:00"
   }
 }

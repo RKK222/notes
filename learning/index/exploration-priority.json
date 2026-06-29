@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-29T09:10:00",
+    "lastUpdated": "2026-06-29T11:05:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-29",
-    "lastRun": "2026-06-29T09:10:00"
+    "lastRun": "2026-06-29T11:05:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -837,9 +837,9 @@
     }
   },
   "weeklySummary": {
-    "week": "W26",
-    "totalScans": 10,
-    "totalItems": 307,
+    "week": "W27",
+    "totalScans": 11,
+    "totalItems": 339,
     "totalDeepDives": 114,
     "newHighValueDirections": [
       "BuilderIO Agent-Native: Agent原生应用框架 Actions一次定义多端复用 Agent与UI平等公民 定义新范式",
@@ -1319,6 +1319,90 @@
       "reason": "70合成患者×20-50临床笔记 解决医疗AI数据隐私瓶颈",
       "priority": "medium",
       "added": "2026-06-27"
+    },
+    {
+      "topic": "GLM-5.2安全基准超越Claude",
+      "reason": "开源模型首次在安全基准上超越frontier闭源模型 对模型选择和安全测试有范式影响",
+      "priority": "high",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "AI编码工具医疗诊断伦理",
+      "reason": "Claude Code用于MRI二次意见 编码Agent跨界医疗 安全护栏需要升级",
+      "priority": "high",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "Brown大学AI考试欺诈",
+      "reason": "学术诚信系统性危机 传统考试模式在AI面前失效 评估方法需要重构",
+      "priority": "high",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "AI金融泡沫央行预警",
+      "reason": "央行警告AI基础设施投资过热 算力投资规模与回报匹配度需重新评估",
+      "priority": "high",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "Ornith-1.0自脚手架编码",
+      "reason": "从人工设计技能到模型自主构建 与SkillsBench发现形成张力",
+      "priority": "high",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "Wayfinder确定性LLM路由",
+      "reason": "混合部署确定性路由 对AI测试可重复性有直接价值",
+      "priority": "high",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "可编程概率计算机1M p-bits",
+      "reason": "概率计算从实验室走向实用化 可能在AI推理中找到应用",
+      "priority": "high",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "CLIR编译器结构化模糊测试",
+      "reason": "72h发现24个bug 结构化测试在编译器场景显著优势",
+      "priority": "high",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "RiddleRiddle推理评估方法论",
+      "reason": "90.8% LLM错误源于不当创造性推理 当前推理基准需重新设计",
+      "priority": "high",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "OpenAI Codex敏感文件排除",
+      "reason": "编码工具安全功能长期未解决 180HN分反映持续担忧",
+      "priority": "medium",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "ai-berkshire价值投资AI框架",
+      "reason": "5.5K星+1445/day 四大师方法论+多Agent对抗分析",
+      "priority": "medium",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "simplex-chat无标识隐私通信",
+      "reason": "15K星+1180/day 无用户标识符100%隐私 对Agent通信隐私有参考价值",
+      "priority": "medium",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "openpilot机器人操作系统",
+      "reason": "300+车型驾驶辅助 从软件到物理世界 具身AI测试价值",
+      "priority": "medium",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "nanoeuler CUDA原生LLM训练",
+      "reason": "从零CUDA实现LLM 无中间层抽象 理解底层机制",
+      "priority": "medium",
+      "added": "2026-06-29"
     }
   ],
   "downgraded": [
