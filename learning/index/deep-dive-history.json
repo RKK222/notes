@@ -3935,11 +3935,59 @@
       "topic": "OpenRCA 2.0 因果过程监督",
       "firstRecorded": "2026-06-28",
       "lastDeepDive": "2026-06-28"
+    },
+    {
+      "title": "PEEU: Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization",
+      "url": "https://arxiv.org/abs/2606.27330",
+      "type": "paper",
+      "topic": "GUI Agent任务规划(PEEU)",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "RedVox: Safety and Fairness Gaps in Speech Models Across Languages",
+      "url": "https://arxiv.org/abs/2606.26968",
+      "type": "paper",
+      "topic": "多语言语音安全(RedVox)",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "AIMS: Intent-Aware Training Improves LLM Safety Classification",
+      "url": "https://arxiv.org/abs/2606.27210",
+      "type": "paper",
+      "topic": "意图感知安全训练(AIMS)",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "The Riddle Riddle: Testing Flexible Reasoning in LLMs and Humans",
+      "url": "https://arxiv.org/abs/2606.27103",
+      "type": "paper",
+      "topic": "灵活推理测试(RiddleRiddle)",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "InfoKV: Information-Aware KV Cache Compression for Long Reasoning",
+      "url": "https://arxiv.org/abs/2606.26875",
+      "type": "paper",
+      "topic": "熵感知KV缓存压缩(InfoKV)",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "LMs as Task-Specific Knowledge Bases: An Interpretability Analysis",
+      "url": "https://arxiv.org/abs/2606.27237",
+      "type": "paper",
+      "topic": "任务特定知识库表示",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-28T11:03:00",
-    "totalEntries": 492,
-    "lastRun": "2026-06-28T11:03:00"
+    "lastUpdated": "2026-06-29T09:10:00",
+    "totalEntries": 498,
+    "lastRun": "2026-06-29T09:10:00"
   }
 }

@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-28T19:00:00",
+    "lastUpdated": "2026-06-29T09:10:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-29",
-    "lastRun": "2026-06-28T19:00:00"
+    "lastRun": "2026-06-29T09:10:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -1459,7 +1459,21 @@
       "量子突变等价性TBE转译方法 (100%精确度82%准确率识别等效突变体)",
       "微服务架构反模式检测LLM评估 (LLM在局部证据上表现竞争 但结构证据有局限)",
       "Spec Growth Engine 规范驱动AI辅助开发 (解决上下文爆炸和静默规范-代码漂移)",
-      "LLM量化APR权衡 (减少85%内存但增加推理时间和能耗 48%配置被严格支配)"
+      "LLM量化APR权衡 (减少85%内存但增加推理时间和能耗 48%配置被严格支配)",
+      "PEEU GUI Agent任务规划（ACL 2026 7B超越32B TDHAF三层泛化分析）",
+      "RedVox多语言语音安全基准（仅8%模型报告多语言安全分析）",
+      "AIMS意图感知安全训练（意图作为显式信号 GRPO最优）",
+      "RiddleRiddle灵活推理测试（LLM与人类反向失败模式）",
+      "InfoKV熵感知KV缓存压缩（Forward Influence+预测不确定性）",
+      "LMs任务特定知识库表示（参数空间知识非统一）",
+      "CARVE循环注意力架构（6个形式化定理 WY-form求解器）",
+      "AgentX工业推荐系统自迭代（美团生产部署 四阶段闭环）",
+      "历史文本LLM处理（17世纪意大利语surprisal 2.4x 嵌入相似性>0.85）",
+      "AURORA-AI弹性资源编排（HJB+Lyapunov统一框架）",
+      "MO-DiT+HPPO生成检索（模式保持属性检索）",
+      "MinGram极简Unigram分词器（6语言压缩优于BPE/Unigram）",
+      "TAVR-VLM医疗幻觉抵抗（R-CGA结构接地 幻觉率8.1%）",
+      "IIoT级联多粒度LLM剪枝（SIA形式化条件 13.8x压缩）"
     ]
   }
 }
