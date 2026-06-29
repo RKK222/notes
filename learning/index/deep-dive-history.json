@@ -4039,11 +4039,59 @@
       "topic": "AI金融泡沫央行预警",
       "firstRecorded": "2026-06-29",
       "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "Agent-Native Immune System (ANIS)",
+      "url": "https://arxiv.org/abs/2606.28270",
+      "type": "paper",
+      "topic": "Agent内生安全防御",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "Tandem Reinforcement Learning (TRL)",
+      "url": "https://arxiv.org/abs/2606.28166",
+      "type": "paper",
+      "topic": "RLVR协同进化",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "GILP: Grounded Iterative Language Planning",
+      "url": "https://arxiv.org/abs/2606.27806",
+      "type": "paper",
+      "topic": "混合世界模型架构",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "HORIZON: Agentic Hardware Design",
+      "url": "https://arxiv.org/abs/2606.28279",
+      "type": "paper",
+      "topic": "Agent硬件设计",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "NormAct: Hidden Social Norm Compliance",
+      "url": "https://arxiv.org/abs/2606.27826",
+      "type": "paper",
+      "topic": "具身社会规范合规",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
+    },
+    {
+      "title": "ATOD: Annealed Turn-aware On-policy Distillation",
+      "url": "https://arxiv.org/abs/2606.27814",
+      "type": "paper",
+      "topic": "混合在线蒸馏",
+      "firstRecorded": "2026-06-29",
+      "lastDeepDive": "2026-06-29"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-06-29T11:05:00",
-    "totalEntries": 505,
-    "lastRun": "2026-06-29T11:05:00"
+    "lastUpdated": "2026-06-29T19:05:00",
+    "totalEntries": 511,
+    "lastRun": "2026-06-29T19:05:00"
   }
 }

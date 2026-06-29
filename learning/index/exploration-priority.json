@@ -1,11 +1,11 @@
 {
   "meta": {
     "created": "2026-03-11T07:30:00+08:00",
-    "lastUpdated": "2026-06-29T11:05:00",
+    "lastUpdated": "2026-06-29T19:05:00",
     "version": "1.0",
     "validFrom": "2026-05-02",
     "nextReview": "2026-06-29",
-    "lastRun": "2026-06-29T11:05:00"
+    "lastRun": "2026-06-29T19:05:00"
   },
   "priorityTiers": {
     "tier1_continuous": {
@@ -1402,6 +1402,54 @@
       "topic": "nanoeuler CUDA原生LLM训练",
       "reason": "从零CUDA实现LLM 无中间层抽象 理解底层机制",
       "priority": "medium",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "Agent内生安全（ANIS）",
+      "reason": "生物启发的内生防御架构 六层免疫塔+持续免疫学习 可能成为Agent安全标准范式",
+      "priority": "high",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "Tandem RL协同进化",
+      "reason": "强-弱模型协同训练解决RLVR推理可读性和多模型兼容性 同一rollout获得三个优化属性",
+      "priority": "high",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "混合世界模型架构（GILP）",
+      "reason": "参数化backbone+LLM+一致性门控 幻觉率从17.6%降至3.5% 仅增加22%额外调用",
+      "priority": "high",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "Agent硬件设计（HORIZON）",
+      "reason": "硬件设计作为仓库级代码进化 git worktree作为状态管理单元 100%基准完成",
+      "priority": "high",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "具身社会规范合规（NormAct）",
+      "reason": "揭示Agent社会智能缺口 显式67.3% vs 隐藏26.4% 评估需区分知识拥有和知识应用",
+      "priority": "high",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "退火在线蒸馏（ATOD）",
+      "reason": "利用OPD和RL互补性 学生可以青出于蓝超越教师模型2.16点",
+      "priority": "high",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "图世界模型Rollout误差",
+      "reason": "图值rollout边界分离拓扑放大和模型放大 Error-Aware GWM防止长期发散",
+      "priority": "high",
+      "added": "2026-06-29"
+    },
+    {
+      "topic": "Agent内部世界模型训练",
+      "reason": "三阶段训练:WM-AMT→FE-SFT→FC-RL 能力优先管道实现grounded和calibrated foresight",
+      "priority": "high",
       "added": "2026-06-29"
     }
   ],
